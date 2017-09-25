@@ -1,8 +1,8 @@
 {
-  "name": "@folio/util-notes",
-  "version": "0.1.0",
-  "description": "Notes management",
-  "repository": "folio-org/stripes-util-notes",
+  "name": "@folio/stripes-smart-components",
+  "version": "0.2.0",
+  "description": "Stripes smart components",
+  "repository": "folio-org/stripes-smart-components",
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },
@@ -10,10 +10,7 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "main": "NotesPane.js",
   "stripes": {
-    "type": "app",
-    "displayName": "Notes",
     "okapiInterfaces": {
       "notes": "1.0"
     },
@@ -74,7 +71,7 @@
     ]
   },
   "scripts": {
-    "lint": "eslint *.js lib settings || true"
+    "lint": "eslint lib || true"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
@@ -84,12 +81,7 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
     "eslint": "^3.8.0",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-import-resolver-webpack": "0.7.1",
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.4.1",
+    "eslint-config-stripes": "^0.0.1",
     "webpack": "1.11.0"
   },
   "dependencies": {

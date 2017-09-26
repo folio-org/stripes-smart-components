@@ -1,8 +1,8 @@
 {
-  "name": "@folio/stripes-smart-components",
+  "name": "@folio/util-notes",
   "version": "0.2.0",
-  "description": "Stripes smart components",
-  "repository": "folio-org/stripes-smart-components",
+  "description": "Notes management",
+  "repository": "folio-org/stripes-util-notes",
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },

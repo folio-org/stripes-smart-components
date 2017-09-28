@@ -11,6 +11,8 @@
     "node": ">=6.0.0"
   },
   "stripes": {
+    "type": "app",
+    "displayName": "Notes",
     "okapiInterfaces": {
       "notes": "1.0"
     },

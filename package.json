@@ -73,7 +73,7 @@
     ]
   },
   "scripts": {
-    "lint": "eslint lib || true"
+    "lint": "eslint lib"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",

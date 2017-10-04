@@ -73,7 +73,8 @@
     ]
   },
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "eslint lib",
+    "test": "echo 'placeholder. no tests implemented'"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",

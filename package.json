@@ -1,8 +1,8 @@
 {
-  "name": "@folio/util-notes",
-  "version": "0.3.0",
-  "description": "Notes management",
-  "repository": "folio-org/stripes-util-notes",
+  "name": "@folio/stripes-smart-components",
+  "version": "1.0.1",
+  "description": "Connected Stripes components",
+  "repository": "folio-org/stripes-smart-components",
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },
@@ -12,7 +12,7 @@
   },
   "stripes": {
     "type": "app",
-    "displayName": "Notes",
+    "displayName": "Stripes Smart Components",
     "okapiInterfaces": {
       "notes": "1.0"
     },

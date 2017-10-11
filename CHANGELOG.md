@@ -1,5 +1,10 @@
 # Change history for stripes-util-notes
 
+## 1.0.1 (https://github.com/folio-org/stripes-smart-components/tree/v1.0.1) (2017-10-11)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v0.3.0...v1.0.1)
+
+* Change NPM module name to stripes-smart-components. Fixes STSMACOM-7.
+
 ## 0.3.0 (https://github.com/folio-org/stripes-util-notes/tree/v0.3.0) (2017-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v0.2.0...v0.3.0)
 

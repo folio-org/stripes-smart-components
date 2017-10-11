@@ -1,5 +1,9 @@
 # Change history for stripes-util-notes
 
+## 1.0.2 (IN PROGRESS)
+
+* Cleanup `package.json`; this is not a Stripes Module. Fixes STSMACOM-9.
+
 ## 1.0.1 (https://github.com/folio-org/stripes-smart-components/tree/v1.0.1) (2017-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v0.3.0...v1.0.1)
 

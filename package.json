@@ -11,8 +11,6 @@
     "node": ">=6.0.0"
   },
   "stripes": {
-    "type": "app",
-    "displayName": "Stripes Smart Components",
     "okapiInterfaces": {
       "notes": "1.0"
     },

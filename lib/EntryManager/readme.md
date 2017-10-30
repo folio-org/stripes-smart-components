@@ -12,7 +12,7 @@ EntryManager provides a fully-implemented browse/read/edit/add/delete workflow.
 All props are required.
 
 Name | type | description
---- | --- | --- | --- | ---
+--- | --- | --- 
 entryLabel | string | Label for the object type being managed, e.g. "User" or "Loan Rule"
 location | object | ReactRouter's [`location` object](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/location.md)
 history | object | ReactRouter's [`history` object](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/history.md)

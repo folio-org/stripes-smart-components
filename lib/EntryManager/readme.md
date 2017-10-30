@@ -14,9 +14,6 @@ All props are required.
 Name | type | description
 --- | --- | --- | --- | ---
 entryLabel | string | Label for the object type being managed, e.g. "User" or "Loan Rule"
-location | object | ReactRouter's [`location` object](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/location.md)
-history | object | ReactRouter's [`history` object](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/history.md)
-stripes | object | The `stripes` object, used to call `stripes.hasPerm()` with the values from the `permissions` object, below.
 formComponent | component | A component providing the add/edit form. The content of `render()` will be wrapped by `reduxForm()`.
 detailComponent | component | A component providing the read-only/detail view of the object. The content of `render()` will be rendered inside a `Pane`.
 permissions | object with keys `put`, `post`, `delete` | permission strings to check for. To see the `New [Object]` button, a user must have permissions that satisfy both `put` and `post`; to see the `Edit [Object]` button a user must have permissions that satisfy `put`; to see the `Delete [Object]` button, a user must have permissions that satisfy `delete`.

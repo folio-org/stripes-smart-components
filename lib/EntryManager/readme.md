@@ -24,3 +24,4 @@ paneTitle | string | title string for object-listing pane
 Name | type | description
 --- | --- | ---
 idFromPathnameRe | string | regular expression pattern to extract the object-id from the URL. Defaults to `/([^/]+)$`, i.e. everything following the final forward slash. Note that the value will be passed to the regular expression parser as a string so it is **not** necessary to escape forward slashes.
+entryFormComponent | component | A component used to replace the default implementation of the form wrapper

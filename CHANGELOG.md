@@ -1,6 +1,7 @@
 # Change history for stripes-util-notes
 
-## 1.0.2 (IN PROGRESS)
+## 1.1.0 (https://github.com/folio-org/stripes-smart-components/tree/v1.1.0) (2017-11-09)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.0.1...v1.1.0)
 
 * Cleanup `package.json`; this is not a Stripes Module. Fixes STSMACOM-9.
 * Show `<Note>` author's name, not their UUID. Fixes STSMACOM-5.

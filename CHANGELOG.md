@@ -3,6 +3,7 @@
 ## 1.2.0 IN PROGRESS
 
 * `EntryManager` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20
+* First draft of GitHub style @at-mention username autocompletion. Refs STSMACOM-4.
 
 ## 1.1.0 (https://github.com/folio-org/stripes-smart-components/tree/v1.1.0) (2017-11-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.0.1...v1.1.0)

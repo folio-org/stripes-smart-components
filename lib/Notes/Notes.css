@@ -15,6 +15,9 @@
   &.editing {
     padding-bottom: 0;
   }
+  &.highlighted {
+    background-color: #ffd;
+  }
 }
 
 .byLine {

@@ -1,6 +1,7 @@
 # Change history for stripes-util-notes
 
-## 1.2.0 IN PROGRESS
+## 1.2.0 (https://github.com/folio-org/stripes-smart-components/tree/v1.2.0) (2017-11-23)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.1.0...v1.2.0)
 
 * `<EntryManager>` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20.
 * Add generic `<SearchAndSort>` component. Fixes STSMACOM-21.

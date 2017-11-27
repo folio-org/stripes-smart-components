@@ -3,6 +3,7 @@
 ## 1.3.0 (IN PROGRESS)
 
 * Status of notes pane is now reflected in the URL: the `notes` part of the query may be absent for no notes pane, `true` to display it, or the UUID of a specific note. Fixes STSMACOM-19.
+* `<SearchAndSort>` made less stringent in which properties are required, so that it now supports read-only modules with no need for editing or new-record creation. Fixes STSMACOM-24.
 
 ## 1.2.0 (https://github.com/folio-org/stripes-smart-components/tree/v1.2.0) (2017-11-23)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.1.0...v1.2.0)

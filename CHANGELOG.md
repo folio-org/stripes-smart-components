@@ -1,4 +1,4 @@
-# Change history for stripes-util-notes
+# Change history for stripes-smart-components
 
 ## 1.3.0 (IN PROGRESS)
 

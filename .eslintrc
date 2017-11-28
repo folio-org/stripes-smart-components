@@ -1,4 +1,7 @@
 {
   "extends": "stripes",
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-wrap-multilines": [ "warn", { "arrow": false } ],
+  }
 }

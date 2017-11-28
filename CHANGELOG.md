@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 1.4.0 (IN PROGRESS)
+
+* Remove `search` URL parameter from `<SearchAndSort>`. Fixes STSMACOM-27.
+
 ## 1.3.0 (https://github.com/folio-org/stripes-smart-components/tree/v1.3.0) (2017-11-28)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.2.0...v1.3.0)
 

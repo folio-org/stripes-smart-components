@@ -5,7 +5,7 @@
 * Remove `search` URL parameter from `<SearchAndSort>`. Fixes STSMACOM-27.
 * `<SearchAndSort>` honours the "initialPath" property. Fixes STSMACOM-28.
 * `<SearchAndSort>` removes all existing anointed-resource properties when resetting the search. Fixes STSMACOM-30.
-* `<SearchAndSort>` no longer replicates URL state in component state. Fixes STSMACOM-30.
+* `<SearchAndSort>` no longer replicates URL state in component state. Fixes STSMACOM-29.
 
 ## [1.3.0](https://github.com/folio-org/stripes-smart-components/tree/v1.3.0) (2017-11-28)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.2.0...v1.3.0)

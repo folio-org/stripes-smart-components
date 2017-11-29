@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 1.4.0 (IN PROGRESS)
+## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)
 
 * Remove `search` URL parameter from `<SearchAndSort>`. Fixes STSMACOM-27.
 * `<SearchAndSort>` honours the "initialPath" property. Fixes STSMACOM-28.

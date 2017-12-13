@@ -5,6 +5,7 @@
 * Removed unused packages from package.json. Refs STRIPES-490.
 * Upgrade <SearchAndSort> to use new filter-related APIs. Fixes STSMACOM-35 and resolves STRIPES-493.
 * Store local changes to search term in component state, and render from that. Fixes STSMACOM-33.
+* Fix regression: reset-search button had stopped working. Fixes STSMACOM-36.
 * `EntryManager` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20
 * First draft of GitHub style @at-mention username autocompletion. Refs STSMACOM-4.
 

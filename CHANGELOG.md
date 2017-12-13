@@ -6,6 +6,7 @@
 * Upgrade <SearchAndSort> to use new filter-related APIs. Fixes STSMACOM-35 and resolves STRIPES-493.
 * Store local changes to search term in component state, and render from that. Fixes STSMACOM-33.
 * Fix regression: reset-search button had stopped working. Fixes STSMACOM-36.
+* Emit "Loading..." message rather than "no hits" before search-results arrive. Fixes STSMACOM-38.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

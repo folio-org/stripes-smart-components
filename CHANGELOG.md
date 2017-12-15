@@ -7,6 +7,7 @@
 * Store local changes to search term in component state, and render from that. Fixes STSMACOM-33.
 * Fix regression: reset-search button had stopped working. Fixes STSMACOM-36.
 * Emit "Loading..." message rather than "no hits" before search-results arrive. Fixes STSMACOM-38.
+* Correctly reset query value when clearing search results. Fixes STSMACOM-39.
 * Pass requested props on through to the detail view. Toward UIIN-34. 
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)

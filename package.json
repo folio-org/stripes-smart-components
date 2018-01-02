@@ -87,7 +87,7 @@
   },
   "dependencies": {
     "@folio/stripes-components": "^2.0.0",
-    "@folio/stripes-form": "^0.8.1",
+    "@folio/stripes-form": "^0.8.2",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "query-string": "^5.0.0",

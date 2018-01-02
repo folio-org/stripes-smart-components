@@ -3,9 +3,14 @@
 ## 1.5.0 (IN PROGRESS)
 
 * Removed unused packages from package.json. Refs STRIPES-490.
-* Upgrade <SearchAndSort> to use new filter-related APIs. Fixes STSMACOM-35 and resolves STRIPES-493.
+* Upgrade `<SearchAndSort>` to use new filter-related APIs. Fixes STSMACOM-35 and resolves STRIPES-493.
 * Store local changes to search term in component state, and render from that. Fixes STSMACOM-33.
 * Fix regression: reset-search button had stopped working. Fixes STSMACOM-36.
+* Emit "Loading..." message rather than "no hits" before search-results arrive. Fixes STSMACOM-38.
+* Correctly reset query value when clearing search results. Fixes STSMACOM-39.
+* Pass requested props on through to the detail view. Toward UIIN-34.
+* Support the `<MultiColumnList>` property `columnWidths`. Fixes STSMACOM-40.
+* `<SearchAndSort>` passes `searchableIndexes`, `selectedIndex` and `onChangeIndex` through to `<FilterPaneSearch>`. Fixes STSMACOM-41.
 * `EntryManager` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20
 * First draft of GitHub style @at-mention username autocompletion. Refs STSMACOM-4.
 

@@ -11,6 +11,7 @@
 * Pass requested props on through to the detail view. Toward UIIN-34.
 * Support the `<MultiColumnList>` property `columnWidths`. Fixes STSMACOM-40.
 * `<SearchAndSort>` passes `searchableIndexes`, `selectedIndex` and `onChangeIndex` through to `<FilterPaneSearch>`. Fixes STSMACOM-41.
+* `<SearchAndSort>`'s clear-search button now clears only the query, leaving the filters and sort-order untouched. Fixes STSMACOM-42.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

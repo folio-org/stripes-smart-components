@@ -11,6 +11,8 @@
 * Pass requested props on through to the detail view. Toward UIIN-34.
 * Support the `<MultiColumnList>` property `columnWidths`. Fixes STSMACOM-40.
 * `<SearchAndSort>` passes `searchableIndexes`, `selectedIndex` and `onChangeIndex` through to `<FilterPaneSearch>`. Fixes STSMACOM-41.
+* `<SearchAndSort>`'s clear-search button now clears only the query, leaving the filters and sort-order untouched. Fixes STSMACOM-42.
+* Cleanup `<EntryForm>`. Fixes STSMACOM-43.
 * `EntryManager` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20
 * First draft of GitHub style @at-mention username autocompletion. Refs STSMACOM-4.
 

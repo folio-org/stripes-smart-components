@@ -13,6 +13,7 @@
 * `<SearchAndSort>` passes `searchableIndexes`, `selectedIndex` and `onChangeIndex` through to `<FilterPaneSearch>`. Fixes STSMACOM-41.
 * `<SearchAndSort>`'s clear-search button now clears only the query, leaving the filters and sort-order untouched. Fixes STSMACOM-42.
 * Cleanup `<EntryForm>`. Fixes STSMACOM-43.
+* When a search result is winnowed to one record, show it. Fixes UIIN-58.
 * `EntryManager` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20
 * First draft of GitHub style @at-mention username autocompletion. Refs STSMACOM-4.
 

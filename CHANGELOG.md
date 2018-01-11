@@ -15,7 +15,8 @@
 * Cleanup `<EntryForm>`. Fixes STSMACOM-43.
 * `<SearchAndSort>`'s Filters pane can now be toggled between open and closed.
 * When a search result is winnowed to one record, show it. Fixes UIIN-58.
- 
+* In record-display area, distinguish between loading, error and neither. Fixes STSMACOM-46.
+
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)
 

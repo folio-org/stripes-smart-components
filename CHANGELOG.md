@@ -13,7 +13,12 @@
 * `<SearchAndSort>` passes `searchableIndexes`, `selectedIndex` and `onChangeIndex` through to `<FilterPaneSearch>`. Fixes STSMACOM-41.
 * `<SearchAndSort>`'s clear-search button now clears only the query, leaving the filters and sort-order untouched. Fixes STSMACOM-42.
 * Cleanup `<EntryForm>`. Fixes STSMACOM-43.
+* `<SearchAndSort>`'s Filters pane can now be toggled between open and closed.
 * When a search result is winnowed to one record, show it. Fixes UIIN-58.
+* In record-display area, distinguish between loading, error and neither. Fixes STSMACOM-46.
+* In `<SearchAndSort>`, allow the maximum number of sort-keys to be specified by the new `maxSortKeys` property. Fixes STSMACOM-45.
+* Support the optional `filterChangeCallback` property, a function that is passed the filter state when it changes. Fixes STSMACOM-47.
+* Fall back to rendering full record if onSelectRow function returns null. Fixes STSMACOM-49.
 * `EntryManager` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20
 * First draft of GitHub style @at-mention username autocompletion. Refs STSMACOM-4.
 

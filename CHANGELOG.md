@@ -19,6 +19,8 @@
 * In `<SearchAndSort>`, allow the maximum number of sort-keys to be specified by the new `maxSortKeys` property. Fixes STSMACOM-45.
 * Support the optional `filterChangeCallback` property, a function that is passed the filter state when it changes. Fixes STSMACOM-47.
 * Fall back to rendering full record if onSelectRow function returns null. Fixes STSMACOM-49.
+* `EntryManager` uses "Create ${item}" instead of "New ${item}". Refs UICIRC-20
+* First draft of GitHub style @at-mention username autocompletion. Refs STSMACOM-4.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

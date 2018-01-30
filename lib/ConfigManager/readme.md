@@ -7,7 +7,7 @@ The component handles saving new or updating existing configuration settings.
 ### Required Props
 Name | type | description
 --- | --- | ---
-label | string | title string for object-listing pane
+label | string | Title string for object-listing pane
 configName | string | Name of the configuration property, e.g. "locale"
 moduleName | string | Name of the module, e.g. "ORG"
 

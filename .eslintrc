@@ -1,7 +1,4 @@
 {
-  "extends": "stripes",
-  "parser": "babel-eslint",
-  "rules": {
-    "react/jsx-wrap-multilines": [ "warn", { "arrow": false } ],
-  }
+  "extends": "@folio/eslint-config-stripes",
+  "parser": "babel-eslint"
 }

@@ -20,6 +20,8 @@
 * Support the optional `filterChangeCallback` property, a function that is passed the filter state when it changes. Fixes STSMACOM-47.
 * Fall back to rendering full record if onSelectRow function returns null. Fixes STSMACOM-49.
 * Introduce `<ConfigManager>` component. Fixes STSMACOM-51.
+* UIIN-58's show-single-result feature should be optional and default to false. Refs UIREQ-60, UICHKOUT-54, UIU-373; fixes STSMACOM-52.
+* Appease eslint-config-stripes. Fixes STSMACOM-56.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

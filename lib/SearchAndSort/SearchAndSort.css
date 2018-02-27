@@ -1,0 +1,9 @@
+@import '@folio/stripes-components/lib/variables.css';
+
+.resetButton {
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: var(--secondary);
+    padding: 4px;
+}

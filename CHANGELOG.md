@@ -24,6 +24,7 @@
 * Appease eslint-config-stripes. Fixes STSMACOM-56.
 * Support `searchableIndexesPlaceholder` property. Fixes STSMACOM-62.
 * Update `<SearchAndSort>` documentation for eight new properties. Fixes STSMACOM-63.
+* Autocomplete @mentioned usernames in notes. STSMACOM-4. Available from v1.4.1.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

@@ -23,3 +23,10 @@
 .byLine {
   font-weight: bold;
 }
+
+.atMentionMenu {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}

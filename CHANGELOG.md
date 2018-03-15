@@ -22,6 +22,14 @@
 * Introduce `<ConfigManager>` component. Fixes STSMACOM-51.
 * UIIN-58's show-single-result feature should be optional and default to false. Refs UIREQ-60, UICHKOUT-54, UIU-373; fixes STSMACOM-52.
 * Appease eslint-config-stripes. Fixes STSMACOM-56.
+* Support `searchableIndexesPlaceholder` property. Fixes STSMACOM-62.
+* Update `<SearchAndSort>` documentation for eight new properties. Fixes STSMACOM-63.
+* Autocomplete @mentioned usernames in notes. STSMACOM-4. Available from v1.4.1.
+* Happy lint, happy life. Refs STSMACOM-56. Available from v1.4.2.
+* Optionally derive some SearchAndSort params from props.packageInfo. Refs STSMACOM-64. Available from v1.4.3.
+* Always derive some SearchAndSort params props.packageInfo. Refs STSMACOM-64. Available from v1.4.4.
+* Optionally prevent `<SearchAndSort>` from showing create or edit panes. Refs UIPFU-6. Available from v1.4.5. 
+* Provide HTML-id for save button for easy access by tests. Refs UITEST-20. Available from v1.4.6. 
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

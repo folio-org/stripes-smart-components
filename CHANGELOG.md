@@ -31,7 +31,8 @@
 * Optionally prevent `<SearchAndSort>` from showing create or edit panes. Refs UIPFU-6. Available from v1.4.5.
 * Provide HTML-id for save button for easy access by tests. Refs UITEST-20. Available from v1.4.6.
 * In `<SearchAndSort>`, all references to `parentProps` (except in app-specific sub-components) are via a `ResourcesAnalyzer` object. Fixes STSMACOM-65.
-* Do not destroy `<ConfigForm>` on unmount. Refs UIORG-53. Available from v1.4.6. 
+* Do not destroy `<ConfigForm>` on unmount. Refs UIORG-53. Available from v1.4.6.
+* Change `ResourcesAnalyzer` API so that constructor takes top-level props. Fixes STSMACOM-68.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

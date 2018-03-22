@@ -34,6 +34,7 @@
 * Do not destroy `<ConfigForm>` on unmount. Refs UIORG-53. Available from v1.4.6.
 * Change `ResourcesAnalyzer` API so that constructor takes top-level props. Fixes STSMACOM-68.
 * Switch ResourcesAnalyzer API to use a factory method. Fixes STSMACOM-69.
+* Add optional `apolloResource` property to `<SearchAndSort>`, for use of resource analyzer. Fixes STSMACOM-70.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

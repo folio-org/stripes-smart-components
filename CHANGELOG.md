@@ -35,6 +35,8 @@
 * Change `ResourcesAnalyzer` API so that constructor takes top-level props. Fixes STSMACOM-68.
 * Switch ResourcesAnalyzer API to use a factory method. Fixes STSMACOM-69.
 * Add optional `apolloResource` property to `<SearchAndSort>`, for use of resource analyzer. Fixes STSMACOM-70.
+* Added functionality to `<ControlledVocab>` to render updated metadata, usage counts and confirm deletion requests.
+* Added `<UserName>` and `<UserLink>` components to render names/links based on FOLIO User IDs.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

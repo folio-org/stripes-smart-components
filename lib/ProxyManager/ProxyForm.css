@@ -1,0 +1,14 @@
+.label {
+  margin-left: 6px;
+}
+
+input[disabled] {
+  margin-left: 1px;
+}
+
+.error {
+  margin-top: 1px;
+  margin-left: 20px;
+  color: #ff0000;
+  font-size: 12px;
+}

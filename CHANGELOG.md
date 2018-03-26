@@ -28,8 +28,17 @@
 * Happy lint, happy life. Refs STSMACOM-56. Available from v1.4.2.
 * Optionally derive some SearchAndSort params from props.packageInfo. Refs STSMACOM-64. Available from v1.4.3.
 * Always derive some SearchAndSort params props.packageInfo. Refs STSMACOM-64. Available from v1.4.4.
-* Optionally prevent `<SearchAndSort>` from showing create or edit panes. Refs UIPFU-6. Available from v1.4.5. 
-* Provide HTML-id for save button for easy access by tests. Refs UITEST-20. Available from v1.4.6. 
+* Optionally prevent `<SearchAndSort>` from showing create or edit panes. Refs UIPFU-6. Available from v1.4.5.
+* Provide HTML-id for save button for easy access by tests. Refs UITEST-20. Available from v1.4.6.
+* In `<SearchAndSort>`, all references to `parentProps` (except in app-specific sub-components) are via a `ResourcesAnalyzer` object. Fixes STSMACOM-65.
+* Do not destroy `<ConfigForm>` on unmount. Refs UIORG-53. Available from v1.4.6.
+* Change `ResourcesAnalyzer` API so that constructor takes top-level props. Fixes STSMACOM-68.
+* Switch ResourcesAnalyzer API to use a factory method. Fixes STSMACOM-69.
+* Add optional `apolloResource` property to `<SearchAndSort>`, for use of resource analyzer. Fixes STSMACOM-70.
+* Added functionality to `<ControlledVocab>` to render updated metadata, usage counts and confirm deletion requests.
+* Added `<UserName>` and `<UserLink>` components to render names/links based on FOLIO User IDs.
+* Extend ResourcesAnalyzer to work for GraphQL-provided resources. Mutations not yet supported. Fixes STSMACOM-66.
+* Extract proxy modal into `<ProxyManager>`. Fixes STSMACOM-58.
 * Ignore yarn-error.log file. Refs STRIPES-517.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)

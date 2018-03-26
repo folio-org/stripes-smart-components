@@ -30,6 +30,7 @@
 * Always derive some SearchAndSort params props.packageInfo. Refs STSMACOM-64. Available from v1.4.4.
 * Optionally prevent `<SearchAndSort>` from showing create or edit panes. Refs UIPFU-6. Available from v1.4.5. 
 * Provide HTML-id for save button for easy access by tests. Refs UITEST-20. Available from v1.4.6. 
+* Ignore yarn-error.log file. Refs STRIPES-517.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

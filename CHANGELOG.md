@@ -40,6 +40,7 @@
 * Extend ResourcesAnalyzer to work for GraphQL-provided resources. Mutations not yet supported. Fixes STSMACOM-66.
 * Extract proxy modal into `<ProxyManager>`. Fixes STSMACOM-58.
 * Ignore yarn-error.log file. Refs STRIPES-517.
+* Guarantee `stripes` object is available to new-record components. Fixes STSMACOM-75. Available from v1.4.8.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

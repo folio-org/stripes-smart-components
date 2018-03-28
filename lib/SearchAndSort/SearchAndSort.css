@@ -16,13 +16,24 @@
     bottom: 0;
     left: 0;
     right: 0;
+    background: #f9f9f9;
+    flex-direction: column;
+  }
+
+  .emptyMessage, .emptyMessageLabelWrap {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .emptyMessageLabelWrap {
     font-size: 22px;
-    background: #f9f9f9;
   }
 
   .emptyMessageIcon, .emptyMessageLabel {
     margin: 0 4px;
+  }
+
+  .emptyMessageButton {
+    margin-top: 15px;
   }

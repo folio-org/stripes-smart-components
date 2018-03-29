@@ -6,34 +6,3 @@
   .searchField {
     margin: 0 15px;
   }
-
-  /* Empty Message */
-  .emptyMessage {
-    padding: 15px;
-    color: rgba(0, 0, 0, 0.62);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #f9f9f9;
-    flex-direction: column;
-  }
-
-  .emptyMessage, .emptyMessageLabelWrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .emptyMessageLabelWrap {
-    font-size: 22px;
-  }
-
-  .emptyMessageIcon, .emptyMessageLabel {
-    margin: 0 4px;
-  }
-
-  .emptyMessageButton {
-    margin-top: 15px;
-  }

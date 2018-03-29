@@ -1,0 +1,35 @@
+/**
+ * No Results Message
+ */
+
+
+   /* Empty Message */
+   .noResultsMessage {
+     padding: 15px;
+     color: rgba(0, 0, 0, 0.62);
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: #f9f9f9;
+     flex-direction: column;
+   }
+
+   .noResultsMessage, .noResultsMessageLabelWrap {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+
+   .noResultsMessageLabelWrap {
+     font-size: 22px;
+   }
+
+   .noResultsMessageIcon, .noResultsMessageLabel {
+     margin: 0 4px;
+   }
+
+   .noResultsMessageButton {
+     margin-top: 15px;
+   }

@@ -1,0 +1,8 @@
+{
+  "cv.cannotDeleteTermHeader": "Cannot delete {term}",
+  "cv.cannotDeleteTermMessage": "This {term} cannot be deleted, as it is in use by one or more records.",
+  "cv.lastUpdated": "Last Updated",
+  "cv.noExistingTerms": "There are no {terms}",
+  "cv.numberOfObjects": "# of {objects}",
+  "cv.termDeleted": "The {type} <strong>{term}</strong> was successfully <strong>deleted</strong>"
+}

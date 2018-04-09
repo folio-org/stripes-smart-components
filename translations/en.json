@@ -5,5 +5,7 @@
   "cv.noExistingTerms": "There are no {terms}",
   "cv.numberOfObjects": "# of {objects}",
   "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",
-  "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>"
+  "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>",
+  "ll.label.locationLookup": "Location lookup",
+  "ll.label.selectPermanentLocation": "Select Permanent Location"
 }

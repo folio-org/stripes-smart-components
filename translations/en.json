@@ -7,7 +7,7 @@
   "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",
   "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>",
   "ll.locationLookup": "Location lookup",
-  "ll.selectPermanentLocation": "Select Permanent Location",
+  "ll.selectLocationHeader": "Select {type} location",
   "ll.institution": "Institution",
   "ll.selectInstitution": "Select institution",
   "ll.campus": "Campus",
@@ -15,5 +15,7 @@
   "ll.library": "Library",
   "ll.selectLibrary": "Select library",
   "ll.location": "Location",
-  "ll.selectLocation": "Select location"
+  "ll.selectLocation": "Select location",
+  "ll.temporary": "temporary",
+  "ll.permanent": "permanent"
 }

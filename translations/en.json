@@ -6,6 +6,14 @@
   "cv.numberOfObjects": "# of {objects}",
   "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",
   "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>",
-  "ll.label.locationLookup": "Location lookup",
-  "ll.label.selectPermanentLocation": "Select Permanent Location"
+  "ll.locationLookup": "Location lookup",
+  "ll.selectPermanentLocation": "Select Permanent Location",
+  "ll.institution": "Institution",
+  "ll.selectInstitution": "Select institution",
+  "ll.campus": "Campus",
+  "ll.selectCampus": "Select campus",
+  "ll.library": "Library",
+  "ll.selectLibrary": "Select library",
+  "ll.location": "Location",
+  "ll.selectLocation": "Select location"
 }

@@ -7,7 +7,7 @@ The component allows for location lookup based on given institution, campus and 
 ### Required Props
 Name | type | description
 --- | --- | ---
-onLocationSelected | function | Callback function triggered when a location is chosen. A `location` object will be passed a parameter.
+onLocationSelected | function | Callback function triggered when a location is chosen. A `location` object will be passed as a parameter.
 
 ### Optional Props
 Name | type | description

@@ -17,5 +17,7 @@
   "ll.location": "Location",
   "ll.selectLocation": "Select location",
   "ll.temporary": "temporary",
-  "ll.permanent": "permanent"
+  "ll.permanent": "permanent",
+  "ls.temporaryLocation": "Temporary location",
+  "ls.permanentLocation": "Permanent location"
 }

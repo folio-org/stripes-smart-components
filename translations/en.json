@@ -5,5 +5,20 @@
   "cv.noExistingTerms": "There are no {terms}",
   "cv.numberOfObjects": "# of {objects}",
   "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",
-  "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>"
+  "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>",
+  "ll.locationLookup": "Location lookup",
+  "ll.selectLocationHeader": "Select {type} location",
+  "ll.institution": "Institution",
+  "ll.selectInstitution": "Select institution",
+  "ll.campus": "Campus",
+  "ll.selectCampus": "Select campus",
+  "ll.library": "Library",
+  "ll.selectLibrary": "Select library",
+  "ll.location": "Location",
+  "ll.selectLocation": "Select location",
+  "ll.temporary": "temporary",
+  "ll.permanent": "permanent",
+  "ls.temporaryLocation": "Temporary location",
+  "ls.permanentLocation": "Permanent location",
+  "ls.locationPlaceholder": "Select location name or code"
 }

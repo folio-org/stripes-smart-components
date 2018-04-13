@@ -41,6 +41,8 @@
 * Extract proxy modal into `<ProxyManager>`. Fixes STSMACOM-58.
 * Ignore yarn-error.log file. Refs STRIPES-517.
 * Guarantee `stripes` object is available to new-record components. Fixes STSMACOM-75. Available from v1.4.8.
+* Introduced a new `<LocationLookup>` component. Fixes STSMACOM-79. Available from v1.4.9.
+* Introduced a new `<LocationSelection>` component. Fixes STSMACOM-82. Available from v1.4.10.
 * Added a more user friendly empty message to the results list
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)

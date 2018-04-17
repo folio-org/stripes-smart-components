@@ -2,6 +2,7 @@
   "cv.cannotDeleteTermHeader": "Cannot delete {type}",
   "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is in use by one or more records.",
   "cv.lastUpdated": "Last Updated",
+  "cv.updatedAtAndBy": "{date} by {user}",
   "cv.noExistingTerms": "There are no {terms}",
   "cv.numberOfObjects": "# of {objects}",
   "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",

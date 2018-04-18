@@ -45,6 +45,7 @@
 * Introduced a new `<LocationSelection>` component. Fixes STSMACOM-82. Available from v1.4.10.
 * Added a more user friendly empty message to the results list
 * Improve search field in `<SearchAndSort>` component. Fixes STSMACOM-81.
+* Guard against selecting new-record row when no mutations available. Fixes STSMACOM-83.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

@@ -12,4 +12,4 @@ onLocationSelected | function | Callback function triggered when a location is c
 ### Optional Props
 Name | type | description
 --- | --- | ---
-temporary | boolean | An optional flag used to change the popup header label from permanent to temporary 
+temporary | boolean | An optional flag used to change the popup header label from permanent to temporary

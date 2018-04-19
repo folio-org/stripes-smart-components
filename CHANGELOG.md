@@ -47,6 +47,7 @@
 * Improve search field in `<SearchAndSort>` component. Fixes STSMACOM-81.
 * Guard against selecting new-record row when no mutations available. Fixes STSMACOM-83. Available from v1.4.11.
 * Move `<ViewMetaData>` to stripes-smart-components. Fixes STSMACOM-84.
+* `<ControlledVocab>` rows may be filtered. Available from v1.4.12.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

@@ -52,6 +52,7 @@
 * Add support for inactive location confirmation. Refs UIIN-121.
 * `<NoResultsMessage>` now uses the new resources-analyzer method `failureMessage` when reporting errors. Fixes STSMACOM-88.
 * Placeholder comment about `notifyOnNetworkStatusChange`. Interim fix for STSMACOM-89.
+* Move the GraphQL pagination code into the ResourcesAnalyzer. Fixes STSMACOM-90.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

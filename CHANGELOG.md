@@ -54,6 +54,7 @@
 * Placeholder comment about `notifyOnNetworkStatusChange`. Interim fix for STSMACOM-89.
 * Move the GraphQL pagination code into the ResourcesAnalyzer. Fixes STSMACOM-90.
 * Move the stripes-connect pagination code into the ResourcesAnalyzer. Fixes STSMACOM-91.
+* Rename ResourcesAnalyzer to ConnectedSource. Fixes STSMACOM-95.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

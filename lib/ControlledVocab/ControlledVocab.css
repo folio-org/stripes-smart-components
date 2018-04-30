@@ -1,0 +1,5 @@
+.lastUpdated {
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: fill-available;
+}

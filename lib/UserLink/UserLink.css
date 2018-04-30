@@ -1,0 +1,8 @@
+.userLink {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.displayBlock {
+  display: block;
+}

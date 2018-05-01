@@ -19,6 +19,8 @@
   "ll.selectLocation": "Select location",
   "ll.temporary": "temporary",
   "ll.permanent": "permanent",
+  "ll.saveAndClose": "Save and close",
+  "ll.cancel": "Cancel",
   "ls.temporaryLocation": "Temporary location",
   "ls.permanentLocation": "Permanent location",
   "ls.locationPlaceholder": "Select location name or code"

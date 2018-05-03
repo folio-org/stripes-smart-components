@@ -23,5 +23,10 @@
   "ll.cancel": "Cancel",
   "ls.temporaryLocation": "Temporary location",
   "ls.permanentLocation": "Permanent location",
-  "ls.locationPlaceholder": "Select location name or code"
+  "ls.locationPlaceholder": "Select location name or code",
+  "pm.proxyExpired": "Proxy relationship expired",
+  "pm.sponsorExpired": "Sponsor user record expired",
+  "pm.cannotRequestFoSponsor": "Proxy cannot request for sponsor",
+  "pm.continue": "Continue",
+  "pm.cancel": "Cancel"
 }

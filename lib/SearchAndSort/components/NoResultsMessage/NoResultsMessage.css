@@ -2,17 +2,18 @@
  * No Results Message
  */
 
+@import '@folio/stripes-components/lib/variables';
 
 /* Empty Message */
 .noResultsMessage {
   padding: 15px;
-  color: rgba(0, 0, 0, 0.62);
+  color: var(--color-text-p2);
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: #f9f9f9;
+  background: var(--color-fill);
   flex-direction: column;
 }
 

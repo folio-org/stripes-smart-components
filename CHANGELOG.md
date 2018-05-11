@@ -60,6 +60,7 @@
 * Always display sole hit when narrowing down to one result. Fixes STSMACOM-98.
 * Adjust buttons on location lookup popup. Fixes STSMACOM-96.
 * Add extra validation for users not allowed to request. Fixes STSMACOM-101.
+* Added to `<ControlledVocab>` a `readOnlyFields` prop.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

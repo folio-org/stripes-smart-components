@@ -61,7 +61,7 @@
 * Adjust buttons on location lookup popup. Fixes STSMACOM-96.
 * Add extra validation for users not allowed to request. Fixes STSMACOM-101.
 * Added to `<ControlledVocab>` a `readOnlyFields` prop.
-* `<ControlledVocab>` now (by default) suppresses edit/delete actions on records that have a truthy `readOnly` prop.
+* `<ControlledVocab>` now (by default) suppresses edit/delete actions on records that have a truthy `readOnly` prop. Fixes STSMACOM-103.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

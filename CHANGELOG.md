@@ -49,6 +49,7 @@
 * Move `<ViewMetaData>` to stripes-smart-components. Fixes STSMACOM-84.
 * `<ControlledVocab>` rows may be filtered. Available from v1.4.12.
 * Enable correct error-handling when using GraphQL. Fixes STSMACOM-74.
+* Enhance `<SearchAndSort>` to handle GraphQL responses. Fixes STSMACOM-59.
 * Add support for inactive location confirmation. Refs UIIN-121.
 * `<NoResultsMessage>` now uses the new resources-analyzer method `failureMessage` when reporting errors. Fixes STSMACOM-88.
 * Placeholder comment about `notifyOnNetworkStatusChange`. Interim fix for STSMACOM-89.

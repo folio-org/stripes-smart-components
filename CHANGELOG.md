@@ -49,6 +49,7 @@
 * Move `<ViewMetaData>` to stripes-smart-components. Fixes STSMACOM-84.
 * `<ControlledVocab>` rows may be filtered. Available from v1.4.12.
 * Enable correct error-handling when using GraphQL. Fixes STSMACOM-74.
+* Enhance `<SearchAndSort>` to handle GraphQL responses. Fixes STSMACOM-59.
 * Add support for inactive location confirmation. Refs UIIN-121.
 * `<NoResultsMessage>` now uses the new resources-analyzer method `failureMessage` when reporting errors. Fixes STSMACOM-88.
 * Placeholder comment about `notifyOnNetworkStatusChange`. Interim fix for STSMACOM-89.
@@ -60,6 +61,9 @@
 * Always display sole hit when narrowing down to one result. Fixes STSMACOM-98.
 * Adjust buttons on location lookup popup. Fixes STSMACOM-96.
 * Add extra validation for users not allowed to request. Fixes STSMACOM-101.
+* Added to `<ControlledVocab>` a `readOnlyFields` prop.
+* `<ControlledVocab>` now (by default) suppresses edit/delete actions on records that have a truthy `readOnly` prop. Fixes STSMACOM-103.
+* Use location selection component in location lookup popup. Fixes STSMACOM-94.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

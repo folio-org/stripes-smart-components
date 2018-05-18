@@ -3,3 +3,9 @@
   width: -webkit-fill-available;
   width: stretch;
 }
+
+.lastUpdatedUser {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}

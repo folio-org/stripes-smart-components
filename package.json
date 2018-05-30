@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "1.4.14",
+  "version": "1.4.15",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "publishConfig": {
@@ -88,7 +88,7 @@
   "dependencies": {
     "@folio/react-githubish-mentions": "^1.2.1",
     "@folio/react-intl-safe-html": "^1.0.1",
-    "@folio/stripes-components": "^2.0.0",
+    "@folio/stripes-components": "^2.0.18",
     "@folio/stripes-form": "^0.8.2",
     "lodash": "^4.17.4",
     "moment": "^2.22.1",

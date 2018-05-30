@@ -64,7 +64,9 @@
 * Added to `<ControlledVocab>` a `readOnlyFields` prop.
 * `<ControlledVocab>` now (by default) suppresses edit/delete actions on records that have a truthy `readOnly` prop. Fixes STSMACOM-103.
 * Use location selection component in location lookup popup. Fixes STSMACOM-94.
-* Update `<ProxyManager>` to the new proxy structure. Fixes STSMACOM-105. 
+* Update `<ProxyManager>` to the new proxy structure. Fixes STSMACOM-105.
+* Added `<ChangeDueDateDialog>` component and it's child components.
+* Added `<LoanList>` component.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

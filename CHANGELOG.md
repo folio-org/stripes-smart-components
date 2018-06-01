@@ -67,6 +67,7 @@
 * Update `<ProxyManager>` to the new proxy structure. Fixes STSMACOM-105.
 * Added `<ChangeDueDateDialog>` component and it's child components.
 * Added `<LoanList>` component.
+* Update path to stripes-components previously nested within lib/structures.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

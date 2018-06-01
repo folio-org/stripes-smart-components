@@ -86,7 +86,6 @@
     "webpack": "1.11.0"
   },
   "dependencies": {
-    "@folio/react-githubish-mentions": "^1.2.1",
     "@folio/react-intl-safe-html": "^1.0.1",
     "@folio/stripes-components": "^2.0.18",
     "@folio/stripes-form": "^0.8.2",

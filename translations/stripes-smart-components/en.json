@@ -73,5 +73,6 @@
   "whoAreYouActingAs": "Who are you acting as?",
   "self": "Self",
   "isActingAs": "{name} is acting as:",
-  "actingAsProxyFor": "Or acting as proxy for:"
+  "actingAsProxyFor": "Or acting as proxy for:",
+  "searchCriteria": "Enter search criteria to start search"
 }

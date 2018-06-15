@@ -68,6 +68,7 @@
 * Added `<ChangeDueDateDialog>` component and it's child components.
 * Added `<LoanList>` component.
 * Update path to stripes-components previously nested within lib/structures.
+* `<ControlledVocab>` will optionally hide its list and display a reason why. Refs UIORG-83.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

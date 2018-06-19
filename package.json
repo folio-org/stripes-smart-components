@@ -87,7 +87,7 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.1",
-    "@folio/stripes-components": "^2.0.22",
+    "@folio/stripes-components": "^2.0.24",
     "@folio/stripes-form": "^0.8.2",
     "lodash": "^4.17.4",
     "moment": "^2.22.1",

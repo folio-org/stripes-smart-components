@@ -41,6 +41,7 @@ newRecordPerms | string | A comma-separated list of the permissions required in 
 disableRecordCreation | bool | If true, new record cannot be created. This is appropriate when one application is running embedded in another.
 parentResources | shape | The parent component's stripes-connect `resources` property, used to access the records of the relevant type. Must contain at least `records`, `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
 parentMutator | shape | The parent component's stripes-connect `mutator` property. Must contain at least `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
+nsParams | object or string | An object or string used to namespace search and sort parameters. More information can be found [here](https://github.com/folio-org/stripes-components/blob/master/util/parameterizing-makeQueryFunction.md)
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

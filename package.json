@@ -88,6 +88,7 @@
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.1",
     "@folio/stripes-components": "^2.0.24",
+    "@folio/stripes-core": "^2.10.2",
     "@folio/stripes-form": "^0.8.2",
     "lodash": "^4.17.4",
     "moment": "^2.22.1",
@@ -102,7 +103,6 @@
   },
   "peerDependencies": {
     "@folio/stripes-connect": "^3.1.2",
-    "@folio/stripes-core": "^2.10.2",
     "@folio/stripes-logger": "^0.0.2",
     "react": "*"
   }

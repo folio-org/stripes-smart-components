@@ -74,6 +74,7 @@
 * Allow for choosing empty value in `<LocationSelection>` and `<LocationLookup>`. Refs UIIN-198.
 * Increase default location-limit in `<LocationModal>`. Available from v1.4.18.
 * Refactor EntryManager to support anointed resource. Fixes STCOR-231.
+* Cache user object metadata in `<ControlledVocab>`; it's faster. Fixes STCOM-308.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

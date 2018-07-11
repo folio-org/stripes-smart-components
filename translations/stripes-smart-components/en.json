@@ -1,4 +1,6 @@
 {
+  "cddd.date": "Date",
+  "cddd.time": "Time",
   "cddd.changeDueDate": "Change due date",
   "cddd.changeDueDateConfirmation": "Change due date",
   "cddd.itemsSelected": "<b>{count}</b> items <b>selected.</b>",

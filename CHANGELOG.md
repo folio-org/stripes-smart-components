@@ -68,6 +68,14 @@
 * Added `<ChangeDueDateDialog>` component and it's child components.
 * Added `<LoanList>` component.
 * Update path to stripes-components previously nested within lib/structures.
+* `<ControlledVocab>` will optionally hide its list and display a reason why. Refs UIORG-83.
+* Turn off enforceFocus on `<LocationModal>`. Fixes STSMACOM-109.
+* Add extra check to `<EntryManager>` to recognize add/edit mode. Fixes STSMACOM-110.
+* Allow for choosing empty value in `<LocationSelection>` and `<LocationLookup>`. Refs UIIN-198.
+* Increase default location-limit in `<LocationModal>`. Available from v1.4.18.
+* Cache user object metadata in `<ControlledVocab>`; it's faster. Fixes STCOM-308.
+* Refactor EntryManager to support anointed resource. Fixes STCOR-231.
+* Retrieve more locations via `<LocationSelection>`.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

@@ -6,3 +6,8 @@
   .searchField {
     margin: 0 15px;
   }
+
+  /* reset button wrap - minor alignment adjustment */
+  .resetButtonWrap {
+    margin-left: -3px;
+  }

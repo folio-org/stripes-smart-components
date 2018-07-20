@@ -1,0 +1,33 @@
+/**
+ * Reset Button
+ */
+
+.resetButtonRoot .button {
+  padding: 0 6px 0 3px;
+  background: none !important; /* Remove gray background color from disabled button */
+}
+
+/**
+ * Transition styles
+ */
+
+.transition {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.transitionEntered, .transitionEntering {
+  max-height: 250px;
+  overflow: visible;
+  opacity: 1;
+  transition: max-height 1000ms linear 750ms, opacity 300ms ease-in 750ms;
+}
+
+.transitionExiting, .transitionExited {
+  transition: max-height 1000ms linear 750ms, opacity 500ms ease-out 1300ms;
+}
+
+.fasterExitTransition.transition {
+  transition: max-height 1000ms linear, opacity 600ms ease-out 500ms;
+}

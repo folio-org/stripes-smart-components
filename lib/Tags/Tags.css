@@ -1,0 +1,12 @@
+@import '@folio/stripes-components/lib/variables.css';
+
+.tag {
+  height: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-right: 5px;
+
+  & > span {
+    display: inline-flex;
+  }
+}

@@ -76,6 +76,7 @@
 * Cache user object metadata in `<ControlledVocab>`; it's faster. Fixes STCOM-308.
 * Refactor EntryManager to support anointed resource. Fixes STCOR-231.
 * Retrieve more locations via `<LocationSelection>`.
+* Provide an id prop to `<ConfirmationModal>` to avoid it autogenerating one for us. Refs STCOM-317. Available from v1.4.22.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

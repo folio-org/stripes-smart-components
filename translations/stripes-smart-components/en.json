@@ -76,5 +76,11 @@
   "self": "Self",
   "isActingAs": "{name} is acting as:",
   "actingAsProxyFor": "Or acting as proxy for:",
-  "searchCriteria": "Enter search criteria to start search"
+  "searchCriteria": "Enter search criteria to start search",
+  "tags": "Tags",
+  "numberOfTags": "{count, number} {count, plural, one {Tag} other {Tags}}",
+  "deleteTag": "Remove tag",
+  "enterATag": "Enter a tag.",
+  "tagsTextArea": "Tag text area",
+  "addTag": "Add"
 }

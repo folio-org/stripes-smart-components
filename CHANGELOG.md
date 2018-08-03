@@ -79,6 +79,7 @@
 * Provide an id prop to `<ConfirmationModal>` to avoid it autogenerating one for us. Refs STCOM-317. Available from v1.4.23.
 * Initial support for tags on individual records. Toward STSMACOM-113, FOLIO-1303. Available from v1.4.24.
 * Update version of @folio/react-intl-safe-html. Fixes STRIPES-545
+* Add custom field validation for `<ControlledVocab>`. Fixes STSMACOM-114.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

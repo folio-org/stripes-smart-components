@@ -99,7 +99,8 @@
     "react-intl": "^2.4.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.0.0",
-    "redux-form": "^7.0.3"
+    "redux-form": "^7.0.3",
+    "tai-password-strength": "^1.1.1"
   },
   "peerDependencies": {
     "@folio/stripes-connect": "^3.1.2",

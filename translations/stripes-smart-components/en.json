@@ -71,6 +71,7 @@
   "permissionsDoNotAllowAccess": "Sorry - your permissions do not allow access to this page.",
   "searchResults": "{objectName} search results",
   "searchReturnedResults": "Search returned {count, number} {count, plural, one {result} other {results}}",
+  "searchResultsCountHeader": "{count, number} {count, plural, one {Record found} other {Records found}}",
   "resetAll": "Reset all",
   "whoAreYouActingAs": "Who are you acting as?",
   "self": "Self",

@@ -13,7 +13,7 @@ Include plugin via
 
 The following code shows how to pass value to plugin.
 ```javascript
-import { formValues } from 'redux-form';
+import { getFormValues } from 'redux-form';
 
 getCurrentValues(key) {
         const {stripes: {store}} = this.props;
@@ -22,6 +22,6 @@ getCurrentValues(key) {
         return values[key] || false;
 }
 
-<PasswordStrength type="password-strength" dataSource={this.getCurrentValues("InputName")}>
+<PasswordStrength type="password-strength" password={this.getCurrentValues("InputName")}>
 </PasswordStrength>
 ```

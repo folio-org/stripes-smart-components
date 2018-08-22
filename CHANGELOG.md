@@ -80,9 +80,10 @@
 * Initial support for tags on individual records. Toward STSMACOM-113, FOLIO-1303. Available from v1.4.24.
 * Update version of @folio/react-intl-safe-html. Fixes STRIPES-545
 * Add custom field validation for `<ControlledVocab>`. Fixes STSMACOM-114.
-* Check for `<ControlledVocab>` errors more carefully. Refs STSMACOM-114. Available from v1.4.26. 
+* Check for `<ControlledVocab>` errors more carefully. Refs STSMACOM-114. Available from v1.4.26.
 * Cleaner handling of result-count header. Refs STSMACOM-108. Available from v1.4.27.
 * Lock react-bootstrap to v0.32.1 to avoid buggy babel-runtime 7.0.0-beta.42 dep. Refs FOLIO-1425. Available from v1.4.28.
+* New optional `notLoadedMessage` prop for `<SearchAndSort>`. Fixes STSMACOM-116. Available from v1.4.29.
 
 ## [1.4.0](https://github.com/folio-org/stripes-smart-components/tree/v1.4.0) (2017-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.3.0...v1.4.0)

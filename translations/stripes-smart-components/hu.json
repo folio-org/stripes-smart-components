@@ -72,5 +72,15 @@
     "self": "Önálló",
     "isActingAs": "{name} úgy viselkedik, mint:",
     "actingAsProxyFor": "Vagy meghatalmazottként viselkedik:",
-    "searchCriteria": "Írja be a keresési feltételeket a keresés megkezdéséhez"
+    "searchCriteria": "Írja be a keresési feltételeket a keresés megkezdéséhez",
+    "cddd.date": "Date",
+    "cddd.time": "Time",
+    "searchResultsCountHeader": "{count, number} {count, plural, one {Record found} other {Records found}}",
+    "tags": "Tags",
+    "numberOfTags": "{count, number} {count, plural, one {Tag} other {Tags}}",
+    "deleteTag": "Remove tag",
+    "enterATag": "Enter a tag.",
+    "tagsTextArea": "Tag text area",
+    "addTag": "Add",
+    "addNew": "Add New"
 }

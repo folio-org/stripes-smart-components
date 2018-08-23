@@ -72,5 +72,15 @@
     "self": "Yo",
     "isActingAs": "{name} actuando como:",
     "actingAsProxyFor": "O actuando como proxy para:",
-    "searchCriteria": "Introducir criterios de búsqueda para iniciar la búsqueda de"
+    "searchCriteria": "Introducir criterios de búsqueda para iniciar la búsqueda de",
+    "cddd.date": "Fecha",
+    "cddd.time": "Hora",
+    "searchResultsCountHeader": "{count, number} {count, plural, one {Registro encontrado} other { Registros encontrados}}",
+    "tags": "Etiquetas",
+    "numberOfTags": "{count, number} {count, plural, one {Etiqueta} other {Etiquetas}}",
+    "deleteTag": "Quitar etiqueta",
+    "enterATag": "Introduzca una etiqueta.",
+    "tagsTextArea": "Área de texto de etiqueta",
+    "addTag": "Añadir",
+    "addNew": "Add New"
 }

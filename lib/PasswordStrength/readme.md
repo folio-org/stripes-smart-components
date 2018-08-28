@@ -22,6 +22,6 @@ getCurrentValues(key) {
         return values[key] || false;
 }
 
-<PasswordStrength type="password-strength" password={this.getCurrentValues("InputName")}>
+<PasswordStrength type="password-strength" aria-live="polite" password={this.getCurrentValues("InputName")}>
 </PasswordStrength>
 ```

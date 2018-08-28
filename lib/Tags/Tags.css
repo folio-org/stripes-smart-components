@@ -9,7 +9,7 @@
 
   & > span {
     display: inline-flex;
-    padding: 0px 4px 0px 6px;
+    padding: 0 4px 0 6px;
   }
 }
 

@@ -9,6 +9,6 @@ input[disabled] {
 .error {
   margin-top: 1px;
   margin-left: 24px;
-  color: #ff0000;
+  color: #f00;
   font-size: 12px;
 }

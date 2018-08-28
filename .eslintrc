@@ -1,4 +1,8 @@
 {
   "extends": "@folio/eslint-config-stripes",
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
+  "rules": {
+    "operator-linebreak": ["off"],
+    "react/destructuring-assignment": ["off"]
+  }
 }

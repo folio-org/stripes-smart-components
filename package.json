@@ -71,7 +71,9 @@
     ]
   },
   "scripts": {
-    "lint": "eslint lib",
+    "lint": "eslint ./",
+    "eslint": "eslint ./",
+    "stylelint": "stylelint \"lib/**/*.css\"",
     "test": "echo 'placeholder. no tests implemented'"
   },
   "devDependencies": {
@@ -83,6 +85,8 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
     "eslint": "^4.8.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0",
     "webpack": "1.11.0"
   },
   "dependencies": {

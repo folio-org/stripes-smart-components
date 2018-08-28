@@ -17,14 +17,16 @@
   overflow: hidden;
 }
 
-.transitionEntered, .transitionEntering {
+.transitionEntered,
+.transitionEntering {
   max-height: 250px;
   overflow: visible;
   opacity: 1;
   transition: max-height 1000ms linear 750ms, opacity 300ms ease-in 750ms;
 }
 
-.transitionExiting, .transitionExited {
+.transitionExiting,
+.transitionExited {
   transition: max-height 1000ms linear 750ms, opacity 500ms ease-out 1300ms;
 }
 

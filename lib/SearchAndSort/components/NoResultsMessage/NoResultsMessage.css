@@ -17,7 +17,8 @@
   flex-direction: column;
 }
 
-.noResultsMessage, .noResultsMessageLabelWrap {
+.noResultsMessage,
+.noResultsMessageLabelWrap {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +28,8 @@
   font-size: 22px;
 }
 
-.noResultsMessageIcon, .noResultsMessageLabel {
+.noResultsMessageIcon,
+.noResultsMessageLabel {
   margin: 0 4px;
 }
 

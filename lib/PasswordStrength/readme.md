@@ -8,11 +8,12 @@ tests and configuration in order to be completed.
 ## Usage
 
 Include plugin via 
-`<PasswordStrength dataSource={DATA_STRING}></PasswordStrength>`
+`<PasswordStrength aria-live="polite" password={DATA_STRING}></PasswordStrength>`
 
 
 The following code shows how to pass value to plugin.
 ```javascript
+import PasswordStrength from '@folio/stripes-smart-components/lib/PasswordStrength';
 import { getFormValues } from 'redux-form';
 
 getCurrentValues(key) {
@@ -22,6 +23,6 @@ getCurrentValues(key) {
         return values[key] || false;
 }
 
-<PasswordStrength type="password-strength" aria-live="polite" password={this.getCurrentValues("InputName")}>
+<PasswordStrength aria-live="polite" password={this.getCurrentValues("PasswordInput")}>
 </PasswordStrength>
 ```

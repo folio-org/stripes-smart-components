@@ -84,7 +84,7 @@
   "tagsTextArea": "Tag text area",
   "addTag": "Add",
 
-  "password-strength.weak": "Your password is too weak.",
-  "password-strength.reasonable": "Your password is reasonable.",
-  "password-strength.strong": "Your password is strong."
+  "passwordStrength.weak": "Your password is too weak.",
+  "passwordStrength.reasonable": "Your password is reasonable.",
+  "passwordStrength.strong": "Your password is strong."
 }

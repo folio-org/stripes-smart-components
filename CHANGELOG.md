@@ -2,6 +2,8 @@
 
 ## 1.5.0 (IN PROGRESS)
 
+* Added PasswordStrength component with EN translations.
+* Added "tai-password-strength" to package.json for PasswordStrength.
 * Removed unused packages from package.json. Refs STRIPES-490.
 * Upgrade `<SearchAndSort>` to use new filter-related APIs. Fixes STSMACOM-35 and resolves STRIPES-493.
 * Store local changes to search term in component state, and render from that. Fixes STSMACOM-33.

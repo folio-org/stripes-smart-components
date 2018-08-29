@@ -83,5 +83,9 @@
   "deleteTag": "Remove tag",
   "enterATag": "Enter a tag.",
   "tagsTextArea": "Tag text area",
-  "addTag": "Add"
+  "addTag": "Add",
+
+  "passwordStrength.weak": "Your password is too weak.",
+  "passwordStrength.reasonable": "Your password is reasonable.",
+  "passwordStrength.strong": "Your password is strong."
 }

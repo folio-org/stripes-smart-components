@@ -82,5 +82,8 @@
     "enterATag": "Introduzca una etiqueta.",
     "tagsTextArea": "Área de texto de etiqueta",
     "addTag": "Añadir",
-    "addNew": "Add New"
+    "addNew": "Add New",
+    "passwordStrength.weak": "Your password is too weak.",
+    "passwordStrength.reasonable": "Your password is reasonable.",
+    "passwordStrength.strong": "Your password is strong."
 }

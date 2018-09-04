@@ -46,3 +46,38 @@ notLoadedMessage | string | A message to show the user before a search has been 
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 
+## makeQueryFunction(findAll, queryTemplate, sortMap, filterConfig, failOnCondition)
+
+Makes and returns a function, suitable to be used as the `query` param of a stripes-connect resource configuration. The function is itself configured by five parameters, which will vary depending on the module that is using it, and will use these to determine how to interpret the query, filters and sort-specification in the application state. It is generally used as follows:
+```
+static manifest = Object.freeze({
+  items: {
+    type: 'okapi',
+    records: 'items',
+    path: 'item-storage/items',
+    params: {
+      query: makeQueryFunction(
+        'cql.allRecords=1',
+        'materialType="${query}" or barcode="${query}*" or title="${query}*"',
+        { 'Material Type': 'materialType' },
+        filterConfig,
+        2
+      ),
+    },
+    staticFallback: { params: {} },
+  },
+});
+```
+
+The five parameters are:
+
+* `findAll` -- a CQL string that can be used to find all records, for situations where no query or filters are specified and the application wants all records to be listed.
+* `queryTemplate` -- a CQL string into which the query and other data can be substituted, using the same syntax as [path substitution in stripes-connect](https://github.com/folio-org/stripes-connect/blob/master/doc/api.md#text-substitution): for example, `?{query}` interpolates the `query` parameter from the URL.
+* `sortMap` -- an object mapping the names of columns in the display to the CQL sort-specifiers that they should invoke when clicked on.
+* `filterConfig` -- the configuration of the application's filter as passed to [the `<FilterGroups>` component](../lib/FilterGroups/readme.md#filter-configuration).
+* `failOnCondition` -- an optional indicator of how to behave when no query and/or filters are provided. Can take the following values:
+  * `0`: do not fail even if query and filters and empty
+  * `1`: fail if query is empty, whatever the filter state
+  * `2`: fail if both query and filters and empty.
+
+  For backwards compatibility, `false` (or omitting the argument altogether) is equivalent to `0` , and `true` is equivalent to `1`.

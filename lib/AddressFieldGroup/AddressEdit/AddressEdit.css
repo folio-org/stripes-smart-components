@@ -1,4 +1,4 @@
-@import '../../variables.css';
+@import '@folio/stripes-components/lib/variables.css';
 
 .addressEditList {
   margin-bottom: 1rem;

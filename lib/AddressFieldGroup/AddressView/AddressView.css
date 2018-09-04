@@ -1,4 +1,4 @@
-@import '../../variables.css';
+@import '@folio/stripes-components/lib/variables.css';
 
 .addressItem {
   border-color: var(--color-border-p2);

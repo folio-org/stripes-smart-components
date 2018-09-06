@@ -1,0 +1,11 @@
+@import '@folio/stripes-components/lib/variables.css';
+
+.settingsBackButton {
+  @media (--mediumUp) {
+    display: none;
+  }
+}
+
+.listSection {
+  margin-bottom: 20px;
+}

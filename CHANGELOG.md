@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 1.6.0 (IN PROGRESS)
+
+* Use `MultiSelection` for tags. Part of STSMACOM-113.
+
 ## [1.5.0](https://github.com/folio-org/stripes-smart-components/tree/v1.5.0) (2018-09-05)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.4.0...v1.5.0)
 

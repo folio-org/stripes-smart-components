@@ -12,7 +12,8 @@
   },
   "stripes": {
     "okapiInterfaces": {
-      "notes": "1.0"
+      "notes": "1.0",
+      "tags": "1.0"
     },
     "permissionSets": [
       {

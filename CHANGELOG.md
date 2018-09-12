@@ -4,6 +4,7 @@
 
 * Use `MultiSelection` for tags. Part of STSMACOM-113.
 * Fixed `SearchAndSort` row URL creation for subapps (e.g., `/finance/funds`).
+* Fix sorting of filtered items. Introduce Callout for new tags. Part of STSMACOM-113.
 
 ## [1.5.0](https://github.com/folio-org/stripes-smart-components/tree/v1.5.0) (2018-09-05)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.4.0...v1.5.0)

@@ -84,7 +84,7 @@
   "enterATag": "Enter a tag.",
   "tagsTextArea": "Tag text area",
   "addTag": "Add",
-
+  "newTagCreated": "New tag created",
   "passwordStrength.weak": "Your password is too weak.",
   "passwordStrength.reasonable": "Your password is reasonable.",
   "passwordStrength.strong": "Your password is strong."

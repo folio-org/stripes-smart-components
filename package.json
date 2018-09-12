@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "publishConfig": {

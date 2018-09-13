@@ -85,5 +85,6 @@
     "addNew": "Adicionar novo",
     "passwordStrength.weak": "Sua senha é muito fraca.",
     "passwordStrength.reasonable": "Sua senha é razoável.",
-    "passwordStrength.strong": "Sua senha é forte."
+    "passwordStrength.strong": "Sua senha é forte.",
+    "newTagCreated": "Nova tag criada"
 }

@@ -1,10 +1,13 @@
 # Change history for stripes-smart-components
 
-## 1.6.0 (IN PROGRESS)
+## [1.7.0](https://github.com/folio-org/stripes-smart-components/tree/v1.7.0) (2018-09-13)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.5.0...v1.7.0)
 
+* Migrate components from stripes-components: `AddressFieldGroup`, `EditableList`, `Settings`. `makeQueryFunction`, `nsQueryFunctions`. Refs STCOM-298, STCOM-322.
 * Use `MultiSelection` for tags. Part of STSMACOM-113.
 * Fixed `SearchAndSort` row URL creation for subapps (e.g., `/finance/funds`).
 * Fix sorting of filtered items. Introduce Callout for new tags. Part of STSMACOM-113.
+* Clean up old babel dependencies, et al. Refs STCOR-230.
 
 ## [1.5.0](https://github.com/folio-org/stripes-smart-components/tree/v1.5.0) (2018-09-05)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.4.0...v1.5.0)

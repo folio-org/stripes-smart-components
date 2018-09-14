@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 1.8.0 (IN PROGRESS)
+
+* Update to stripes-form 0.9.0. Refs STRIPES-555.
+
 ## [1.7.1](https://github.com/folio-org/stripes-smart-components/tree/v1.7.1) (2018-09-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.7.0...v1.7.1)
 

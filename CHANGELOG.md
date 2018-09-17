@@ -1,5 +1,8 @@
 # Change history for stripes-smart-components
 
+## ## 1.9.0 (IN PROGRESS) 
+* Fix tags autosuggest subsort. Fixes STSMACOM-123.
+
 ## [1.8.0](https://github.com/folio-org/stripes-smart-components/tree/v1.8.0) (2018-09-17)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.7.1...v1.8.0)
 

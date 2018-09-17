@@ -1,7 +1,6 @@
 
 buildNPM {
-  publishModDescriptor = 'no'
+  publishModDescriptor = 'yes'
   runLint = 'yes'
   runTest = 'yes'
-  stripesPlatform = 'none'
 }

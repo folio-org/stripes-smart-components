@@ -3,6 +3,7 @@
 ## ## 1.9.0 (IN PROGRESS) 
 * Fix tags autosuggest subsort. Fixes STSMACOM-123.
 * Updated localized string "searchResultsCountHeader" to use sentence casing. (STCOM-339)
+* Update `stripes-form` dependency to v1.0.0
 
 ## [1.8.0](https://github.com/folio-org/stripes-smart-components/tree/v1.8.0) (2018-09-17)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.7.1...v1.8.0)

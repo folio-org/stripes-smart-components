@@ -2,27 +2,31 @@
 
 ## Introduction
 
-It is POC for password strength component. It requies additional styling, 
-tests and configuration in order to be completed.
+Password strength component is a wrapper around `TextField`, which indicates password complexity.
 
+### Properties
+
+Properties are the same as in `TextField`. But it also uses three own properties: 
+  * inputColProps: PropTypes.object,
+  > Properties for column that includes `TextField`
+  * passwordMeterColProps: PropTypes.object,
+  > Properties for column that includes password strength meter
+  * passwordStrengthHidden: PropTypes.bool
+  > Is password strength meter hidden
 ## Usage
+Just put PasswordStrength as component to 'redux form' field.
+The following code shows how to use password strength meter.
 
-Include plugin via 
-`<PasswordStrength aria-live="polite" password={DATA_STRING}></PasswordStrength>`
-
-
-The following code shows how to pass value to plugin.
 ```javascript
-import PasswordStrength from '@folio/stripes-smart-components/lib/PasswordStrength';
-import { getFormValues } from 'redux-form';
-
-getCurrentValues(key) {
-        const {stripes: {store}} = this.props;
-        const state = store.getState();
-        const values = getFormValues('Form')(state) || {};
-        return values[key] || false;
-}
-
-<PasswordStrength aria-live="polite" password={this.getCurrentValues("PasswordInput")}>
-</PasswordStrength>
+import { PasswordStrength } from '@folio/stripes-smart-components';
+import { Field } from 'redux-form';
+ 
+ <Field
+    component={PasswordStrength}
+    type="password"
+    id="current-password"
+    name="currentPassword"
+    label="test"
+    autoFocus
+  />
 ```

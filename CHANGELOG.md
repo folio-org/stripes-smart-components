@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 1.7.3 (IN PROGRESS)
+
+* stripes-core should be a peerDependency. Refs STRIPES-557.
+
 ## [1.7.2](https://github.com/folio-org/stripes-smart-components/tree/v1.7.2) (2018-09-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.7.1...v1.7.2)
 

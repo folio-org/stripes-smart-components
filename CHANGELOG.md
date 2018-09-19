@@ -1,6 +1,8 @@
 # Change history for stripes-smart-components
 
-## ## 1.9.0 (IN PROGRESS) 
+## [1.8.3](https://github.com/folio-org/stripes-smart-components/tree/v1.8.3) (2018-09-19)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.8.0...v1.8.3)
+
 * Fix tags autosuggest subsort. Fixes STSMACOM-123.
 * Update `stripes-form` dependency to v1.0.0
 * Move stripes-core to `peerDependencies`. Part of STRIPES-557.

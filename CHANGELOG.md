@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 1.7.4 (IN PROGRESS)
+
+* Use 100, not 500, as max limit value due RAML regression. Refs FOLIO-1517.
+
 ## [1.7.3](https://github.com/folio-org/stripes-smart-components/tree/v1.7.3) (2018-09-19)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.7.2...v1.7.3)
 

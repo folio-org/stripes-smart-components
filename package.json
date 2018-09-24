@@ -11,6 +11,7 @@
     "node": ">=6.0.0"
   },
   "stripes": {
+    "type": "components",
     "okapiInterfaces": {
       "notes": "1.0",
       "tags": "1.0"

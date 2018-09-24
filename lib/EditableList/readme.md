@@ -5,7 +5,7 @@ A component used for creating editable CRUD lists.
 
 import
 ```js
-import EditableList from '@folio/stripes-components/lib/EditableList';
+import { EditableList } from '@folio/stripes-smart-components';
 ```
 
 set some data...

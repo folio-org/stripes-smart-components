@@ -1,4 +1,5 @@
 export { default as AddressEdit } from './lib/AddressFieldGroup/AddressEdit';
+export { default as AddressEditList } from './lib/AddressFieldGroup/AddressEdit/AddressEditList';
 export { default as AddressList } from './lib/AddressFieldGroup/AddressList';
 export { default as AddressView } from './lib/AddressFieldGroup/AddressView';
 

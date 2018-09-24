@@ -1,8 +1,12 @@
 # Change history for stripes-smart-components
 
-## ## 1.9.0 (IN PROGRESS) 
+## [1.8.3](https://github.com/folio-org/stripes-smart-components/tree/v1.8.3) (2018-09-19)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.8.0...v1.8.3)
+
 * Fix tags autosuggest subsort. Fixes STSMACOM-123.
+* Updated localized string "searchResultsCountHeader" to use sentence casing. (STCOM-339)
 * Update `stripes-form` dependency to v1.0.0
+* Move stripes-core to `peerDependencies`. Part of STRIPES-557.
 
 ## [1.8.0](https://github.com/folio-org/stripes-smart-components/tree/v1.8.0) (2018-09-17)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.7.1...v1.8.0)

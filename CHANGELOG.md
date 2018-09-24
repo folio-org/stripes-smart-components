@@ -2,6 +2,8 @@
 
 ## 2.0.0 (IN PROGRESS)
 
+* Narrow intended use of `<UserLink>` and `<UserName>` components to `<ControlledVocab>`
+
 ## [1.9.0](https://github.com/folio-org/stripes-smart-components/tree/v1.9.0) (2018-10-02)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.8.3...v1.9.0)
 

@@ -86,5 +86,17 @@
     "passwordStrength.weak": "Sua senha é muito fraca.",
     "passwordStrength.reasonable": "Sua senha é razoável.",
     "passwordStrength.strong": "Sua senha é forte.",
-    "newTagCreated": "Nova tag criada"
+    "newTagCreated": "Nova tag criada",
+    "passwordStrength.veryWeak": "Sua senha é muito fraca.",
+    "passwordStrength.veryStrong": "Sua senha é muito forte.",
+    "passwordStrength.infoPopoverText": "Inclua dígitos/símbolos ou torne sua senha mais longa e aleatória",
+    "passwordStrength.label": "Força da senha:",
+    "password.length.invalid": "O comprimento da senha deve ter no mínimo 8 caracteres.",
+    "password.alphabetical.invalid": "A senha deve conter letras minúsculas e maiúsculas.",
+    "password.number.invalid": "A senha deve conter pelo menos um caractere numérico.",
+    "password.specialCharacter.invalid": "A senha deve conter pelo menos um caractere especial.",
+    "password.usernameDuplicate.invalid": "A senha não deve conter seu nome de usuário.",
+    "password.keyboardSequence.invalid": "A senha não deve conter uma seqüência do teclado.",
+    "password.repeatingSymbols.invalid": "A senha não deve conter o mesmo caractere em uma linha.",
+    "password.whiteSpace.invalid": "A senha não deve conter espaços em branco."
 }

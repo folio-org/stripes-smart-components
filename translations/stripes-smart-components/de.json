@@ -86,5 +86,17 @@
     "passwordStrength.weak": "Ihr Passwort ist zu schwach.",
     "passwordStrength.reasonable": "Ihr Passwort ist akzeptabel.",
     "passwordStrength.strong": "Ihr Passwort ist sicher.",
-    "newTagCreated": "New tag created"
+    "newTagCreated": "New tag created",
+    "passwordStrength.veryWeak": "Your password is very weak.",
+    "passwordStrength.veryStrong": "Your password is very strong.",
+    "passwordStrength.infoPopoverText": "Include digits/symbols or make your password longer and more random",
+    "passwordStrength.label": "Password strength:",
+    "password.length.invalid": "The password length must be minimum 8 symbols.",
+    "password.alphabetical.invalid": "The password must contain both lowercase and uppercase letters.",
+    "password.number.invalid": "The password must contain at least one numeric character.",
+    "password.specialCharacter.invalid": "The password must contain at least one special character.",
+    "password.usernameDuplicate.invalid": " The password must not contain your username.",
+    "password.keyboardSequence.invalid": "The password must not contain a keyboard sequence.",
+    "password.repeatingSymbols.invalid": "The password must not contain the same character in a row.",
+    "password.whiteSpace.invalid": "The password must not contain whitespaces."
 }

@@ -79,7 +79,7 @@
     "test": "echo 'placeholder. no tests implemented'"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^3.2.0",
+    "@folio/eslint-config-stripes": "^3.2.1",
     "@folio/stripes-core": "^2.13.0",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.5.0",
@@ -88,8 +88,7 @@
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "stylelint": "^9.5.0",
-    "stylelint-config-standard": "^18.2.0",
-    "webpack": "^4.10.2"
+    "stylelint-config-standard": "^18.2.0"
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.2",

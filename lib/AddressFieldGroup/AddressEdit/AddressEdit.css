@@ -79,18 +79,6 @@
 .addressHeaderActions {
   margin: 0 0 0 auto; /* align to end of header */
   padding: 4px 0;
-
-  & button {
-    &:hover {
-      & :global .stripes__icon {
-        fill: #333;
-      }
-    }
-
-    & :global .stripes__icon {
-      transition: fill 0.3s;
-    }
-  }
 }
 
 .addressLabel {

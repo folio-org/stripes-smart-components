@@ -73,7 +73,7 @@
     ]
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . && stylelint \"lib/**/*.css\"",
     "eslint": "eslint .",
     "stylelint": "stylelint \"lib/**/*.css\"",
     "test": "echo 'placeholder. no tests implemented'"

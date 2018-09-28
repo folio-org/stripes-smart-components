@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 1.9.0 (IN PROGRESS)
+
+* Introduce `getHelperResourcePath` prop. Fixes STSMACOM-131.
+
 ## [1.8.3](https://github.com/folio-org/stripes-smart-components/tree/v1.8.3) (2018-09-19)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.8.0...v1.8.3)
 

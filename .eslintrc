@@ -2,7 +2,8 @@
   "extends": "@folio/eslint-config-stripes",
   "parser": "babel-eslint",
   "rules": {
+    "max-len": ["warn", { "code": 120 }],
     "operator-linebreak": ["off"],
-    "react/destructuring-assignment": ["off"]
+    "react/sort-prop-types": ["error"]
   }
 }

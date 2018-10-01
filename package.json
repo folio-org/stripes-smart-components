@@ -11,7 +11,6 @@
     "node": ">=6.0.0"
   },
   "stripes": {
-    "type": "components",
     "okapiInterfaces": {
       "notes": "1.0",
       "tags": "1.0"
@@ -76,16 +75,26 @@
     "lint": "eslint . && stylelint \"lib/**/*.css\"",
     "eslint": "eslint .",
     "stylelint": "stylelint \"lib/**/*.css\"",
-    "test": "echo 'placeholder. no tests implemented'"
+    "test": "stripes test karma"
   },
   "devDependencies": {
+    "@bigtest/convergence": "^1.0.0",
+    "@bigtest/interactor": "^0.7.2",
+    "@bigtest/mirage": "^0.0.1",
+    "@bigtest/mocha": "^0.5.1",
+    "@bigtest/react": "^0.1.2",
     "@folio/eslint-config-stripes": "^3.2.1",
+    "@folio/stripes-cli": "^1.5.0",
+    "@folio/stripes-core": "^2.14.0",
     "babel-eslint": "^9.0.0",
+    "chai": "^4.2.0",
     "eslint": "^5.5.0",
+    "mocha": "^5.2.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
+    "sinon": "^6.3.4",
     "stylelint": "^9.5.0",
     "stylelint-config-standard": "^18.2.0"
   },

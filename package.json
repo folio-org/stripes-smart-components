@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "1.8.3",
+  "version": "1.9.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "publishConfig": {
@@ -80,7 +80,6 @@
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^3.2.1",
-    "@folio/stripes-core": "^2.13.0",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.5.0",
     "react": "^16.5.0",
@@ -92,8 +91,11 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.2",
-    "@folio/stripes-components": "^3.1.0",
+    "@folio/stripes-components": "^4.0.0",
+    "@folio/stripes-connect": "^3.1.2",
+    "@folio/stripes-core": "^2.13.0",
     "@folio/stripes-form": "^1.0.0",
+    "@folio/stripes-logger": "^1.0.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.4",
     "moment": "^2.22.1",
@@ -109,9 +111,6 @@
     "tai-password-strength": "^1.1.1"
   },
   "peerDependencies": {
-    "@folio/stripes-connect": "^3.1.2",
-    "@folio/stripes-core": "^2.13.0",
-    "@folio/stripes-logger": "^1.0.0",
     "react": "*"
   }
 }

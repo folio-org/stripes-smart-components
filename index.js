@@ -14,8 +14,6 @@ export { default as EditableList } from './lib/EditableList';
 
 export { default as EntryManager } from './lib/EntryManager';
 
-export { default as LoanList } from './lib/LoanList';
-
 export { default as LocationLookup } from './lib/LocationLookup';
 export { default as LocationSelection } from './lib/LocationSelection';
 

@@ -1,12 +1,15 @@
 # Change history for stripes-smart-components
 
+## 1.10.0 (IN PROGRESS)
+
+* Copy `craftLayerUrl()` into `<SearchAndSort>`
+
 ## [1.9.0](https://github.com/folio-org/stripes-smart-components/tree/v1.9.0) (2018-10-02)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.8.3...v1.9.0)
 
 * Introduce `getHelperResourcePath` prop. Fixes STSMACOM-131.
 * Remove notes helper app from `<SearchAndSort>`
 * Move `stripes-form` to dependencies
-
 
 ## [1.8.3](https://github.com/folio-org/stripes-smart-components/tree/v1.8.3) (2018-09-19)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.8.0...v1.8.3)

@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## 1.13.0 (IN PROGRESS)
+## 2.0.0 (IN PROGRESS)
 
 * Lenient label proptypes accept a node in order to receive a `<FormattedMessage>`. Available from v1.12.1.
 * Provide `contentLabel` to `<Layer>` from `<EntryManager>`. Available from v1.12.2.

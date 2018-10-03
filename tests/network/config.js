@@ -1,3 +1,3 @@
 // typical mirage config export
-export default function configure() {
+export default function config() {
 }

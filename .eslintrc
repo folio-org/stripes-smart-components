@@ -5,5 +5,14 @@
     "max-len": ["warn", { "code": 120 }],
     "operator-linebreak": ["off"],
     "react/sort-prop-types": ["error"]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["lib/**/tests/*"],
+      "rules": {
+        "no-unused-expressions": "off",
+        "func-names": "off"
+      }
+    }
+  ]
 }

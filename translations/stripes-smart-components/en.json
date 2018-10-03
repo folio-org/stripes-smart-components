@@ -53,13 +53,7 @@
 
   "closeEntryDialog": "Close entry dialog",
   "editOrDeleteNote": "Edit or delete this note",
-  "notes": "Notes",
-  "numberOfNotes": "{count, number} {count, plural, one {Note} other {Notes}}",
-  "enterANote": "Enter a note.",
-  "notesTextArea": "Note text area",
   "cancelEdit": "Cancel edit",
-  "post": "Post",
-  "postNote": "Post note",
   "searchAndFilter": "Search & filter",
   "search": "Search",
   "addNew": "Add new",

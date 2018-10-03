@@ -11104,6 +11104,13 @@ stylelint-config-standard@^18.2.0:
   dependencies:
     stylelint-config-recommended "^2.1.0"
 
+stylelint-junit-formatter@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/stylelint-junit-formatter/-/stylelint-junit-formatter-0.2.1.tgz#8cddde6b3d3a93189f5b3b1b419dcf3c338038ab"
+  integrity sha512-C1n8dBpqMwUeJGmyL8tGVB1DKQISnEMhynzCzo38kTpjXybxLLYPrblbm41q5fEHwbaLjE5bPhZpZyMoHaJhIQ==
+  dependencies:
+    xmlbuilder "^10.0.0"
+
 stylelint@^9.5.0:
   version "9.6.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-9.6.0.tgz#f0b366f33b6ccf3e5096d60722ed27b6470b41d8"
@@ -12273,6 +12280,11 @@ xmlbuilder@8.2.2:
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-8.2.2.tgz#69248673410b4ba42e1a6136551d2922335aa773"
   integrity sha1-aSSGc0ELS6QuGmE2VR0pIjNap3M=
+
+xmlbuilder@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-10.0.0.tgz#c64e52f8ae097fe5fd46d1c38adaade071ee1b55"
+  integrity sha512-7RWHlmF1yU/E++BZkRQTEv8ZFAhZ+YHINUAxiZ5LQTKRQq//igpiY8rh7dJqPzgb/IzeC5jH9P7OaCERfM9DwA==
 
 xmlbuilder@~9.0.1:
   version "9.0.7"

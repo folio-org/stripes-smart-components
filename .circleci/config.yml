@@ -56,18 +56,6 @@ jobs:
       - store_artifacts:
           path: ./artifacts
 
-  build:
-    docker:
-      - image: circleci/node:10
-    steps:
-      - attach_workspace:
-          at: ~/
-      - run:
-          name: Build storybook bundle
-          command: yarn storybook-build
-      - store_artifacts:
-          path: ./.out
-
   test-chrome:
     docker:
       - image: circleci/node:10-browsers
@@ -154,9 +142,6 @@ workflows:
           requires:
             - checkout-and-install
       - stylelint:
-          requires:
-            - checkout-and-install
-      - build:
           requires:
             - checkout-and-install
       - test-chrome:

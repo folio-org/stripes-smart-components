@@ -1,7 +1,7 @@
 @import '@folio/stripes-components/lib/variables';
 
 .settingsBackButton {
-  @media (--mediumUp) {
+  @media (--medium-up) {
     display: none;
   }
 }

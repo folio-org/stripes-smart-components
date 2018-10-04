@@ -1,7 +1,7 @@
 # Change history for stripes-smart-components
 
 ## 1.10.0 (IN PROGRESS)
-
+* Switched css variables to use kebab-case.
 * Copy `craftLayerUrl()` into `<SearchAndSort>`
 
 ## [1.9.0](https://github.com/folio-org/stripes-smart-components/tree/v1.9.0) (2018-10-02)

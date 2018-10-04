@@ -98,5 +98,6 @@
     "password.usernameDuplicate.invalid": " The password must not contain your username.",
     "password.keyboardSequence.invalid": "The password must not contain a keyboard sequence.",
     "password.repeatingSymbols.invalid": "The password must not contain the same character in a row.",
-    "password.whiteSpace.invalid": "The password must not contain whitespaces."
+    "password.whiteSpace.invalid": "The password must not contain whitespaces.",
+    "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password."
 }

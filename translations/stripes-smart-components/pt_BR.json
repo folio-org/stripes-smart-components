@@ -98,5 +98,6 @@
     "password.usernameDuplicate.invalid": "A senha não deve conter seu nome de usuário.",
     "password.keyboardSequence.invalid": "A senha não deve conter uma seqüência do teclado.",
     "password.repeatingSymbols.invalid": "A senha não deve conter o mesmo caractere em uma linha.",
-    "password.whiteSpace.invalid": "A senha não deve conter espaços em branco."
+    "password.whiteSpace.invalid": "A senha não deve conter espaços em branco.",
+    "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password."
 }

@@ -13,7 +13,8 @@
   "stripes": {
     "okapiInterfaces": {
       "notes": "1.0",
-      "tags": "1.0"
+      "tags": "1.0",
+      "password-validator": "1.0"
     },
     "permissionSets": [
       {

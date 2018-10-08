@@ -7,7 +7,7 @@
 .legend {
   display: block;
   width: 100%;
-  font-size: 21px;
+  font-size: var(--font-size-large);
   color: #333;
   border: 0;
   margin-bottom: 6px;
@@ -16,7 +16,7 @@
 
 .subLegend {
   composes: legend;
-  font-size: 18px;
+  font-size: var(--font-size-medium);
   color: #777;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .addressLabel {
-  font-weight: bold;
+  font-weight: var(--text-weight-headline-basis);
 }
 
 .addressFormBody {
@@ -94,7 +94,7 @@
 .primaryToggle {
   padding: 4px 8px;
   color: #555;
-  font-size: 12px;
+  font-size: var(--font-size-small);
   cursor: pointer;
   margin-bottom: 0;
 

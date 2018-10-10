@@ -1,3 +1,5 @@
+@import '@folio/stripes-components/lib/variables';
+
 .label {
   margin-left: 6px;
 }
@@ -10,5 +12,5 @@ input[disabled] {
   margin-top: 1px;
   margin-left: 24px;
   color: #f00;
-  font-size: 12px;
+  font-size: var(--font-size-small);
 }

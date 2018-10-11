@@ -2,6 +2,11 @@
 
 Generic component providing the heart of search-and-sort modules
 
+<!-- md2toc -l 2 readme.md -->
+* [Description](#description)
+    * [Properties](#properties)
+* [`makeQueryFunction`](#makequeryfunction)
+
 ## Description
 
 Many Stripes application modules are primarily to do with searching, sorting and browsing sets of records of some kind, and viewing their detailed information, editing them, creating new records, etc. Examples of such modules include ui-users, ui-inventory and ui-requests. Such modules can be created quickly and easily by having their `render` method simply invoke `<SearchAndSort>` with appropriate configuration. It is then the application's responsibility to provide components that view records of the relevant type in detail, that edit them, etc.
@@ -47,7 +52,11 @@ getHelperResourcePath | func | An optional function which can be used to return 
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 
-## makeQueryFunction(findAll, queryTemplate, sortMap, filterConfig, failOnCondition)
+## `makeQueryFunction`
+
+Invoked as:
+
+	makeQueryFunction(findAll, queryTemplate, sortMap, filterConfig, failOnCondition)
 
 Makes and returns a function, suitable to be used as the `query` param of a stripes-connect resource configuration. The function is itself configured by five parameters, which will vary depending on the module that is using it, and will use these to determine how to interpret the query, filters and sort-specification in the application state. It is generally used as follows:
 ```

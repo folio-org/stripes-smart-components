@@ -3,6 +3,7 @@
 ## 1.11.0 (In Progress)
 
 * Add clone option to `EntryManager`. Fixes STSMACOM-134.
+* Add ability to pass custom add menu component to `EntryManager`. Fixes STSMACOM-136.
 
 ## [1.10.0](https://github.com/folio-org/stripes-smart-components/tree/v1.10.0)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.9.0...v1.10.0)

@@ -27,3 +27,4 @@ idFromPathnameRe | string | regular expression pattern to extract the object-id 
 entryFormComponent | component | A component used to replace the default implementation of the form wrapper
 defaultEntry | object | An object used to represent initial values for new entry
 addMenu | component | An optional component which can be used to override default add menu
+parseInitialValues | function | An optional function which can be used to parse initialValues object

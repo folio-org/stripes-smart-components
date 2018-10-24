@@ -8,6 +8,7 @@
 * Enable tags by default. Part of UITAG-8.
 * Add parseInitialValues to entry wrapper. Fixes STSMACOM-137.
 * Don't sort `ControlledVocabulary` queries; we don't know what indexes are available. Refs MODUSERS-98.
+* Show details view of the newly created record after duplication. Fixes STSMACOM-140.
 
 ## [1.10.0](https://github.com/folio-org/stripes-smart-components/tree/v1.10.0)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.9.0...v1.10.0)

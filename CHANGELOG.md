@@ -7,7 +7,7 @@
 * Use react-intl directly instead of stripes.intl
 * Enable tags by default. Part of UITAG-8.
 * Add parseInitialValues to entry wrapper. Fixes STSMACOM-137.
-* `ControlledVocab` accepts `sortby` to override its default ordering. Refs MODUSERS-98, fixes STSMACOM-139.
+* `ControlledVocab` accepts `sortby` to override its default ordering. Refs MODUSERS-98, fixes STSMACOM-139. Available from v1.10.1.
 * Show details view of the newly created record after duplication. Fixes STSMACOM-140.
 
 ## [1.10.0](https://github.com/folio-org/stripes-smart-components/tree/v1.10.0)

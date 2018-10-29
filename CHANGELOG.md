@@ -9,6 +9,7 @@
 * Add parseInitialValues to entry wrapper. Fixes STSMACOM-137.
 * `ControlledVocab` accepts `sortby` to override its default ordering. Refs MODUSERS-98, fixes STSMACOM-139. Available from v1.10.1.
 * Show details view of the newly created record after duplication. Fixes STSMACOM-140.
+* Internalize logic of `<UserLink>` into `<ControlledVocab>` for efficiency. Fixes STSMACOM-142. Available from v1.10.2.
 
 ## [1.10.0](https://github.com/folio-org/stripes-smart-components/tree/v1.10.0)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.9.0...v1.10.0)

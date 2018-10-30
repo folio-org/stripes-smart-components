@@ -44,11 +44,12 @@ finishedResourceName | string | Newly created records are displayed as soon as t
 viewRecordPerms | string | A comma-separated list of the permissions required in order to view a full record.
 newRecordPerms | string | A comma-separated list of the permissions required in order to create a new record.
 disableRecordCreation | bool | If true, new record cannot be created. This is appropriate when one application is running embedded in another.
-parentResources | shape | The parent component's stripes-connect `resources` property, used to access the records of the relevant type. Must contain at least `records`, `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
+parentResources | shape | The parent component's stripes-connect `resources` property, used to access the records of the relevant type. Must contain at least `records` (if not using the `resourceName` prop), `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
 parentMutator | shape | The parent component's stripes-connect `mutator` property. Must contain at least `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
 nsParams | object or string | An object or string used to namespace search and sort parameters. More information can be found [here](https://github.com/folio-org/stripes-components/blob/master/util/parameterizing-makeQueryFunction.md)
 notLoadedMessage | string | A message to show the user before a search has been submitted. Defaults to "Choose a filter or enter search query to show results".
 getHelperResourcePath | func | An optional function which can be used to return helper's resource path dynamically.
+resourceName | string | The key (in `parentResources`) to the resource being searched-and-sorted. Defaults to `records`. This is useful if you want to have multiple `SearchAndSort`s in a single module.
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

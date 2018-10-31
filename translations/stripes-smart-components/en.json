@@ -63,7 +63,7 @@
   "searchAndFilter": "Search & filter",
   "search": "Search",
   "addNew": "Add new",
-  "new": "+ New",
+  "new": "New",
   "hideSearchPane": "Hide search and filters pane.",
   "showSearchPane": "Show search and filters pane.",
   "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",

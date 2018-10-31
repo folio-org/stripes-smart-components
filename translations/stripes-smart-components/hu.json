@@ -59,7 +59,7 @@
     "postNote": "Post megjegyzés",
     "searchAndFilter": "Keresés & szűrő",
     "search": "Keresés",
-    "new": "+ Új",
+    "new": "Új",
     "hideSearchPane": "Keresés és szűrők ablak elrejtése.",
     "showSearchPane": "Keresés és szűrők ablak mutatása.",
     "numberOfFilters": "{count, number} {count, plural, one {alkalmazott szűrő} other {alkalmazott szűrők}}",

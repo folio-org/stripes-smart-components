@@ -59,7 +59,7 @@
     "postNote": "Nota de correio",
     "searchAndFilter": "Pesquisa & Filtro",
     "search": "Pesquisa",
-    "new": "Novo",
+    "new": "<icon icon='plus-sign'>Novo</icon>",
     "hideSearchPane": "Ocultar painel de pesquisa e filtros.",
     "showSearchPane": "Mostrar painel de pesquisa e filtros.",
     "numberOfFilters": "{count, number} {count, plural, one {filtro aplicado} other {filtros aplicados}}",

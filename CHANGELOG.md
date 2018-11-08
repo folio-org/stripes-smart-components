@@ -14,6 +14,7 @@
 * Remove `<Paneset>` from `<Settings>`
 * Clear query resource on `SearchAndSort` component unmount. Fixes STSMACOM-146.
 * Replace `formatMessage()` with `<FormattedMessage>` in `<SearchAndSort>`
+* Use create-new-button attributes consistently.
 
 ## [1.10.0](https://github.com/folio-org/stripes-smart-components/tree/v1.10.0)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.9.0...v1.10.0)

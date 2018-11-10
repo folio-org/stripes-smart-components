@@ -59,7 +59,7 @@
     "postNote": "Post Note",
     "searchAndFilter": "Search & Filter",
     "search": "Suche",
-    "new": "<icon icon='plus-sign'>New</icon>",
+    "new": "+ New",
     "hideSearchPane": "Hide Search and Filters pane.",
     "showSearchPane": "Show Search and Filters pane.",
     "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",

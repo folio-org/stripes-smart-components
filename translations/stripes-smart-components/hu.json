@@ -99,5 +99,6 @@
     "password.keyboardSequence.invalid": "A jelszó nem tartalmazhat billentyű-kombinációt.",
     "password.repeatingSymbols.invalid": "A jelszó nem tartalmazhatja többször ugyanazt a karaktert.",
     "password.whiteSpace.invalid": "A jelszó nem tartalmazhat szóközöket.",
-    "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password."
+    "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
+    "address.addAddress": "Add address"
 }

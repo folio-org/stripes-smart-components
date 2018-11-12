@@ -100,5 +100,5 @@
     "password.repeatingSymbols.invalid": "A senha não deve conter o mesmo caractere em uma linha.",
     "password.whiteSpace.invalid": "A senha não deve conter espaços em branco.",
     "password.lastTenPasswords.invalid": "Senha usada anteriormente. Por favor insira uma nova senha.",
-    "address.addAddress": "Add address"
+    "address.addAddress": "Adicionar endereço"
 }

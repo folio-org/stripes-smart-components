@@ -21,8 +21,6 @@ export { default as LocationSelection } from './lib/LocationSelection';
 
 export { default as Notes } from './lib/Notes';
 
-export { default as PasswordStrength } from './lib/PasswordStrength';
-
 export { default as PasswordValidationField } from './lib/PasswordValidationField';
 
 export { default as ProxyManager } from './lib/ProxyManager';

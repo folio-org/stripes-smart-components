@@ -118,8 +118,7 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.0.0",
     "react-transition-group": "^2.4.0",
-    "redux-form": "^7.0.3",
-    "tai-password-strength": "^1.1.1"
+    "redux-form": "^7.0.3"
   },
   "peerDependencies": {
     "react": "*"

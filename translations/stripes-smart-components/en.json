@@ -63,7 +63,7 @@
   "searchAndFilter": "Search & filter",
   "search": "Search",
   "addNew": "Add new",
-  "new": "+ New",
+  "new": "New",
   "hideSearchPane": "Hide search and filters pane.",
   "showSearchPane": "Show search and filters pane.",
   "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
@@ -93,5 +93,6 @@
   "password.keyboardSequence.invalid": "The password must not contain a keyboard sequence.",
   "password.repeatingSymbols.invalid": "The password must not contain the same character in a row.",
   "password.whiteSpace.invalid": "The password must not contain whitespaces.",
-  "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password."
+  "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
+  "address.addAddress": "Add address"
 }

@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 1.11.0 (In Progress)
+## [1.11.0](https://github.com/folio-org/stripes-smart-components/tree/v1.11.0) (2018-11-19)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.10.0...v1.11.0)
 
 * Add clone option to `EntryManager`. Fixes STSMACOM-134.
 * Add ability to pass custom add menu component to `EntryManager`. Fixes STSMACOM-136.

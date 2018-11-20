@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 1.12.0 (IN PROGRESS)
+
+* Remove onSubmit from search form. Refs UIU-731. 
+
 ## [1.11.0](https://github.com/folio-org/stripes-smart-components/tree/v1.11.0) (2018-11-19)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.10.0...v1.11.0)
 

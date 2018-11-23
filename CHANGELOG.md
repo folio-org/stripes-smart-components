@@ -4,6 +4,7 @@
 
 * Add stopPropagation to search from. Refs UIU-731. 
 * Reset query resource to initial values on unmount. Refs UIU-733.
+* Removed deprecated actionMenuItems-prop. Fixes STSMACOM-147.
 
 ## [1.11.0](https://github.com/folio-org/stripes-smart-components/tree/v1.11.0) (2018-11-19)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.10.0...v1.11.0)

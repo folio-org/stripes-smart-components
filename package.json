@@ -112,6 +112,7 @@
     "moment": "^2.22.1",
     "moment-timezone": "^0.5.17",
     "prop-types": "^15.5.10",
+    "prop-types-extra": "^1.1.0",
     "query-string": "^5.0.0",
     "react-bootstrap": "0.32.1",
     "react-intl": "^2.4.0",

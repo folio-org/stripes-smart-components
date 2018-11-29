@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 1.12.0 (IN PROGRESS)
+## [1.12.0](https://github.com/folio-org/stripes-smart-components/tree/v1.12.0) (2018-11-29)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.11.0...v1.12.0)
 
 * Add stopPropagation to search from. Refs UIU-731.
 * Reset query resource to initial values on unmount. Refs UIU-733.

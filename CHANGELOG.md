@@ -4,6 +4,7 @@
 
 * Lenient label proptypes accept a node in order to receive a `<FormattedMessage>`. Available from v1.12.1.
 * Provide `contentLabel` to `<Layer>` from `<EntryManager>`. Available from v1.12.2.
+* Refactor proxy fetching in `<ProxyManager>`. Fixes STSMACOM-154. Available from v1.12.3.
 
 ## [1.12.0](https://github.com/folio-org/stripes-smart-components/tree/v1.12.0) (2018-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.11.0...v1.12.0)

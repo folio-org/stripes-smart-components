@@ -100,5 +100,6 @@
     "password.repeatingSymbols.invalid": "يجب ألا تحتوي كلمة المرور على تسلسل متتالٍ لنفس الحرف ",
     "password.whiteSpace.invalid": "يجب ألا تحتوي كلمة المرور على مسافات.",
     "password.lastTenPasswords.invalid": "سبق استخدام كلمة المرور هذه. الرجاء إدخال كلمة مرور جديدة.",
-    "address.addAddress": "اضف عنوان"
+    "address.addAddress": "اضف عنوان",
+    "searchFieldLabel": "Search {moduleName}"
 }

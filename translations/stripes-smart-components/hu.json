@@ -100,5 +100,6 @@
     "password.repeatingSymbols.invalid": "A jelszó nem tartalmazhatja többször ugyanazt a karaktert.",
     "password.whiteSpace.invalid": "A jelszó nem tartalmazhat szóközöket.",
     "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
-    "address.addAddress": "Add address"
+    "address.addAddress": "Add address",
+    "searchFieldLabel": "Search {moduleName}"
 }

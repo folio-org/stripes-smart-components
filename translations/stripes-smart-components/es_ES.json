@@ -100,5 +100,6 @@
     "password.repeatingSymbols.invalid": "La contraseña no debe contener el mismo carácter en una fila.",
     "password.whiteSpace.invalid": "La contraseña no debe contener espacios en blanco.",
     "password.lastTenPasswords.invalid": "Contraseña utilizada anteriormente. Por favor, introduzca una nueva contraseña.",
-    "address.addAddress": "Añadir dirección"
+    "address.addAddress": "Añadir dirección",
+    "searchFieldLabel": "Search {moduleName}"
 }

@@ -100,5 +100,6 @@
     "password.repeatingSymbols.invalid": "The password must not contain the same character in a row.",
     "password.whiteSpace.invalid": "The password must not contain whitespaces.",
     "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
-    "address.addAddress": "Add address"
+    "address.addAddress": "Add address",
+    "searchFieldLabel": "Ricerca {moduleName}"
 }

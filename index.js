@@ -38,3 +38,5 @@ export { default as UserLink } from './lib/UserLink';
 export { default as UserName } from './lib/UserName';
 
 export { default as ViewMetaData } from './lib/ViewMetaData';
+
+export { default as DueDatePicker } from './lib/ChangeDueDateDialog/DueDatePicker';

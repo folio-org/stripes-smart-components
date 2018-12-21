@@ -28,6 +28,8 @@ filterConfig | array of structures | Configuration for the module's filters, as 
 initialFilters | string | The initial state of the filters when the application started up, used when resetting to the initial state. Takes the same form as the `filters` part of the URL: a comma-separated list of `group`.`name` filters that are selected.
 disableFilters | object whose keys are filter-group names | In the display of filter groups, those that are named in this object are greyed out and cannot be selected.
 filterChangeCallback | function | If provided, this function is invoked when the user changes a filter. It is passed the new set of filters, in the form of an object whose keys are the `group`.`name` specifiers of each selected filter.
+onFilterChange | function | Callback to be called after filter value is changed. Gets filter name and filter values in a form of an object `{ name: <String>, values: <Array> }`.
+renderFilters | function | Renders a set of filters. Gets onChange callback to be called after filter value change.
 initialResultCount | number | The number of records to fetch when a new search is executed (including the null search that is run when the module starts).
 resultCountIncrement | number | The amount by which to increase the number of records when scrolling close to the bottom of the loaded list.
 viewRecordComponent | component | A React component that displays a record of the appropriate type in full view. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<ViewUser>` in ui-users](https://github.com/folio-org/ui-users/blob/master/ViewUser.js).

@@ -1,34 +1,29 @@
 @import '@folio/stripes-components/lib/variables';
 
 .button {
+  composes: boxOffsetSmall from "@folio/stripes-components/lib/sharedStyles/interactionStyles.css";
   margin: 0;
-  padding: 0.3rem 0.2rem;
-
-  &.hasBadge {
-    width: auto;
-    padding: 5px;
-  }
+  padding: 0;
+  font-size: var(--font-size-medium);
+  color: var(--color-text-p2);
 }
 
-.iconsWrapper {
-  margin-left: 10px;
-
-  &.moved {
-    margin-left: -10px;
-  }
+.badge {
+  margin: 0 0 0 0.2rem;
 }
 
-.icon {
-  font-size: 16px;
+[dir="rtl"] .badge {
+  margin: 0 0.2rem 0 0;
+}
+
+.arrow {
+  width: 0.7rem;
   opacity: 1;
-  vertical-align: -0.3em;
+  transition: opacity 0.2s ease-out;
 
-  /* transition: opacity .3s ease-out; */
   &.hidden {
     opacity: 0;
-  }
-
-  &.arrow {
-    width: 10px;
+    width: 0;
+    overflow: hidden;
   }
 }

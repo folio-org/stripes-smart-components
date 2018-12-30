@@ -19,11 +19,12 @@
 .arrow {
   width: 0.7rem;
   opacity: 1;
-  transition: opacity 0.2s ease-out;
+  transition: opacity 300ms ease-out;
 
   &.hidden {
     opacity: 0;
     width: 0;
     overflow: hidden;
+    transition: opacity 300ms ease-out;
   }
 }

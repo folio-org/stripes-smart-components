@@ -1,13 +1,9 @@
 @import '@folio/stripes-components/lib/variables';
 
 .button {
-  width: 36px;
-  height: 43px;
-  border: solid 5px var(--bg);
   margin: 0;
-  padding: 0 18px;
+  padding: 0.3rem 0.2rem;
 
-  /* transition: width .3s ease-out; */
   &.hasBadge {
     width: auto;
     padding: 5px;
@@ -17,7 +13,6 @@
 .iconsWrapper {
   margin-left: 10px;
 
-  /* transition: margin-left .3s ease-out; */
   &.moved {
     margin-left: -10px;
   }

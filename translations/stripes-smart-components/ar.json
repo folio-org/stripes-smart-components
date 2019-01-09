@@ -59,7 +59,7 @@
     "postNote": "نشر ملاحظة",
     "searchAndFilter": "بحث وتنقيح ",
     "search": "بحث",
-    "new": "+ جديد",
+    "new": "جديد",
     "hideSearchPane": "إخفاء جزء البحث والمنقحات.",
     "showSearchPane": "إظهار جزء البحث والمنقحات.",
     "numberOfFilters": "{count, number} {count, plural, one {منقح مطبق} other {منقحات مطبقة}}",

@@ -93,3 +93,7 @@ The five parameters are:
   * `2`: fail if both query and filters and empty.
 
   For backwards compatibility, `false` (or omitting the argument altogether) is equivalent to `0` , and `true` is equivalent to `1`.
+
+  ## Components for filtering
+
+  Please, pay attention, there is a set of components to be used for filtering inside SearchAndSort component. Each component represents a wrapper on existing form element component e.g. MultiSelect or renders a set of elements working like one filter e.g. CheckboxFilter. After change returns data in format: {name: <String>, values: <ArrayOfObjects>}, where name -- is a filter name and values -- filter values. 

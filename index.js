@@ -29,8 +29,6 @@ export { default as Settings } from './lib/Settings';
 export { default as Tags } from './lib/Tags';
 export { default as withTags } from './lib/Tags/withTags';
 
-export { default as UserLink } from './lib/UserLink';
-
 export { default as UserName } from './lib/UserName';
 
 export { default as ViewMetaData } from './lib/ViewMetaData';

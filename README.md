@@ -9,8 +9,8 @@ Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
 
 A suite of smart components. Each communicates with an Okapi web-service in order to provide the facilities that it renders.
 
-For example, **Notes** is a utility module
-for attaching notes to entities such as users and items.
+For example, **Tags** is a utility module
+for attaching tags to entities such as users and items.
 
 ## Additional information
 

@@ -10,6 +10,7 @@
 * Label `<UserLink>` as deprecated. Refs STRIPES-577.
 * Narrow use of `<LoanList>`
 * Remove `<Notes>`
+* Remove `<UserLink>`
 
 ## [1.12.0](https://github.com/folio-org/stripes-smart-components/tree/v1.12.0) (2018-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.11.0...v1.12.0)

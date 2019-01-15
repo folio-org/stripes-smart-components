@@ -26,7 +26,11 @@ export { default as PasswordValidationField } from './lib/PasswordValidationFiel
 export { default as ProxyManager } from './lib/ProxyManager';
 
 export { default as SearchAndSort } from './lib/SearchAndSort';
+
+export { default as CheckboxFilter } from './lib/SearchAndSort/components/CheckboxFilter';
+
 export { default as MultiSelectionFilter } from './lib/SearchAndSort/components/MultiSelectionFilter';
+
 export { default as makeQueryFunction } from './lib/SearchAndSort/makeQueryFunction';
 
 export { default as Settings } from './lib/Settings';

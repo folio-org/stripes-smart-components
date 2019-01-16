@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 1.13.0 (IN PROGRESS)
+## [2.0.0](https://github.com/folio-org/stripes-smart-components/tree/v2.0.0) (2019-01-16)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.12.0...v2.0.0)
 
 * Lenient label proptypes accept a node in order to receive a `<FormattedMessage>`. Available from v1.12.1.
 * Provide `contentLabel` to `<Layer>` from `<EntryManager>`. Available from v1.12.2.
@@ -8,6 +9,9 @@
 * Fix no results found message. Fixes STSMACOM-155.
 * Remove `noOverflow` from `<EntrySelector>` list pane. Ref UIU-764.
 * Label `<UserLink>` as deprecated. Refs STRIPES-577.
+* Narrow use of `<LoanList>`
+* Remove `<Notes>`
+* Remove `<UserLink>`
 
 ## [1.12.0](https://github.com/folio-org/stripes-smart-components/tree/v1.12.0) (2018-11-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.11.0...v1.12.0)

@@ -14,12 +14,8 @@ export { default as EditableList } from './lib/EditableList';
 
 export { default as EntryManager } from './lib/EntryManager';
 
-export { default as LoanList } from './lib/LoanList';
-
 export { default as LocationLookup } from './lib/LocationLookup';
 export { default as LocationSelection } from './lib/LocationSelection';
-
-export { default as Notes } from './lib/Notes';
 
 export { default as PasswordValidationField } from './lib/PasswordValidationField';
 
@@ -37,8 +33,6 @@ export { default as Settings } from './lib/Settings';
 
 export { default as Tags } from './lib/Tags';
 export { default as withTags } from './lib/Tags/withTags';
-
-export { default as UserLink } from './lib/UserLink';
 
 export { default as UserName } from './lib/UserName';
 

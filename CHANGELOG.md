@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 2.0.0 (IN PROGRESS)
+## [2.0.0](https://github.com/folio-org/stripes-smart-components/tree/v2.0.0) (2019-01-16)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.12.0...v2.0.0)
 
 * Lenient label proptypes accept a node in order to receive a `<FormattedMessage>`. Available from v1.12.1.
 * Provide `contentLabel` to `<Layer>` from `<EntryManager>`. Available from v1.12.2.

@@ -102,7 +102,7 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.2",
-    "@folio/stripes-components": "^4.5.0",
+    "@folio/stripes-components": "^5.0.0",
     "@folio/stripes-connect": "^3.1.2",
     "@folio/stripes-core": "^2.15.1",
     "@folio/stripes-form": "^1.0.0",

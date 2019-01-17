@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.0.0...v2.0.1)
+
+* Require `stripes-connect` `4.x` and `stripes-form` `2.x`
+
 ## [2.0.0](https://github.com/folio-org/stripes-smart-components/tree/v2.0.0) (2019-01-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v1.12.0...v2.0.0)
 

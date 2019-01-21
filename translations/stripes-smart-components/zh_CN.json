@@ -59,7 +59,7 @@
     "postNote": "发布附注",
     "searchAndFilter": "搜索和筛选",
     "search": "搜索",
-    "new": "+新建",
+    "new": "新建",
     "hideSearchPane": "隐藏 \"搜索和筛选\" 面板。",
     "showSearchPane": "显示\"搜索和筛选\" 面板。",
     "numberOfFilters": "{count, number} {count, plural, one {应用筛选} other {应用筛选}}",

@@ -59,7 +59,7 @@
     "postNote": "Publicar Nota",
     "searchAndFilter": "Buscar y Filtrar",
     "search": "Buscar",
-    "new": "+ Nuevo",
+    "new": "Nuevo",
     "hideSearchPane": "Ocultar panel de Búsqueda y Filtros.",
     "showSearchPane": "Mostrar panel Búsqueda y Filtros.",
     "numberOfFilters": "{count, number} {count, plural, one { applied filter } other { applied filters }}",

@@ -2,6 +2,7 @@
 
 ## 2.1.0 (IN PROGRESS)
 
+* Update ARIA-roles in SearchAndSort and EditableList. Fix for STCOM-365
 * Use columns' static labels, not their translated aliases, for sorting in `<SearchAndSort>`. Fixes STSMACOM-93.
 
 ## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)

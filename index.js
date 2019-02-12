@@ -34,6 +34,7 @@ export { default as makeQueryFunction } from './lib/SearchAndSort/makeQueryFunct
 
 export { default as makeConnectedSource } from './lib/SearchAndSort/ConnectedSource';
 export * from './lib/SearchAndSort/nsQueryFunctions';
+export { default as buildUrl } from './lib/SearchAndSort/buildUrl';
 
 export { default as Settings } from './lib/Settings';
 

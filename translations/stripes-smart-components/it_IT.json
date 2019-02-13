@@ -59,7 +59,7 @@
     "postNote": "Post Note",
     "searchAndFilter": "Search & filter",
     "search": "Search",
-    "new": "New",
+    "new": "Nuovo",
     "hideSearchPane": "Hide search and filters pane.",
     "showSearchPane": "Show search and filters pane.",
     "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",

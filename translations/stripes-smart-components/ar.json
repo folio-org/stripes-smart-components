@@ -48,7 +48,7 @@
     "pm.cannotRequestFoSponsor": "لا يمكن للنائب أن يطلب راعٍ",
     "pm.continue": "المتابعة",
     "pm.cancel": "إلغاء",
-    "closeEntryDialog": "غلق مربع حوار الإدخال",
+    "closeEntryDialog": "إغلاق مربع حوار الإدخال",
     "editOrDeleteNote": "تحرير أو حذف هذه الملاحظة",
     "notes": "ملاحظات",
     "numberOfNotes": "{count, number} {count, plural, one {ملاحظة} other {ملاحظات}}",

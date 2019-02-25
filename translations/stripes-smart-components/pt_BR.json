@@ -101,5 +101,9 @@
     "password.whiteSpace.invalid": "A senha não deve conter espaços em branco.",
     "password.lastTenPasswords.invalid": "Senha usada anteriormente. Por favor insira uma nova senha.",
     "address.addAddress": "Adicionar endereço",
-    "searchFieldLabel": "Pesquisar {moduleName}"
+    "searchFieldLabel": "Pesquisar {moduleName}",
+    "sas.noResults.default": "No results found for \"{searchTerm}\". Please check your spelling and filters.",
+    "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
+    "sas.noResults.noResults": "No results found. Please check your filters.",
+    "sas.noResults.loading": "Loading…"
 }

@@ -102,8 +102,9 @@
     "password.lastTenPasswords.invalid": "سبق استخدام كلمة المرور هذه. الرجاء إدخال كلمة مرور جديدة.",
     "address.addAddress": "اضف عنوان",
     "searchFieldLabel": "بحث {moduleName}",
-    "sas.noResults.default": "No results found for \"{searchTerm}\". Please check your spelling and filters.",
-    "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
-    "sas.noResults.noResults": "No results found. Please check your filters.",
-    "sas.noResults.loading": "Loading…"
+    "sas.noResults.default": "لم يتم العثور على نتائج لـ \"{searchTerm}. يرجى التحقق من التهجئة والمنقحات.",
+    "sas.noResults.noTerms": "قم باختيار منقح أو إدخال استعلام بحث لعرض النتائج",
+    "sas.noResults.noResults": "لم يتم العثور على نتائج. يرجى التحقق من المنقحات.",
+    "sas.noResults.loading": "جاري التحميل...",
+    "cm.success": "تم تحديث الإعداد بنجاح."
 }

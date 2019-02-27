@@ -102,8 +102,9 @@
     "password.lastTenPasswords.invalid": "Senha usada anteriormente. Por favor insira uma nova senha.",
     "address.addAddress": "Adicionar endereço",
     "searchFieldLabel": "Pesquisar {moduleName}",
-    "sas.noResults.default": "No results found for \"{searchTerm}\". Please check your spelling and filters.",
-    "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
-    "sas.noResults.noResults": "No results found. Please check your filters.",
-    "sas.noResults.loading": "Loading…"
+    "sas.noResults.default": "Não foram encontrados resultados para \"{searchTerm}\". Por favor, verifique sua ortografia e filtros.",
+    "sas.noResults.noTerms": "Escolha um filtro ou insira uma consulta de pesquisa para mostrar os resultados.",
+    "sas.noResults.noResults": "Nenhum resultado encontrado. Por favor, verifique seus filtros.",
+    "sas.noResults.loading": "Carregando...",
+    "cm.success": "A configuração foi atualizada com sucesso."
 }

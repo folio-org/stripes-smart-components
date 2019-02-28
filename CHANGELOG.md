@@ -6,6 +6,7 @@
 * Use columns' static labels, not their translated aliases, for sorting in `<SearchAndSort>`. Fixes STSMACOM-93.
 * Restore predictable `id` attributes to checkboxes created by `<CheckboxFilter>`. Refs UISE-97.
 * Extract static strings for translation. Fixes STSMACOM-169, STSMACOM-175.
+* Only clear resource query when SearchAndSort runs in a plugin mode. Refs ERM-72.
 
 ## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.0.0...v2.0.1)

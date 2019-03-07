@@ -15,7 +15,7 @@ getSearchHandlers | | func | returns an object of search handlers.
 | | getSearchHandlers().query | func | event handler for inputs - accepts and event and assigns the value to a field of the component's 'name' attribute.
 | | getSearchHandlers().state | func | event handler that accepts an object to set as the 'search' slice of internal state.
 searchValue | | object |  returns the 'search' slice of internal state,
-onSubmitSearch | | func | for search triggers
+onSubmitSearch | | func | onClick handler for search buttons.
 getFilterHandlers | | func | returns an object of filter handlers.
 | | getFilterHandlers().state | func | accepts an object to set as the 'filterFields' slice of internal state.
 | | getFilterHandlers().clear | func | convenience handler for clearing filters.

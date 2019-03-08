@@ -101,5 +101,10 @@
     "password.whiteSpace.invalid": "The password must not contain whitespaces.",
     "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
     "address.addAddress": "Aggiungi indirizzo",
-    "searchFieldLabel": "Ricerca {moduleName}"
+    "searchFieldLabel": "Ricerca {moduleName}",
+    "sas.noResults.default": "No results found for \"{searchTerm}\". Please check your spelling and filters.",
+    "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
+    "sas.noResults.noResults": "No results found. Please check your filters.",
+    "sas.noResults.loading": "Loading…",
+    "cm.success": "Setting was successfully updated."
 }

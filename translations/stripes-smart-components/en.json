@@ -97,5 +97,6 @@
   "password.whiteSpace.invalid": "The password must not contain whitespaces.",
   "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
   "address.addAddress": "Add address",
-  "searchFieldLabel": "Search {moduleName}"
+  "searchFieldLabel": "Search {moduleName}",
+  "system": "System"
 }

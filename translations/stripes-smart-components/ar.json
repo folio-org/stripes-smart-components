@@ -106,5 +106,6 @@
     "sas.noResults.noTerms": "قم باختيار منقح أو إدخال استعلام بحث لعرض النتائج",
     "sas.noResults.noResults": "لم يتم العثور على نتائج. يرجى التحقق من المنقحات.",
     "sas.noResults.loading": "جاري التحميل...",
-    "cm.success": "تم تحديث الإعداد بنجاح."
+    "cm.success": "تم تحديث الإعداد بنجاح.",
+    "system": "System"
 }

@@ -14,7 +14,7 @@
     "cddd.header.requestQueue": "Request queue",
     "cddd.header.barcode": "Barcode",
     "cddd.header.callNumber": "Call number",
-    "cddd.header.loanPolicy": "Loan policy",
+    "cddd.header.loanPolicy": "Politica di prestito",
     "cddd.warning.dueDateAfterPatronExpiration": "New due date is after patron's expiration.",
     "cddd.warning.dueDateWhenLibraryClosed": "New due date is when the library is closed.",
     "cddd.warning.dueDateInPast": "New due date is in the past.",
@@ -106,5 +106,6 @@
     "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
     "sas.noResults.noResults": "No results found. Please check your filters.",
     "sas.noResults.loading": "Loading…",
-    "cm.success": "Setting was successfully updated."
+    "cm.success": "Setting was successfully updated.",
+    "system": "System"
 }

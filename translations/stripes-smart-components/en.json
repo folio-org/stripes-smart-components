@@ -20,6 +20,9 @@
   "cddd.warning.dueDateAfterPatronExpiration": "New due date is after patron's expiration.",
   "cddd.warning.dueDateWhenLibraryClosed": "New due date is when the library is closed.",
   "cddd.warning.dueDateInPast": "New due date is in the past.",
+
+  "cm.success": "Setting was successfully updated.",
+
   "cv.cannotDeleteTermHeader": "Cannot delete {type}",
   "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is in use by one or more records.",
   "cv.lastUpdated": "Last updated",
@@ -50,6 +53,11 @@
   "pm.cannotRequestFoSponsor": "Proxy cannot request for sponsor",
   "pm.continue": "Continue",
   "pm.cancel": "Cancel",
+
+  "sas.noResults.default": "No results found for \"{searchTerm}\". Please check your spelling and filters.",
+  "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
+  "sas.noResults.noResults": "No results found. Please check your filters.",
+  "sas.noResults.loading": "Loading…",
 
   "closeEntryDialog": "Close entry dialog",
   "editOrDeleteNote": "Edit or delete this note",
@@ -89,5 +97,6 @@
   "password.whiteSpace.invalid": "The password must not contain whitespaces.",
   "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
   "address.addAddress": "Add address",
-  "searchFieldLabel": "Search {moduleName}"
+  "searchFieldLabel": "Search {moduleName}",
+  "system": "System"
 }

@@ -59,7 +59,7 @@
     "postNote": "Publicar Nota",
     "searchAndFilter": "Buscar y Filtrar",
     "search": "Buscar",
-    "new": "+ Nuevo",
+    "new": "Nuevo",
     "hideSearchPane": "Ocultar panel de Búsqueda y Filtros.",
     "showSearchPane": "Mostrar panel Búsqueda y Filtros.",
     "numberOfFilters": "{count, number} {count, plural, one { applied filter } other { applied filters }}",
@@ -101,5 +101,11 @@
     "password.whiteSpace.invalid": "La contraseña no debe contener espacios en blanco.",
     "password.lastTenPasswords.invalid": "Contraseña utilizada anteriormente. Por favor, introduzca una nueva contraseña.",
     "address.addAddress": "Añadir dirección",
-    "searchFieldLabel": "Search {moduleName}"
+    "searchFieldLabel": "Search {moduleName}",
+    "sas.noResults.default": "No results found for \"{searchTerm}\". Please check your spelling and filters.",
+    "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
+    "sas.noResults.noResults": "No results found. Please check your filters.",
+    "sas.noResults.loading": "Loading…",
+    "cm.success": "Setting was successfully updated.",
+    "system": "System"
 }

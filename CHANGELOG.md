@@ -1,7 +1,14 @@
 # Change history for stripes-smart-components
 
-## 2.0.2 (IN PROGRESS) 
+## 2.1.0 (IN PROGRESS)
 
+* Update ARIA-roles in SearchAndSort and EditableList. Fix for STCOM-365
+* Use columns' static labels, not their translated aliases, for sorting in `<SearchAndSort>`. Fixes STSMACOM-93.
+* Restore predictable `id` attributes to checkboxes created by `<CheckboxFilter>`. Refs UISE-97.
+* Extract static strings for translation. Fixes STSMACOM-169, STSMACOM-175.
+* Only clear resource query when SearchAndSort runs in a plugin mode. Refs ERM-72.
+* Modify `ViewMetaData` component to render system user (UIDATIMP-156)
+* Update user data when props changed in `ViewMetaData` component. Fix for STSMACOM-177
 * Make stripes dependencies more strict with ~ instead of ^. Refs STRIPES-608.
 
 ## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)

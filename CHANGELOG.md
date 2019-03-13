@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 2.0.2 (IN PROGRESS) 
+
+* Make stripes dependencies more strict with ~ instead of ^. Refs STRIPES-608.
+
 ## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.0.0...v2.0.1)
 

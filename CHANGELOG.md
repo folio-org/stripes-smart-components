@@ -9,6 +9,7 @@
 * Only clear resource query when SearchAndSort runs in a plugin mode. Refs ERM-72.
 * Modify `ViewMetaData` component to render system user (UIDATIMP-156)
 * Update user data when props changed in `ViewMetaData` component. Fix for STSMACOM-177
+* Make stripes dependencies more strict with ~ instead of ^. Refs STRIPES-608.
 
 ## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.0.0...v2.0.1)

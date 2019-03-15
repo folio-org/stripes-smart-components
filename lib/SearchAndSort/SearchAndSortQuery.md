@@ -29,7 +29,7 @@ Name | member | type | description
 `<SearchAndSortQuery>` allows you to override its functionality as needed to suit your module's needs.
 
 Name | type | description | required | default 
---- | --- | --- 
+--- | --- | --- | --- | ---
 `children` | func | the child function that accepts the render props. | :check | 
 `filtersToString` | func | prop to convert the `filterFields` slice of state to a string for query building. Has to return a string. | | Generates comma-separated lit of `<name>.<value>` pairs. E.G. `pg.faculty,pg.staff,pg.student`
 `initialSearch` | string | The initial query that should initialize the component. | | 

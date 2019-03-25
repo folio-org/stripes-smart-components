@@ -23,10 +23,7 @@ export { default as ProxyManager } from './lib/ProxyManager';
 
 export { default as SearchAndSort } from './lib/SearchAndSort';
 export { default as SearchAndSortQuery } from './lib/SearchAndSort/SearchAndSortQuery';
-export {
-  NoResultsMessage as SearchAndSortNoResultsMessage,
-  ResultsStatusMessage
-} from './lib/SearchAndSort/components/NoResultsMessage';
+export { NoResultsMessage as SearchAndSortNoResultsMessage } from './lib/SearchAndSort/components/NoResultsMessage';
 export { default as SearchAndSortResetButton } from './lib/SearchAndSort/components/ResetButton';
 export { default as SearchAndSortSearchButton } from './lib/SearchAndSort/components/SearchButton';
 export { default as CheckboxFilter } from './lib/SearchAndSort/components/CheckboxFilter';

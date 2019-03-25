@@ -57,4 +57,12 @@ headerFormatter | object with `view` and `edit` properties that contain function
 fieldComponents | maps field names to rendered components for edit mode, e.g. ``{ city:Select }`` will render a select dropdown for the city field. The components are passed through the redux-form Field component. In cases when extra props need to be passed to the component the format: ``{ city: { component: Select, props: cityData } }`` is also supported | `{ country: TextField, addressLine1: TextField, addressLine2: TextField, city: TextField, stateRegion: TextField, zipCode: TextField, }`
 
 ### Additional Info
-AddressList makes use of AddressEdit and AddressView components, used for editing and viewing addresses, respectively.  These two components may also be used on their own.
+AddressList makes use of AddressEdit and AddressView components, used for editing and viewing addresses, respectively.  These two components may also be used on their own. For single addresses that are part of a form, the `<EmbeddedAddressForm>` is ideal.
+
+### `<EmbeddedAddressForm>` Props
+In addition to the props of AddressEdit, `<EmbeddedAddressForm>` allows for a few additional modifications.
+Name | description | default | required
+--- | --- | --- | ---
+`addressLabel` | The `node` to be rendered in the header of the field group. | Defaults to the localized text for the `address.addressLabel` key. | 
+`displayPrimary` | Whether or not to display the Primary Address control in the header. | `true` | 
+`displayKey` | Whether or not to display the address number in the header. | `true` | 

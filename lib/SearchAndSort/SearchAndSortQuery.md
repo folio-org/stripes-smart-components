@@ -3,7 +3,21 @@
 A non-presentational version of SearchAndSort, it focuses on assisting with glue code surrounding the Search/Filter pattern that's common among FOLIO apps. This leaves the presentation open to modification for requirements.
 
 ## Query state...
-`<SearchAndSortQuery>` stores a query as 3 separate slices of its internal state: `searchFields`, `sortFields`, and `filterFields`. Ultimately these are transformed into a single query string and applied as query parameters. The method of transformation is adjustable via props, with the most typical case supplied by default.
+`<SearchAndSortQuery>` stores a query as 3 separate slices of its internal state: `searchFields`, `sortFields`, and `filterFields`. Ultimately these are transformed into a single query string and applied as query parameters. The method of transformation is adjustable via props, with the most typical case supplied by default. The typical query shape of SearchAndSort apps within the FOLIO ecosystem currently resembles the following.
+```
+{
+  searchFields: { 
+    query: '',
+  },
+  filterFields: {
+    filters: '<group>.<filtername>, ...',
+  },
+  sortFields: {
+    sort: '<fieldName>`,
+  }
+}
+```
+If the user has searched for 'ba', filtered by 'faculty' and 'staff' under the 'patron group' (pg) group, and the list is sorted by name, the generated query string for this appears as `filters=pg.faculty%2Cpg.staff&query=ba&sort=name`.
 
 ## Render Props
 
@@ -14,15 +28,20 @@ Name | member | type | description
 `getSearchHandlers` | | func | returns an object of search handlers.
 | | `getSearchHandlers().query` | func | event handler for inputs - accepts and event and assigns the value to a field of the component's 'name' attribute.
 | | `getSearchHandlers().state` | func | event handler that accepts an object to set as the 'search' slice of internal state.
+| | `getSearchHandlers().reset` | func | event handler for resetting searchFields back to an initial state.
 `searchValue` | | object |  returns the 'search' slice of internal state,
 `onSubmitSearch` | | func | for search triggers
 `getFilterHandlers` | | func | returns an object of filter handlers.
 | | `getFilterHandlers().state` | func | accepts an object to set as the 'filterFields' slice of internal state.
 | | `getFilterHandlers().clear` | func | convenience handler for clearing filters.
 | | `getFilterHandlers().checkbox` | func | convenience handler for checkboxes/radio button controls.
+| | `getFilterHandlers().reset` | func | convenient for reseting filters back to an initial state, rather than clearing them.
 `activeFilters` | | func | returns an object of active filters in a variety of formats,
 | | `activeFilters().state` | object | the current `filterFields` slice of internal state.
 | | `activeFilters().string` | string | string representation of filters.
+`filterChanged` | bool | Boolean whether or not filters are different from their defaults. Useful for displaying 'reset' controls.
+`searchChanged` | bool | Similar to `filterChanged` for search criteria.
+`sortChanged` | bool | Similar to `filterChanged` for sort fields.
 
 ## Props
 
@@ -33,6 +52,9 @@ Name | type | description | required | default
 `children` | func | the child function that accepts the render props. | :check | 
 `filtersToString` | func | prop to convert the `filterFields` slice of state to a string for query building. Has to return a string. | | Generates comma-separated lit of `<name>.<value>` pairs. E.G. `pg.faculty,pg.staff,pg.student`
 `initialSearch` | string | The initial query that should initialize the component. | | 
+`initialSearchState` | object | sets up the inital state of the `searchFields` slice of query state. | |
+`initialFiltersState` | object | sets up the inital state of the `filterFields` slice of query state. | |
+`initialSortState` | object | sets up the initial state of the `sortFields` slice of query state. | | 
 `maxSortKeys` | number | If provided, specifies that maximum number of sort-keys that should be remembered for "stable sorting". | | 2
 `nsParams` | string, object | For instances where namespacing params due to a shared query string is necessary. A string will place the string in front of the parameter separated by a dot. An object can be used for name-spacing on a per-parameter basis. | | 
 `onComponentWillUnmount` | func | for performing any necessary cleanup when the component dismounts. | | The component alone will reset the query to the initial query.

@@ -34,6 +34,7 @@ Name | member | type | description
 `getFilterHandlers` | | func | returns an object of filter handlers.
 | | `getFilterHandlers().state` | func | accepts an object to set as the 'filterFields' slice of internal state.
 | | `getFilterHandlers().clear` | func | convenience handler for clearing filters.
+| | `getFilterHandlers().clearGroup` | func | convenience handler for clearing `<FilterGroups>` - the function accepts a 'name' for the filter and clears that key in the query state.
 | | `getFilterHandlers().checkbox` | func | convenience handler for checkboxes/radio button controls.
 | | `getFilterHandlers().reset` | func | convenient for reseting filters back to an initial state, rather than clearing them.
 `activeFilters` | | func | returns an object of active filters in a variety of formats,
@@ -156,3 +157,28 @@ const filterSort = (curState, nextState) => {
 
 ## The `<Filter>` component
 The `<Filter>` component shown in the example is a per-module component that's dedicated to rendering filter controls and supplying their lowest level handling needs internally. It isn't always necessary, but a nice way to tuck filter UI into the code. It ideal for it to accept the `filterFields` slice of the state as it's single source of truth for its values and speak back to `SearchAndSortQuery` via the `getFilterHanders().state` handler to apply updates back to the component. 
+
+## Migrating with FilterGroups
+
+`<FilterGroups>` are the default filter component rendered by `<SearchAndSort>` They render based on a `filterConfig` object and form a nice boolean filter set-up within most FOLIO apps. Migrating to this, `<FilterGroups>` from stripes-components will accept the application's filter config (`config` prop), and an object with boolean keys - `true` for each active filter (`filters` prop), and a handler for clearing the group via its clear button on the accordion header.
+Here's a snippet from within the `<Filters>` component of `ui-plugin-find-user` that uses `<FilterGroup>`. The `activeFilters` and `onChangeHandlers` props come straight from the render props of `<SearchAndSortQuery>`.
+
+```
+  const {
+      activeFilters,
+      onChangeHandlers: { checkbox, clearGroup },
+      config,
+    } = this.props;
+
+    const groupFilters = {};
+    activeFilters.string.split(',').forEach(m => { groupFilters[m] = true; });
+
+    return (
+      <FilterGroups
+        config={config}
+        filters={groupFilters}
+        onChangeFilter={checkbox}
+        onClearFilter={clearGroup}
+      />
+    );
+```

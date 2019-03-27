@@ -107,5 +107,6 @@
     "sas.noResults.noResults": "Nenhum resultado encontrado. Por favor, verifique seus filtros.",
     "sas.noResults.loading": "Carregando...",
     "cm.success": "A configuração foi atualizada com sucesso.",
-    "system": "Sistema"
+    "system": "Sistema",
+    "address.addressLabel": "Endereço"
 }

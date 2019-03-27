@@ -107,5 +107,6 @@
     "sas.noResults.noResults": "لم يتم العثور على نتائج. يرجى التحقق من المنقحات.",
     "sas.noResults.loading": "جاري التحميل...",
     "cm.success": "تم تحديث الإعداد بنجاح.",
-    "system": "النظام"
+    "system": "النظام",
+    "address.addressLabel": "العنوان"
 }

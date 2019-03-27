@@ -107,5 +107,6 @@
     "sas.noResults.noResults": "No results found. Please check your filters.",
     "sas.noResults.loading": "Loading…",
     "cm.success": "Setting was successfully updated.",
-    "system": "System"
+    "system": "System",
+    "address.addressLabel": "Address"
 }

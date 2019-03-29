@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 2.3.0 (IN PROGRESS)
+
+* Increase location fetch limit. Refs STSMACOM-180.
+
 ## [2.2.0](https://github.com/folio-org/stripes-smart-components/tree/v2.2.0) (2019-03-22)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.1.0...v2.2.0)
 

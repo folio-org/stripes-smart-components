@@ -40,6 +40,7 @@ Name | member | type | description
 `activeFilters` | | func | returns an object of active filters in a variety of formats,
 | | `activeFilters().state` | object | the current `filterFields` slice of internal state.
 | | `activeFilters().string` | string | string representation of filters.
+`resetAll` | | func | convenient handler for resetting search, filters, and sorting to 'initial values'
 `filterChanged` | bool | Boolean whether or not filters are different from their defaults. Useful for displaying 'reset' controls.
 `searchChanged` | bool | Similar to `filterChanged` for search criteria.
 `sortChanged` | bool | Similar to `filterChanged` for sort fields.
@@ -52,6 +53,7 @@ Name | type | description | required | default
 --- | --- | --- | --- | ---
 `children` | func | the child function that accepts the render props. | :check | 
 `filtersToString` | func | prop to convert the `filterFields` slice of state to a string for query building. Has to return a string. | | Generates comma-separated lit of `<name>.<value>` pairs. E.G. `pg.faculty,pg.staff,pg.student`
+`filterParamsMapping` | object | Object containing key/function pairs for converting existing filters to query state. | | `{ 'filters': v => v.split(',') }`
 `initialSearch` | string | The initial query that should initialize the component. | | 
 `initialSearchState` | object | sets up the inital state of the `searchFields` slice of query state. | |
 `initialFiltersState` | object | sets up the inital state of the `filterFields` slice of query state. | |
@@ -60,7 +62,10 @@ Name | type | description | required | default
 `nsParams` | string, object | For instances where namespacing params due to a shared query string is necessary. A string will place the string in front of the parameter separated by a dot. An object can be used for name-spacing on a per-parameter basis. | | 
 `onComponentWillUnmount` | func | for performing any necessary cleanup when the component dismounts. | | The component alone will reset the query to the initial query.
 `queryGetter` | func | An adapter function called internally for querying parameters. Its passed the an object containing the `location` object from react-router. | | By default, it returns the search key of location, parsed via `queryString.parse` 
-`querySetter` | func | An adapter function for applying your query. It's passed an object with `location`, `history` object, `values` (pre and post namespace), as well as the internal `state` of the component - all potentially useful for constructing and applying your query. | | By default it builds the url and applies it via `history.push`
+`querySetter` | func | An adapter function for applying your query. It's passed an object with `location`, `history` object, 
+`searchParamsMapping` | object | Object containing key/function pairs for converting pre-existing search parameters to query state | | `{ 'query': v => v }`
+`sortParamsMapping` | object | Object containing key/function pairs for converting pre-existing sorting parameters to query state. | | `{ 'sort': v => v }`
+`values` (pre and post namespace), as well as the internal `state` of the component - all potentially useful for constructing and applying your query. | | By default it builds the url and applies it via `history.push`
 `queryStateReducer` | func | Powerful function that allows for manipulation of the internal state of the component with each change. Simply return the state that you need to be set. | | `(curState, nextState) => nextState`
 `searchChangeCallback`, `filterChangeCallback`, `sortChangeCallback` | func | Callbacks to apply other updates within your application when their corresponding slice of internal state.
 
@@ -136,14 +141,27 @@ These are adapter functions used to get and set your your query according to you
   }
 ```
 
+## changeType
+The query state contains a field named `changeType` that relays information about which particular action triggered a state change. This status is relayed out to `queryStateReducer` as well as `querySetter` so that logic can differ there if it needs to. For example, in instances where a user resets their search and filters, you may opt to replace a query rather than just update it: 
+
+```
+querySetter = ({ nsValues, state }) => {
+    if (/reset/.test(state.changeType)) {
+      this.props.mutator.query.replace(nsValues);
+    } else {
+      this.props.mutator.query.update(nsValues);
+    }
+  }
+```
+
 ## queryStateReducer
-This function allows you ultimate control over the internal query state with every change. It's necessary to maintain the `searchFields`,`filterFields`,`sortFields` keys, but otherwise, you can update internal state and subfields however you'd like. For a contrived example, have a filter modify sorting in a particular way...
+This function allows you ultimate control over the internal query state with every change. It's necessary to maintain the `searchFields`,`filterFields`,`sortFields` keys, but otherwise, you can update internal state and subfields however you'd like. The `nextState.changeType` field allows you branch logic as needed depending on the cause of the change. For a contrived example, have a filter modify sorting in a particular way...
 
 ```
 const filterSort = (curState, nextState) => {
   const stateToSet = cloneDeep(nextState);
-  switch (nextState.change) {
-    case 'filter': 
+  switch (nextState.changeType) {
+    case 'filter.state': 
       if (nextState.filterFields.alpha.length > 0) {
         stateToSet.sortFields.direction = 'ascending';
       }
@@ -154,8 +172,63 @@ const filterSort = (curState, nextState) => {
   return stateToSet;
 }
 ```
+## Initializing the query state
+There are a three options for deriving a query state to start with: 
+- `initialState` slices, 
+- `initialSearch` for query string to convert, 
+- `paramMapping` objects for specialized queries.
+
+### Dropping in a slice of `initialState`
+`initialSearchState`, `initialFilterState` and `initialSortState` are all props that, as their name suggests, supply the component with a query state to start with.
+```
+<SearchAndSortQuery
+  initialSortState={{sort: 'name'}}
+> ...
+</SearchAndSortQuery>
+```
+
+### Building query state from a query string with `initialSearch`
+A single prop: `initialSearch` can be used to provide a query string to be parsed and split into a query state that conforms to typical FOLIO structure: `query, filters, sort`
+
+```
+<SearchAndSortQuery initialSearch="?sort=name">
+```
+If the `initialSearch` prop isn't provided, `<SearchAndSortQuery>` will attempt to parse using the `location.search` provided by React router. By default, the typical FOLIO query structure is supported here.... of course, the typical won't always be the use-case, for that the component supports advanced parameter mapping...read on.
+
+### Specialized queries using `paramMapping`
+Three props: `searchParamsMapping`, `filterParamsMapping`, `sortParamsMapping` allow for you to inform `SearchAndSortQuery` how to initialize its query state based on pre-existing query params. This closes the circle into and out of the component from the resource query. Defaults for the props are provided that conform to FOLIO's most common case.
+This is a contrived example using a custom query string structure:
+```
+https://not-a-real-thing/search?name=blue&startdate=03%2F05%2F1996&enddate=09%2F04%2F2003&countries=paraguay%2Cmexico%2Ccanada&sort=name&direction=true
+```
+
+```
+// these can be reusable...
+const clone = v => v;
+
+{
+  <SearchAndSortQuery 
+    searchParamsMapping={{ 
+      name: clone,
+      startdate: clone,
+      enddate: clone,
+    }}
+    filterParamsMapping={{
+      countries: v => v.split(','),
+      type: clone,
+    }},
+    sortParamsMapping={{ 
+      sort: clone,
+      direction: v => v === 'true' ? 'ascending' : 'descending', 
+    }},
+  >
+    {(...render) => (children(...render))}
+  </SearchAndSortQuery>
+}
+```
 
 ## The `<Filter>` component
+
 The `<Filter>` component shown in the example is a per-module component that's dedicated to rendering filter controls and supplying their lowest level handling needs internally. It isn't always necessary, but a nice way to tuck filter UI into the code. It ideal for it to accept the `filterFields` slice of the state as it's single source of truth for its values and speak back to `SearchAndSortQuery` via the `getFilterHanders().state` handler to apply updates back to the component. 
 
 ## Migrating with FilterGroups

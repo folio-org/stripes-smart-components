@@ -23,10 +23,10 @@ export { default as PasswordValidationField } from './lib/PasswordValidationFiel
 export { default as ProxyManager } from './lib/ProxyManager';
 
 export { default as SearchAndSort } from './lib/SearchAndSort';
+export { default as SearchAndSortQuery } from './lib/SearchAndSort/SearchAndSortQuery';
 export { default as SearchAndSortNoResultsMessage } from './lib/SearchAndSort/components/NoResultsMessage';
 export { default as SearchAndSortResetButton } from './lib/SearchAndSort/components/ResetButton';
 export { default as SearchAndSortSearchButton } from './lib/SearchAndSort/components/SearchButton';
-
 export { default as CheckboxFilter } from './lib/SearchAndSort/components/CheckboxFilter';
 
 export { default as MultiSelectionFilter } from './lib/SearchAndSort/components/MultiSelectionFilter';
@@ -34,6 +34,9 @@ export { default as MultiSelectionFilter } from './lib/SearchAndSort/components/
 export { default as makeQueryFunction } from './lib/SearchAndSort/makeQueryFunction';
 
 export { default as makeConnectedSource } from './lib/SearchAndSort/ConnectedSource';
+export { default as StripesConnectedSource } from './lib/SearchAndSort/ConnectedSource/StripesConnectedSource';
+export { default as ApolloConnectedSource } from './lib/SearchAndSort/ConnectedSource/ApolloConnectedSource';
+
 export * from './lib/SearchAndSort/nsQueryFunctions';
 export { default as buildUrl } from './lib/SearchAndSort/buildUrl';
 

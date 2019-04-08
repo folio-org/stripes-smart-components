@@ -1,7 +1,8 @@
 # Change history for stripes-smart-components
 
-## 2.4.0 (IN PROGRESS)
+## 2.4.0 (IN-PROGRESS)
 
+* Add `<SearchAndSortQuery>` component - a composable building block for search and sort patterns. [See Readme](https://github.com/folio-org/stripes-smart-components/lib/SearchAndSort/SearchAndSortQuery.md). Completes STSMACOM-179.
 * Increase location fetch limit. Refs STSMACOM-180.
 
 ## [2.3.0](https://github.com/folio-org/stripes-smart-components/tree/v2.3.0) (2019-03-28)

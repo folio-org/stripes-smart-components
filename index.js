@@ -45,8 +45,6 @@ export { default as Settings } from './lib/Settings';
 export { default as Tags } from './lib/Tags';
 export { default as withTags } from './lib/Tags/withTags';
 export { default as TagsForm } from './lib/Tags/TagsForm';
-export { default as TagsList } from './lib/Tags/TagsList';
-export { default as Tag } from './lib/Tags/Tag';
 
 export { default as UserName } from './lib/UserName';
 

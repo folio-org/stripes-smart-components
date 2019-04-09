@@ -51,6 +51,7 @@ parentMutator | shape | The parent component's stripes-connect `mutator` propert
 nsParams | object or string | An object or string used to namespace search and sort parameters. More information can be found [here](https://github.com/folio-org/stripes-components/blob/master/util/parameterizing-makeQueryFunction.md)
 notLoadedMessage | string | A message to show the user before a search has been submitted. Defaults to "Choose a filter or enter search query to show results".
 getHelperResourcePath | func | An optional function which can be used to return helper's resource path dynamically.
+getHelperComponent | func | An optional function which can be used to return connected helper component implementation.
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 
@@ -96,4 +97,4 @@ The five parameters are:
 
   ## Components for filtering
 
-  Please, pay attention, there is a set of components to be used for filtering inside SearchAndSort component. Each component represents a wrapper on existing form element component e.g. MultiSelect or renders a set of elements working like one filter e.g. CheckboxFilter. After change returns data in format: {name: <String>, values: <ArrayOfObjects>}, where name -- is a filter name and values -- filter values. 
+  Please, pay attention, there is a set of components to be used for filtering inside SearchAndSort component. Each component represents a wrapper on existing form element component e.g. MultiSelect or renders a set of elements working like one filter e.g. CheckboxFilter. After change returns data in format: {name: <String>, values: <ArrayOfObjects>}, where name -- is a filter name and values -- filter values.

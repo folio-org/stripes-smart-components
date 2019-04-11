@@ -53,7 +53,7 @@ Name | type | description | required | default
 --- | --- | --- | --- | ---
 `children` | func | the child function that accepts the render props. | :check |
 `filtersToString` | func | prop to convert the `filterFields` slice of state to a string for query building. Has to return a string. | | Generates comma-separated lit of `<name>.<value>` pairs. E.G. `pg.faculty,pg.staff,pg.student`
-`filterParamsMapping` | object | Object containing key/function pairs for converting existing filters to query state. | | `{ 'filters': v => v.split(',') }`
+`filterParamsMapping` | object | Object containing key/function pairs for converting existing filters to query state. InitializeFilters converts the array of `group.filtername` to an object keyed on groups with arrays of the active. | | `{ 'filters': initializeFilters }`
 `initialSearch` | string | The initial query that should initialize the component. | |
 `initialSearchState` | object | sets up the inital state of the `searchFields` slice of query state. | |
 `initialFiltersState` | object | sets up the inital state of the `filterFields` slice of query state. | |

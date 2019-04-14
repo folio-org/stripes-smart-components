@@ -4,6 +4,7 @@
 
 * Add `<SearchAndSortQuery>` component - a composable building block for search and sort patterns. [See Readme](https://github.com/folio-org/stripes-smart-components/lib/SearchAndSort/SearchAndSortQuery.md). Completes STSMACOM-179.
 * Increase location fetch limit. Refs STSMACOM-180.
+* Provide IDs for `<EntrySelector>`'s action menu buttons.
 
 ## [2.3.0](https://github.com/folio-org/stripes-smart-components/tree/v2.3.0) (2019-03-28)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.2.0...v2.3.0)

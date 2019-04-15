@@ -31,6 +31,8 @@ export { default as CheckboxFilter } from './lib/SearchAndSort/components/Checkb
 
 export { default as MultiSelectionFilter } from './lib/SearchAndSort/components/MultiSelectionFilter';
 
+export { default as DateRangeFilter } from './lib/SearchAndSort/components/DateRangeFilter';
+
 export { default as makeQueryFunction } from './lib/SearchAndSort/makeQueryFunction';
 
 export { default as makeConnectedSource } from './lib/SearchAndSort/ConnectedSource';

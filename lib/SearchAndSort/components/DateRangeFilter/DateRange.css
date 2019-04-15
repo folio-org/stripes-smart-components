@@ -1,0 +1,7 @@
+@import '@folio/stripes-components/lib/variables.css';
+
+.validationMessage {
+  margin-bottom: 15px;
+  display: block;
+  color: var(--error);
+}

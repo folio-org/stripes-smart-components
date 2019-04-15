@@ -171,31 +171,16 @@ const filterSort = (curState, nextState) => {
   return stateToSet;
 }
 ```
+
 ## Initializing the query state
-There are a three options for deriving a query state to start with:
-- `initialState` slices,
-- `initialSearch` for query string to convert,
-- `paramMapping` objects for specialized queries.
+By default, `<SearchAndSortQuery>` will initialize its query state using its 'location' prop - this comes from the url in the address bar. SearchAndSort-based modules include their default queries in their 'home' url ex: `/users?sort=name`.
+If using the local resource strictly for your query string (typical plugin behavior), you can set the `syncToLocationSearch` prop to `false` and supply an `initialSearch` prop with the search string beginning with `?` - ex: `initialSearch="?sort=name"`
 
-### Dropping in a slice of `initialState`
-`initialSearchState`, `initialFilterState` and `initialSortState` are all props that, as their name suggests, supply the component with a query state to start with.
-```
-<SearchAndSortQuery
-  initialSortState={{sort: 'name'}}
-> ...
-</SearchAndSortQuery>
-```
+## Resetting 
+`<SearchAndSortQuery>` will use the `initialSearch` prop to reset its query state for any 'reset' functionality for filters and search criteria.
 
-### Building query state from a query string with `initialSearch`
-A single prop: `initialSearch` can be used to provide a query string to be parsed and split into a query state that conforms to typical FOLIO structure: `query, filters, sort`
-
-```
-<SearchAndSortQuery initialSearch="?sort=name">
-```
-If the `initialSearch` prop isn't provided, `<SearchAndSortQuery>` will attempt to parse using the `location.search` provided by React router. By default, the typical FOLIO query structure is supported here.... of course, the typical won't always be the use-case, for that the component supports advanced parameter mapping...read on.
-
-### Specialized queries using `paramMapping`
-Three props: `searchParamsMapping`, `filterParamsMapping`, `sortParamsMapping` allow for you to inform `SearchAndSortQuery` how to initialize its query state based on pre-existing query params. This closes the circle into and out of the component from the resource query. Defaults for the props are provided that conform to FOLIO's most common case.
+## Parameter mapping
+Three props: `searchParamsMapping`, `filterParamsMapping`, `sortParamsMapping` allow for you to inform `SearchAndSortQuery` how to derive query state based on pre-existing query params. Defaults for the props are provided that conform to FOLIO's most common case.
 This is a contrived example using a custom query string structure:
 ```
 https://not-a-real-thing/search?name=blue&startdate=03%2F05%2F1996&enddate=09%2F04%2F2003&countries=paraguay%2Cmexico%2Ccanada&sort=name&direction=true
@@ -224,6 +209,15 @@ const clone = v => v;
     {(...render) => (children(...render))}
   </SearchAndSortQuery>
 }
+```
+
+### Overriding by dropping in a slice of `initialState`
+Although initialization via `location` or `initialSearch` should suffice in most cases, `initialSearchState`, `initialFilterState` and `initialSortState` are all props that, as their name suggests, supply the component with a default query state for initialization and resets.
+```
+<SearchAndSortQuery
+  initialSortState={{sort: 'name'}}
+> ...
+</SearchAndSortQuery>
 ```
 
 ## The `<Filter>` component

@@ -67,6 +67,7 @@ Name | type | description | required | default
 `sortParamsMapping` | object | Object containing key/function pairs for converting pre-existing sorting parameters to query state. | | `{ 'sort': v => v }`
 `queryStateReducer` | func | Powerful function that allows for manipulation of the internal state of the component with each change. Simply return the state that you need to be set. | | `(curState, nextState) => nextState`
 `searchChangeCallback`, `filterChangeCallback`, `sortChangeCallback` | func | Callbacks to apply other updates within your application when their corresponding slice of internal state.
+`syncToLocationSearch` | bool | If `false`, this component will not update based on changes to the browser's location. This is ideal for sub-module searches and plug-ins that work solely of local resources and do not affect the browsers' location. With the `true` setting, this component will respond to changes in the browser's query string - this works with direct linking and resetting via link. | | `true`
 
 ## Example Usage
 

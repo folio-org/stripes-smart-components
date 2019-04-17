@@ -67,6 +67,7 @@
   "search": "Search",
   "addNew": "Add new",
   "new": "New",
+  "add": "Add",
   "hideSearchPane": "Hide search and filters pane.",
   "showSearchPane": "Show search and filters pane.",
   "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
@@ -100,5 +101,10 @@
   "address.addAddress": "Add address",
   "address.addressLabel": "Address",
   "searchFieldLabel": "Search {moduleName}",
-  "system": "System"
+  "system": "System",
+  "notes": "Notes",
+  "notes.notFound": "No notes found",
+  "date": "Date",
+  "title": "Title",
+  "updatedBy": "Updated by"
 }

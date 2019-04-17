@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 2.5.0 (IN PROGRESS)
+
+* Refactor `<ViewMetaData>` a la `<ControlledVocab>` to avoid permissions problems and simplify, simplify.
+
 ## [2.4.0](https://github.com/folio-org/stripes-smart-components/tree/v2.4.0) (2019-04-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.3.0...v2.4.0)
 

@@ -109,7 +109,6 @@
     "@folio/stripes-logger": "~1.0.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.4",
-    "memoize-one": "^5.0.4",
     "moment": "^2.22.1",
     "moment-timezone": "^0.5.17",
     "prop-types": "^15.5.10",

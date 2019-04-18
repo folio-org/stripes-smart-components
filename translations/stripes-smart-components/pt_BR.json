@@ -108,5 +108,11 @@
     "sas.noResults.loading": "Carregando...",
     "cm.success": "A configuração foi atualizada com sucesso.",
     "system": "Sistema",
-    "address.addressLabel": "Endereço"
+    "address.addressLabel": "Endereço",
+    "sas.createEntry": "Criar entrada",
+    "add": "Add",
+    "notes.notFound": "No notes found",
+    "date": "Date",
+    "title": "Title",
+    "updatedBy": "Updated by"
 }

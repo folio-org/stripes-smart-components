@@ -108,5 +108,11 @@
     "sas.noResults.loading": "جاري التحميل...",
     "cm.success": "تم تحديث الإعداد بنجاح.",
     "system": "النظام",
-    "address.addressLabel": "العنوان"
+    "address.addressLabel": "العنوان",
+    "sas.createEntry": "Create entry",
+    "add": "Add",
+    "notes.notFound": "No notes found",
+    "date": "Date",
+    "title": "Title",
+    "updatedBy": "Updated by"
 }

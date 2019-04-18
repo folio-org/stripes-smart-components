@@ -108,5 +108,11 @@
     "sas.noResults.loading": "Loading…",
     "cm.success": "Setting was successfully updated.",
     "system": "System",
-    "address.addressLabel": "Address"
+    "address.addressLabel": "Address",
+    "sas.createEntry": "Create entry",
+    "add": "Add",
+    "notes.notFound": "No notes found",
+    "date": "Date",
+    "title": "Title",
+    "updatedBy": "Updated by"
 }

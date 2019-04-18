@@ -76,6 +76,7 @@ Name | type | description | required | default
   querySetter={this.querySetter}
   queryGetter={this.queryGetter}
   onComponentWillUnmount={onComponentWillUnmount}
+  initialSearchState={{ query: '' }}
 >
   {
     ({
@@ -213,7 +214,7 @@ const clone = v => v;
 ```
 
 ### Using a slice of `initialState`
-Blank values are a use-case that may not be captured at all in `initialSearch` or the location query. Internal logic removes these values before applying them to the browser location, so they cannot be derived from the location itself - so we need another means to do so. `initialSearchState`, `initialFilterState` and `initialSortState` are all props that, as their name suggests, supply the component with a default query state for initialization and resets - this includes a way to apply blank values - or any value if it isn't present in the browser location.
+Blank values are a use-case that may not be captured at all in `initialSearch` or the location query. Internal logic removes these values before applying them to the browser location, so they cannot be derived from the location itself - so we need another means to do so. `initialSearchState`, `initialFilterState` and `initialSortState` are all props that, as their name suggests, supply the component with a default query state for **initialization and resets** - this includes a way to apply blank values - or any value if it isn't present in the browser location.
 ```
 <SearchAndSortQuery
   initialSortState={{ sort: 'name' }}

@@ -53,7 +53,7 @@ Name | type | description | required | default
 --- | --- | --- | --- | ---
 `children` | func | the child function that accepts the render props. | :check |
 `filtersToString` | func | prop to convert the `filterFields` slice of state to a string for query building. Has to return a string. | | Generates comma-separated lit of `<name>.<value>` pairs. E.G. `pg.faculty,pg.staff,pg.student`
-`filterParamsMapping` | object | Object containing key/function pairs for converting existing filters to query state. | | `{ 'filters': v => v.split(',') }`
+`filterParamsMapping` | object | Object containing key/function pairs for converting existing filters to query state. InitializeFilters converts the array of `group.filtername` to an object keyed on groups with arrays of the active. | | `{ 'filters': initializeFilters }`
 `initialSearch` | string | The initial query that should initialize the component. | |
 `initialSearchState` | object | sets up the inital state of the `searchFields` slice of query state. | |
 `initialFiltersState` | object | sets up the inital state of the `filterFields` slice of query state. | |
@@ -67,6 +67,7 @@ Name | type | description | required | default
 `sortParamsMapping` | object | Object containing key/function pairs for converting pre-existing sorting parameters to query state. | | `{ 'sort': v => v }`
 `queryStateReducer` | func | Powerful function that allows for manipulation of the internal state of the component with each change. Simply return the state that you need to be set. | | `(curState, nextState) => nextState`
 `searchChangeCallback`, `filterChangeCallback`, `sortChangeCallback` | func | Callbacks to apply other updates within your application when their corresponding slice of internal state.
+`syncToLocationSearch` | bool | If `false`, this component will not update based on changes to the browser's location. This is ideal for sub-module searches and plug-ins that work solely of local resources and do not affect the browsers' location. With the `true` setting, this component will respond to changes in the browser's query string - this works with direct linking and resetting via link. | | `true`
 
 ## Example Usage
 
@@ -75,6 +76,7 @@ Name | type | description | required | default
   querySetter={this.querySetter}
   queryGetter={this.queryGetter}
   onComponentWillUnmount={onComponentWillUnmount}
+  initialSearchState={{ query: '' }}
 >
   {
     ({
@@ -171,31 +173,16 @@ const filterSort = (curState, nextState) => {
   return stateToSet;
 }
 ```
+
 ## Initializing the query state
-There are a three options for deriving a query state to start with:
-- `initialState` slices,
-- `initialSearch` for query string to convert,
-- `paramMapping` objects for specialized queries.
+By default, `<SearchAndSortQuery>` will initialize its query state using its 'location' prop - this comes from the url in the address bar. SearchAndSort-based modules include their default queries in their 'home' url ex: `/users?sort=name`.
+If using the local resource strictly for your query string (typical plugin behavior), you can set the `syncToLocationSearch` prop to `false` and supply an `initialSearch` prop with the search string beginning with `?` - ex: `initialSearch="?sort=name"`
 
-### Dropping in a slice of `initialState`
-`initialSearchState`, `initialFilterState` and `initialSortState` are all props that, as their name suggests, supply the component with a query state to start with.
-```
-<SearchAndSortQuery
-  initialSortState={{sort: 'name'}}
-> ...
-</SearchAndSortQuery>
-```
+## Resetting 
+`<SearchAndSortQuery>` will use the `initialSearch` prop to reset its query state for any 'reset' functionality for filters and search criteria.
 
-### Building query state from a query string with `initialSearch`
-A single prop: `initialSearch` can be used to provide a query string to be parsed and split into a query state that conforms to typical FOLIO structure: `query, filters, sort`
-
-```
-<SearchAndSortQuery initialSearch="?sort=name">
-```
-If the `initialSearch` prop isn't provided, `<SearchAndSortQuery>` will attempt to parse using the `location.search` provided by React router. By default, the typical FOLIO query structure is supported here.... of course, the typical won't always be the use-case, for that the component supports advanced parameter mapping...read on.
-
-### Specialized queries using `paramMapping`
-Three props: `searchParamsMapping`, `filterParamsMapping`, `sortParamsMapping` allow for you to inform `SearchAndSortQuery` how to initialize its query state based on pre-existing query params. This closes the circle into and out of the component from the resource query. Defaults for the props are provided that conform to FOLIO's most common case.
+## Parameter mapping
+Three props: `searchParamsMapping`, `filterParamsMapping`, `sortParamsMapping` allow for you to inform `SearchAndSortQuery` how to derive query state based on pre-existing query params. Defaults for the props are provided that conform to FOLIO's most common case.
 This is a contrived example using a custom query string structure:
 ```
 https://not-a-real-thing/search?name=blue&startdate=03%2F05%2F1996&enddate=09%2F04%2F2003&countries=paraguay%2Cmexico%2Ccanada&sort=name&direction=true
@@ -224,6 +211,16 @@ const clone = v => v;
     {(...render) => (children(...render))}
   </SearchAndSortQuery>
 }
+```
+
+### Using a slice of `initialState`
+Blank values are a use-case that may not be captured at all in `initialSearch` or the location query. Internal logic removes these values before applying them to the browser location, so they cannot be derived from the location itself - so we need another means to do so. `initialSearchState`, `initialFilterState` and `initialSortState` are all props that, as their name suggests, supply the component with a default query state for **initialization and resets** - this includes a way to apply blank values - or any value if it isn't present in the browser location.
+```
+<SearchAndSortQuery
+  initialSortState={{ sort: 'name' }}
+  initialSearchState={{ query: '', qindex: '' }}
+> ...
+</SearchAndSortQuery>
 ```
 
 ## The `<Filter>` component

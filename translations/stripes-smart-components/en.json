@@ -23,6 +23,14 @@
 
   "cm.success": "Setting was successfully updated.",
 
+  "dateRange.from": "From",
+  "dateRange.to": "To",
+  "dateRange.apply": "Apply",
+  "dateRange.invalidDate": "Please enter a valid date",
+  "dateRange.missingStartDate": "Please enter a start date",
+  "dateRange.missingEndDate": "Please enter an end date",
+  "dateRange.wrongOrder": "Start date is greater than end date",
+
   "cv.cannotDeleteTermHeader": "Cannot delete {type}",
   "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is in use by one or more records.",
   "cv.lastUpdated": "Last updated",

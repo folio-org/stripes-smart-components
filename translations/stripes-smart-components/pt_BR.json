@@ -108,5 +108,18 @@
     "sas.noResults.loading": "Carregando...",
     "cm.success": "A configuração foi atualizada com sucesso.",
     "system": "Sistema",
-    "address.addressLabel": "Endereço"
+    "address.addressLabel": "Endereço",
+    "sas.createEntry": "Criar entrada",
+    "add": "Adicionar",
+    "notes.notFound": "Nenhuma nota encontrada",
+    "date": "Data",
+    "title": "Título",
+    "updatedBy": "Atualizado por",
+    "dateRange.from": "De",
+    "dateRange.to": "Para",
+    "dateRange.apply": "Aplicar",
+    "dateRange.invalidDate": "Por favor insira uma data válida",
+    "dateRange.missingStartDate": "Por favor insira uma data de início",
+    "dateRange.missingEndDate": "Por favor insira uma data final",
+    "dateRange.wrongOrder": "A data de início é maior que a data de término"
 }

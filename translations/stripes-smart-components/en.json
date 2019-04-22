@@ -114,5 +114,9 @@
   "notes.notFound": "No notes found",
   "date": "Date",
   "title": "Title",
-  "updatedBy": "Updated by"
+  "updatedBy": "Updated by",
+  "label.name.isRequired": "*",
+  "noteTypes": "Note types",
+  "noteTitle": "Note title",
+  "details": "Details"
 }

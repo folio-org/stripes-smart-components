@@ -1,5 +1,8 @@
 # Change history for stripes-smart-components
 
+## 2.4.1 (IN-PROGRESS)
+* Turned off sideEffects to enable tree-shaking for production builds. Refs STRIPES-564 and STRIPES-581.
+
 ## [2.4.0](https://github.com/folio-org/stripes-smart-components/tree/v2.4.0) (2019-04-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.3.0...v2.4.0)
 

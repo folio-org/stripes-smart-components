@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 2.5.0 (IN PROGRESS)
+## [2.5.0](https://github.com/folio-org/stripes-smart-components/tree/v2.5.0) (2019-04-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.4.0...v2.5.0)
 
 * Turned off sideEffects to enable tree-shaking for production builds. Refs STRIPES-564 and STRIPES-581.
 * Improve display handling of `<ControlledVocab>` metadata. Refs STSMACOM-181, STSMACOM-182, STSMACOM-183, UIU-873, UIIN-462.

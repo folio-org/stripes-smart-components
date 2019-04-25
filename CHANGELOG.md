@@ -4,6 +4,7 @@
 
 * Turned off sideEffects to enable tree-shaking for production builds. Refs STRIPES-564 and STRIPES-581.
 * Improve display handling of `<ControlledVocab>` metadata. Refs STSMACOM-181, STSMACOM-182, STSMACOM-183, UIU-873, UIIN-462.
+* Refactor `<ViewMetaData>` a la `<ControlledVocab>` to avoid permissions problems and simplify, simplify.
 
 ## [2.4.0](https://github.com/folio-org/stripes-smart-components/tree/v2.4.0) (2019-04-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.3.0...v2.4.0)

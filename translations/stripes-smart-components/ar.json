@@ -108,5 +108,18 @@
     "sas.noResults.loading": "جاري التحميل...",
     "cm.success": "تم تحديث الإعداد بنجاح.",
     "system": "النظام",
-    "address.addressLabel": "العنوان"
+    "address.addressLabel": "العنوان",
+    "sas.createEntry": "إنشاء مدخل",
+    "add": "إضافة",
+    "notes.notFound": "لم يتم العثور على ملاحظات",
+    "date": "التاريخ",
+    "title": "العنوان",
+    "updatedBy": "تم تحديثه بواسطة",
+    "dateRange.from": "من",
+    "dateRange.to": "إلى",
+    "dateRange.apply": "تطبيق",
+    "dateRange.invalidDate": "يرجى إدخال تاريخ صالح",
+    "dateRange.missingStartDate": "يرجى إدخال تاريخ بدء",
+    "dateRange.missingEndDate": "يرجى إدخال تاريخ إنتهاء",
+    "dateRange.wrongOrder": "تاريخ البدء أكبر من تاريخ الإنتهاء"
 }

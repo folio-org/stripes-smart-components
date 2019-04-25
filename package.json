@@ -3,6 +3,7 @@
   "version": "2.4.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
+  "sideEffects": ["*.css"],
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },

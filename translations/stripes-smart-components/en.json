@@ -23,6 +23,14 @@
 
   "cm.success": "Setting was successfully updated.",
 
+  "dateRange.from": "From",
+  "dateRange.to": "To",
+  "dateRange.apply": "Apply",
+  "dateRange.invalidDate": "Please enter a valid date",
+  "dateRange.missingStartDate": "Please enter a start date",
+  "dateRange.missingEndDate": "Please enter an end date",
+  "dateRange.wrongOrder": "Start date is greater than end date",
+
   "cv.cannotDeleteTermHeader": "Cannot delete {type}",
   "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is in use by one or more records.",
   "cv.lastUpdated": "Last updated",
@@ -58,6 +66,7 @@
   "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
   "sas.noResults.noResults": "No results found. Please check your filters.",
   "sas.noResults.loading": "Loading…",
+  "sas.createEntry": "Create entry",
 
   "closeEntryDialog": "Close entry dialog",
   "editOrDeleteNote": "Edit or delete this note",
@@ -66,6 +75,7 @@
   "search": "Search",
   "addNew": "Add new",
   "new": "New",
+  "add": "Add",
   "hideSearchPane": "Hide search and filters pane.",
   "showSearchPane": "Show search and filters pane.",
   "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
@@ -99,5 +109,10 @@
   "address.addAddress": "Add address",
   "address.addressLabel": "Address",
   "searchFieldLabel": "Search {moduleName}",
-  "system": "System"
+  "system": "System",
+  "notes": "Notes",
+  "notes.notFound": "No notes found",
+  "date": "Date",
+  "title": "Title",
+  "updatedBy": "Updated by"
 }

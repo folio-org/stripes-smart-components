@@ -53,4 +53,4 @@ export { default as UserName } from './lib/UserName';
 export { default as ViewMetaData } from './lib/ViewMetaData';
 
 export { default as DueDatePicker } from './lib/ChangeDueDateDialog/DueDatePicker';
-export { default as NotesCreateForm } from './lib/Notes/NotesCreateForm';
+export { default as NoteForm } from './lib/Notes/NoteForm';

@@ -9,7 +9,6 @@ is a reusable dumb component which apps can use for editing and creating a note.
 ```javascript
 import { NoteForm } from '@folio/stripes-smart-components';
 
-
 const entityTypeTranslations = {
   provider: 'ui-eholdings.notes.entityType.provider',
   package: 'ui-eholdings.notes.entityType.package',
@@ -55,11 +54,8 @@ class NoteEditRoute extends Component {
     ];
 
     return (
-
       <TitleManager record={noteData.title}>
         <NoteForm
-          onSubmit={onSubmit}
-          onCancel={onCancel}
           noteData={noteData}
           noteMetadata={noteMetadata}
           noteTypes={noteTypes}
@@ -67,6 +63,8 @@ class NoteEditRoute extends Component {
           linkedRecords={linkedRecords}
           entityTypeTranslations={entityTypeTranslations}
           paneHeaderAppIcon="eholdings"
+          onSubmit={onSubmit}
+          onCancel={onCancel}
         />
       </TitleManager>
     );
@@ -87,8 +85,6 @@ export default connect(
     ],
   }), {
     onSubmit: (values) => {
-      console.log(values);
-      
       return { type: 'noteEdit', payload: { noteId: 'id', noteData: values } };
     },
     onCancel: () => {
@@ -96,5 +92,4 @@ export default connect(
     },
   }
 )(NoteEditRoute);
-
 ```

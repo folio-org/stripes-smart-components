@@ -125,9 +125,9 @@
   "notes.saveAndClose": "Save & close",
   "notes.cancel": "Cancel",
   "notes.editNote": "Edit: {noteTitle}",
-  "notes.titleMissing": "Please enter a note title",
-  "notes.titleLengthLimitExceeded": "Note title character limit has been exceeded",
-  "notes.detailsLengthLimitExceeded": "Note details character limit has been exceeded",
-  "notes.titleInvalidCharacter": "Note title does not accept the following characters: {characters}",
-  "notes.detailsInvalidCharacter": "Note details does not accept the following characters: {characters}"
+  "notes.title.missing": "Please enter a note title",
+  "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
+  "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
+  "notes.title.invalidCharacter": "Note title does not accept the following characters: {characters}",
+  "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}"
 }

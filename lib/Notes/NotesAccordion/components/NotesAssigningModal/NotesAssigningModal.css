@@ -1,0 +1,23 @@
+.assign-checkbox {
+  & label {
+    &:before,
+    &:after {
+      content: none;
+    }
+
+    & input {
+      margin: 0;
+    }
+
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
+
+.save-button {
+  margin-right: 15px;
+}
+
+.search-field {
+  margin-bottom: 15px;
+}

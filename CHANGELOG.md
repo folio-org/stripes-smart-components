@@ -5,6 +5,8 @@
 * Case-insensitive location sort. Fixes STSMACOM-192.
 * Accept `props.onCloseNewRecord` so clients can do what they choose. Refs UIREQ-244.
 * Pass `clientGeneratePk` prop into manifest option, supporting server-side modules that supply IDs of new records.
+* `<ControlledVocab>` accepts optional `limitParam` prop, for when that parameter is not called `limit`.
+* Create `NoteForm` component
 
 ## [2.5.0](https://github.com/folio-org/stripes-smart-components/tree/v2.5.0) (2019-04-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.4.0...v2.5.0)

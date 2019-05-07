@@ -114,5 +114,20 @@
   "notes.notFound": "No notes found",
   "date": "Date",
   "title": "Title",
-  "updatedBy": "Updated by"
+  "updatedBy": "Updated by",
+  "label.name.isRequired": "*",
+  "noteTypes": "Note types",
+  "noteTitle": "Note title",
+  "details": "Details",
+  "notes.generalInformation": "General information",
+  "notes.assigned": "Assigned",
+  "notes.newNote": "New note",
+  "notes.saveAndClose": "Save & close",
+  "notes.cancel": "Cancel",
+  "notes.editNote": "Edit: {noteTitle}",
+  "notes.title.missing": "Please enter a note title",
+  "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
+  "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
+  "notes.title.invalidCharacter": "Note title does not accept the following characters: {characters}",
+  "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}"
 }

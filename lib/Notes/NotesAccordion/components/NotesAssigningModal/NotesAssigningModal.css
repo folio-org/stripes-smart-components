@@ -1,3 +1,5 @@
+@import "@folio/stripes-components/lib/variables.css";
+
 .assign-checkbox label {
   margin-bottom: 0;
 }
@@ -16,9 +18,9 @@
 }
 
 .save-button {
-  margin-right: 15px;
+  margin-right: var(--gutter-static);
 }
 
 .search-field {
-  margin-bottom: 15px;
+  margin-bottom: var(--gutter-static);
 }

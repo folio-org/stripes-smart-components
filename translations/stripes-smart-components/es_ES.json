@@ -121,5 +121,20 @@
     "dateRange.invalidDate": "Por favor, introduzca una fecha válida",
     "dateRange.missingStartDate": "Por favor, introduzca una fecha de inicio",
     "dateRange.missingEndDate": "Por favor introduzca una fecha de finalización",
-    "dateRange.wrongOrder": "La fecha de inicio es mayor que la fecha de finalización."
+    "dateRange.wrongOrder": "La fecha de inicio es mayor que la fecha de finalización.",
+    "label.name.isRequired": "*",
+    "noteTypes": "Note types",
+    "noteTitle": "Note title",
+    "details": "Details",
+    "notes.generalInformation": "General information",
+    "notes.assigned": "Assigned",
+    "notes.newNote": "New note",
+    "notes.saveAndClose": "Save & close",
+    "notes.cancel": "Cancel",
+    "notes.editNote": "Edit: {noteTitle}",
+    "notes.title.missing": "Please enter a note title",
+    "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
+    "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
+    "notes.title.invalidCharacter": "Note title does not accept the following characters: {characters}",
+    "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}"
 }

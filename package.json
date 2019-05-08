@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "2.6.2",
+  "version": "2.7.0-pre.1",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -89,6 +89,11 @@
     "@bigtest/react": "^0.1.2",
     "@folio/eslint-config-stripes": "^3.2.1",
     "@folio/stripes-cli": "^1.5.0",
+    "@folio/stripes-components": "^5.2.0",
+    "@folio/stripes-connect": "^5.1.2",
+    "@folio/stripes-core": "^3.4.0",
+    "@folio/stripes-form": "^2.4.0",
+    "@folio/stripes-logger": "^1.0.0",
     "babel-eslint": "^9.0.0",
     "babel-polyfill": "^6.26.0",
     "chai": "^4.2.0",
@@ -105,11 +110,6 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.2",
-    "@folio/stripes-components": "~5.2.0",
-    "@folio/stripes-connect": "~5.1.2",
-    "@folio/stripes-core": "~3.4.0",
-    "@folio/stripes-form": "~2.4.0",
-    "@folio/stripes-logger": "~1.0.0",
     "classnames": "^2.2.6",
     "final-form": "^4.12.0",
     "lodash": "^4.17.4",
@@ -127,6 +127,11 @@
     "redux-form": "^7.0.3"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": "*",
+    "@folio/stripes-components": ">=5.2.0",
+    "@folio/stripes-connect": ">=5.1.2",
+    "@folio/stripes-core": ">=3.4.0",
+    "@folio/stripes-form": ">=2.4.0",
+    "@folio/stripes-logger": ">=1.0.0"
   }
 }

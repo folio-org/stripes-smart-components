@@ -54,3 +54,4 @@ export { default as ViewMetaData } from './lib/ViewMetaData';
 
 export { default as DueDatePicker } from './lib/ChangeDueDateDialog/DueDatePicker';
 export { default as NoteForm } from './lib/Notes/NoteForm';
+export { default as NoteView } from './lib/Notes/NoteForm/NoteView';

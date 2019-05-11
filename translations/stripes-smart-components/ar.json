@@ -121,5 +121,20 @@
     "dateRange.invalidDate": "يرجى إدخال تاريخ صالح",
     "dateRange.missingStartDate": "يرجى إدخال تاريخ بدء",
     "dateRange.missingEndDate": "يرجى إدخال تاريخ إنتهاء",
-    "dateRange.wrongOrder": "تاريخ البدء أكبر من تاريخ الإنتهاء"
+    "dateRange.wrongOrder": "تاريخ البدء أكبر من تاريخ الإنتهاء",
+    "label.name.isRequired": "*",
+    "noteTypes": "أنواع الملاحظات",
+    "noteTitle": "عنوان الملاحظة",
+    "details": "التفاصيل",
+    "notes.generalInformation": "معلومات عامة",
+    "notes.assigned": "معيّن",
+    "notes.newNote": "ملاحظة جديدة",
+    "notes.saveAndClose": "حفظ وإغلاق",
+    "notes.cancel": "إلغاء",
+    "notes.editNote": "تحرير: {noteTitle}",
+    "notes.title.missing": "يرجى إدخال عنوان الملاحظة",
+    "notes.title.lengthLimitExceeded": "تم تجاوز حد الأحرف المسموح به لعنوان الملاحظة ",
+    "notes.details.lengthLimitExceeded": "تم تجاوز حد الأحرف المسموح به لتفاصيل الملاحظة ",
+    "notes.title.invalidCharacter": "عنوان الملاحظة لا يقبل الأحرف التالية: {characters}",
+    "notes.details.invalidCharacter": "تفاصيل الملاحظة لا تقبل الأحرف التالية: {characters}"
 }

@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [2.6.3](https://github.com/folio-org/stripes-smart-components/tree/v2.6.3) (2019-05-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.6.2...v2.6.3)
+
+* stripes-form v2.5.0
+
 ## [2.6.2](https://github.com/folio-org/stripes-smart-components/tree/v2.6.2) (2019-05-10)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.5.0...v2.6.2)
 

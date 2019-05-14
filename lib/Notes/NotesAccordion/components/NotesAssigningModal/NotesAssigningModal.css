@@ -1,0 +1,26 @@
+@import "@folio/stripes-components/lib/variables.css";
+
+.assign-checkbox label {
+  margin-bottom: 0;
+}
+
+.assign-checkbox input {
+  margin: 0;
+}
+
+.assign-checkbox label::before {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.assign-checkbox label::after {
+  content: none;
+}
+
+.save-button {
+  margin-right: var(--gutter-static);
+}
+
+.search-field {
+  margin-bottom: var(--gutter-static);
+}

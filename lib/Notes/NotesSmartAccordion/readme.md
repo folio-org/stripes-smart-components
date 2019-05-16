@@ -17,10 +17,11 @@ Use the `NotesSmartAccordion` component in your jsx
 ```js
 <NotesSmartAccordion
   domainName="eholdings"
+  entityName="A Biographical Dictionary of Later Han"
   entityType="package"
   entityId="350-1207861"
-  onCreate={redirectToNoteCreatePage}
-  onAssignedNoteClick={redirectToNoteDetailsPage}
+  pathToNoteCreate="/eholdings/notes/new"
+  pathToNoteDetails="/eholdings/notes"
  />
 ```
 
@@ -29,7 +30,8 @@ Use the `NotesSmartAccordion` component in your jsx
 Name | type | description
 --- | --- | ---
 domainName | string | App name.
+entityName | string | The title of the record name(e.g. A Biographical Dictionary of Later Han).
 entityType | string | Record name(e.g. package).
 entityId | string | Record id.
-onCreate | function | Callback to be called after click on "New" button. Basically, intended for redirecting to Note create page.
-onAssignedNoteClick | function | Callback to be called after click on assigned note, located inside accordion's list. Gets Note id as argument. 
+pathToNoteCreate | string | Path to Note create page.
+pathToNoteDetails | string | Path to Note details page. NotesSmartAccordion will add / with note id during redirecting to details page. 

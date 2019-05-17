@@ -136,5 +136,18 @@
     "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
     "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
     "notes.title.invalidCharacter": "Note title does not accept the following characters: {characters}",
-    "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}"
+    "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}",
+    "assign": "Assign",
+    "notes.assignNote": "Assign note",
+    "notes.noteSearch": "Note search",
+    "notes.noteAssignmentStatus": "Note assignment status",
+    "notes.found": "{quantity} notes found",
+    "status": "Status",
+    "assigned": "Assigned",
+    "unassigned": "Unassigned",
+    "noteType": "Note type",
+    "notes.copy": "Copy",
+    "notes.unassign": "Unassign",
+    "notes.delete": "Delete",
+    "notes.edit": "Edit"
 }

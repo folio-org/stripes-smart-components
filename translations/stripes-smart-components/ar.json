@@ -136,5 +136,18 @@
     "notes.title.lengthLimitExceeded": "تم تجاوز حد الأحرف المسموح به لعنوان الملاحظة ",
     "notes.details.lengthLimitExceeded": "تم تجاوز حد الأحرف المسموح به لتفاصيل الملاحظة ",
     "notes.title.invalidCharacter": "عنوان الملاحظة لا يقبل الأحرف التالية: {characters}",
-    "notes.details.invalidCharacter": "تفاصيل الملاحظة لا تقبل الأحرف التالية: {characters}"
+    "notes.details.invalidCharacter": "تفاصيل الملاحظة لا تقبل الأحرف التالية: {characters}",
+    "assign": "تعيين",
+    "notes.assignNote": "تعيين ملاحظة",
+    "notes.noteSearch": "بحث الملاحظات",
+    "notes.noteAssignmentStatus": "حالة تعيين الملاحظة",
+    "notes.found": "تم العثور على {quantity} ملاحظة",
+    "status": "الحالة",
+    "assigned": "معيّن",
+    "unassigned": "ملغي تعيينه",
+    "noteType": "نوع الملاحظة",
+    "notes.copy": "نسخ",
+    "notes.unassign": "إلغاء تعيين",
+    "notes.delete": "حذف",
+    "notes.edit": "تحرير"
 }

@@ -86,9 +86,9 @@ const entityTypeTranslationKeyMap = {
 const entityTypePluralizedTranslationKeyMap = {
   /*
    * In translations:
-   * "notes.entityType.provider.pluralized": "{count, plural, one {{count} provider} other {{count} providers}}",
-   * "notes.entityType.package.pluralized": "{count, plural, one {{count} package} other {{count} packages}}",
-   * "notes.entityType.title.pluralized": "{count, plural, one {{count} title} other {{count} titles}}"
+   * "notes.entityType.provider.pluralized": "{count} {count, plural, one {provider} other {providers}}",
+   * "notes.entityType.package.pluralized": "{count} {count, plural, one {package} other {packages}}",
+   * "notes.entityType.resource.pluralized": "{count} {count, plural, one {resource} other {resources}}"
    */
   provider: 'ui-eholdings.notes.entityType.provider.pluralized',
   package: 'ui-eholdings.notes.entityType.package.pluralized',

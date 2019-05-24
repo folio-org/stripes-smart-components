@@ -136,5 +136,18 @@
     "notes.title.lengthLimitExceeded": "O limite de caracteres do título da nota foi excedido",
     "notes.details.lengthLimitExceeded": "O limite de caracteres de detalhes da nota foi excedido",
     "notes.title.invalidCharacter": "O título da nota não aceita os seguintes caracteres: {characters}",
-    "notes.details.invalidCharacter": "Os detalhes da nota não aceitam os seguintes caracteres: {characters}"
+    "notes.details.invalidCharacter": "Os detalhes da nota não aceitam os seguintes caracteres: {characters}",
+    "assign": "Atribuir",
+    "notes.assignNote": "Atribuir nota",
+    "notes.noteSearch": "Pesquisa de notas",
+    "notes.noteAssignmentStatus": "Status da atribuição de notas",
+    "notes.found": "{quantity} notas encontradas",
+    "status": "Status",
+    "assigned": "Atribuído",
+    "unassigned": "Não atribuído",
+    "noteType": "Tipo de nota",
+    "notes.copy": "Copiar",
+    "notes.unassign": "Cancelar atribuição",
+    "notes.delete": "Excluir",
+    "notes.edit": "Editar"
 }

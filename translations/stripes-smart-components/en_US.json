@@ -136,5 +136,12 @@
     "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
     "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
     "notes.title.invalidCharacter": "Note title does not accept the following characters: {characters}",
-    "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}"
+    "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}",
+    "notes.unassign": "Unassign",
+    "notes.delete": "Delete",
+    "notes.edit": "Edit",   
+    "status": "Status",
+    "assigned": "Assigned",
+    "unassigned": "Unassigned",
+    "notes.delete.confirm.message": "The note {title} will be permanently deleted from {perTypeList}"
 }

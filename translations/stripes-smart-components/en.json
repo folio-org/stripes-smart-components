@@ -141,5 +141,9 @@
   "notes.details.invalidCharacter": "Note details does not accept the following characters: {characters}",
   "status": "Status",
   "assigned": "Assigned",
-  "unassigned": "Unassigned"
+  "unassigned": "Unassigned",
+  "notes.deleteNote": "Delete note",
+  "notes.unassignNote": "Unassign note",
+  "notes.unassign.confirm.message": "The note {title} will be unassigned.",
+  "notes.delete.confirm.message": "The note {title} will be permanently deleted from:"
 }

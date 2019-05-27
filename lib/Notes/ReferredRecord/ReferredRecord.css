@@ -1,0 +1,8 @@
+@import "@folio/stripes-components/lib/variables.css";
+
+.referred-record__entity-type {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: var(--color-text);
+}
+

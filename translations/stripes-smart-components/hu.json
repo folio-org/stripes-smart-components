@@ -131,7 +131,7 @@
     "notes.newNote": "New note",
     "notes.saveAndClose": "Save & close",
     "notes.cancel": "Cancel",
-    "notes.editNote": "Edit: {noteTitle}",
+    "notes.editNote": "Edit note",
     "notes.title.missing": "Please enter a note title",
     "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
     "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
@@ -149,5 +149,10 @@
     "notes.copy": "Copy",
     "notes.unassign": "Unassign",
     "notes.delete": "Delete",
-    "notes.edit": "Edit"
+    "notes.edit": "Edit",
+    "notes.deleteNote": "Delete note",
+    "notes.unassignNote": "Unassign note",
+    "notes.unassign.confirm.message": "The note {title} will be unassigned.",
+    "notes.delete.confirm.message": "The note {title} will be permanently deleted from:",
+    "notes.editNoteTitle": "Edit: {noteTitle}"
 }

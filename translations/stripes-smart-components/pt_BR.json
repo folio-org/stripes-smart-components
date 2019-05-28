@@ -149,5 +149,10 @@
     "notes.copy": "Copiar",
     "notes.unassign": "Cancelar atribuição",
     "notes.delete": "Excluir",
-    "notes.edit": "Editar"
+    "notes.edit": "Editar",
+    "notes.deleteNote": "Excluir nota",
+    "notes.unassignNote": "Desatribuir nota",
+    "notes.unassign.confirm.message": "A nota {title} não será atribuída.",
+    "notes.delete.confirm.message": "A nota {title} será permanentemente excluída de:",
+    "notes.editNoteTitle": "Edit: {noteTitle}"
 }

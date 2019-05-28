@@ -149,5 +149,10 @@
     "notes.copy": "نسخ",
     "notes.unassign": "إلغاء تعيين",
     "notes.delete": "حذف",
-    "notes.edit": "تحرير"
+    "notes.edit": "تحرير",
+    "notes.deleteNote": "حذف الملاحظة",
+    "notes.unassignNote": "إلغاء تعيين الملاحظة",
+    "notes.unassign.confirm.message": "سيتم إلغاء تعيين الملاحظة {title}",
+    "notes.delete.confirm.message": "سيتم حذف الملاحظة {title} نهائيًا من:",
+    "notes.editNoteTitle": "Edit: {noteTitle}"
 }

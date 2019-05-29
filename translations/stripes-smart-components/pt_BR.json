@@ -131,7 +131,7 @@
     "notes.newNote": "Nova nota",
     "notes.saveAndClose": "Salvar e fechar",
     "notes.cancel": "Cancelar",
-    "notes.editNote": "Editar: {noteTitle}",
+    "notes.editNote": "Editar nota",
     "notes.title.missing": "Por favor insira um título da nota",
     "notes.title.lengthLimitExceeded": "O limite de caracteres do título da nota foi excedido",
     "notes.details.lengthLimitExceeded": "O limite de caracteres de detalhes da nota foi excedido",
@@ -154,5 +154,5 @@
     "notes.unassignNote": "Desatribuir nota",
     "notes.unassign.confirm.message": "A nota {title} não será atribuída.",
     "notes.delete.confirm.message": "A nota {title} será permanentemente excluída de:",
-    "notes.editNoteTitle": "Edit: {noteTitle}"
+    "notes.editNoteTitle": "Editar: {noteTitle}"
 }

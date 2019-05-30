@@ -146,5 +146,6 @@
   "notes.deleteNote": "Delete note",
   "notes.unassignNote": "Unassign note",
   "notes.unassign.confirm.message": "The note {title} will be unassigned.",
-  "notes.delete.confirm.message": "The note {title} will be permanently deleted from:"
+  "notes.delete.confirm.message": "The note {title} will be permanently deleted from:",
+  "notes.noteTypesMissing": "Unable to save note. A note type must be selected"
 }

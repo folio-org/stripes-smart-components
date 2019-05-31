@@ -54,9 +54,7 @@ export { default as ViewMetaData } from './lib/ViewMetaData';
 
 export { default as DueDatePicker } from './lib/ChangeDueDateDialog/DueDatePicker';
 
-export { default as NotesAccordion } from './lib/Notes/NotesAccordion';
 export { default as NoteCreatePage } from './lib/Notes/NoteCreatePage';
 export { default as NoteViewPage } from './lib/Notes/NoteViewPage';
 export { default as NoteEditPage } from './lib/Notes/NoteEditPage';
-export { default as NoteForm } from './lib/Notes/NoteForm';
 export { default as NotesSmartAccordion } from './lib/Notes/NotesSmartAccordion';

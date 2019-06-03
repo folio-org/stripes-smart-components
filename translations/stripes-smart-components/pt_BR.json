@@ -154,5 +154,6 @@
     "notes.unassignNote": "Desatribuir nota",
     "notes.unassign.confirm.message": "A nota {title} não será atribuída.",
     "notes.delete.confirm.message": "A nota {title} será permanentemente excluída de:",
-    "notes.editNoteTitle": "Editar: {noteTitle}"
+    "notes.editNoteTitle": "Editar: {noteTitle}",
+    "notes.noteTypesMissing": "Não é possível salvar a nota. Um tipo de nota deve ser selecionado"
 }

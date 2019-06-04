@@ -5,6 +5,7 @@
 * add `renderNavigation` prop to `<SearchAndSort>`. Refs UIOR-27.
 * better test instrumentation for `<ControlledVocab>`. Refs UIORG-163.
 * add `parseRow` prop to `<ControlledVocab>` to store complex values. Refs UINV-6.
+* Allow for passing queryTemplate as a function to makeQueryFunction. Refs UIU-1068.
 
 ## [2.6.3](https://github.com/folio-org/stripes-smart-components/tree/v2.6.3) (2019-05-10)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.6.2...v2.6.3)

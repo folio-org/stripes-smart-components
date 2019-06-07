@@ -1,10 +1,13 @@
 # Change history for stripes-smart-components
 
-## 2.7.0 (IN PROGRESS)
+## [2.7.0](https://github.com/folio-org/stripes-smart-components/tree/v2.7.0) (2019-06-07)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.6.3...v2.7.0)
 
+* Lots of  `<Notes>` work. Refs STSMACOM-195, STSMACOM-196.
 * add `renderNavigation` prop to `<SearchAndSort>`. Refs UIOR-27.
 * better test instrumentation for `<ControlledVocab>`. Refs UIORG-163.
 * add `parseRow` prop to `<ControlledVocab>` to store complex values. Refs UINV-6.
+* stripes-form v2.6.0
 * Allow for passing queryTemplate as a function to makeQueryFunction. Refs UIU-1068.
 
 ## [2.6.3](https://github.com/folio-org/stripes-smart-components/tree/v2.6.3) (2019-05-10)

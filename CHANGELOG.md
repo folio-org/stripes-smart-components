@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [2.7.1](https://github.com/folio-org/stripes-smart-components/tree/v2.7.1) (2019-06-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.0...v2.7.1)
+
+* `<Notes/NotesSmartAccordion>` now includes permissions check. Refs STSMACOM-223.
+
 ## [2.7.0](https://github.com/folio-org/stripes-smart-components/tree/v2.7.0) (2019-06-07)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.6.3...v2.7.0)
 

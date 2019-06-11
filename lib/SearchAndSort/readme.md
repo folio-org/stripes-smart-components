@@ -53,6 +53,7 @@ nsParams | object or string | An object or string used to namespace search and s
 notLoadedMessage | string | A message to show the user before a search has been submitted. Defaults to "Choose a filter or enter search query to show results".
 getHelperResourcePath | func | An optional function which can be used to return helper's resource path dynamically.
 getHelperComponent | func | An optional function which can be used to return connected helper component implementation.
+title | string/element | An optional property to specify title of results pane. By default module display name is used.
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

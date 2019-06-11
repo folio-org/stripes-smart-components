@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## In Progress
+
+* Fix `<ChangeDueDateDialog>` flickering during due date change. Refs UIU-1065.
+
 ## [2.7.1](https://github.com/folio-org/stripes-smart-components/tree/v2.7.1) (2019-06-10)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.0...v2.7.1)
 

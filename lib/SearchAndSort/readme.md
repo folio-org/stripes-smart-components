@@ -24,6 +24,7 @@ searchableIndexesPlaceholder | string | If this is provided and is a string, the
 selectedIndex | string | When `searchableIndexes` is provided, this must also be supplied, its value matching one of those in the provided array.
 onChangeIndex | function | If provided, this function is invoked, and passed an event structure, when the user changes which index is selected.
 maxSortKeys | number | If provided, specifies that maximum number of sort-keys that should be remembered for "stable sorting". Defaults to 2 if not specified.
+sortableColumns | array | If provided, specifies the columns that can be sorted.
 filterConfig | array of structures | Configuration for the module's filters, as documented [in the `<FilterGroups>` readme](https://github.com/folio-org/stripes-components/tree/master/lib/FilterGroups#filter-configuration).
 initialFilters | string | The initial state of the filters when the application started up, used when resetting to the initial state. Takes the same form as the `filters` part of the URL: a comma-separated list of `group`.`name` filters that are selected.
 disableFilters | object whose keys are filter-group names | In the display of filter groups, those that are named in this object are greyed out and cannot be selected.

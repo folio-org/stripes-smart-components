@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 2.7.3 (IN PROGRESS)
+
+* In `<EditableList>`, prevent changes of the vertical position of elements when a validation error message is displayed and prevent input field validation on cancel. Fixes UIORG-81.
+
 ## [2.7.2](https://github.com/folio-org/stripes-smart-components/tree/v2.7.2) (2019-06-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.1...v2.7.2)
 

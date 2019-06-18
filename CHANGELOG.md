@@ -1,8 +1,9 @@
 # Change history for stripes-smart-components
 
-## 2.7.3 (IN PROGRESS)
+## 2.8.0 (IN PROGRESS)
 
 * In `<EditableList>`, prevent changes of the vertical position of elements when a validation error message is displayed and prevent input field validation on cancel. Fixes UIORG-81.
+* `<ControlledVocab>` accepts optional new `actuatorType` property. If set to `'refdata'`, it performs different back-end operations to maintain the vocabulary, as described in [_API to the Refdata system_](https://github.com/openlibraryenvironment/ui-directory/blob/master/doc/refdata-api.md). Fixes [ReShare issue PR-189](https://openlibraryenvironment.atlassian.net/browse/PR-189). Available from v2.7.3.
 
 ## [2.7.2](https://github.com/folio-org/stripes-smart-components/tree/v2.7.2) (2019-06-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.1...v2.7.2)

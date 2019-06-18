@@ -80,25 +80,14 @@
     "eslint": "eslint .",
     "stylelint": "stylelint \"lib/**/*.css\"",
     "test": "stripes test karma",
-    "test-unit": "jest --watch"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "verbose": true,
-    "transformIgnorePatterns": [
-      "/node_modules/(?!@folio/stripes-components|@folio/stripes-core).+(js|jsx)$"
-    ],
-    "moduleNameMapper": {
-      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
-    }
+    "test-unit-last": "jest --watch",
+    "test-unit-all": "jest --watchAll"
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-transform-modules-commonjs": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@bigtest/convergence": "^1.0.0",
     "@bigtest/interactor": "^0.7.2",
@@ -109,7 +98,7 @@
     "@folio/stripes-cli": "^1.5.0",
     "@testing-library/react": "^8.0.1",
     "babel-eslint": "^9.0.0",
-    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-dynamic-import": "^2.1.0",
     "babel-polyfill": "^6.26.0",
     "chai": "^4.2.0",
     "eslint": "^5.5.0",

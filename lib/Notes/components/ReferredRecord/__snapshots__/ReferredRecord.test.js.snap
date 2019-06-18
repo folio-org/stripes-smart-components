@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReferredRecord should match snapshot 1`] = `
+<div>
+  <div
+    class="kvRoot"
+  >
+    <div
+      class="kvLabel"
+    >
+      <span
+        class="referred-record__entity-type"
+        data-testid="entityType"
+      >
+        <span>
+          Package
+        </span>
+      </span>
+    </div>
+    <span
+      data-testid="entityName"
+    >
+      Some name
+    </span>
+  </div>
+</div>
+`;

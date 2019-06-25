@@ -1,5 +1,0 @@
-@import "@folio/stripes-components/lib/variables.css";
-
-.assignments-list__item {
-  color: var(--color-text);
-}

@@ -155,5 +155,17 @@
     "notes.unassign.confirm.message": "The note <b>{title}</b> will be <b>unassigned</b>.",
     "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b> from:",
     "notes.editNoteTitle": "Edit: {noteTitle}",
-    "notes.noteTypesMissing": "Unable to save note. A note type must be selected."
+    "notes.noteTypesMissing": "Unable to save note. A note type must be selected.",
+    "addressEdit.useAddressAsPrimaryAddress": "Use address {addressIndex} as primary address",
+    "addressEdit.useAsPrimaryAddress": "Use as primary address",
+    "error.addressTypeRequired": "Address type is required",
+    "error.addressTypeTaken": "Address type is already taken",
+    "addressEdit.removeAddress": "Remove Address",
+    "addressEdit.label.addressType": "Address Type",
+    "addressEdit.label.addressLine1": "Address line 1",
+    "addressEdit.label.addressLine2": "Address line 2",
+    "addressEdit.label.stateRegion": "State/Prov/Region",
+    "addressEdit.label.zipCode": "Zip/Postal Code",
+    "addressEdit.label.country": "Country",
+    "addressEdit.label.city": "City"
 }

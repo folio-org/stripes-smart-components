@@ -1,10 +1,30 @@
 # Change history for stripes-smart-components
 
-## 2.7.0 (IN PROGRESS)
+## 2.8.0 (IN PROGRESS)
 
+* In `<EditableList>`, prevent changes of the vertical position of elements when a validation error message is displayed and prevent input field validation on cancel. Fixes UIORG-81.
+* `<ControlledVocab>` accepts optional new `actuatorType` property. If set to `'refdata'`, it performs different back-end operations to maintain the vocabulary, as described in [_API to the Refdata system_](https://github.com/openlibraryenvironment/ui-directory/blob/master/doc/refdata-api.md). Fixes [ReShare issue PR-189](https://openlibraryenvironment.atlassian.net/browse/PR-189). Available from v2.7.3.
+* Remove permissions related to the (deprecated and removed) earlier implementation of Notes (STSMACOM-224)
+
+## [2.7.2](https://github.com/folio-org/stripes-smart-components/tree/v2.7.2) (2019-06-11)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.1...v2.7.2)
+
+* Fix `<ChangeDueDateDialog>` flickering during due date change. Refs UIU-1065.
+
+## [2.7.1](https://github.com/folio-org/stripes-smart-components/tree/v2.7.1) (2019-06-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.0...v2.7.1)
+
+* `<Notes/NotesSmartAccordion>` now includes permissions check. Refs STSMACOM-223.
+
+## [2.7.0](https://github.com/folio-org/stripes-smart-components/tree/v2.7.0) (2019-06-07)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.6.3...v2.7.0)
+
+* Lots of  `<Notes>` work. Refs STSMACOM-195, STSMACOM-196.
 * add `renderNavigation` prop to `<SearchAndSort>`. Refs UIOR-27.
 * better test instrumentation for `<ControlledVocab>`. Refs UIORG-163.
 * add `parseRow` prop to `<ControlledVocab>` to store complex values. Refs UINV-6.
+* stripes-form v2.6.0
+* Allow for passing queryTemplate as a function to makeQueryFunction. Refs UIU-1068.
 
 ## [2.6.3](https://github.com/folio-org/stripes-smart-components/tree/v2.6.3) (2019-05-10)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.6.2...v2.6.3)

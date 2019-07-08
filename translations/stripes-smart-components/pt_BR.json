@@ -141,7 +141,7 @@
     "notes.assignNote": "Atribuir nota",
     "notes.noteSearch": "Pesquisa de notas",
     "notes.noteAssignmentStatus": "Status da atribuição de notas",
-    "notes.found": "{quantity} notas encontradas",
+    "notes.found": "{quantity, number} {quantity, plural, one {nota encontrada} other {notas encontradas}}",
     "status": "Status",
     "assigned": "Atribuído",
     "unassigned": "Não atribuído",
@@ -152,7 +152,8 @@
     "notes.edit": "Editar",
     "notes.deleteNote": "Excluir nota",
     "notes.unassignNote": "Desatribuir nota",
-    "notes.unassign.confirm.message": "A nota {title} não será atribuída.",
-    "notes.delete.confirm.message": "A nota {title} será permanentemente excluída de:",
-    "notes.editNoteTitle": "Editar: {noteTitle}"
+    "notes.unassign.confirm.message": "A nota <b>{title}</b> será <b>não atribuída</b>.",
+    "notes.delete.confirm.message": "A nota <b>{title}</b> será permanentemente <b>excluída</b> de:",
+    "notes.editNoteTitle": "Editar: {noteTitle}",
+    "notes.noteTypesMissing": "Não é possível salvar a nota. Um tipo de nota deve ser selecionado"
 }

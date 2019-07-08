@@ -141,7 +141,7 @@
     "notes.assignNote": "Assign note",
     "notes.noteSearch": "Note search",
     "notes.noteAssignmentStatus": "Note assignment status",
-    "notes.found": "{quantity} notes found",
+    "notes.found": "{quantity, number} {quantity, plural, one {note found} other {notes found}}",
     "status": "Status",
     "assigned": "Assigned",
     "unassigned": "Unassigned",
@@ -152,7 +152,8 @@
     "notes.edit": "Edit",
     "notes.deleteNote": "Delete note",
     "notes.unassignNote": "Unassign note",
-    "notes.unassign.confirm.message": "The note {title} will be unassigned.",
-    "notes.delete.confirm.message": "The note {title} will be permanently deleted from:",
-    "notes.editNoteTitle": "Edit: {noteTitle}"
+    "notes.unassign.confirm.message": "The note <b>{title}</b> will be <b>unassigned</b>.",
+    "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b> from:",
+    "notes.editNoteTitle": "Edit: {noteTitle}",
+    "notes.noteTypesMissing": "Unable to save note. A note type must be selected"
 }

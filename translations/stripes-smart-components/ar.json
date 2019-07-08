@@ -154,5 +154,6 @@
     "notes.unassignNote": "إلغاء تعيين الملاحظة",
     "notes.unassign.confirm.message": "سيتم إلغاء تعيين الملاحظة {title}",
     "notes.delete.confirm.message": "سيتم حذف الملاحظة {title} نهائيًا من:",
-    "notes.editNoteTitle": "تحرير: {noteTitle}"
+    "notes.editNoteTitle": "تحرير: {noteTitle}",
+    "notes.noteTypesMissing": "لا يمكن حفظ الملاحظة. يجب تحديد نوع الملاحظة"
 }

@@ -155,5 +155,19 @@
     "notes.unassign.confirm.message": "A nota <b>{title}</b> será <b>não atribuída</b>.",
     "notes.delete.confirm.message": "A nota <b>{title}</b> será permanentemente <b>excluída</b> de:",
     "notes.editNoteTitle": "Editar: {noteTitle}",
-    "notes.noteTypesMissing": "Não é possível salvar a nota. Um tipo de nota deve ser selecionado"
+    "notes.noteTypesMissing": "Não é possível salvar a nota. Um tipo de nota deve ser selecionado",
+    "addressEdit.useAddressAsPrimaryAddress": "Use o endereço {index} como endereço principal",
+    "addressEdit.useAsPrimaryAddress": "Use como endereço principal",
+    "error.addressTypeRequired": "O tipo de endereço é obrigatório",
+    "error.addressTypeTaken": "O tipo de endereço já foi usado",
+    "addressEdit.removeAddress": "Remover endereço",
+    "addressEdit.label.addressType": "Tipo de endereço",
+    "addressEdit.label.addressLine1": "Linha de endereço 1",
+    "addressEdit.label.addressLine2": "Linha de endereço 2",
+    "addressEdit.label.stateRegion": "Estado / Província / Região",
+    "addressEdit.label.zipCode": "CEP / Código Postal",
+    "addressEdit.label.country": "País",
+    "addressEdit.label.city": "Cidade",
+    "addresses": "Addresses",
+    "address.noAddressesStored": "- No addresses stored -"
 }

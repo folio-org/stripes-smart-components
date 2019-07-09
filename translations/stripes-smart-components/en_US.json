@@ -156,7 +156,7 @@
     "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b> from:",
     "notes.editNoteTitle": "Edit: {noteTitle}",
     "notes.noteTypesMissing": "Unable to save note. A note type must be selected.",
-    "addressEdit.useAddressAsPrimaryAddress": "Use address {addressIndex} as primary address",
+    "addressEdit.useAddressAsPrimaryAddress": "Use address {index} as primary address",
     "addressEdit.useAsPrimaryAddress": "Use as primary address",
     "error.addressTypeRequired": "Address type is required",
     "error.addressTypeTaken": "Address type is already taken",
@@ -167,5 +167,7 @@
     "addressEdit.label.stateRegion": "State/Prov/Region",
     "addressEdit.label.zipCode": "Zip/Postal Code",
     "addressEdit.label.country": "Country",
-    "addressEdit.label.city": "City"
+    "addressEdit.label.city": "City",
+    "addresses": "Addresses",
+    "address.noAddressesStored": "- No addresses stored -"
 }

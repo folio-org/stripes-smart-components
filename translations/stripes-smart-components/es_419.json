@@ -169,5 +169,7 @@
     "addressEdit.label.country": "Country",
     "addressEdit.label.city": "City",
     "addresses": "Addresses",
-    "address.noAddressesStored": "- No addresses stored -"
+    "address.noAddressesStored": "- No addresses stored -",
+    "notes.assigned.count": "# of assignments",
+    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
 }

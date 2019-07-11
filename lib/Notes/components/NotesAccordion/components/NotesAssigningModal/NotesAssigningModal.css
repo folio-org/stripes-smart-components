@@ -24,22 +24,22 @@
 .search-field {
   margin-bottom: var(--gutter-static);
 }
+
 .modal-content {
   padding: 0;
 }
+
 .footer-button {
   margin-bottom: 0;
 }
+
 .caution-message {
   margin: 0 5px;
   width: 100%;
   color: var(--color-text-p2);
   font-size: var(--font-size-small);
-  line-height: 1.2;  
-  
-  & span {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

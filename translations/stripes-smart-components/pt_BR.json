@@ -168,6 +168,8 @@
     "addressEdit.label.zipCode": "CEP / Código Postal",
     "addressEdit.label.country": "País",
     "addressEdit.label.city": "Cidade",
-    "addresses": "Addresses",
-    "address.noAddressesStored": "- No addresses stored -"
+    "addresses": "Endereços",
+    "address.noAddressesStored": "- Nenhum endereço armazenado -",
+    "notes.assigned.count": "# of assignments",
+    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
 }

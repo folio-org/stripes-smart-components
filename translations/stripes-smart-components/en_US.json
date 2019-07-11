@@ -160,8 +160,8 @@
     "addressEdit.useAsPrimaryAddress": "Use as primary address",
     "error.addressTypeRequired": "Address type is required",
     "error.addressTypeTaken": "Address type is already taken",
-    "addressEdit.removeAddress": "Remove Address",
-    "addressEdit.label.addressType": "Address Type",
+    "addressEdit.removeAddress": "Remove address",
+    "addressEdit.label.addressType": "Address type",
     "addressEdit.label.addressLine1": "Address line 1",
     "addressEdit.label.addressLine2": "Address line 2",
     "addressEdit.label.stateRegion": "State/Prov/Region",
@@ -169,5 +169,7 @@
     "addressEdit.label.country": "Country",
     "addressEdit.label.city": "City",
     "addresses": "Addresses",
-    "address.noAddressesStored": "- No addresses stored -"
+    "address.noAddressesStored": "- No addresses stored -",
+    "notes.assigned.count": "# of assignments",
+    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
 }

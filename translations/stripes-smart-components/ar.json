@@ -168,6 +168,8 @@
     "addressEdit.label.zipCode": "الرمز البريدي",
     "addressEdit.label.country": "البلد",
     "addressEdit.label.city": "المدينة",
-    "addresses": "Addresses",
-    "address.noAddressesStored": "- No addresses stored -"
+    "addresses": "العناوين",
+    "address.noAddressesStored": "- لا توجد عناوين مخزنة -",
+    "notes.assigned.count": "# of assignments",
+    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
 }

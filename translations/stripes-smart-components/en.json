@@ -5,7 +5,7 @@
   "cddd.changeDueDateConfirmation": "Change due date",
   "cddd.itemsSelected": "<b>{count}</b> items <b>selected.</b>",
   "cddd.changeSucceeded": "Due date & time has successfully been changed",
-  "cddd.itemRecallSucceeded": "Item has been recalled",
+  "cddd.itemHasBeenRecalled": "Item has been recalled",
   "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{count}</b> items.",
   "cddd.changeFailed": "Failed to change due date",
   "cddd.itemHasRequestQueue": "Item has a request queue",

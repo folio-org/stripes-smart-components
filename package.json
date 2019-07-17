@@ -1,9 +1,11 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "2.5.0",
+  "version": "2.7.3",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
-  "sideEffects": ["*.css"],
+  "sideEffects": [
+    "*.css"
+  ],
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },
@@ -16,62 +18,7 @@
       "notes": "1.0",
       "tags": "1.0",
       "password-validator": "1.0"
-    },
-    "permissionSets": [
-      {
-        "permissionName": "module.notes.enabled",
-        "displayName": "UI: Notes module is enabled"
-      },
-      {
-        "permissionName": "stripes-util-notes.all",
-        "displayName": "Notes: All permissions",
-        "description": "Entire set of permissions needed to use the notes module",
-        "subPermissions": [
-          "notes.all"
-        ],
-        "visible": true
-      },
-      {
-        "permissionName": "stripes-util-notes.view",
-        "displayName": "Notes: Can view notes",
-        "description": "Can view notes",
-        "subPermissions": [
-          "notes.collection.get",
-          "notes.item.get"
-        ],
-        "visible": true
-      },
-      {
-        "permissionName": "stripes-util-notes.edit",
-        "displayName": "Notes: Can update notes",
-        "description": "Can update notes",
-        "subPermissions": [
-          "stripes-util-notes.view",
-          "notes.item.put"
-        ],
-        "visible": true
-      },
-      {
-        "permissionName": "stripes-util-notes.create",
-        "displayName": "Notes: Can create notes",
-        "description": "Can create notes",
-        "subPermissions": [
-          "stripes-util-notes.view",
-          "notes.item.post"
-        ],
-        "visible": true
-      },
-      {
-        "permissionName": "stripes-util-notes.delete",
-        "displayName": "Notes: Can delete notes",
-        "description": "Can delete notes",
-        "subPermissions": [
-          "stripes-util-notes.view",
-          "notes.item.post"
-        ],
-        "visible": true
-      }
-    ]
+    }
   },
   "scripts": {
     "lint": "eslint . && stylelint \"lib/**/*.css\"",
@@ -103,21 +50,24 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.2",
-    "@folio/stripes-components": ">=5.2.0",
-    "@folio/stripes-connect": ">=5.1.0",
-    "@folio/stripes-core": ">=3.4.0",
-    "@folio/stripes-form": ">=2.4.0",
+    "@folio/stripes-components": ">=5.4.0",
+    "@folio/stripes-connect": ">=5.2.0",
+    "@folio/stripes-core": ">=3.6.0",
+    "@folio/stripes-form": ">=2.6.0",
     "@folio/stripes-logger": ">=1.0.0",
     "classnames": "^2.2.6",
+    "final-form": "^4.12.0",
     "lodash": "^4.17.4",
     "moment": "^2.22.1",
     "moment-timezone": "^0.5.17",
     "prop-types": "^15.5.10",
     "prop-types-extra": "^1.1.0",
     "query-string": "^5.0.0",
+    "react-final-form": "^4.1.0",
     "react-intl": "^2.4.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.0.0",
+    "react-router-prop-types": "^1.0.4",
     "react-transition-group": "^2.4.0",
     "redux-form": "^7.0.3"
   },

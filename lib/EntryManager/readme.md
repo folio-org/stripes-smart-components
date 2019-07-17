@@ -28,3 +28,5 @@ entryFormComponent | component | A component used to replace the default impleme
 defaultEntry | object | An object used to represent initial values for new entry
 addMenu | component | An optional component which can be used to override default add menu
 parseInitialValues | function | An optional function which can be used to parse initialValues object
+isEntryInUse | function | An optional function which allows or prohibit item deletion. It takes an item id and returns a boolean value. 
+prohibitItemDelete | object with keys `close`, `label`, `message` | An optional object which provides a possibility to customize label, message and submit button of `prohibitDelete` modal with relevant object properties. 

@@ -1,0 +1,6 @@
+@import "@folio/stripes-components/lib/variables.css";
+
+/* Increasing specificity to override Button.css */
+.new-button.new-button.new-button {
+  margin-left: var(--gutter-static);
+}

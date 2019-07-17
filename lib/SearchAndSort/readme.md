@@ -24,12 +24,14 @@ searchableIndexesPlaceholder | string | If this is provided and is a string, the
 selectedIndex | string | When `searchableIndexes` is provided, this must also be supplied, its value matching one of those in the provided array.
 onChangeIndex | function | If provided, this function is invoked, and passed an event structure, when the user changes which index is selected.
 maxSortKeys | number | If provided, specifies that maximum number of sort-keys that should be remembered for "stable sorting". Defaults to 2 if not specified.
+sortableColumns | array | If provided, specifies the columns that can be sorted.
 filterConfig | array of structures | Configuration for the module's filters, as documented [in the `<FilterGroups>` readme](https://github.com/folio-org/stripes-components/tree/master/lib/FilterGroups#filter-configuration).
 initialFilters | string | The initial state of the filters when the application started up, used when resetting to the initial state. Takes the same form as the `filters` part of the URL: a comma-separated list of `group`.`name` filters that are selected.
 disableFilters | object whose keys are filter-group names | In the display of filter groups, those that are named in this object are greyed out and cannot be selected.
 filterChangeCallback | function | If provided, this function is invoked when the user changes a filter. It is passed the new set of filters, in the form of an object whose keys are the `group`.`name` specifiers of each selected filter.
 onFilterChange | function | Callback to be called after filter value is changed. Gets filter name and filter values in a form of an object `{ name: <String>, values: <Array> }`.
 renderFilters | function | Renders a set of filters. Gets onChange callback to be called after filter value change.
+renderNavigation | function | Renders a component at the top of the first section (filters) to be used as navigation. Default `noop`.
 initialResultCount | number | The number of records to fetch when a new search is executed (including the null search that is run when the module starts).
 resultCountIncrement | number | The amount by which to increase the number of records when scrolling close to the bottom of the loaded list.
 viewRecordComponent | component | A React component that displays a record of the appropriate type in full view. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<ViewUser>` in ui-users](https://github.com/folio-org/ui-users/blob/master/ViewUser.js).
@@ -52,6 +54,7 @@ nsParams | object or string | An object or string used to namespace search and s
 notLoadedMessage | string | A message to show the user before a search has been submitted. Defaults to "Choose a filter or enter search query to show results".
 getHelperResourcePath | func | An optional function which can be used to return helper's resource path dynamically.
 getHelperComponent | func | An optional function which can be used to return connected helper component implementation.
+title | string/element | An optional property to specify title of results pane. By default module display name is used.
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

@@ -170,6 +170,9 @@
     "addressEdit.label.city": "المدينة",
     "addresses": "العناوين",
     "address.noAddressesStored": "- لا توجد عناوين مخزنة -",
-    "notes.assigned.count": "# of assignments",
-    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
+    "notes.assigned.count": "# من المهام",
+    "notes.cautionMessage": "لا يمكن إلغاء تعيين الملاحظات التي تحتوي على مهمة واحدة",
+    "cddd.itemRecallSucceeded": "تم استدعاء المادة",
+    "cddd.header.requests": "طلبات",
+    "cddd.itemHasBeenRecalled": "تم استدعاء المادة"
 }

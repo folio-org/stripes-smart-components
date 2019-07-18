@@ -4,11 +4,13 @@ import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/help
 import mirageOptions from './network';
 
 export function setupApplication({
-  scenarios
+  scenarios,
+  permissions = {},
 } = {}) {
   setupStripesCore({
     mirageOptions,
     scenarios,
+    permissions,
 
     // setup a dummy app for smart components
     modules: [{

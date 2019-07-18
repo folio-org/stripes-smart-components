@@ -7,6 +7,7 @@
 * Remove permissions related to the (deprecated and removed) earlier implementation of Notes (STSMACOM-224)
 * Set selectedIndex to empty string by default. Fixes UIIN-615.
 * Fix requests count and alert message after loan due date changed. Refs UIU-1070.
+* Pass `permissions` to `setupApplication` so tests can configure their own permissions. Fixes STSMACOM-231.
 
 ## [2.7.2](https://github.com/folio-org/stripes-smart-components/tree/v2.7.2) (2019-06-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.1...v2.7.2)

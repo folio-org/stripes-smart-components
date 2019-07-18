@@ -174,5 +174,5 @@
     "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
     "cddd.itemRecallSucceeded": "Item has been recalled",
     "cddd.header.requests": "Requests",
-    "cddd.itemHasBeenRecalled": "Item has been recalled"
+    "cddd.itemHasBeenRecalled": "单件已召回"
 }

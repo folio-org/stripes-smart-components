@@ -51,7 +51,7 @@
     "closeEntryDialog": "Chiudi la finestra di dialogo",
     "editOrDeleteNote": "Modifica o elimina questa nota",
     "notes": "Notes",
-    "numberOfNotes": "{count, number} {count, plural, one {Nota} altro {Note}}",
+    "numberOfNotes": "{count, number} {count, plural, one {Nota} other {Note}}",
     "enterANote": "Inserire una nota.",
     "notesTextArea": "Area di testo della nota",
     "cancelEdit": "Annulla modifica",
@@ -171,5 +171,8 @@
     "addresses": "Addresses",
     "address.noAddressesStored": "- No addresses stored -",
     "notes.assigned.count": "# of assignments",
-    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
+    "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
+    "cddd.itemRecallSucceeded": "Item has been recalled",
+    "cddd.header.requests": "Requests",
+    "cddd.itemHasBeenRecalled": "Item has been recalled"
 }

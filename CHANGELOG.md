@@ -4,6 +4,7 @@
 
 * Retain search query when returning to search and sort app. Part of STSMACOM-232.
 * Reset results when search field is cleared out manually. Fixes STCOM-549.
+* Add possibility to hide assign button on notes accordion. Refs STSMACOM-236
 
 ## [2.8.0](https://github.com/folio-org/stripes-smart-components/tree/v2.8.0) (2019-07-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.2...v2.8.0)

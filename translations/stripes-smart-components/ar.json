@@ -74,7 +74,7 @@
     "searchCriteria": "أدخل معايير البحث لبدء البحث",
     "cddd.date": "التاريخ",
     "cddd.time": "الوقت",
-    "searchResultsCountHeader": "تم العثور على {count, number} {count, plural, one { تسجيلة } other { تسجيلات }}",
+    "searchResultsCountHeader": "تم العثور على {count, number} {count, plural, one { تسجيلة } other { تسجيلة }}",
     "tags": "الوسوم",
     "numberOfTags": "{count, number} {count, plural, one {وسم} other {وسوم}}",
     "deleteTag": "إزالة الوسم",

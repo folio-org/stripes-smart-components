@@ -56,7 +56,6 @@
     "notesTextArea": "Área de texto de nota",
     "cancelEdit": "Cancelar edição",
     "post": "Correio",
-    "postNote": "Nota de correio",
     "searchAndFilter": "Pesquisar e filtrar",
     "search": "Pesquisa",
     "new": "Novo",
@@ -170,6 +169,9 @@
     "addressEdit.label.city": "Cidade",
     "addresses": "Endereços",
     "address.noAddressesStored": "- Nenhum endereço armazenado -",
-    "notes.assigned.count": "# of assignments",
-    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
+    "notes.assigned.count": "núm. de atribuições",
+    "notes.cautionMessage": "Notas com uma atribuição não podem ser desatribuídas.",
+    "cddd.itemRecallSucceeded": "Item foi chamado de volta",
+    "cddd.header.requests": "Requisições",
+    "cddd.itemHasBeenRecalled": "Item foi chamado de volta"
 }

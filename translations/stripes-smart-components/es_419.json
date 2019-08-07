@@ -56,7 +56,6 @@
     "notesTextArea": "Note text area",
     "cancelEdit": "Cancel edit",
     "post": "Post",
-    "postNote": "Post Note",
     "searchAndFilter": "Search & filter",
     "search": "Search",
     "new": "New",
@@ -171,5 +170,8 @@
     "addresses": "Addresses",
     "address.noAddressesStored": "- No addresses stored -",
     "notes.assigned.count": "# of assignments",
-    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
+    "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
+    "cddd.itemRecallSucceeded": "Item has been recalled",
+    "cddd.header.requests": "Requests",
+    "cddd.itemHasBeenRecalled": "Item has been recalled"
 }

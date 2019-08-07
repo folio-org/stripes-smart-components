@@ -1,12 +1,24 @@
 # Change history for stripes-smart-components
 
-## 2.8.0 (IN PROGRESS)
+## 2.9.0 (IN PROGRESS)
 
-* In `<EditableList>`, prevent changes of the vertical position of elements when a validation error message is displayed and prevent input field validation on cancel. Fixes UIORG-81.
+* Retain search query when returning to search and sort app. Part of STSMACOM-232.
+* Reset results when search field is cleared out manually. Fixes STCOM-549.
+* Add possibility to hide assign button on notes accordion. Refs STSMACOM-236
+
+## [2.8.0](https://github.com/folio-org/stripes-smart-components/tree/v2.8.0) (2019-07-24)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.2...v2.8.0)
+
+* `<SearchAndSort>` accepts `title` to set the results-pane headline. Refs UIOR-298.
+* `<EditableList>` layout is stable when validation errors are present and prevents validation on cancel. Fixes UIORG-81.
 * `<ControlledVocab>` accepts optional new `actuatorType` property. If set to `'refdata'`, it performs different back-end operations to maintain the vocabulary, as described in [_API to the Refdata system_](https://github.com/openlibraryenvironment/ui-directory/blob/master/doc/refdata-api.md). Fixes [ReShare issue PR-189](https://openlibraryenvironment.atlassian.net/browse/PR-189). Available from v2.7.3.
 * Remove permissions related to the (deprecated and removed) earlier implementation of Notes (STSMACOM-224)
-* Set selectedIndex to empty string by default. Fixes UIIN-615.
+* `<ControlledVocab>` displays error message when save fails. Fixes STSMACOM-165.
+* `<AddressFieldGroup>` i18n. Fixes STSMACOM-170.
+* Reset `<SearchField>` with an empty string instead of undefined. Fixes UIIN-615.
 * Fix requests count and alert message after loan due date changed. Refs UIU-1070.
+* Pass `permissions` to `setupApplication` so tests can configure their own permissions. Fixes STSMACOM-231.
+* Fix `<ViewMetaData>` so it doesn't blow the stack when creator and updater differ. Fixes STSMACOM-230.
 
 ## [2.7.2](https://github.com/folio-org/stripes-smart-components/tree/v2.7.2) (2019-06-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.1...v2.7.2)

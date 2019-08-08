@@ -61,6 +61,7 @@ AddressList makes use of AddressEdit and AddressView components, used for editin
 
 ### `<EmbeddedAddressForm>` Props
 In addition to the props of AddressEdit, `<EmbeddedAddressForm>` allows for a few additional modifications.
+
 Name | description | default | required
 --- | --- | --- | ---
 `addressLabel` | The `node` to be rendered in the header of the field group. | Defaults to the localized text for the `address.addressLabel` key. | 

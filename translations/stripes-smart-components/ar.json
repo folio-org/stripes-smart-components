@@ -173,5 +173,10 @@
     "notes.cautionMessage": "لا يمكن إلغاء تعيين الملاحظات التي تحتوي على مهمة واحدة",
     "cddd.itemRecallSucceeded": "تم استدعاء المادة",
     "cddd.header.requests": "طلبات",
-    "cddd.itemHasBeenRecalled": "تم استدعاء المادة"
+    "cddd.itemHasBeenRecalled": "تم استدعاء المادة",
+    "notes.type": "نوع الملاحظة",
+    "notes.type.general": "ملاحظة عامة",
+    "notes.type.customerSupport": "دعم العميل",
+    "assignUnassign": "تعيين / إلغاء تعيين",
+    "notes.assignUnassignNote": "تعيين / إلغاء تعيين الملاحظة"
 }

@@ -173,5 +173,10 @@
     "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
     "cddd.itemRecallSucceeded": "Item has been recalled",
     "cddd.header.requests": "Requests",
-    "cddd.itemHasBeenRecalled": "Item has been recalled"
+    "cddd.itemHasBeenRecalled": "Item has been recalled",
+    "notes.type": "Note type",
+    "notes.type.general": "General note",
+    "notes.type.customerSupport": "Customer support",
+    "assignUnassign": "Assign / Unassign",
+    "notes.assignUnassignNote": "Assign / Unassign note"
 }

@@ -173,5 +173,10 @@
     "notes.cautionMessage": "Anmerkungen mit einer Zuweisung können nicht entfernt werden.",
     "cddd.itemRecallSucceeded": "Exemplar wurde erfolgreich zurückgerufen",
     "cddd.header.requests": "Vormerkungen",
-    "cddd.itemHasBeenRecalled": "Exemplar wurde zurückgerufen"
+    "cddd.itemHasBeenRecalled": "Exemplar wurde zurückgerufen",
+    "notes.type": "Note type",
+    "notes.type.general": "General note",
+    "notes.type.customerSupport": "Customer support",
+    "assignUnassign": "Assign / Unassign",
+    "notes.assignUnassignNote": "Assign / Unassign note"
 }

@@ -1,0 +1,30 @@
+@import '@folio/stripes-components/lib/variables';
+
+.button {
+  composes: boxOffsetSmall from "@folio/stripes-components/lib/sharedStyles/interactionStyles.css";
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-medium);
+  color: var(--color-text-p2);
+}
+
+.badge {
+  margin: 0 0 0 0.2rem;
+}
+
+[dir="rtl"] .badge {
+  margin: 0 0.2rem 0 0;
+}
+
+.arrow {
+  width: 0.7rem;
+  opacity: 1;
+  transition: opacity 300ms ease-out;
+
+  &.hidden {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+    transition: opacity 300ms ease-out;
+  }
+}

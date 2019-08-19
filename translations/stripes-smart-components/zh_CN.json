@@ -173,5 +173,10 @@
     "notes.cautionMessage": "有任务的注释无法取消分配。",
     "cddd.itemRecallSucceeded": "单件已召回",
     "cddd.header.requests": "请求",
-    "cddd.itemHasBeenRecalled": "单件已召回"
+    "cddd.itemHasBeenRecalled": "单件已召回",
+    "notes.type": "Note type",
+    "notes.type.general": "General note",
+    "notes.type.customerSupport": "Customer support",
+    "assignUnassign": "Assign / Unassign",
+    "notes.assignUnassignNote": "Assign / Unassign note"
 }

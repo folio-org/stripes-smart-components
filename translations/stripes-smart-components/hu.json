@@ -56,7 +56,6 @@
     "notesTextArea": "Megjegyzés szövegterület",
     "cancelEdit": "Szerkesztés elvetése",
     "post": "Post",
-    "postNote": "Post megjegyzés",
     "searchAndFilter": "Keresés & szűrő",
     "search": "Keresés",
     "new": "Új",
@@ -153,7 +152,7 @@
     "notes.deleteNote": "Delete note",
     "notes.unassignNote": "Unassign note",
     "notes.unassign.confirm.message": "The note <b>{title}</b> will be <b>unassigned</b>.",
-    "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b> from:",
+    "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber}</b> resource(s)",
     "notes.editNoteTitle": "Edit: {noteTitle}",
     "notes.noteTypesMissing": "Unable to save note. A note type must be selected",
     "addressEdit.useAddressAsPrimaryAddress": "Use address {index} as primary address",
@@ -171,5 +170,13 @@
     "addresses": "Addresses",
     "address.noAddressesStored": "- No addresses stored -",
     "notes.assigned.count": "# of assignments",
-    "notes.cautionMessage": "Notes with one assignment cannot be unassigned."
+    "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
+    "cddd.itemRecallSucceeded": "Item has been recalled",
+    "cddd.header.requests": "Requests",
+    "cddd.itemHasBeenRecalled": "Item has been recalled",
+    "notes.type": "Note type",
+    "notes.type.general": "General note",
+    "notes.type.customerSupport": "Customer support",
+    "assignUnassign": "Assign / Unassign",
+    "notes.assignUnassignNote": "Assign / Unassign note"
 }

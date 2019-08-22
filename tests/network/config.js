@@ -31,7 +31,7 @@ export default function config() {
         }
       }
 
-      return conditions.every(cond => !!cond);
+      return conditions.every(condition => !!condition);
     });
   });
 

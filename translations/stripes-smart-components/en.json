@@ -160,7 +160,7 @@
   "notes.deleteNote": "Delete note",
   "notes.unassignNote": "Unassign note",
   "notes.unassign.confirm.message": "The note <b>{title}</b> will be <b>unassigned</b>.",
-  "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber}</b> resource(s)",
+  "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber, number}</b> {resourcesNumber, plural, one {resource} other {resources}}",
   "notes.noteTypesMissing": "Unable to save note. A note type must be selected",
   "addressEdit.useAddressAsPrimaryAddress": "Use address {index} as primary address",
   "addressEdit.useAsPrimaryAddress": "Use as primary address",

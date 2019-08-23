@@ -1,11 +1,17 @@
 # Change history for stripes-smart-components
 
-## 2.9.0 (IN PROGRESS)
+## [2.9.0](https://github.com/folio-org/stripes-smart-components/tree/v2.9.0) (2019-08-21)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.8.0...v2.9.0)
 
 * Retain search query when returning to search and sort app. Part of STSMACOM-232.
 * Reset results when search field is cleared out manually. Fixes STCOM-549.
-* Add possibility to hide assign button on notes accordion. Refs STSMACOM-236
+* Add possibility to hide assign button on notes accordion. Refs STSMACOM-236.
+* Filter `<Note>`s by type. Refs STSMACOM-237.
+* Clearer language throughout `<Note>` modals. Refs STSMACOM-338, STSMACOM-239, STSMACOM-240.
 * Bump react-final-form version to 6, consistent with other modules.
+* Hide new-record route and button when there is no permission to use it. Refs UIORGS-79.
+* Correctly describe `<EntryManager>`'s PropTypes to avoid erroneous console warnings.
+* `<EditableList>`: Disable New button when editing row. Refs STCOM-539.
 
 ## [2.8.0](https://github.com/folio-org/stripes-smart-components/tree/v2.8.0) (2019-07-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.2...v2.8.0)

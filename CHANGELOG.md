@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 2.10.0 (IN PROGRESS)
+
+* Correct prop passed to `<AddressFieldGroup>` translation. 
+
 ## [2.9.0](https://github.com/folio-org/stripes-smart-components/tree/v2.9.0) (2019-08-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.8.0...v2.9.0)
 

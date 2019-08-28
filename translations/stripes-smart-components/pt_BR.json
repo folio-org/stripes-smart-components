@@ -152,7 +152,7 @@
     "notes.deleteNote": "Excluir nota",
     "notes.unassignNote": "Desatribuir nota",
     "notes.unassign.confirm.message": "A nota <b>{title}</b> será <b>não atribuída</b>.",
-    "notes.delete.confirm.message": "A nota <b>{title}</b> será permanentemente <b>excluída</b>. Esta nota está anexada ao(s) recurso(s) <b>{resourcesNumber}</b>",
+    "notes.delete.confirm.message": "A nota <b>{title}</b> será permanentemente <b>excluída</b>. Esta nota está anexada a <b>{resourcesNumber, number}</b> {resourcesNumber, plural, one {recurso} other {recursos}}",
     "notes.editNoteTitle": "Editar: {noteTitle}",
     "notes.noteTypesMissing": "Não é possível salvar a nota. Um tipo de nota deve ser selecionado",
     "addressEdit.useAddressAsPrimaryAddress": "Use o endereço {index} como endereço principal",

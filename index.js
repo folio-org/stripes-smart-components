@@ -61,3 +61,5 @@ export { default as NoteCreatePage } from './lib/Notes/NoteCreatePage';
 export { default as NoteViewPage } from './lib/Notes/NoteViewPage';
 export { default as NoteEditPage } from './lib/Notes/NoteEditPage';
 export { default as NotesSmartAccordion } from './lib/Notes/NotesSmartAccordion';
+
+export * from './lib/PluginFindRecord';

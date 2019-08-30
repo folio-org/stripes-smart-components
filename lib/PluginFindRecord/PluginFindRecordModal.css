@@ -1,0 +1,61 @@
+@import "@folio/stripes-components/lib/variables";
+
+.searchField {
+  margin-bottom: calc(var(--control-margin-bottom) / 2);
+}
+
+/* reset button wrap - minor alignment adjustment */
+.resetButtonWrap {
+  & [disabled] :global .stripes__icon {
+    fill: rgba(0, 0, 0, 0.62);
+  }
+
+  &.resetButton {
+    border-color: rgba(0, 0, 0, 0.62);
+    color: rgba(0, 0, 0, 0.62);
+  }
+}
+
+.searchGroupWrap {
+  margin-bottom: 0.5rem;
+}
+
+.showButtonsBar {
+  & [class^="paneset--"] {
+    height: calc(100% - 50px);
+  }
+}
+
+.pluginModalFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pluginModalContent {
+  min-height: 400px;
+  padding: 0;
+  position: relative;
+
+  & [class^="paneset--"] {
+    height: 390px;
+  }
+
+  & [class^="mclRowContainer--"] {
+    max-width: 100%;
+
+    & div {
+      max-width: 100%;
+    }
+
+    & [class^="mclCell--"] {
+      word-break: break-word;
+    }
+  }
+
+  & .pluginModalNewBtnWrapper {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+}

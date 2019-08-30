@@ -69,6 +69,12 @@
   "sas.noResults.loading": "Loading…",
   "sas.createEntry": "Create entry",
 
+  "pfr.button.close": "Close",
+  "pfr.button.save": "Save",
+  "pfr.noSourceYet": "No source yet",
+  "pfr.resultsHeader": "Search results",
+  "pfr.totalSelected": "Total selected: {count}",
+
   "closeEntryDialog": "Close entry dialog",
   "editOrDeleteNote": "Edit or delete this note",
   "cancelEdit": "Cancel edit",

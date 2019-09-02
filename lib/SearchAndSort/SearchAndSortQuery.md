@@ -59,6 +59,7 @@ Name | type | description | required | default
 `initialFiltersState` | object | sets up the inital state of the `filterFields` slice of query state. | |
 `initialSortState` | object | sets up the initial state of the `sortFields` slice of query state. | |
 `maxSortKeys` | number | If provided, specifies that maximum number of sort-keys that should be remembered for "stable sorting". | | 2
+`sortableColumns` | array | If provided, specifies the columns that can be sorted.
 `nsParams` | string, object | For instances where namespacing params due to a shared query string is necessary. A string will place the string in front of the parameter separated by a dot. An object can be used for name-spacing on a per-parameter basis. | |
 `onComponentWillUnmount` | func | for performing any necessary cleanup when the component dismounts. | | The component alone will reset the query to the initial query.
 `queryGetter` | func | An adapter function called internally for querying parameters. Its passed the an object containing the `location` object from react-router. | | By default, it returns the search key of location, parsed via `queryString.parse`
@@ -178,7 +179,7 @@ const filterSort = (curState, nextState) => {
 By default, `<SearchAndSortQuery>` will initialize its query state using its 'location' prop - this comes from the url in the address bar. SearchAndSort-based modules include their default queries in their 'home' url ex: `/users?sort=name`.
 If using the local resource strictly for your query string (typical plugin behavior), you can set the `syncToLocationSearch` prop to `false` and supply an `initialSearch` prop with the search string beginning with `?` - ex: `initialSearch="?sort=name"`
 
-## Resetting 
+## Resetting
 `<SearchAndSortQuery>` will use the `initialSearch` prop to reset its query state for any 'reset' functionality for filters and search criteria.
 
 ## Parameter mapping

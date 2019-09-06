@@ -1,45 +1,27 @@
 @import "@folio/stripes-components/lib/variables.css";
 
-.assign-checkbox label {
-  margin-bottom: 0;
-}
-
-.assign-checkbox input {
-  margin: 0;
-}
-
-.assign-checkbox label::before {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.assign-checkbox label::after {
-  content: none;
-}
-
-.save-button {
-  margin-left: var(--gutter-static);
-}
-
-.search-field {
-  margin-bottom: var(--gutter-static);
-}
-
 .modal-content {
   padding: 0;
 }
 
-.footer-button {
-  margin-bottom: 0;
-}
-
 .caution-message {
-  margin: 0 5px;
-  width: 100%;
+  margin: 0;
+  padding: 1rem;
   color: var(--color-text-p2);
   font-size: var(--font-size-small);
-  line-height: 1.2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.results-outer {
+  height: 100%;
+}
+
+.results-list-container {
+  flex: 1 0 auto;
+}
+
+.notes-paneset-container {
+  height: 40vh;
 }

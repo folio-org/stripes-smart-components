@@ -1,10 +1,17 @@
 # Change history for stripes-smart-components
 
-## 2.10.0 (IN PROGRESS)
+## [2.10.0](https://github.com/folio-org/stripes-smart-components/tree/v2.10.0) (2019-09-09)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.9.0...v2.10.0)
 
-* Correct prop passed to `<AddressFieldGroup>` translation. 
-* Use `rowUpdater` prop for `MultiColumnList` in `EditableList, ControlledVocab, ChangeDueDateDialog`
-* Update interactor for `Notes Accordion`
+* Pluralize notes translation string. Refs STSMACOM-241.
+* Prevent multiple clicks on `<ControlledVocab>`'s `New` button. STCOM-539
+* Centralize `<Notes>` tests instead of distributing them across all implementing apps. Refs STSMACOM-241.
+* Move expand/collapse filter-pane button into the filter-pane itself. STSMACOM-233
+* Pass correct prop to `<AddressFieldGroup>` translation. 
+* Suppress Okapi error related to reference constraint violations. ERM-390
+* Allow suppression of sort for some column headers. Refs UIOR-292
+* Use `rowUpdater` prop for `MultiColumnList` in `EditableList, ControlledVocab, ChangeDueDateDialog`. Refs STCOM-363
+* Update interactor for `Notes Accordion`. Refs STCOM-363
 
 ## [2.9.0](https://github.com/folio-org/stripes-smart-components/tree/v2.9.0) (2019-08-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.8.0...v2.9.0)
@@ -107,7 +114,7 @@
 
 ## [2.0.2](https://github.com/folio-org/stripes-smart-components/tree/v2.0.2) (2019-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.0.1...v2.0.2)
-
+’’
 * Make stripes dependencies more strict with ~ instead of ^. Refs STRIPES-608.
 
 ## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)

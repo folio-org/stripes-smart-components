@@ -11,6 +11,14 @@ export default function config() {
         'key' : 'fieldLabel',
         'value' : 'name'
       }]
+    },
+    {
+      'message' : 'test',
+      'code' : '-1',
+      'parameters' : [{
+        'key' : 'test',
+        'value' : 'test'
+      }]
     }]
   }, 422);
 

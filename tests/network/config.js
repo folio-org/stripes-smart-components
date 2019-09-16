@@ -3,6 +3,25 @@ export default function config() {
   // okapi endpoints
   this.get('/note-types');
 
+  this.post('location-units/institutions', {
+    'errors' : [{
+      'message' : 'Cannot create entity; name is not unique',
+      'code' : 'name.duplicate',
+      'parameters' : [{
+        'key' : 'fieldLabel',
+        'value' : 'name'
+      }]
+    },
+    {
+      'message' : 'test',
+      'code' : '-1',
+      'parameters' : [{
+        'key' : 'test',
+        'value' : 'test'
+      }]
+    }]
+  }, 422);
+
   this.get('/note-links/domain/dummy/type/:type/id/:id', ({ notes }, { params, queryParams }) => {
     return notes.where((note) => {
       const conditions = [];

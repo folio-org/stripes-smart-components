@@ -65,14 +65,14 @@
     "query-string": "^5.0.0",
     "react-final-form": "^6.3.0",
     "react-intl": "^2.4.0",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.0.0",
     "react-router-prop-types": "^1.0.4",
     "react-transition-group": "^2.4.0",
     "react-virtualized-auto-sizer": "^1.0.2",
     "redux-form": "^7.0.3"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": "*",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
   }
 }

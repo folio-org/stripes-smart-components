@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.2",
-    "@folio/stripes-components": "~5.7.0",
+    "@folio/stripes-components": "~5.7.1",
     "@folio/stripes-connect": "~5.4.0",
     "@folio/stripes-core": "~3.9.0",
     "@folio/stripes-form": "~2.9.0",

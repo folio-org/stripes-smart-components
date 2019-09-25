@@ -178,5 +178,8 @@
     "notes.type.general": "Nota geral",
     "notes.type.customerSupport": "Suporte ao cliente",
     "assignUnassign": "Atribuir/Cancelar atribuição",
-    "notes.assignUnassignNote": "Atribuir/Cancelar atribuição de nota"
+    "notes.assignUnassignNote": "Atribuir/Cancelar atribuição de nota",
+    "error.name.duplicate": "{fieldLabel} já existe.",
+    "error.defaultSaveError": "Erro ao salvar dados",
+    "error.defaultRemoveError": "'Erro ao remover dados'"
 }

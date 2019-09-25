@@ -178,5 +178,8 @@
     "notes.type.general": "ملاحظة عامة",
     "notes.type.customerSupport": "دعم العميل",
     "assignUnassign": "تعيين / إلغاء تعيين",
-    "notes.assignUnassignNote": "تعيين / إلغاء تعيين الملاحظة"
+    "notes.assignUnassignNote": "تعيين / إلغاء تعيين الملاحظة",
+    "error.name.duplicate": "{fieldLabel} موجود بالفعل",
+    "error.defaultSaveError": "خطأ في حفظ البيانات",
+    "error.defaultRemoveError": "'خطأ في إزالة البيانات'"
 }

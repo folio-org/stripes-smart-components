@@ -178,5 +178,8 @@
     "notes.type.general": "General note",
     "notes.type.customerSupport": "Customer support",
     "assignUnassign": "Assign / Unassign",
-    "notes.assignUnassignNote": "Assign / Unassign note"
+    "notes.assignUnassignNote": "Assign / Unassign note",
+    "error.name.duplicate": "{fieldLabel} ya existe.",
+    "error.defaultSaveError": "Error al guardar datos",
+    "error.defaultRemoveError": "'Error al eliminar datos'"
 }

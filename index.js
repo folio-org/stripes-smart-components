@@ -28,6 +28,8 @@ export { default as SearchAndSortNoResultsMessage } from './lib/SearchAndSort/co
 export { default as SearchAndSortResetButton } from './lib/SearchAndSort/components/ResetButton';
 export { default as SearchAndSortSearchButton } from './lib/SearchAndSort/components/SearchButton';
 export { default as CheckboxFilter } from './lib/SearchAndSort/components/CheckboxFilter';
+export { default as ExpandFilterPaneButton } from './lib/SearchAndSort/components/ExpandFilterPaneButton';
+export { default as CollapseFilterPaneButton } from './lib/SearchAndSort/components/CollapseFilterPaneButton';
 
 export { default as MultiSelectionFilter } from './lib/SearchAndSort/components/MultiSelectionFilter';
 

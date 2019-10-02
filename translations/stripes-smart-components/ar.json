@@ -59,8 +59,8 @@
     "searchAndFilter": "بحث وتنقيح ",
     "search": "بحث",
     "new": "جديد",
-    "hideSearchPane": "إخفاء جزء البحث والمنقحات.",
-    "showSearchPane": "إظهار جزء البحث والمنقحات.",
+    "hideSearchPane": "إخفاء لوحة البحث والمنقحات.",
+    "showSearchPane": "إظهار لوحة البحث والمنقحات",
     "numberOfFilters": "{count, number} {count, plural, one {منقح مطبق} other {منقحات مطبقة}}",
     "permissionError": "خطأ في الصلاحيات",
     "permissionsDoNotAllowAccess": "عذرًا - لا تتيح صلاحياتك الوصول إلى هذه الصفحة.",
@@ -178,5 +178,8 @@
     "notes.type.general": "ملاحظة عامة",
     "notes.type.customerSupport": "دعم العميل",
     "assignUnassign": "تعيين / إلغاء تعيين",
-    "notes.assignUnassignNote": "تعيين / إلغاء تعيين الملاحظة"
+    "notes.assignUnassignNote": "تعيين / إلغاء تعيين الملاحظة",
+    "error.name.duplicate": "{fieldLabel} موجود بالفعل",
+    "error.defaultSaveError": "خطأ في حفظ البيانات",
+    "error.defaultRemoveError": "'خطأ في إزالة البيانات'"
 }

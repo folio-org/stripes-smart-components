@@ -1,12 +1,35 @@
 # Change history for stripes-smart-components
 
-## 2.9.0 (IN PROGRESS)
+## [2.11.0](https://github.com/folio-org/stripes-smart-components/tree/v2.11.0) (2019-09-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.10.0...v2.11.0)
+
+* Better handling of server errors in `<ControlledVocab>`. STSMACOM-227. 
+
+## [2.10.0](https://github.com/folio-org/stripes-smart-components/tree/v2.10.0) (2019-09-09)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.9.0...v2.10.0)
+
+* Pluralize notes translation string. Refs STSMACOM-241.
+* Prevent multiple clicks on `<ControlledVocab>`'s `New` button. STCOM-539
+* Centralize `<Notes>` tests instead of distributing them across all implementing apps. Refs STSMACOM-241.
+* Move expand/collapse filter-pane button into the filter-pane itself. STSMACOM-233
+* Pass correct prop to `<AddressFieldGroup>` translation. 
+* Suppress Okapi error related to reference constraint violations. ERM-390
+* Allow suppression of sort for some column headers. Refs UIOR-292
+* Use `rowUpdater` prop for `MultiColumnList` in `EditableList, ControlledVocab, ChangeDueDateDialog`. Refs STCOM-363
+* Update interactor for `Notes Accordion`. Refs STCOM-363
+
+## [2.9.0](https://github.com/folio-org/stripes-smart-components/tree/v2.9.0) (2019-08-21)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.8.0...v2.9.0)
 
 * Retain search query when returning to search and sort app. Part of STSMACOM-232.
 * Reset results when search field is cleared out manually. Fixes STCOM-549.
-* Add possibility to hide assign button on notes accordion. Refs STSMACOM-236
+* Add possibility to hide assign button on notes accordion. Refs STSMACOM-236.
+* Filter `<Note>`s by type. Refs STSMACOM-237.
+* Clearer language throughout `<Note>` modals. Refs STSMACOM-338, STSMACOM-239, STSMACOM-240.
 * Bump react-final-form version to 6, consistent with other modules.
+* Hide new-record route and button when there is no permission to use it. Refs UIORGS-79.
 * Correctly describe `<EntryManager>`'s PropTypes to avoid erroneous console warnings.
+* `<EditableList>`: Disable New button when editing row. Refs STCOM-539.
 
 ## [2.8.0](https://github.com/folio-org/stripes-smart-components/tree/v2.8.0) (2019-07-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.7.2...v2.8.0)
@@ -96,7 +119,7 @@
 
 ## [2.0.2](https://github.com/folio-org/stripes-smart-components/tree/v2.0.2) (2019-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.0.1...v2.0.2)
-
+’’
 * Make stripes dependencies more strict with ~ instead of ^. Refs STRIPES-608.
 
 ## [2.0.1](https://github.com/folio-org/stripes-smart-components/tree/v2.0.1) (2019-01-17)

@@ -59,8 +59,8 @@
     "searchAndFilter": "Search & filter",
     "search": "Search",
     "new": "New",
-    "hideSearchPane": "Hide search and filters pane.",
-    "showSearchPane": "Show search and filters pane.",
+    "hideSearchPane": "Contraer el panel de búsqueda y filtro",
+    "showSearchPane": "Expandir el panel de búsqueda y filtro",
     "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
     "permissionError": "Permission error",
     "permissionsDoNotAllowAccess": "Sorry - your permissions do not allow access to this page.",
@@ -178,5 +178,8 @@
     "notes.type.general": "General note",
     "notes.type.customerSupport": "Customer support",
     "assignUnassign": "Assign / Unassign",
-    "notes.assignUnassignNote": "Assign / Unassign note"
+    "notes.assignUnassignNote": "Assign / Unassign note",
+    "error.name.duplicate": "{fieldLabel} already exists.",
+    "error.defaultSaveError": "Error on saving data",
+    "error.defaultRemoveError": "'Error on removing data'"
 }

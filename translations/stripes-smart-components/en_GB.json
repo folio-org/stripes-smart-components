@@ -59,8 +59,8 @@
     "searchAndFilter": "Search & Filter",
     "search": "Search",
     "new": "New",
-    "hideSearchPane": "Hide Search and Filters pane.",
-    "showSearchPane": "Show Search and Filters pane.",
+    "hideSearchPane": "Collapse Search & filter pane",
+    "showSearchPane": "Expand Search & filter pane",
     "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
     "permissionError": "Permission Error",
     "permissionsDoNotAllowAccess": "Sorry - your permissions do not allow access to this page.",
@@ -152,7 +152,7 @@
     "notes.deleteNote": "Delete note",
     "notes.unassignNote": "Unassign note",
     "notes.unassign.confirm.message": "The note <b>{title}</b> will be <b>unassigned</b>.",
-    "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber}</b> resource(s)",
+    "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber, number}</b> {resourcesNumber, plural, one {resource} other {resources}}",
     "notes.editNoteTitle": "Edit: {noteTitle}",
     "notes.noteTypesMissing": "Unable to save note. A note type must be selected",
     "addressEdit.useAddressAsPrimaryAddress": "Use address {index} as primary address",
@@ -178,5 +178,8 @@
     "notes.type.general": "General note",
     "notes.type.customerSupport": "Customer support",
     "assignUnassign": "Assign / Unassign",
-    "notes.assignUnassignNote": "Assign / Unassign note"
+    "notes.assignUnassignNote": "Assign / Unassign note",
+    "error.name.duplicate": "{fieldLabel} already exists.",
+    "error.defaultSaveError": "Error on saving data",
+    "error.defaultRemoveError": "'Error on removing data'"
 }

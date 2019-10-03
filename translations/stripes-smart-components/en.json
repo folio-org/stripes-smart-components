@@ -180,5 +180,6 @@
   "addressEdit.label.stateRegion": "State/Prov/Region",
   "addressEdit.label.zipCode": "Zip/Postal Code",
   "addressEdit.label.country": "Country",
-  "addressEdit.label.city": "City"
+  "addressEdit.label.city": "City",
+  "type": "Type"
 }

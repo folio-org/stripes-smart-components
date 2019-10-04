@@ -181,5 +181,6 @@
     "notes.assignUnassignNote": "Assign / Unassign note",
     "error.name.duplicate": "{fieldLabel} ya existe.",
     "error.defaultSaveError": "Error al guardar datos",
-    "error.defaultRemoveError": "'Error al eliminar datos'"
+    "error.defaultRemoveError": "'Error al eliminar datos'",
+    "type": "Type"
 }

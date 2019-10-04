@@ -181,5 +181,6 @@
     "notes.assignUnassignNote": "Atribuir/Cancelar atribuição de nota",
     "error.name.duplicate": "{fieldLabel} já existe.",
     "error.defaultSaveError": "Erro ao salvar dados",
-    "error.defaultRemoveError": "'Erro ao remover dados'"
+    "error.defaultRemoveError": "'Erro ao remover dados'",
+    "type": "Type"
 }

@@ -181,5 +181,6 @@
     "notes.assignUnassignNote": "分配/取消分配附注",
     "error.name.duplicate": "{fieldLabel} already exists.",
     "error.defaultSaveError": "Error on saving data",
-    "error.defaultRemoveError": "'Error on removing data'"
+    "error.defaultRemoveError": "'Error on removing data'",
+    "type": "Type"
 }

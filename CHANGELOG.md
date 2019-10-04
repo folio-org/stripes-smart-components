@@ -1,8 +1,13 @@
 # Change history for stripes-smart-components
 
-## 2.11.0 (IN PROGRESS)
+## 2.12.0 (IN PROGRESS)
 
 * Move react-router, react-router-dom to a peerDependency and update to v5. Refs STCOM-581.
+
+## [2.11.0](https://github.com/folio-org/stripes-smart-components/tree/v2.11.0) (2019-09-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.10.0...v2.11.0)
+
+* Better handling of server errors in `<ControlledVocab>`. STSMACOM-227. 
 
 ## [2.10.0](https://github.com/folio-org/stripes-smart-components/tree/v2.10.0) (2019-09-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.9.0...v2.10.0)

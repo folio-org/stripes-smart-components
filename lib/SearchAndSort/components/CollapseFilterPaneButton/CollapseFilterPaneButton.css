@@ -1,0 +1,9 @@
+/**
+ * CollapseFilterPaneButton
+ */
+
+@import '@folio/stripes-components/lib/variables';
+
+.button {
+  margin: calc(var(--gutter-static-two-thirds) * -1) !important;
+}

@@ -69,6 +69,8 @@
   "sas.noResults.loading": "Loading…",
   "sas.createEntry": "Create entry",
 
+  "tags.filterError": "Error applying filter: {error}",
+
   "closeEntryDialog": "Close entry dialog",
   "editOrDeleteNote": "Edit or delete this note",
   "cancelEdit": "Cancel edit",

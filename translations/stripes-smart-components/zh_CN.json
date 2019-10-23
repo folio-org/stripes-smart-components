@@ -171,5 +171,6 @@
     "notes.navModal.modalLabel": "请确认",
     "notes.navModal.dismissLabel": "继续编辑",
     "notes.navModal.continueLabel": "不保存即关闭",
-    "notes.navModal.unsavedChangesMsg": "更改尚未保存，确定要离开此页面吗？"
+    "notes.navModal.unsavedChangesMsg": "更改尚未保存，确定要离开此页面吗？",
+    "tags.filterError": "Error applying filter: {error}"
 }

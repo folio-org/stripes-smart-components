@@ -171,5 +171,6 @@
     "notes.navModal.modalLabel": "يرجى التأكيد",
     "notes.navModal.dismissLabel": "استمر في التحرير",
     "notes.navModal.continueLabel": "إغلاق بدون حفظ",
-    "notes.navModal.unsavedChangesMsg": "لم يتم حفظ التغييرات الخاصة بك. هل أنت متأكد من أنك تريد ترك هذه الصفحة؟"
+    "notes.navModal.unsavedChangesMsg": "لم يتم حفظ التغييرات الخاصة بك. هل أنت متأكد من أنك تريد ترك هذه الصفحة؟",
+    "tags.filterError": "Error applying filter: {error}"
 }

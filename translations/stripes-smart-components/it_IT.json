@@ -20,7 +20,7 @@
     "cv.cannotDeleteTermHeader": "Impossibile eliminare {type}",
     "cv.cannotDeleteTermMessage": "Questo {type} non può essere eliminato perché utilizzato da uno o più record.",
     "cv.lastUpdated": "Ultimo aggiornamento",
-    "cv.updatedAtAndBy": "{data} {utente}",
+    "cv.updatedAtAndBy": "{date} da {user}",
     "cv.noExistingTerms": "Non ci sono {terms}",
     "cv.numberOfObjects": "N. di {objects}",
     "cv.termWillBeDeleted": "Il {type} <b> {term} </b> sarà <b>eliminato.</b>",
@@ -171,5 +171,6 @@
     "notes.navModal.modalLabel": "Please confirm",
     "notes.navModal.dismissLabel": "Keep editing",
     "notes.navModal.continueLabel": "Close without saving",
-    "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?"
+    "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?",
+    "tags.filterError": "Error applying filter: {error}"
 }

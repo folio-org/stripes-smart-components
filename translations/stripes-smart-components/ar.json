@@ -172,5 +172,5 @@
     "notes.navModal.dismissLabel": "استمر في التحرير",
     "notes.navModal.continueLabel": "إغلاق بدون حفظ",
     "notes.navModal.unsavedChangesMsg": "لم يتم حفظ التغييرات الخاصة بك. هل أنت متأكد من أنك تريد ترك هذه الصفحة؟",
-    "tags.filterError": "Error applying filter: {error}"
+    "tags.filterError": "حدث خطأ أثناء تطبيق المنقح: {error}"
 }

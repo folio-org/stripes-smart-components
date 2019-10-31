@@ -3,6 +3,7 @@ import setupStripesCore from '@folio/stripes-core/test/bigtest/helpers/setup-app
 import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';
 import mirageOptions from './network';
 
+
 export function setupApplication({
   scenarios,
   permissions = {},

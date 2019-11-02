@@ -168,8 +168,9 @@
     "error.defaultSaveError": "خطأ في حفظ البيانات",
     "error.defaultRemoveError": "'خطأ في إزالة البيانات'",
     "type": "النوع",
-    "notes.navModal.modalLabel": "Please confirm",
-    "notes.navModal.dismissLabel": "Keep editing",
-    "notes.navModal.continueLabel": "Close without saving",
-    "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?"
+    "notes.navModal.modalLabel": "يرجى التأكيد",
+    "notes.navModal.dismissLabel": "استمر في التحرير",
+    "notes.navModal.continueLabel": "إغلاق بدون حفظ",
+    "notes.navModal.unsavedChangesMsg": "لم يتم حفظ التغييرات الخاصة بك. هل أنت متأكد من أنك تريد ترك هذه الصفحة؟",
+    "tags.filterError": "حدث خطأ أثناء تطبيق المنقح: {error}"
 }

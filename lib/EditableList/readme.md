@@ -50,6 +50,7 @@ columnMapping | object | Allows custom column names to be applied in case they d
 fieldComponents | object | Allows custom components for edit mode to be used. Fields not supplied will use a `<TextField>` by default| | no
 columnWidths | object | Allows custom column widths to be set. If you use this, be sure to set a width for an 'actions' column as part of this object. | | no
 id | string | Used as a basic suffix for `id` attributes throughout the component. | |
+editable | boolean | Used as a flag for the component to be editable or not editable (without '+ New' button and column 'actions'). | `true` | no
 
 ### Custom Field Components
 Many times a `<TextField>` won't be adequate for the value that needs to be edited, so to provide your own `<Field>`, using the `fieldComponents` prop is the way to accomplish this. It accepts an object with keys corresponding to visibleFields that contain render functions. The functions will be provided an object with a `fieldProps` key that can be spread on the `<Field>` for convenience (it applies `name` and `aria-label` props). Other provided props are listed after the example.

@@ -137,6 +137,7 @@
   "notes.noteAssignmentStatus": "Note assignment status",
   "notes.found": "{quantity, number} {quantity, plural, one {note found} other {notes found}}",
   "notes.generalInformation": "General information",
+  "notes.assigned": "Assigned",
   "notes.assigned.count": "# of assignments",
   "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
   "notes.newNote": "New note",

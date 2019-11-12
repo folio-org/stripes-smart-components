@@ -172,5 +172,7 @@
     "notes.navModal.dismissLabel": "继续编辑",
     "notes.navModal.continueLabel": "不保存即关闭",
     "notes.navModal.unsavedChangesMsg": "更改尚未保存，确定要离开此页面吗？",
-    "tags.filterError": "Error applying filter: {error}"
+    "tags.filterError": "Error applying filter: {error}",
+    "notes.assigned": "Assigned",
+    "searchResultsCountUnknown": "More than 10,000 records found"
 }

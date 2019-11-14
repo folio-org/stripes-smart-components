@@ -32,6 +32,8 @@
   "dateRange.missingEndDate": "Please enter an end date",
   "dateRange.wrongOrder": "Start date is greater than end date",
 
+  "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name.",
+
   "cv.cannotDeleteTermHeader": "Cannot delete {type}",
   "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is in use by one or more records.",
   "cv.lastUpdated": "Last updated",

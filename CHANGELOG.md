@@ -1,9 +1,14 @@
 # Change history for stripes-smart-components
 
+## [2.12.0] (IN PROGRESS)
+
+* Update `locallyChangedSearchTerm` only when query from resourceQuery matches query param from URL. Refs UUIN-758.
+* Retrieve up to 100k of requested user loans instead of 10 in change due date dialog. Refs UIU-1293.
+
 ## [2.11.0](https://github.com/folio-org/stripes-smart-components/tree/v2.11.0) (2019-09-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.10.0...v2.11.0)
 
-* Better handling of server errors in `<ControlledVocab>`. STSMACOM-227. 
+* Better handling of server errors in `<ControlledVocab>`. STSMACOM-227.
 
 ## [2.10.0](https://github.com/folio-org/stripes-smart-components/tree/v2.10.0) (2019-09-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.9.0...v2.10.0)
@@ -12,7 +17,7 @@
 * Prevent multiple clicks on `<ControlledVocab>`'s `New` button. STCOM-539
 * Centralize `<Notes>` tests instead of distributing them across all implementing apps. Refs STSMACOM-241.
 * Move expand/collapse filter-pane button into the filter-pane itself. STSMACOM-233
-* Pass correct prop to `<AddressFieldGroup>` translation. 
+* Pass correct prop to `<AddressFieldGroup>` translation.
 * Suppress Okapi error related to reference constraint violations. ERM-390
 * Allow suppression of sort for some column headers. Refs UIOR-292
 * Use `rowUpdater` prop for `MultiColumnList` in `EditableList, ControlledVocab, ChangeDueDateDialog`. Refs STCOM-363

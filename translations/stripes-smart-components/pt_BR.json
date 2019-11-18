@@ -172,5 +172,7 @@
     "notes.navModal.dismissLabel": "Continuar editando",
     "notes.navModal.continueLabel": "Fechar sem salvar",
     "notes.navModal.unsavedChangesMsg": "Suas alterações não foram salvas. Tem certeza de que deseja sair desta página?",
-    "tags.filterError": "Erro ao aplicar o filtro: {error}"
+    "tags.filterError": "Erro ao aplicar o filtro: {error}",
+    "notes.assigned": "Atribuído",
+    "searchResultsCountUnknown": "Mais de 10.000 registros encontrados"
 }

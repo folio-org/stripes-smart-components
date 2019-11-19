@@ -35,6 +35,8 @@ renderNavigation | function | Renders a component at the top of the first sectio
 initialResultCount | number | The number of records to fetch when a new search is executed (including the null search that is run when the module starts).
 resultCountIncrement | number | The amount by which to increase the number of records when scrolling close to the bottom of the loaded list.
 viewRecordComponent | component | A React component that displays a record of the appropriate type in full view. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<ViewUser>` in ui-users](https://github.com/folio-org/ui-users/blob/master/ViewUser.js).
+viewRecordPathById | function | A function that takes an id and returns a path to link brief records to. Used in lieu of `viewRecordComponent`
+createRecordPath | string | Path to link the "New" button to rather than use `editRecordComponent`.
 editRecordComponent | component | A React component that displays an editing form for a record of the appropriate type, and which can also be used for creating new records. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<UserForm>` in ui-users](https://github.com/folio-org/ui-users/blob/master/UserForm.js).
 newRecordInitialValues | object whose keys are field-names | Values to set into the form when creating a new record.
 visibleColumns | array of fieldnames | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)

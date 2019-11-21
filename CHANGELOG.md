@@ -4,6 +4,7 @@
 
 * Update `locallyChangedSearchTerm` only when query from resourceQuery matches query param from URL. Refs UUIN-758.
 * Retrieve up to 100k of requested user loans instead of 10 in change due date dialog. Refs UIU-1293.
+* Add `<Spinner>` to `<ChangeDueDateDialog>` while loans are loading. Refs UIU-1379.
 
 ## [2.11.0](https://github.com/folio-org/stripes-smart-components/tree/v2.11.0) (2019-09-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.10.0...v2.11.0)

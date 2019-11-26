@@ -174,5 +174,6 @@
     "notes.navModal.unsavedChangesMsg": "لم يتم حفظ التغييرات الخاصة بك. هل أنت متأكد من أنك تريد ترك هذه الصفحة؟",
     "tags.filterError": "حدث خطأ أثناء تطبيق المنقح: {error}",
     "notes.assigned": "معيّن",
-    "searchResultsCountUnknown": "تم العثور على أكثر من 10000 تسجيلة"
+    "searchResultsCountUnknown": "تم العثور على أكثر من 10000 تسجيلة",
+    "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name."
 }

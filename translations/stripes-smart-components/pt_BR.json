@@ -174,5 +174,6 @@
     "notes.navModal.unsavedChangesMsg": "Suas alterações não foram salvas. Tem certeza de que deseja sair desta página?",
     "tags.filterError": "Erro ao aplicar o filtro: {error}",
     "notes.assigned": "Atribuído",
-    "searchResultsCountUnknown": "Mais de 10.000 registros encontrados"
+    "searchResultsCountUnknown": "Mais de 10.000 registros encontrados",
+    "feesfines.policy.lost.duplicate": "O nome da política de taxa de itens perdidos inserido já existe. Digite um nome diferente."
 }

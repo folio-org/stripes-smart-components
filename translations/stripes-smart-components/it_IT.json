@@ -175,5 +175,5 @@
     "tags.filterError": "Errore durante l'applicazione del filtro: {error}",
     "notes.assigned": "Assigned",
     "searchResultsCountUnknown": "More than 10,000 records found",
-    "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name."
+    "feesfines.policy.lost.duplicate": "Esiste già una politica per la tariffa degli item smarriti con questo nome. Inserisci un nome diverso."
 }

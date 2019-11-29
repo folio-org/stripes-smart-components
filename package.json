@@ -74,5 +74,8 @@
   },
   "peerDependencies": {
     "react": "*"
+  },
+  "resolutions": {
+    "fake-xml-http-request": "2.0.0"
   }
 }

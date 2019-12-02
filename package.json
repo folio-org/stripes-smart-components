@@ -38,7 +38,6 @@
     "babel-polyfill": "^6.26.0",
     "chai": "^4.2.0",
     "eslint": "^5.5.0",
-    "fake-xml-http-request": "2.0.0",
     "mocha": "^5.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -75,8 +74,5 @@
   },
   "peerDependencies": {
     "react": "*"
-  },
-  "resolutions": {
-    "fake-xml-http-request": "2.0.0"
   }
 }

@@ -24,7 +24,7 @@
     "cv.noExistingTerms": "Il n'y a pas de {terms}",
     "cv.numberOfObjects": "# de {objects}",
     "cv.termWillBeDeleted": "Le {type} <b> {term} </b> sera <b> supprimé. </b>",
-    "cv.termDeleted": "Le {type} <b> {term} </b> été <b> supprimé avec succès </b>",
+    "cv.termDeleted": "Le/la {type} <b> {term} </b> a été <b> supprimé(e) avec succès </b>",
     "ll.locationLookup": "Recherche de lieu",
     "ll.selectLocationHeader": "Sélectionner {type} l'emplacement",
     "ll.institution": "Institution",

@@ -35,7 +35,7 @@
   "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name.",
 
   "cv.cannotDeleteTermHeader": "Cannot delete {type}",
-  "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is in use by one or more records.",
+  "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is associated with one or more manual {type} charges.",
   "cv.lastUpdated": "Last updated",
   "cv.updatedAtAndBy": "{date} by {user}",
   "cv.noExistingTerms": "There are no {terms}",

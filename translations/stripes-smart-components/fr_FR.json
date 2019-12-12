@@ -22,9 +22,9 @@
     "cv.lastUpdated": "Dernière mise à jour",
     "cv.updatedAtAndBy": "{date} par {user}",
     "cv.noExistingTerms": "Il n'y a pas de {terms}",
-    "cv.numberOfObjects": "# d' {objects}",
+    "cv.numberOfObjects": "# de {objects}",
     "cv.termWillBeDeleted": "Le {type} <b> {term} </b> sera <b> supprimé. </b>",
-    "cv.termDeleted": "Le {type} <b> {term} </b> été <b> supprimé avec succès </b>",
+    "cv.termDeleted": "Le/la {type} <b> {term} </b> a été <b> supprimé(e) avec succès </b>",
     "ll.locationLookup": "Recherche de lieu",
     "ll.selectLocationHeader": "Sélectionner {type} l'emplacement",
     "ll.institution": "Institution",
@@ -93,7 +93,7 @@
     "sas.noResults.noTerms": "Choisir un filtre ou saisir une requête pour afficher les résultats.",
     "sas.noResults.noResults": "Aucun résultat trouvé. Merci de vérifier vos filtres.",
     "sas.noResults.loading": "Chargement...",
-    "cm.success": "Le réglage a été mis à jour avec succès.",
+    "cm.success": "Le paramètre a été mis à jour avec succès.",
     "system": "Système",
     "address.addressLabel": "Adresse",
     "sas.createEntry": "Créer une entrée",
@@ -157,7 +157,7 @@
     "address.noAddressesStored": "- Aucune adresse enregistrée -",
     "notes.assigned.count": "Nombre d'affectations",
     "notes.cautionMessage": "Les notes avec une affectation ne peuvent pas être non affectées.",
-    "cddd.header.requests": "Demandes",
+    "cddd.header.requests": "Demandes-Réservations",
     "cddd.itemHasBeenRecalled": "L'article a été rappelé",
     "notes.type": "Type de note",
     "notes.type.general": "Note générale",
@@ -175,5 +175,7 @@
     "tags.filterError": "Erreur lors de l'application du filtre: {error}",
     "notes.assigned": "Attribué",
     "searchResultsCountUnknown": "Plus de 10 000 enregistrements trouvés",
-    "feesfines.policy.lost.duplicate": "Le nom de la politique de frais pour les articles perdus existe déjà. Merci de saisir un nom différent."
+    "feesfines.policy.lost.duplicate": "Le nom de la politique de frais pour les articles perdus existe déjà. Merci de saisir un nom différent.",
+    "reset": "Réinitialiser",
+    "notes.assignUnassignAll": "Attribuer / supprimer l'attribution de toutes les notes"
 }

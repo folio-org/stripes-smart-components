@@ -175,5 +175,7 @@
     "tags.filterError": "حدث خطأ أثناء تطبيق المنقح: {error}",
     "notes.assigned": "معيّن",
     "searchResultsCountUnknown": "تم العثور على أكثر من 10000 تسجيلة",
-    "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name."
+    "feesfines.policy.lost.duplicate": "اسم سياسة رسم المادة المفقودة الذي قمت بإدخاله موجود بالفعل. يرجى إدخال اسم مختلف.",
+    "reset": "إعادة تعيين",
+    "notes.assignUnassignAll": "تعيين / إلغاء تعيين كل الملاحظات"
 }

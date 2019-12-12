@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 2.13.0 IN PROGRESS
+
+* Keep search term around after browser refresh. Fixes STSMACOM-271.
+
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)
 

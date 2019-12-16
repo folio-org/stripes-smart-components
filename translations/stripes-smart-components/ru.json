@@ -13,7 +13,7 @@
     "cddd.header.currentDueDate": "Текущая дата платежа",
     "cddd.header.barcode": "Штрих-код",
     "cddd.header.callNumber": "Телефонный номер",
-    "cddd.header.loanPolicy": "Loan policy",
+    "cddd.header.loanPolicy": "Политика книговыдачи",
     "cddd.warning.dueDateAfterPatronExpiration": "New due date is after patron's expiration.",
     "cddd.warning.dueDateWhenLibraryClosed": "Новый срок, когда библиотека закрыта.",
     "cddd.warning.dueDateInPast": "New due date is in the past.",

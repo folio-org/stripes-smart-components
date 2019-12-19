@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [2.12.1](https://github.com/folio-org/stripes-smart-components/tree/v2.12.1) (2019-12-19)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.12.0...v2.12.1)
+
+* Increase limit for fetching notes. Fixes STSMACOM-272.
+
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)
 

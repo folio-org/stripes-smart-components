@@ -174,5 +174,8 @@
     "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?",
     "tags.filterError": "フィルタの適用中にエラーが発生しました: {エラー}",
     "notes.assigned": "Assigned",
-    "searchResultsCountUnknown": "More than 10,000 records found"
+    "searchResultsCountUnknown": "More than 10,000 records found",
+    "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name.",
+    "reset": "リセット",
+    "notes.assignUnassignAll": "すべてのノートの割り当て/割り当て解除"
 }

@@ -5,6 +5,7 @@
 * Keep search term around after browser refresh. Fixes STSMACOM-271.
 * Added integration point for `resultOffset`, which supports `stripes-components` result list "load more" button. Refs STCON-57.
 * Reset `resultCount` and `resultOffset` when sorting. Fixes STSMACOM-269.
+* `<EditableList>`: Disable the actions in existing rows when another item is being created or edited. Refs STCOM-624.
 
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)

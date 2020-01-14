@@ -1,9 +1,24 @@
 # Change history for stripes-smart-components
 
-## [2.12.0] (IN PROGRESS)
+## 2.13.0 IN PROGRESS
+
+* Keep search term around after browser refresh. Fixes STSMACOM-271.
+* Added integration point for `resultOffset`, which supports `stripes-components` result list "load more" button. Refs STCON-57.
+* Reset `resultCount` and `resultOffset` when sorting. Fixes STSMACOM-269.
+* `<EditableList>`: Disable the actions in existing rows when another item is being created or edited. Refs STCOM-624.
+* Improve accessibility, add attribute `aria-label` to `nav` tag in Settings. Refs UICAL-85.   
+
+## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)
 
 * Update `locallyChangedSearchTerm` only when query from resourceQuery matches query param from URL. Refs UUIN-758.
-* Improve accessibility, add attribute `aria-label` to `nav` tag in Settings. Refs UICAL-85.   
+* Retrieve up to 100k of requested user loans instead of 10 in change due date dialog. Refs UIU-1293.
+* Show notes in alphabetical order. Refs UINOTES-59.
+* Show "unknown count" message instead of "999,999,999". Refs STSMACOM-259.
+* `<SearchAndSort>` should accept a function to determine some routes. Refs STSMACOM-251.
+* Add `<Spinner>` to `<ChangeDueDateDialog>` while loans are loading. Refs UIU-1379.
+* Better error display for `<EditableList>`. Refs STSMACOM-264.
+* Notes form refactor. Refs STSMACOM-270.
 
 ## [2.11.0](https://github.com/folio-org/stripes-smart-components/tree/v2.11.0) (2019-09-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.10.0...v2.11.0)

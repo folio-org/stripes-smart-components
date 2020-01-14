@@ -32,6 +32,8 @@
   "dateRange.missingEndDate": "Please enter an end date",
   "dateRange.wrongOrder": "Start date is greater than end date",
 
+  "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name.",
+
   "cv.cannotDeleteTermHeader": "Cannot delete {type}",
   "cv.cannotDeleteTermMessage": "This {type} cannot be deleted, as it is in use by one or more records.",
   "cv.lastUpdated": "Last updated",
@@ -88,6 +90,8 @@
   "searchResults": "{objectName} search results",
   "searchReturnedResults": "Search returned {count, number} {count, plural, one {result} other {results}}",
   "searchResultsCountHeader": "{count, number} {count, plural, one {record found} other {records found}}",
+  "searchResultsCountUnknown": "More than 10,000 records found",
+  "reset": "Reset",
   "resetAll": "Reset all",
   "whoAreYouActingAs": "Who are you acting as?",
   "self": "Self",
@@ -120,6 +124,7 @@
   "notes": "Notes",
   "notes.notFound": "No notes found",
   "notes.assignUnassignNote": "Assign / Unassign note",
+  "notes.assignUnassignAll": "Assign / Unassign all notes",
   "notes.noteSearch": "Note search",
   "notes.noteAssignmentStatus": "Note assignment status",
   "notes.found": "{quantity, number} {quantity, plural, one {note found} other {notes found}}",
@@ -137,6 +142,7 @@
   "notes.noteAssignmentStatus": "Note assignment status",
   "notes.found": "{quantity, number} {quantity, plural, one {note found} other {notes found}}",
   "notes.generalInformation": "General information",
+  "notes.assigned": "Assigned",
   "notes.assigned.count": "# of assignments",
   "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
   "notes.newNote": "New note",

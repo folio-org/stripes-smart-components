@@ -22,7 +22,7 @@
     "cv.lastUpdated": "آخر تحديث",
     "cv.updatedAtAndBy": "{date} بواسطة {user}",
     "cv.noExistingTerms": "لا يوجد {terms}",
-    "cv.numberOfObjects": "# من {objects}",
+    "cv.numberOfObjects": "عدد {objects}",
     "cv.termWillBeDeleted": "سيتم <b>حذف</b>  {type}<b>{term}</b> ",
     "cv.termDeleted": "تم <b>حذف</b> {type} <b>{term}</b> بنجاح",
     "ll.locationLookup": "بحث الموقع",
@@ -155,7 +155,7 @@
     "addressEdit.label.city": "المدينة",
     "addresses": "العناوين",
     "address.noAddressesStored": "- لا توجد عناوين مخزنة -",
-    "notes.assigned.count": "# من المهام",
+    "notes.assigned.count": "عدد المهام",
     "notes.cautionMessage": "لا يمكن إلغاء تعيين الملاحظات التي تحتوي على مهمة واحدة",
     "cddd.header.requests": "طلبات",
     "cddd.itemHasBeenRecalled": "تم استدعاء المادة",
@@ -172,5 +172,10 @@
     "notes.navModal.dismissLabel": "استمر في التحرير",
     "notes.navModal.continueLabel": "إغلاق بدون حفظ",
     "notes.navModal.unsavedChangesMsg": "لم يتم حفظ التغييرات الخاصة بك. هل أنت متأكد من أنك تريد ترك هذه الصفحة؟",
-    "tags.filterError": "حدث خطأ أثناء تطبيق المنقح: {error}"
+    "tags.filterError": "حدث خطأ أثناء تطبيق المنقح: {error}",
+    "notes.assigned": "معيّن",
+    "searchResultsCountUnknown": "تم العثور على أكثر من 10000 تسجيلة",
+    "feesfines.policy.lost.duplicate": "اسم سياسة رسم المادة المفقودة الذي قمت بإدخاله موجود بالفعل. يرجى إدخال اسم مختلف.",
+    "reset": "إعادة تعيين",
+    "notes.assignUnassignAll": "تعيين / إلغاء تعيين كل الملاحظات"
 }

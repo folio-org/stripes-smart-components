@@ -44,7 +44,7 @@
     "ls.locationPlaceholder": "Sélectionnez un nom d'emplacement ou un code",
     "pm.proxyExpired": "La relation de proxy a expiré",
     "pm.sponsorExpired": "Enregistrement de l'utilisateur du sponsor expiré",
-    "pm.cannotRequestFoSponsor": "Proxy cannot request for sponsor",
+    "pm.cannotRequestFoSponsor": "Le mandataire ne peut pas demander de parrain",
     "pm.continue": "Continuer",
     "pm.cancel": "Annuler",
     "closeEntryDialog": "Fermer le dialogue de saisie",

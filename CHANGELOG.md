@@ -7,6 +7,7 @@
 * Reset `resultCount` and `resultOffset` when sorting. Fixes STSMACOM-269.
 * `<EditableList>`: Disable the actions in existing rows when another item is being created or edited. Refs STCOM-624.
 * Improve accessibility, add attribute `aria-label` to `nav` tag in Settings. Refs UICAL-85.   
+* Bump `<ControlledVocab>` fetch limit to 2000. Refs STSMACOM-296.
 
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)

@@ -191,7 +191,6 @@
   "customFields.metadata.createdBy": "Created by {userName} {date}",
   "customFields.fieldTypes.TEXTBOX_SHORT": "Text field",
   "customFields.fieldLabel": "Field label",
-  "customFields.settings": "Settings",
   "customFields.fieldFormat": "Field format",
   "customFields.helperText": "Help text",
   "customFields.helperText.description": "This will show under an information icon",
@@ -211,5 +210,6 @@
   "customFields.settings.sectionTitle": "Section title",
   "customFields.settings.accordion.requiredHidden": "(Required, hidden)",
   "customFields.settings.accordion.required": "(Required)",
-  "customFields.settings.accordion.hidden": "(Hidden)"
+  "customFields.settings.accordion.hidden": "(Hidden)",
+  "customFields.recordAccordion.defaultName": "Additional options"
 }

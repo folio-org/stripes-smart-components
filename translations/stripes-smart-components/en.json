@@ -211,5 +211,5 @@
   "customFields.settings.accordion.requiredHidden": "(Required, hidden)",
   "customFields.settings.accordion.required": "(Required)",
   "customFields.settings.accordion.hidden": "(Hidden)",
-  "customFields.recordAccordion.defaultName": "Additional options"
+  "customFields.recordAccordion.defaultName": "Custom fields"
 }

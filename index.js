@@ -61,4 +61,5 @@ export { default as NoteCreatePage } from './lib/Notes/NoteCreatePage';
 export { default as NoteViewPage } from './lib/Notes/NoteViewPage';
 export { default as NoteEditPage } from './lib/Notes/NoteEditPage';
 export { default as NotesSmartAccordion } from './lib/Notes/NotesSmartAccordion';
-export * from './lib/CustomFields';
+export { default as ViewCustomFieldsSettings } from './lib/CustomFields/pages/ViewCustomFieldsSettings';
+export { default as EditCustomFieldsSettings } from './lib/CustomFields/pages/EditCustomFieldsSettings';

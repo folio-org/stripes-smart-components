@@ -15,13 +15,15 @@
   flex-direction: column;
 }
 
-.noResultsMessage, .noResultsMessageLabelWrap {
+.noResultsMessage,
+.noResultsMessageLabelWrap {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.noResultsMessageIcon, .noResultsMessageLabel {
+.noResultsMessageIcon,
+.noResultsMessageLabel {
   font-size: var(--font-size-large);
   margin: 5px 0;
 }

@@ -1,35 +1,31 @@
- @import '@folio/stripes-components/lib/variables';
+@import '@folio/stripes-components/lib/variables';
+.wrapper {
+  height: 100%;
+  position: relative;
+}
 
-  .wrapper {
-    height: 100%;
-    position: relative;
-  }
+.noResultsMessage {
+  padding: 15px;
+  color: var(--color-text-p2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+}
 
- .noResultsMessage {
-   padding: 15px;
-   color: var(--color-text-p2);
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   flex-direction: column;
- }
- 
- .noResultsMessage,
- .noResultsMessageLabelWrap {
-   display: flex;
-   align-items: center;
-   justify-content: center;
- }
- 
-.noResultsMessageIcon,
-.noResultsMessageLabel {
-   font-size: var(--font-size-large);
-   margin: 5px 0;
- }
- 
- .noResultsMessageButton {
-   margin-top: 15px;
- }
- 
+.noResultsMessage, .noResultsMessageLabelWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noResultsMessageIcon, .noResultsMessageLabel {
+  font-size: var(--font-size-large);
+  margin: 5px 0;
+}
+
+.noResultsMessageButton {
+  margin-top: 15px;
+}

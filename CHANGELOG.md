@@ -10,6 +10,7 @@
 * Bump `<ControlledVocab>` fetch limit to 2000. Refs STSMACOM-296.
 * Increase of character limit for notes to 3500. Refs STSMACOM-295.
 * Added support for periods in filter values.
+* Display `effective call number prefix`, `call number`, `call number suffix`, `enumeration`, `chronology`, `volume` in loans contexts. Refs UIU-1391.
 
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)

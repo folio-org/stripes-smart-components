@@ -16,7 +16,7 @@
   "cddd.header.currentDueDate": "Current due date",
   "cddd.header.requests": "Requests",
   "cddd.header.barcode": "Barcode",
-  "cddd.header.callNumber": "Call number",
+  "cddd.header.effectiveCallNumber": "Effective call number string",
   "cddd.header.loanPolicy": "Loan policy",
   "cddd.warning.dueDateAfterPatronExpiration": "New due date is after patron's expiration.",
   "cddd.warning.dueDateWhenLibraryClosed": "New due date is when the library is closed.",

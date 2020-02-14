@@ -1,10 +1,19 @@
 {
   "extends": "@folio/eslint-config-stripes",
   "parser": "babel-eslint",
+  "plugins": ["react-hooks"],
   "rules": {
     "max-len": ["warn", { "code": 120 }],
     "operator-linebreak": ["off"],
-    "react/sort-prop-types": ["error"]
+    "react/sort-prop-types": ["error"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": [
+      "error",
+      {
+        "skipUndeclared": true
+      }
+    ]
   },
   "overrides": [
     {

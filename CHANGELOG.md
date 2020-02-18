@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## 2.13.0 IN PROGRESS
+## 3.0.0 IN PROGRESS
 
 * Keep search term around after browser refresh. Fixes STSMACOM-271.
 * Added integration point for `resultOffset`, which supports `stripes-components` result list "load more" button. Refs STCON-57.
@@ -10,6 +10,7 @@
 * Bump `<ControlledVocab>` fetch limit to 2000. Refs STSMACOM-296.
 * Increase of character limit for notes to 3500. Refs STSMACOM-295.
 * Added support for periods in filter values.
+* Escape quotes and backslashes in the values inserted into CQL queries. Refs UIIN-589.
 
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)

@@ -5,6 +5,7 @@
   "rules": {
     "max-len": ["warn", { "code": 120 }],
     "operator-linebreak": ["off"],
+    "prefer-object-spread": "off",
     "react/sort-prop-types": ["error"],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -17,10 +18,11 @@
   },
   "overrides": [
     {
-      "files": ["lib/**/tests/*"],
+      "files": ["lib/**/tests/**"],
       "rules": {
         "no-unused-expressions": "off",
-        "func-names": "off"
+        "func-names": "off",
+        "max-classes-per-file": "off"
       }
     }
   ]

@@ -12,7 +12,6 @@
     "cddd.header.itemStatus": "Status do item",
     "cddd.header.currentDueDate": "Data de vencimento atual",
     "cddd.header.barcode": "Código de barras",
-    "cddd.header.callNumber": "Número de chamada",
     "cddd.header.loanPolicy": "Política de empréstimos",
     "cddd.warning.dueDateAfterPatronExpiration": "A nova data de vencimento é após a expiração do patrocinador.",
     "cddd.warning.dueDateWhenLibraryClosed": "A nova data de vencimento está definida quando a biblioteca está fechada.",
@@ -207,5 +206,6 @@
     "customFields.settings.accordion.required": "(Obrigatório)",
     "customFields.settings.accordion.hidden": "(Oculto)",
     "customFields.recordAccordion.defaultName": "Campos personalizados",
-    "customFields.errorOccurred": "Não foi possível atualizar devido a um erro do módulo. Por favor, tente novamente. Se o problema persistir, entre em contato com o administrador do sistema."
+    "customFields.errorOccurred": "Não foi possível atualizar devido a um erro do módulo. Por favor, tente novamente. Se o problema persistir, entre em contato com o administrador do sistema.",
+    "cddd.header.effectiveCallNumber": "Seqüência efetiva do número de chamada"
 }

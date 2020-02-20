@@ -12,7 +12,6 @@
     "cddd.header.itemStatus": "Exemplarstatus",
     "cddd.header.currentDueDate": "Aktuelles Fälligkeitsdatum",
     "cddd.header.barcode": "Barcode",
-    "cddd.header.callNumber": "Signatur",
     "cddd.header.loanPolicy": "Ausleihregel",
     "cddd.warning.dueDateAfterPatronExpiration": "Neues Fälligkeitsdatum ist nach dem Ablauf der Nutzungsberechtigung.",
     "cddd.warning.dueDateWhenLibraryClosed": "Neues Fälligkeitsdatum liegt in der Schließzeit der Bibliothek.",
@@ -207,5 +206,6 @@
     "customFields.settings.accordion.required": "(Required)",
     "customFields.settings.accordion.hidden": "(Hidden)",
     "customFields.recordAccordion.defaultName": "Custom fields",
-    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator."
+    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "cddd.header.effectiveCallNumber": "Effective call number string"
 }

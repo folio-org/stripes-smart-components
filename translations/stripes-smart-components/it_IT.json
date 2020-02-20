@@ -12,7 +12,6 @@
     "cddd.header.itemStatus": "Stato item",
     "cddd.header.currentDueDate": "Attuale data di scadenza",
     "cddd.header.barcode": "Codice a barre",
-    "cddd.header.callNumber": "Collocazione",
     "cddd.header.loanPolicy": "Politica di prestito",
     "cddd.warning.dueDateAfterPatronExpiration": "La nuova scadenza è successiva alla scadenza dell'utente.",
     "cddd.warning.dueDateWhenLibraryClosed": "La nuova data di scadenza cade in un periodo di chiusura della biblioteca.",
@@ -207,5 +206,6 @@
     "customFields.settings.accordion.required": "(Required)",
     "customFields.settings.accordion.hidden": "(Hidden)",
     "customFields.recordAccordion.defaultName": "Custom fields",
-    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator."
+    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "cddd.header.effectiveCallNumber": "Stringa di collocazione effettiva"
 }

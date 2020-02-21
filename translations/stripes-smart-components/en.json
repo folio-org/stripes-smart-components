@@ -8,6 +8,8 @@
   "cddd.itemHasBeenRecalled": "Item has been recalled",
   "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{count}</b> items.",
   "cddd.changeFailed": "Failed to change due date",
+  "cddd.itemDeclaredLost": "Failed to change due date: item is Declared lost",
+  "cddd.itemDeclaredLostWarning": "Item is Declared lost",
   "cddd.itemHasRequestQueue": "Item has a request queue",
   "cddd.itemsHaveWarnings": "<b>{count}</b> items have <b>warnings.</b>",
   "cddd.header.alertDetails": "Alert details",

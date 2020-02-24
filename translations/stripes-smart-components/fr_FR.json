@@ -184,7 +184,7 @@
     "customFields.clickNewToCreate": "Cliquez sur le bouton \"nouveau\" pour créer votre section de champ personnalisé",
     "customFields.metadata.createdBy": "Créé par {userName} {date}",
     "customFields.fieldTypes.TEXTBOX_SHORT": "Champ texte",
-    "customFields.fieldLabel": "Field label",
+    "customFields.fieldLabel": "Étiquette de champ",
     "customFields.fieldFormat": "Format de champ",
     "customFields.helperText": "Texte d'aide",
     "customFields.helperText.description": "Cela apparaîtra sous une icône d'information",
@@ -207,5 +207,7 @@
     "customFields.settings.accordion.hidden": "(Caché)",
     "customFields.recordAccordion.defaultName": "Champs personnalisés",
     "customFields.errorOccurred": "Impossible de mettre à jour en raison d'une erreur de module. Veuillez réessayer. Si le problème persiste, veuillez contacter votre administrateur système.",
-    "cddd.header.effectiveCallNumber": "Effective call number string"
+    "cddd.header.effectiveCallNumber": "Effective call number string",
+    "cddd.itemDeclaredLost": "Impossible de modifier la date d'échéance: l'article est déclaré perdu",
+    "cddd.itemDeclaredLostWarning": "L'objet est déclaré perdu"
 }

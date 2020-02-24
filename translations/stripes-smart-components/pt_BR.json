@@ -207,5 +207,7 @@
     "customFields.settings.accordion.hidden": "(Oculto)",
     "customFields.recordAccordion.defaultName": "Campos personalizados",
     "customFields.errorOccurred": "Não foi possível atualizar devido a um erro do módulo. Por favor, tente novamente. Se o problema persistir, entre em contato com o administrador do sistema.",
-    "cddd.header.effectiveCallNumber": "Seqüência efetiva do número de chamada"
+    "cddd.header.effectiveCallNumber": "Seqüência efetiva do número de chamada",
+    "cddd.itemDeclaredLost": "Falha ao alterar a data de vencimento: o item está declarado perdido",
+    "cddd.itemDeclaredLostWarning": "O item está declarado perdido"
 }

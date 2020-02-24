@@ -192,6 +192,7 @@
   "customFields.clickNewToCreate": "Click the new button to create your custom field section",
   "customFields.metadata.createdBy": "Created by {userName} {date}",
   "customFields.fieldTypes.TEXTBOX_SHORT": "Text field",
+  "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
   "customFields.fieldLabel": "Field label",
   "customFields.fieldFormat": "Field format",
   "customFields.helperText": "Help text",

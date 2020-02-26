@@ -178,6 +178,7 @@
     "reset": "Azzera",
     "notes.assignUnassignAll": "Assegna / Annulla assegnazione di tutte le note",
     "customFields": "Custom fields",
+    "customFields.new": "New",
     "customFields.edit": "Edit",
     "customFields.editCustomFields": "Edit custom fields",
     "customFields.clickNewToCreate": "Click the new button to create your custom field section",

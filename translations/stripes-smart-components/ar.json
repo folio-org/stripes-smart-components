@@ -206,5 +206,7 @@
     "customFields.settings.accordion.hidden": "(مخفي)",
     "customFields.recordAccordion.defaultName": "حقول مخصصة",
     "customFields.errorOccurred": "تعذر التحديث بسبب خطأ في الوحدة. يرجى إعادة المحاولة مرة أخرى. إذا استمرت المشكلة يرجى الاتصال بمدير النظام.",
-    "cddd.header.effectiveCallNumber": "Effective call number string"
+    "cddd.header.effectiveCallNumber": "مقطع رقم الاستدعاء النشط",
+    "cddd.itemDeclaredLost": "فشل تغيير تاريخ الاستحقاق: تم الإعلان عن فقدان المادة",
+    "cddd.itemDeclaredLostWarning": "تم الإعلان عن فقدان المادة"
 }

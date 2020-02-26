@@ -206,5 +206,7 @@
     "customFields.settings.accordion.hidden": "(پوشیدہ)",
     "customFields.recordAccordion.defaultName": "کسٹم فیلڈز",
     "customFields.errorOccurred": "ماڈیول کی خرابی کی وجہ سے اپ ڈیٹ کرنے سے قاصر۔ دوبارہ کوشش کریں. اگر مسئلہ برقرار رہتا ہے تو براہ کرم اپنے سسٹم کے منتظم سے رابطہ کریں۔",
-    "cddd.header.effectiveCallNumber": "موثر مقام"
+    "cddd.header.effectiveCallNumber": "موثر مقام",
+    "cddd.itemDeclaredLost": "Failed to change due date: item is Declared lost",
+    "cddd.itemDeclaredLostWarning": "Item is Declared lost"
 }

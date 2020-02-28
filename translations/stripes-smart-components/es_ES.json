@@ -12,7 +12,6 @@
     "cddd.header.itemStatus": "Estado del artículo",
     "cddd.header.currentDueDate": "Fecha de vencimiento actual",
     "cddd.header.barcode": "Código de barras",
-    "cddd.header.callNumber": "Número de llamada",
     "cddd.header.loanPolicy": "Política de préstamo",
     "cddd.warning.dueDateAfterPatronExpiration": "La nueva fecha de vencimiento es después de la expiración del cliente.",
     "cddd.warning.dueDateWhenLibraryClosed": "La nueva fecha de vencimiento es cuando la biblioteca está cerrada.",
@@ -207,5 +206,8 @@
     "customFields.settings.accordion.required": "(Required)",
     "customFields.settings.accordion.hidden": "(Hidden)",
     "customFields.recordAccordion.defaultName": "Custom fields",
-    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator."
+    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "cddd.header.effectiveCallNumber": "Effective call number string",
+    "cddd.itemDeclaredLost": "Failed to change due date: item is Declared lost",
+    "cddd.itemDeclaredLostWarning": "Item is Declared lost"
 }

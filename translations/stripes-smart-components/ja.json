@@ -12,7 +12,6 @@
     "cddd.header.itemStatus": "アイテムのステータス",
     "cddd.header.currentDueDate": "現在の期日",
     "cddd.header.barcode": "バーコード",
-    "cddd.header.callNumber": "請求記号",
     "cddd.header.loanPolicy": "貸出ポリシー",
     "cddd.warning.dueDateAfterPatronExpiration": "新しい期日は、利用者の有効期限後です。",
     "cddd.warning.dueDateWhenLibraryClosed": "新しい期日は、図書館が閉まっている時です。",
@@ -207,5 +206,8 @@
     "customFields.settings.accordion.required": "(Required)",
     "customFields.settings.accordion.hidden": "(Hidden)",
     "customFields.recordAccordion.defaultName": "Custom fields",
-    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator."
+    "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "cddd.header.effectiveCallNumber": "Effective call number string",
+    "cddd.itemDeclaredLost": "Failed to change due date: item is Declared lost",
+    "cddd.itemDeclaredLostWarning": "Item is Declared lost"
 }

@@ -12,7 +12,6 @@
     "cddd.header.itemStatus": "Statut de l'article",
     "cddd.header.currentDueDate": "Date d'échéance actuelle",
     "cddd.header.barcode": "Code-barres",
-    "cddd.header.callNumber": "Numéro d'appel",
     "cddd.header.loanPolicy": "Politique de prêt",
     "cddd.warning.dueDateAfterPatronExpiration": "La nouvelle date d'échéance est postérieure à celle de l'adhérent",
     "cddd.warning.dueDateWhenLibraryClosed": "La nouvelle date d'échéance tombe pendant la fermeture de la bibliothèque.",
@@ -22,7 +21,7 @@
     "cv.lastUpdated": "Dernière mise à jour",
     "cv.updatedAtAndBy": "{date} par {user}",
     "cv.noExistingTerms": "Il n'y a pas de {terms}",
-    "cv.numberOfObjects": "# de {objects}",
+    "cv.numberOfObjects": "# de/d' {objects}",
     "cv.termWillBeDeleted": "Le {type} <b> {term} </b> sera <b> supprimé. </b>",
     "cv.termDeleted": "Le/la {type} <b> {term} </b> a été <b> supprimé(e) avec succès </b>",
     "ll.locationLookup": "Recherche de lieu",
@@ -184,8 +183,8 @@
     "customFields.editCustomFields": "Modifier les champs personnalisés",
     "customFields.clickNewToCreate": "Cliquez sur le bouton \"nouveau\" pour créer votre section de champ personnalisé",
     "customFields.metadata.createdBy": "Créé par {userName} {date}",
-    "customFields.fieldTypes.TEXTBOX_SHORT": "Text field",
-    "customFields.fieldLabel": "Field label",
+    "customFields.fieldTypes.TEXTBOX_SHORT": "Champ texte",
+    "customFields.fieldLabel": "Étiquette de champ",
     "customFields.fieldFormat": "Format de champ",
     "customFields.helperText": "Texte d'aide",
     "customFields.helperText.description": "Cela apparaîtra sous une icône d'information",
@@ -207,5 +206,8 @@
     "customFields.settings.accordion.required": "(Obligatoire)",
     "customFields.settings.accordion.hidden": "(Caché)",
     "customFields.recordAccordion.defaultName": "Champs personnalisés",
-    "customFields.errorOccurred": "Impossible de mettre à jour en raison d'une erreur de module. Veuillez réessayer. Si le problème persiste, veuillez contacter votre administrateur système."
+    "customFields.errorOccurred": "Impossible de mettre à jour en raison d'une erreur de module. Veuillez réessayer. Si le problème persiste, veuillez contacter votre administrateur système.",
+    "cddd.header.effectiveCallNumber": "Effective call number string",
+    "cddd.itemDeclaredLost": "Impossible de modifier la date d'échéance: l'article est déclaré perdu",
+    "cddd.itemDeclaredLostWarning": "L'objet est déclaré perdu"
 }

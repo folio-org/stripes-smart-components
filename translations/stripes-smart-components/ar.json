@@ -12,7 +12,6 @@
     "cddd.header.itemStatus": "حالة المادة",
     "cddd.header.currentDueDate": "تاريخ الاستحقاق الحالي",
     "cddd.header.barcode": "باركود",
-    "cddd.header.callNumber": "رقم الاستدعاء",
     "cddd.header.loanPolicy": "سياسة الإعارة",
     "cddd.warning.dueDateAfterPatronExpiration": "يقع تاريخ الاستحقاق الجديد بعد انتهاء صلاحية المستفيد.",
     "cddd.warning.dueDateWhenLibraryClosed": "يقع تاريخ الاستحقاق الجديد أثناء غلق المكتبة.",
@@ -207,5 +206,8 @@
     "customFields.settings.accordion.required": "(مطلوب)",
     "customFields.settings.accordion.hidden": "(مخفي)",
     "customFields.recordAccordion.defaultName": "حقول مخصصة",
-    "customFields.errorOccurred": "تعذر التحديث بسبب خطأ في الوحدة. يرجى إعادة المحاولة مرة أخرى. إذا استمرت المشكلة يرجى الاتصال بمدير النظام."
+    "customFields.errorOccurred": "تعذر التحديث بسبب خطأ في الوحدة. يرجى إعادة المحاولة مرة أخرى. إذا استمرت المشكلة يرجى الاتصال بمدير النظام.",
+    "cddd.header.effectiveCallNumber": "مقطع رقم الاستدعاء النشط",
+    "cddd.itemDeclaredLost": "فشل تغيير تاريخ الاستحقاق: تم الإعلان عن فقدان المادة",
+    "cddd.itemDeclaredLostWarning": "تم الإعلان عن فقدان المادة"
 }

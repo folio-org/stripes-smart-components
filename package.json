@@ -66,6 +66,8 @@
     "prop-types-extra": "^1.1.0",
     "query-string": "^5.0.0",
     "react-final-form": "^6.3.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.0.0"
     "react-router-prop-types": "^1.0.4",
     "react-transition-group": "^2.4.0",
     "react-virtualized-auto-sizer": "^1.0.2",

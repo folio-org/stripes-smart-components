@@ -178,7 +178,6 @@
     "reset": "Azzera",
     "notes.assignUnassignAll": "Assegna / Annulla assegnazione di tutte le note",
     "customFields": "Custom fields",
-    "customFields.new": "New",
     "customFields.edit": "Edit",
     "customFields.editCustomFields": "Edit custom fields",
     "customFields.clickNewToCreate": "Click the new button to create your custom field section",
@@ -202,12 +201,13 @@
     "customFields.addCustomField": "Add custom field",
     "customFields.fieldName.noSet": "No label set",
     "customFields.settings.sectionTitle": "Section title",
-    "customFields.settings.accordion.requiredHidden": "(Required, hidden)",
-    "customFields.settings.accordion.required": "(Required)",
     "customFields.settings.accordion.hidden": "(Hidden)",
     "customFields.recordAccordion.defaultName": "Custom fields",
     "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
     "cddd.header.effectiveCallNumber": "Stringa di collocazione effettiva",
     "cddd.itemDeclaredLost": "Impossibile modificare la data di scadenza: l'item è Dichiarato perso",
-    "cddd.itemDeclaredLostWarning": "L'item è Dichiarato perso"
+    "cddd.itemDeclaredLostWarning": "L'item è Dichiarato perso",
+    "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
+    "customFields.required.checked": "Yes",
+    "customFields.required.unchecked": "No"
 }

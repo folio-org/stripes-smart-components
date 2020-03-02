@@ -178,7 +178,6 @@
     "reset": "Reset",
     "notes.assignUnassignAll": "Assign / Unassign all notes",
     "customFields": "Custom fields",
-    "customFields.new": "New",
     "customFields.edit": "Edit",
     "customFields.editCustomFields": "Edit custom fields",
     "customFields.clickNewToCreate": "Click the new button to create your custom field section",
@@ -202,12 +201,13 @@
     "customFields.addCustomField": "اپنی مرضی کا شامل کریں",
     "customFields.fieldName.noSet": "کوئی لیبل سیٹ نہیں",
     "customFields.settings.sectionTitle": "حصے کا عنوان",
-    "customFields.settings.accordion.requiredHidden": "(ضروری , پوشیدہ)",
-    "customFields.settings.accordion.required": "(ضروری)",
     "customFields.settings.accordion.hidden": "(پوشیدہ)",
     "customFields.recordAccordion.defaultName": "کسٹم فیلڈز",
     "customFields.errorOccurred": "ماڈیول کی خرابی کی وجہ سے اپ ڈیٹ کرنے سے قاصر۔ دوبارہ کوشش کریں. اگر مسئلہ برقرار رہتا ہے تو براہ کرم اپنے سسٹم کے منتظم سے رابطہ کریں۔",
     "cddd.header.effectiveCallNumber": "موثر مقام",
     "cddd.itemDeclaredLost": "Failed to change due date: item is Declared lost",
-    "cddd.itemDeclaredLostWarning": "Item is Declared lost"
+    "cddd.itemDeclaredLostWarning": "Item is Declared lost",
+    "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
+    "customFields.required.checked": "Yes",
+    "customFields.required.unchecked": "No"
 }

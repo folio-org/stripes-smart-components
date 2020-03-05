@@ -192,6 +192,7 @@
   "customFields.metadata.createdBy": "Created by {userName} {date}",
   "customFields.fieldTypes.TEXTBOX_SHORT": "Text field",
   "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
+  "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox",
   "customFields.fieldLabel": "Field label",
   "customFields.fieldFormat": "Field format",
   "customFields.helperText": "Help text",

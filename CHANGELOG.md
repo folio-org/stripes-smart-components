@@ -14,6 +14,7 @@
 * Escape quotes and backslashes in the values inserted into CQL queries. Refs UIIN-589.
 * Display `effective call number prefix`, `call number`, `call number suffix`, `enumeration`, `chronology`, `volume` in loans contexts. Refs UIU-1391.
 * Handle (i.e., reject) 'declared lost' items in `<ChangeDueDateDialog>`. Refs UIU-1207.
+* Create UI permissions for Custom Fields .Refs UIU-1492
 
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)

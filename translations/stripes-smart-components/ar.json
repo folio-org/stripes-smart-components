@@ -209,5 +209,8 @@
     "cddd.itemDeclaredLostWarning": "تم الإعلان عن فقدان المادة",
     "customFields.fieldTypes.TEXTBOX_LONG": "مساحة النص",
     "customFields.required.checked": "نعم",
-    "customFields.required.unchecked": "لا"
+    "customFields.required.unchecked": "لا",
+    "customFields.recordAccordion.required": "الحقل مطلوب",
+    "customFields.recordAccordion.length": "تم تجاوز 65 حرفًا. يرجى المراجعة.",
+    "customFields.fieldTypes.SINGLE_CHECKBOX": "مربع التحديد"
 }

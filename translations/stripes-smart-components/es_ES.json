@@ -209,5 +209,8 @@
     "cddd.itemDeclaredLostWarning": "Item is Declared lost",
     "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
     "customFields.required.checked": "Yes",
-    "customFields.required.unchecked": "No"
+    "customFields.required.unchecked": "No",
+    "customFields.recordAccordion.required": "Field is required",
+    "customFields.recordAccordion.length": "65 character limit has been exceeded. Please revise.",
+    "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox"
 }

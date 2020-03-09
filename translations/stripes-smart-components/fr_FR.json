@@ -209,5 +209,8 @@
     "cddd.itemDeclaredLostWarning": "L'objet est déclaré perdu",
     "customFields.fieldTypes.TEXTBOX_LONG": "Zone de texte",
     "customFields.required.checked": "Oui",
-    "customFields.required.unchecked": "Non"
+    "customFields.required.unchecked": "Non",
+    "customFields.recordAccordion.required": "Champ requis",
+    "customFields.recordAccordion.length": "La limite de 65 caractères a été dépassée. Merci de corriger.",
+    "customFields.fieldTypes.SINGLE_CHECKBOX": "Case à cocher"
 }

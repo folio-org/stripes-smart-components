@@ -154,7 +154,7 @@
     "addressEdit.label.city": "Cidade",
     "addresses": "Endereços",
     "address.noAddressesStored": "- Nenhum endereço armazenado -",
-    "notes.assigned.count": "núm. de atribuições",
+    "notes.assigned.count": "Núm. de atribuições",
     "notes.cautionMessage": "Notas com uma atribuição não podem ser desatribuídas.",
     "cddd.header.requests": "Requisições",
     "cddd.itemHasBeenRecalled": "Item foi chamado de volta",
@@ -204,10 +204,13 @@
     "customFields.settings.accordion.hidden": "(Oculto)",
     "customFields.recordAccordion.defaultName": "Campos personalizados",
     "customFields.errorOccurred": "Não foi possível atualizar devido a um erro do módulo. Por favor, tente novamente. Se o problema persistir, entre em contato com o administrador do sistema.",
-    "cddd.header.effectiveCallNumber": "Seqüência efetiva do número de chamada",
+    "cddd.header.effectiveCallNumber": "Sequência efetiva do número de chamada",
     "cddd.itemDeclaredLost": "Falha ao alterar a data de vencimento: o item está declarado perdido",
     "cddd.itemDeclaredLostWarning": "O item está declarado perdido",
     "customFields.fieldTypes.TEXTBOX_LONG": "Área de texto",
     "customFields.required.checked": "Sim",
-    "customFields.required.unchecked": "Não"
+    "customFields.required.unchecked": "Não",
+    "customFields.recordAccordion.required": "Campo é obrigatório",
+    "customFields.recordAccordion.length": "O limite de 65 caracteres foi excedido. Por favor revise.",
+    "customFields.fieldTypes.SINGLE_CHECKBOX": "Caixa de seleção"
 }

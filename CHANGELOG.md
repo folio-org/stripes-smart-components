@@ -1,5 +1,14 @@
 # Change history for stripes-smart-components
 
+## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)
+
+* Notes: relocate expand-all accordion label. Refs STSMACOM-313.
+* Custom fields: provide `checkbox` input type. Refs STSMACOM-314.
+* Custom fields: allow change to accordion label. Refs STSMACOM-275.
+* Handle tags with special characters. Refs STSMACOM-257 STSMACOM-294.
+* Custom fields: accept required permissions props. Refs UIU-1492.
+
 ## [3.0.0](https://github.com/folio-org/stripes-smart-components/tree/v3.0.0) (2020-03-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.12.0...v3.0.0)
 
@@ -14,7 +23,7 @@
 * Escape quotes and backslashes in the values inserted into CQL queries. Refs UIIN-589.
 * Display `effective call number prefix`, `call number`, `call number suffix`, `enumeration`, `chronology`, `volume` in loans contexts. Refs UIU-1391.
 * Handle (i.e., reject) 'declared lost' items in `<ChangeDueDateDialog>`. Refs UIU-1207.
-* Create UI permissions for Custom Fields .Refs UIU-1492
+* Create UI permissions for Custom Fields. Refs UIU-1492
 
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)

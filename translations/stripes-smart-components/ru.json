@@ -42,7 +42,7 @@
     "ls.permanentLocation": "Постоянное расположение",
     "ls.locationPlaceholder": "Выберите название места или код",
     "pm.proxyExpired": "Proxy relationship expired",
-    "pm.sponsorExpired": "Sponsor user record expired",
+    "pm.sponsorExpired": "Срок действия полномочий спонсора истёк",
     "pm.cannotRequestFoSponsor": "Proxy cannot request for sponsor",
     "pm.continue": "Продолжить",
     "pm.cancel": "Отмена",

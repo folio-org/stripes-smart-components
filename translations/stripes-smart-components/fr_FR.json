@@ -199,7 +199,7 @@
     "customFields.delete.warning": "La suppression du champ <b> {fieldName} </b> entraînera également <b> suppression des données </b> stockées dans ce champ dans <b> {usageCount, number} {usageCount, plural, one { enregostrement } other { enregistrements }} </b>",
     "customFields.delete.modalMessage": "Si vous préférez conserver les données, appuyez sur le bouton \"Annuler et continuer à modifier\".",
     "customFields.addCustomField": "Ajouter un champ personnalisé",
-    "customFields.fieldName.noSet": "No label set",
+    "customFields.fieldName.noSet": "Aucun jeu d'étiquettes",
     "customFields.settings.sectionTitle": "Titre de la section",
     "customFields.settings.accordion.hidden": "(Caché)",
     "customFields.recordAccordion.defaultName": "Champs personnalisés",

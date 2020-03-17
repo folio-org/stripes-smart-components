@@ -63,3 +63,5 @@ export { default as NoteEditPage } from './lib/Notes/NoteEditPage';
 export { default as NotesSmartAccordion } from './lib/Notes/NotesSmartAccordion';
 export { default as ViewCustomFieldsSettings } from './lib/CustomFields/pages/ViewCustomFieldsSettings';
 export { default as EditCustomFieldsSettings } from './lib/CustomFields/pages/EditCustomFieldsSettings';
+export { default as EditCustomFieldsRecord } from './lib/CustomFields/pages/EditCustomFieldsRecord';
+export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/ViewCustomFieldsRecord';

@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## [3.2.0](IN PROGRESS)
+
+* Custom fields: create page accordions for create/edit/view record. UIU-1279
+
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)
 

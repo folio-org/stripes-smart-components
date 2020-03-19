@@ -210,7 +210,11 @@
     "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
     "customFields.required.checked": "Yes",
     "customFields.required.unchecked": "No",
-    "customFields.recordAccordion.required": "Field is required",
+    "customFields.recordAccordion.required": "Field is required.",
     "customFields.recordAccordion.length": "65 character limit has been exceeded. Please revise.",
-    "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox"
+    "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox",
+    "customFields.fieldValue.required": "{field} is required",
+    "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
+    "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
+    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise."
 }

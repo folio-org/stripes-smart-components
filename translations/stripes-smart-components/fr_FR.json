@@ -212,5 +212,9 @@
     "customFields.required.unchecked": "Non",
     "customFields.recordAccordion.required": "Champ requis",
     "customFields.recordAccordion.length": "La limite de 65 caractères a été dépassée. Merci de corriger.",
-    "customFields.fieldTypes.SINGLE_CHECKBOX": "Case à cocher"
+    "customFields.fieldTypes.SINGLE_CHECKBOX": "Case à cocher",
+    "customFields.fieldValue.required": "{field} is required",
+    "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
+    "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
+    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise."
 }

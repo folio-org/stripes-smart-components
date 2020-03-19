@@ -210,7 +210,11 @@
     "customFields.fieldTypes.TEXTBOX_LONG": "Área de texto",
     "customFields.required.checked": "Sim",
     "customFields.required.unchecked": "Não",
-    "customFields.recordAccordion.required": "Campo é obrigatório",
+    "customFields.recordAccordion.required": "Campo é obrigatório.",
     "customFields.recordAccordion.length": "O limite de 65 caracteres foi excedido. Por favor revise.",
-    "customFields.fieldTypes.SINGLE_CHECKBOX": "Caixa de seleção"
+    "customFields.fieldTypes.SINGLE_CHECKBOX": "Caixa de seleção",
+    "customFields.fieldValue.required": "{field} é obrigatório",
+    "customFields.fieldValue.length": "O limite de caracteres do campo {field} foi excedido. Por favor revise.",
+    "customFields.fieldName.lengthLimit": "O limite de 65 caracteres foi excedido. Por favor revise.",
+    "customFields.helpText.lengthExceeded": "O limite de 100 caracteres foi excedido. Por favor revise."
 }

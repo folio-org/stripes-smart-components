@@ -215,6 +215,6 @@
     "customFields.fieldTypes.SINGLE_CHECKBOX": "مربع التحديد",
     "customFields.fieldValue.required": "{field} مطلوب",
     "customFields.fieldValue.length": "تم تجاوز حد أحرف {field}. يرجى المراجعة.",
-    "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
-    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise."
+    "customFields.fieldName.lengthLimit": "تم تجاوز 65 حرفًا. يرجى المراجعة.",
+    "customFields.helpText.lengthExceeded": "تم تجاوز 100 حرفًا. يرجى المراجعة."
 }

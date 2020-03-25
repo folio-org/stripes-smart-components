@@ -192,8 +192,11 @@
   "customFields.metadata.createdBy": "Created by {userName} {date}",
   "customFields.fieldTypes.TEXTBOX_SHORT": "Text field",
   "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
+  "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox",
   "customFields.fieldLabel": "Field label",
   "customFields.fieldFormat": "Field format",
+  "customFields.fieldValue.required": "{field} is required",
+  "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
   "customFields.helperText": "Help text",
   "customFields.helperText.description": "This will show under an information icon",
   "customFields.required": "Required",
@@ -214,5 +217,9 @@
   "customFields.settings.sectionTitle": "Section title",
   "customFields.settings.accordion.hidden": "(Hidden)",
   "customFields.recordAccordion.defaultName": "Custom fields",
+  "customFields.recordAccordion.required": "Field is required.",
+  "customFields.recordAccordion.length": "65 character limit has been exceeded. Please revise.",
+  "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
+  "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
   "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator."
 }

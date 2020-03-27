@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "2.12.1",
+  "version": "2.12.2",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -50,8 +50,8 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^1.0.2",
-    "@folio/stripes-components": "~5.9.0",
-    "@folio/stripes-connect": "~5.4.3",
+    "@folio/stripes-components": "~5.9.3",
+    "@folio/stripes-connect": "~5.4.6",
     "@folio/stripes-core": "~3.11.0",
     "@folio/stripes-form": "~2.11.0",
     "@folio/stripes-logger": "~1.0.0",

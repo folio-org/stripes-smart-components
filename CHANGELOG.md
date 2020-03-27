@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 2.13.0 (IN PROGRESS)
+## [2.12.2](https://github.com/folio-org/stripes-smart-components/tree/v2.12.2) (2020-03-26)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.12.1...v2.12.2)
 
 * Added integration point for `resultOffset`, which supports `stripes-components` result list "load more" button. Refs STCON-57.
 * Reset `resultCount` and `resultOffset` when sorting. Fixes STSMACOM-269.

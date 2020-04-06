@@ -210,11 +210,11 @@
     "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
     "customFields.required.checked": "Yes",
     "customFields.required.unchecked": "No",
-    "customFields.recordAccordion.required": "Field is required.",
+    "customFields.recordAccordion.required": "فیلڈ کی ضرورت ہے.",
     "customFields.recordAccordion.length": "65 character limit has been exceeded. Please revise.",
     "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox",
     "customFields.fieldValue.required": "{field} is required",
     "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
-    "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
+    "customFields.fieldName.lengthLimit": "65 کریکٹر حد سے تجاوز کر دی گئی ہے ۔ براہ مہربانی نظر ثانی.",
     "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise."
 }

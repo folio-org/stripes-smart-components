@@ -171,7 +171,7 @@ Here are the parts of the code that implement the four stages in the strategy ab
 ### Stage 3.
 
 * [Line 200](https://github.com/openlibraryenvironment/ui-directory/blob/84f94d0a3414577fbb4903344d09ce4712d19d6e/src/routes/DirectoryEntries.js#L200) specifies that when a filter control changes, the `setFilterState` method should be called.
-* [line 194](https://github.com/openlibraryenvironment/ui-directory/blob/84f94d0a3414577fbb4903344d09ce4712d19d6e/src/routes/DirectoryEntries.js#L194) provides a callback for clearing the filter completely: the very simple `clearGroup` function provided in [line 183](https://github.com/openlibraryenvironment/ui-directory/blob/84f94d0a3414577fbb4903344d09ce4712d19d6e/src/routes/DirectoryEntries.js#L183), which merely invokes `setFilterState` with an empty set of valus.
+* [line 194](https://github.com/openlibraryenvironment/ui-directory/blob/84f94d0a3414577fbb4903344d09ce4712d19d6e/src/routes/DirectoryEntries.js#L194) provides a callback for clearing the filter completely: the very simple `clearGroup` function provided in [line 183](https://github.com/openlibraryenvironment/ui-directory/blob/84f94d0a3414577fbb4903344d09ce4712d19d6e/src/routes/DirectoryEntries.js#L183), which merely invokes `setFilterState` with an empty set of values.
 * `setFilterState` ([lines 175-182](https://github.com/openlibraryenvironment/ui-directory/blob/84f94d0a3414577fbb4903344d09ce4712d19d6e/src/routes/DirectoryEntries.js#L175-L182)) simply modifies the parsed filter representation, then in its last line updates the special stripes-connect resource `query` to set the `filters` parameter to the result of deparsing the modified in-memory representation of the filters.
 
 

@@ -60,7 +60,7 @@
     "permissionsDoNotAllowAccess": "Desculpe - suas permissões não permitem acessar esta página.",
     "searchResults": "{objectName} resultados da pesquisa",
     "searchReturnedResults": "Pesquisa retornou {count, number} {count, plural, one {resultado} other {resultados}}",
-    "resetAll": "Reiniciar tudo",
+    "resetAll": "Retirar filtros",
     "whoAreYouActingAs": "Quem você está agindo como?",
     "self": "Ele mesmo",
     "isActingAs": "{name} está agindo como:",

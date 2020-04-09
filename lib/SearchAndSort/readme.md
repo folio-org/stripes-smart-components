@@ -104,3 +104,8 @@ The five parameters are:
   ## Components for filtering
 
   Please, pay attention, there is a set of components to be used for filtering inside SearchAndSort component. Each component represents a wrapper on existing form element component e.g. MultiSelect or renders a set of elements working like one filter e.g. CheckboxFilter. After change returns data in format: {name: <String>, values: <ArrayOfObjects>}, where name -- is a filter name and values -- filter values.
+
+
+## Implementing filters
+
+See the separate document [_Building filters for your Stripes app_](building-filters.md).

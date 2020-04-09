@@ -42,6 +42,7 @@ export { default as StripesConnectedSource } from './lib/SearchAndSort/Connected
 export { default as ApolloConnectedSource } from './lib/SearchAndSort/ConnectedSource/ApolloConnectedSource';
 
 export * from './lib/SearchAndSort/nsQueryFunctions';
+export * from './lib/SearchAndSort/parseFilters';
 export { default as buildUrl } from './lib/SearchAndSort/buildUrl';
 
 export { default as Settings } from './lib/Settings';

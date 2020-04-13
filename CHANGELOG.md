@@ -2,9 +2,10 @@
 
 ## [3.2.0](IN PROGRESS)
 
-* Custom fields: create page accordions for create/edit/view record. UIU-1279
+* Custom fields: create page accordions for create/edit/view record. UIU-1279.
 * Custom fields: apply checkbox vertical alignment. Refs UIU-1527.
 * Add optional prop `hasNewButton` to `SearchAndSort` component. Refs UIREQ-415.
+* Support custom `getEntity` and `getEntityTags` methods in `Tags` component (UIDATIMP-461)
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

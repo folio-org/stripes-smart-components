@@ -108,7 +108,7 @@
     "dateRange.missingStartDate": "Por favor, introduzca una fecha de inicio",
     "dateRange.missingEndDate": "Por favor introduzca una fecha de finalización",
     "dateRange.wrongOrder": "La fecha de inicio es mayor que la fecha de finalización.",
-    "label.name.isRequired": "*",
+    "label.name.isRequired": "Nombre *",
     "noteTitle": "Note title",
     "details": "Details",
     "notes.generalInformation": "General information",

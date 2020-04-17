@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 3.1.1 (IN PROGRESS)
+## [3.1.1](https://github.com/folio-org/stripes-smart-components/tree/v3.1.1) (2020-04-17)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.1.0...v3.1.1)
 
 * Support custom `getEntity` and `getEntityTags` methods in `Tags` component. Fixes UIDATIMP-461.
 

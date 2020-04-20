@@ -7,6 +7,7 @@
 * Add optional prop `hasNewButton` to `SearchAndSort` component. Refs UIREQ-415.
 * Modify change due date dialog behavior to report successes and failures. Refs UIU-1516.
 * Support custom `getEntity` and `getEntityTags` methods in `Tags` component (UIDATIMP-461)
+* Check if the component exists for `customField.type` before rendering. Fixes STSMACOM-333.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

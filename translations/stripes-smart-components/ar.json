@@ -216,5 +216,6 @@
     "customFields.fieldValue.required": "{field} مطلوب",
     "customFields.fieldValue.length": "تم تجاوز حد أحرف {field}. يرجى المراجعة.",
     "customFields.fieldName.lengthLimit": "تم تجاوز 65 حرفًا. يرجى المراجعة.",
-    "customFields.helpText.lengthExceeded": "تم تجاوز 100 حرفًا. يرجى المراجعة."
+    "customFields.helpText.lengthExceeded": "تم تجاوز 100 حرفًا. يرجى المراجعة.",
+    "cddd.changeSucceededWithFailures": "<b>لم</b> تتغير تواريخ الاستحقاق {failed}. تم تغيير تواريخ الاستحقاق {succeeded} <b>بنجاح</b>"
 }

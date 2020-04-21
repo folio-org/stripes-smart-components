@@ -216,5 +216,6 @@
     "customFields.fieldValue.required": "{field} is required",
     "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
     "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
-    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise."
+    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
+    "cddd.changeSucceededWithFailures": "{failed} Las fechas de vencimiento no han cambiado. {succeeded} Las fechas de vencimiento han sido<b>exitosamente </b>actualizadas."
 }

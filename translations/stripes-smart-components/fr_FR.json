@@ -216,5 +216,6 @@
     "customFields.fieldValue.required": "{field} est obligatoire",
     "customFields.fieldValue.length": "{field} La limite de caractères a été dépassée. Merci de corriger",
     "customFields.fieldName.lengthLimit": "La limite de 65 caractères a été dépassée. Merci de corriger.",
-    "customFields.helpText.lengthExceeded": "La limite de 100 caractères a été dépassée. Merci de corriger."
+    "customFields.helpText.lengthExceeded": "La limite de 100 caractères a été dépassée. Merci de corriger.",
+    "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed."
 }

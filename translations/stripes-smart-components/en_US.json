@@ -3,7 +3,7 @@
     "cddd.changeDueDateConfirmation": "Change due date",
     "cddd.itemsSelected": "<b>{count}</b> items <b>selected.</b>",
     "cddd.changeSucceeded": "Due date & time has successfully been changed",
-    "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{count}</b> items.",
+    "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{succeeded}</b> items.",
     "cddd.changeFailed": "Failed to change due date",
     "cddd.itemHasRequestQueue": "Item has a request queue",
     "cddd.itemsHaveWarnings": "<b>{count}</b> items have <b>warnings.</b>",
@@ -216,5 +216,6 @@
     "customFields.fieldValue.required": "{field} is required",
     "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
     "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
-    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise."
+    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
+    "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed."
 }

@@ -193,6 +193,7 @@
   "customFields.fieldTypes.TEXTBOX_SHORT": "Text field",
   "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
   "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox",
+  "customFields.fieldTypes.SINGLE_SELECT_DROPDOWN": "Single select dropdown",
   "customFields.fieldLabel": "Field label",
   "customFields.fieldFormat": "Field format",
   "customFields.fieldValue.required": "{field} is required",
@@ -221,5 +222,15 @@
   "customFields.recordAccordion.length": "65 character limit has been exceeded. Please revise.",
   "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
   "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
-  "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator."
+  "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
+  "customFields.dropdown.label": "Label",
+  "customFields.dropdown.code": "Code",
+  "customFields.dropdown.default": "Default",
+  "customFields.options": "Options",
+  "customFields.addOption": "Add options",
+  "customFields.option.required": "Option label is required.",
+  "customFields.option.dublicate": "Dublicate option. Please revise.",
+  "customFields.characters.limit": "{limit} has been exceeded.",
+  "customFields.dropdown.modal.heading": "Delete single select option",
+  "customFields.dropdown.modal.message": "Are you sure youwant to delete {fieldName} single select option: {optionName}"
 }

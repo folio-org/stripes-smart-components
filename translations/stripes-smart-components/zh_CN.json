@@ -216,5 +216,6 @@
     "customFields.fieldValue.required": "{field}必填",
     "customFields.fieldValue.length": "已超过{field}字符的限制。请修改。",
     "customFields.fieldName.lengthLimit": "超过65个字符的限制。请修改。",
-    "customFields.helpText.lengthExceeded": "超过100个字符的限制。请修改。"
+    "customFields.helpText.lengthExceeded": "超过100个字符的限制。请修改。",
+    "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed."
 }

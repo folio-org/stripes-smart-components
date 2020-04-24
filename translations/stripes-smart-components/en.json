@@ -233,5 +233,5 @@
   "customFields.option.duplicate": "Dublicate option. Please revise.",
   "customFields.characters.limit": "{limit} has been exceeded.",
   "customFields.dropdown.modal.heading": "Delete single select option",
-  "customFields.dropdown.modal.message": "Are you sure you want to delete <b>{fieldName}<b> single select option: <b>{optionName}<b>"
+  "customFields.dropdown.modal.message": "Are you sure you want to delete <b>{fieldName}</b> single select option: <b>{optionName}</b>"
 }

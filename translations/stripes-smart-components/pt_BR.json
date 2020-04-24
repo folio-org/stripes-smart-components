@@ -3,7 +3,7 @@
     "cddd.changeDueDateConfirmation": "Alterar data de vencimento",
     "cddd.itemsSelected": "<b>{count}</b> itens <b> selecionados.</b>",
     "cddd.changeSucceeded": "A data e hora de vencimento foram alteradas com sucesso",
-    "cddd.changeSucceededWithCount": "A data e a hora de vencimento foram <b> alteradas com sucesso </b> para os itens <b> {count} </b> .",
+    "cddd.changeSucceededWithCount": "A data de vencimento e a hora foram alteradas <b>com sucesso</b> para <b>{succeeded}</b> itens.",
     "cddd.changeFailed": "Não foi possível alterar a data de devolução",
     "cddd.itemHasRequestQueue": "Item tem uma fila de pedidos",
     "cddd.itemsHaveWarnings": "<b>{count}</b> itens possuem <b>notificações.</b>",
@@ -217,5 +217,5 @@
     "customFields.fieldValue.length": "O limite de caracteres do campo {field} foi excedido. Por favor revise.",
     "customFields.fieldName.lengthLimit": "O limite de 65 caracteres foi excedido. Por favor revise.",
     "customFields.helpText.lengthExceeded": "O limite de 100 caracteres foi excedido. Por favor revise.",
-    "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed."
+    "cddd.changeSucceededWithFailures": "{failed} datas de vencimento <b>não</b> alteradas. {succeeded} datas de vencimento alteradas <b>com sucesso</b>."
 }

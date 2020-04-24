@@ -57,6 +57,7 @@ notLoadedMessage | string | A message to show the user before a search has been 
 getHelperResourcePath | func | An optional function which can be used to return helper's resource path dynamically.
 getHelperComponent | func | An optional function which can be used to return connected helper component implementation.
 title | string/element | An optional property to specify title of results pane. By default module display name is used.
+hasNewButton | boolean | An optional property to specify appearance Of `New` button of results pane. By default pane displays with `New` button.
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 
@@ -103,3 +104,8 @@ The five parameters are:
   ## Components for filtering
 
   Please, pay attention, there is a set of components to be used for filtering inside SearchAndSort component. Each component represents a wrapper on existing form element component e.g. MultiSelect or renders a set of elements working like one filter e.g. CheckboxFilter. After change returns data in format: {name: <String>, values: <ArrayOfObjects>}, where name -- is a filter name and values -- filter values.
+
+
+## Implementing filters
+
+See the separate document [_Building filters for your Stripes app_](building-filters.md).

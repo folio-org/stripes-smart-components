@@ -3,7 +3,7 @@
     "cddd.changeDueDateConfirmation": "改变到期日",
     "cddd.itemsSelected": "<b>{count}</b>单件<b>已选</b>",
     "cddd.changeSucceeded": "到期日和时间已成功更改",
-    "cddd.changeSucceededWithCount": "<b>{count}</b>单件的到期日和时间已<b>成功</b>更改。",
+    "cddd.changeSucceededWithCount": "<b>{count}</b> 館藏到期日與時間已<b>成功</b>更改。",
     "cddd.changeFailed": "未能更改到期日期",
     "cddd.itemHasRequestQueue": "单件有预约请求等候",
     "cddd.itemsHaveWarnings": "<b>{count}</b>单件有<b>提醒</b>",
@@ -173,7 +173,7 @@
     "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?",
     "tags.filterError": "Error applying filter: {error}",
     "notes.assigned": "Assigned",
-    "searchResultsCountUnknown": "More than 10,000 records found",
+    "searchResultsCountUnknown": "找到超過 10,000 筆紀錄",
     "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name.",
     "reset": "Reset",
     "notes.assignUnassignAll": "Assign / Unassign all notes",
@@ -210,12 +210,12 @@
     "customFields.fieldTypes.TEXTBOX_LONG": "Text area",
     "customFields.required.checked": "Yes",
     "customFields.required.unchecked": "No",
-    "customFields.recordAccordion.required": "Field is required.",
+    "customFields.recordAccordion.required": "必填項。",
     "customFields.recordAccordion.length": "65 character limit has been exceeded. Please revise.",
     "customFields.fieldTypes.SINGLE_CHECKBOX": "Checkbox",
     "customFields.fieldValue.required": "{field} is required",
     "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
-    "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
+    "customFields.fieldName.lengthLimit": "超過了 65 個字元的限制，請修正。",
     "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
-    "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed."
+    "cddd.changeSucceededWithFailures": "{failed} 到期日 <b>沒有</b> 更動。{succeeded} 到期日 <b>成功</b> 更新。"
 }

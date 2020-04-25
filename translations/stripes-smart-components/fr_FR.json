@@ -3,7 +3,7 @@
     "cddd.changeDueDateConfirmation": "Modifier la date d'échéance",
     "cddd.itemsSelected": "<b> {count} </b> éléments <b> sélectionnés. </b>",
     "cddd.changeSucceeded": "La date et l'heure d'échéance ont été modifiées avec succès.",
-    "cddd.changeSucceededWithCount": "La date et l'heure d'échéance ont été <b> modifiées </b> avec succès pour les éléments <b> {count} </b> .",
+    "cddd.changeSucceededWithCount": "La date et l'heure d'échéance ont été <b> correctement </b> modifiées pour les <b> {succeeded} </b> .",
     "cddd.changeFailed": "Date d'échéance non modifiée",
     "cddd.itemHasRequestQueue": "L'article a une file d'attente",
     "cddd.itemsHaveWarnings": "<b> {count} </b> éléments ont des <b> avertissements. </b>",
@@ -216,5 +216,6 @@
     "customFields.fieldValue.required": "{field} est obligatoire",
     "customFields.fieldValue.length": "{field} La limite de caractères a été dépassée. Merci de corriger",
     "customFields.fieldName.lengthLimit": "La limite de 65 caractères a été dépassée. Merci de corriger.",
-    "customFields.helpText.lengthExceeded": "La limite de 100 caractères a été dépassée. Merci de corriger."
+    "customFields.helpText.lengthExceeded": "La limite de 100 caractères a été dépassée. Merci de corriger.",
+    "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed."
 }

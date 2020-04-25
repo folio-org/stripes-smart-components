@@ -108,7 +108,7 @@
     "dateRange.missingStartDate": "Por favor, introduzca una fecha de inicio",
     "dateRange.missingEndDate": "Por favor introduzca una fecha de finalización",
     "dateRange.wrongOrder": "La fecha de inicio es mayor que la fecha de finalización.",
-    "label.name.isRequired": "*",
+    "label.name.isRequired": "Nombre *",
     "noteTitle": "Note title",
     "details": "Details",
     "notes.generalInformation": "General information",
@@ -216,5 +216,6 @@
     "customFields.fieldValue.required": "{field} is required",
     "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
     "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
-    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise."
+    "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
+    "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed."
 }

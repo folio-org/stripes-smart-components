@@ -11,6 +11,8 @@
 * Change `redirectToView`, `redirectToEdit` props in CustomFields to `viewRoute` and `editRoute`. Refs UIU-1594.
 * Add support for `SINGLE_SELECT_DROPDOWN` Custom Field in User View/Edit/Create. Refs UIU-1565.
 * Prevent `ProxyManager` form submission from propagating to outer forms. Fixes UIREQ-449, UIREQ-454.
+* Marked Note Title field as required. Fixes STSMACOM-323.
+* Added `PersistedPaneset` component.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

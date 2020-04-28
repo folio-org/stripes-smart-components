@@ -1,0 +1,8 @@
+.accordionsWrapper {
+  margin-bottom: 2em;
+}
+
+.FieldAccordionDraggableWrapper {
+  position: static !important;
+  background-color: #fff;
+}

@@ -2,9 +2,17 @@
 
 ## [3.2.0](IN PROGRESS)
 
-* Custom fields: create page accordions for create/edit/view record. UIU-1279
+* Custom fields: create page accordions for create/edit/view record. UIU-1279.
 * Custom fields: apply checkbox vertical alignment. Refs UIU-1527.
 * Add optional prop `hasNewButton` to `SearchAndSort` component. Refs UIREQ-415.
+* Modify change due date dialog behavior to report successes and failures. Refs UIU-1516.
+* Support custom `getEntity` and `getEntityTags` methods in `Tags` component (UIDATIMP-461)
+* Check if the component exists for `customField.type` before rendering. Fixes STSMACOM-333.
+* Change `redirectToView`, `redirectToEdit` props in CustomFields to `viewRoute` and `editRoute`. Refs UIU-1594.
+* Add support for `SINGLE_SELECT_DROPDOWN` Custom Field in User View/Edit/Create. Refs UIU-1565.
+* Prevent `ProxyManager` form submission from propagating to outer forms. Fixes UIREQ-449, UIREQ-454.
+* Marked Note Title field as required. Fixes STSMACOM-323.
+* Added `PersistedPaneset` component.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

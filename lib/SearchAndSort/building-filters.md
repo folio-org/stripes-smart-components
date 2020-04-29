@@ -51,7 +51,7 @@ So a URL containing `filters=state.REQ_CANCELLED,state.REQ_END_OF_ROTA,supplier.
 
 ### Representation in memory
 
-The various utility functions mentioned above all deal with this representation in one way or another, but the simplest way to address is is with [the `parseFilters` and `deparseFilters` functions](parseFilters.js), which convert from this string representation to an in-memory structure that is easy to manipulate, and back again.
+The various utility functions mentioned above all deal with this representation in one way or another, but the simplest way to address it is with [the `parseFilters` and `deparseFilters` functions](parseFilters.js), which convert from this string representation to an in-memory structure that is easy to manipulate, and back again.
 
 The in-memory structure is an objects whose keys are those that are mentioned in the filter string, and whose corresponding values are arrays containing all of the values specified for each key. So:
 
@@ -95,7 +95,7 @@ It is necessary to provide the callback functions that are invoked when the user
 
 ### 2. Populate initial selected values from `filters`
 
-When rendering the filter controls, we have populate their initial selected values from the `filters` specified in the URL. This is simple to do: we just get the `filters` parameter from [the special stripes-connect resource `query`](https://github.com/folio-org/stripes/blob/master/doc/dev-guide.md#url-navigation), parse it with `parseFilters`, and use the arrays in the resulting object to populate the initial value of each control.
+When rendering the filter controls, we have to populate their initial selected values from the `filters` specified in the URL. This is simple to do: we just get the `filters` parameter from [the special stripes-connect resource `query`](https://github.com/folio-org/stripes/blob/master/doc/dev-guide.md#url-navigation), parse it with `parseFilters`, and use the arrays in the resulting object to populate the initial value of each control.
 
 	import { parseFilters, deparseFilters } from '@folio/stripes/smart-components';
 	const byName = parseFilters(get(resources.query, 'filters'));
@@ -118,7 +118,7 @@ When rendering the filter controls, we have populate their initial selected valu
 
 ### 3. On interaction, go to a URL with modified `filters`
 
-When the user interacts with a filter, a callback function is called &mdash; `setFilterState` in the example above. The function should use the event target that is its argument to find the chosen value, then modify the parsed filter structure accordingly, then deparser the structure into a new filter string, and finally navigate to the URL with the modified value of `filters`. This navigation can most conveniently be achieved by mutating the special stripes-connect resource `query`, so:
+When the user interacts with a filter, a callback function is called &mdash; `setFilterState` in the example above. The function should use the event target that is its argument to find the chosen value, then modify the parsed filter structure accordingly, then deparse the structure into a new filter string, and finally navigate to the URL with the modified value of `filters`. This navigation can most conveniently be achieved by mutating the special stripes-connect resource `query`, so:
 
 	const setFilterState = (group) => {
 	  if (group.values === null) {

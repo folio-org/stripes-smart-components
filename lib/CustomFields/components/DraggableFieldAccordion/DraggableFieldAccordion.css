@@ -1,3 +1,9 @@
+@import "@folio/stripes-components/lib/variables";
+
 .FieldAccordionDraggableWrapper {
   background-color: #fff;
+}
+
+.FieldAccordionDraggableWrapper--dragging {
+  background-color: var(--color-fill-hover);
 }

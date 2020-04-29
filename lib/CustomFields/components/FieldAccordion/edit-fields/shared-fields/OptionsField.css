@@ -1,0 +1,33 @@
+@import "@folio/stripes-components/lib/variables.css";
+
+.heading {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.optionLabel {
+  margin-bottom: 0;
+  line-height: 0.9rem;
+}
+
+.listWrapper {
+  margin-bottom: 1rem;
+}
+
+.optionInput input {
+  background-color: #fff;
+}
+
+.maxOptionsNumberReached {
+  display: block;
+  margin-bottom: 0.9rem;
+  color: #666;
+  font-size: 0.7085rem;
+}
+
+.defaultControl {
+  margin: 0 auto;
+}

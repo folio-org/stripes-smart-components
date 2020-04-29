@@ -20,6 +20,8 @@ export { default as LocationSelection } from './lib/LocationSelection';
 
 export { default as PasswordValidationField } from './lib/PasswordValidationField';
 
+export { default as PersistedPaneset } from './lib/PersistedPaneset';
+
 export { default as ProxyManager } from './lib/ProxyManager';
 
 export { default as SearchAndSort } from './lib/SearchAndSort';

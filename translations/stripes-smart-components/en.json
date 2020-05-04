@@ -195,6 +195,7 @@
   "customFields.fieldTypes.TEXTAREA": "Text area",
   "customFields.fieldTypes.CHECKBOX": "Checkbox",
   "customFields.fieldTypes.SELECT": "Single select dropdown",
+  "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
   "customFields.fieldLabel": "Field label",
   "customFields.fieldFormat": "Field format",
   "customFields.fieldValue.required": "{field} is required",
@@ -228,11 +229,14 @@
   "customFields.dropdown.code": "Code",
   "customFields.dropdown.default": "Default",
   "customFields.options": "Options",
-  "customFields.addOption": "Add options",
+  "customFields.addOption": "Add option",
   "customFields.option.required": "Option label is required.",
-  "customFields.option.duplicate": "Dublicate option. Please revise.",
+  "customFields.option.duplicate": "Duplicate option. Please revise.",
   "customFields.characters.limit": "{limit} has been exceeded.",
   "customFields.dropdown.modal.heading": "Delete single select option",
   "customFields.dropdown.modal.message": "Are you sure you want to delete <b>{fieldName}</b> single select option: <b>{optionName}</b>",
-  "customFields.dragDrop": "Change custom field order"
+  "customFields.dragDrop": "Change custom field order",
+  "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
+  "customFields.options.maxNumberReached": "You have added the maximum number of options.",
+  "customFields.options.default": "Default"
 }

@@ -236,6 +236,11 @@
   "customFields.dropdown.modal.heading": "Delete single select option",
   "customFields.dropdown.modal.message": "Are you sure you want to delete <b>{fieldName}</b> single select option: <b>{optionName}</b>",
   "customFields.dragDrop": "Change custom field order",
+  "customFields.dragDrop.lifted": "You have lifted field {name} in position {position}",
+  "customFields.dragDrop.moving": "You have moved field {name} to position {position}",
+  "customFields.dragDrop.notOverDroppable": "You are currently not over a droppable area",
+  "customFields.dragDrop.moved": "You have moved field {name} from position {start} to position {end}",
+  "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
   "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
   "customFields.options.maxNumberReached": "You have added the maximum number of options.",
   "customFields.options.default": "Default"

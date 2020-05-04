@@ -14,6 +14,9 @@
 * Marked Note Title field as required. Fixes STSMACOM-323.
 * Added `PersistedPaneset` component.
 * Pin `moment` at `~2.24.0`. Refs STRIPES-678.
+* Custom fields: Single select dropdown. Refs STSMACOM-285.
+* Custom fields: Multi-select dropdown. Refs STSMACOM-326.
+* Custom fields: Radio button set. Refs STSMACOM-292.
 * Add drag and drop support for Custom Fields. Refs STSMACOM-267.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)

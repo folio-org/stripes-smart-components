@@ -13,6 +13,7 @@
 * Prevent `ProxyManager` form submission from propagating to outer forms. Fixes UIREQ-449, UIREQ-454.
 * Marked Note Title field as required. Fixes STSMACOM-323.
 * Added `PersistedPaneset` component.
+* Pin `moment` at `~2.24.0`. Refs STRIPES-678.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

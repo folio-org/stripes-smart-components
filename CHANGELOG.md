@@ -16,6 +16,7 @@
 * Pin `moment` at `~2.24.0`. Refs STRIPES-678.
 * Custom fields: Single select dropdown. Refs STSMACOM-285.
 * Custom fields: Multi-select dropdown. Refs STSMACOM-326.
+* Custom fields: Radio button set. Refs STSMACOM-292.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

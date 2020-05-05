@@ -218,15 +218,19 @@
     "customFields.fieldTypes.TEXTFIELD": "Campo de texto",
     "customFields.fieldTypes.TEXTAREA": "Área de texto",
     "customFields.fieldTypes.CHECKBOX": "Caixa de seleção",
-    "customFields.fieldTypes.SELECT": "Lista suspensa de seleção única",
+    "customFields.fieldTypes.SELECT": "Seleção única",
     "customFields.dropdown.label": "Etiqueta",
     "customFields.dropdown.code": "Código",
     "customFields.dropdown.default": "Padrão",
     "customFields.options": "Opções",
-    "customFields.addOption": "Adicionar opções",
+    "customFields.addOption": "Adicionar opção",
     "customFields.option.required": "A etiqueta da opção é obrigatório.",
     "customFields.option.duplicate": "Opção duplicada. Por favor revise.",
     "customFields.characters.limit": "{limit} foi excedido.",
-    "customFields.dropdown.modal.heading": "Excluir opção de seleção única",
-    "customFields.dropdown.modal.message": "Tem certeza de que deseja excluir <b>{fieldName}</b> opção de seleção única: <b>{optionName}</b>"
+    "customFields.fieldTypes.RADIO_BUTTON": "Conjunto de botões de opção",
+    "customFields.options.left": "Você pode adicionar {count, number} mais {count, plural, one {opção} other {opções}} .",
+    "customFields.options.maxNumberReached": "Você adicionou o número máximo de opções.",
+    "customFields.options.default": "Padrão",
+    "customFields.fieldTypes.MULTISELECT": "Seleção múltipla",
+    "customFields.dropdown.defaults": "Padrão"
 }

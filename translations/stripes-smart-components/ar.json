@@ -227,6 +227,10 @@
     "customFields.option.required": "ملصق تسمية الخيار مطلوب",
     "customFields.option.duplicate": "خيار مكرر. يرجى المراجعة.",
     "customFields.characters.limit": "تم تجاوز {limit}",
-    "customFields.dropdown.modal.heading": "حذف الخيار المحدد",
-    "customFields.dropdown.modal.message": "هل أنت متأكد من أنك تريد حذف <b>{fieldName}</b> خيار التحديد المفرد: <b>{optionName}</b>"
+    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
+    "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
+    "customFields.options.maxNumberReached": "You have added the maximum number of options.",
+    "customFields.options.default": "Default",
+    "customFields.fieldTypes.MULTISELECT": "Multi-select",
+    "customFields.dropdown.defaults": "Default(s)"
 }

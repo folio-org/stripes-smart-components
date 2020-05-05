@@ -218,7 +218,7 @@
     "customFields.fieldTypes.TEXTFIELD": "Текстовое поле",
     "customFields.fieldTypes.TEXTAREA": "Текстовая область",
     "customFields.fieldTypes.CHECKBOX": "Поле для установки флажка",
-    "customFields.fieldTypes.SELECT": "Single select dropdown",
+    "customFields.fieldTypes.SELECT": "Single select",
     "customFields.dropdown.label": "Метка",
     "customFields.dropdown.code": "Код",
     "customFields.dropdown.default": "По умолчанию",
@@ -227,6 +227,10 @@
     "customFields.option.required": "Option label is required.",
     "customFields.option.duplicate": "Дублированная опция. Пожалуйста, исправьте.",
     "customFields.characters.limit": "{лимит} был превышен.",
-    "customFields.dropdown.modal.heading": "Удалить одну опцию выбора",
-    "customFields.dropdown.modal.message": "Вы уверены, что хотите удалить <b>{Имя_поля}<b>одна опция выбора: </b>{Имя_опции}</b>"
+    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
+    "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
+    "customFields.options.maxNumberReached": "You have added the maximum number of options.",
+    "customFields.options.default": "Default",
+    "customFields.fieldTypes.MULTISELECT": "Multi-select",
+    "customFields.dropdown.defaults": "Default(s)"
 }

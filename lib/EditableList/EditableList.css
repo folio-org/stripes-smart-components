@@ -35,3 +35,26 @@
   padding: 6px;
   color: var(--error);
 }
+
+.mclCellStyle {
+  line-height: var(--line-height);
+  padding: var(--gutter-static-one-third) var(--gutter-static-two-thirds);
+  min-height: var(--control-min-size-desktop);
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    right: 0;
+    top: var(--gutter-static-one-third);
+    bottom: var(--gutter-static-one-third);
+    background-color: var(--color-border-p2);
+  }
+
+  &:last-child {
+    &::after {
+      display: none;
+    }
+  }
+}

@@ -111,6 +111,7 @@
   "password.repeatingSymbols.invalid": "The password must not contain the same character in a row.",
   "password.whiteSpace.invalid": "The password must not contain whitespaces.",
   "password.lastTenPasswords.invalid": "Previously used password. Please enter a new password.",
+  "password.consecutiveWhitespaces.invalid": "The password must not contain consecutive white space characters.",
   "address.addAddress": "Add address",
   "address.addressLabel": "Address",
   "address.noAddressesStored": "- No addresses stored -",

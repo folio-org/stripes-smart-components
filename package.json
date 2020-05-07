@@ -53,7 +53,7 @@
     "stylelint-junit-formatter": "^0.2.1"
   },
   "dependencies": {
-    "@folio/react-intl-safe-html": "^1.0.2",
+    "@folio/react-intl-safe-html": "^2.0.0",
     "@folio/stripes-components": "~7.0.0",
     "@folio/stripes-connect": "~5.6.0",
     "@folio/stripes-core": "~5.0.0",

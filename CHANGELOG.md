@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 4.0.0 (IN PROGRESS)
+
+* Increment `react-intl` to `v4.5`. Refs STRIPES-672.
+
 ## [3.2.0](IN PROGRESS)
 
 * Custom fields: create page accordions for create/edit/view record. UIU-1279.

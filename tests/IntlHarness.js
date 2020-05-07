@@ -12,7 +12,7 @@ import messages from '../translations/stripes-smart-components/en_US';
 
 const IntlHarness = ({ children }) => (
   <IntlProvider
-    locale="en_US"
+    locale="en-US"
     messages={messages}
   >
     {children}

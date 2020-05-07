@@ -237,5 +237,9 @@
   "customFields.characters.limit": "{limit} has been exceeded.",
   "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
   "customFields.options.maxNumberReached": "You have added the maximum number of options.",
-  "customFields.options.default": "Default"
+  "customFields.options.default": "Default",
+
+  "settings.common.duplicate": "Duplicate",
+  "settings.common.edit": "Edit",
+  "settings.common.delete": "Delete"
 }

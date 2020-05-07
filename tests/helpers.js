@@ -54,3 +54,18 @@ export const parseMessageFromJsx = (values, translation) => {
 };
 
 export const wait = (ms = 1000) => new Promise(resolve => { setTimeout(resolve, ms); });
+const warn = console.warn;
+const blacklist = [
+  /componentWillReceiveProps has been renamed/,
+  /componentWillUpdate has been renamed/,
+  /componentWillMount has been renamed/,
+];
+
+export function turnOffWarnings() {
+  console.warn = function (...args) {
+    if (blacklist.some(rx => rx.test(args[0]))) {
+      return;
+    }
+    warn.apply(console, args);
+  };
+}

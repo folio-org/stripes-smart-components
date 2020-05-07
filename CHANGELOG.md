@@ -3,6 +3,7 @@
 ## 4.0.0 (IN PROGRESS)
 
 * Increment `react-intl` to `v4.5`. Refs STRIPES-672.
+* Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
 
 ## [3.2.0](IN PROGRESS)
 

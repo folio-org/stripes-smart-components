@@ -229,8 +229,6 @@
   "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
   "customFields.dropdown.label": "Label",
   "customFields.dropdown.code": "Code",
-  "customFields.dropdown.default": "Default",
-  "customFields.dropdown.defaults": "Default(s)",
   "customFields.options": "Options",
   "customFields.addOption": "Add option",
   "customFields.option.required": "Option label is required.",
@@ -239,6 +237,7 @@
   "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
   "customFields.options.maxNumberReached": "You have added the maximum number of options.",
   "customFields.options.default": "Default",
+  "customFields.options.defaults": "Default(s)",
 
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",

@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "3.2.0",
+  "version": "4.0.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -42,6 +42,7 @@
     "mocha": "^5.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-intl": "^4.5.3",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.0.0",
@@ -52,12 +53,12 @@
     "stylelint-junit-formatter": "^0.2.1"
   },
   "dependencies": {
-    "@folio/react-intl-safe-html": "^1.0.2",
-    "@folio/stripes-components": "~6.2.0",
+    "@folio/react-intl-safe-html": "^2.0.0",
+    "@folio/stripes-components": "~7.0.0",
     "@folio/stripes-connect": "~5.6.0",
-    "@folio/stripes-core": "~4.2.0",
-    "@folio/stripes-final-form": "~2.2.0",
-    "@folio/stripes-form": "~3.2.0",
+    "@folio/stripes-core": "~5.0.0",
+    "@folio/stripes-final-form": "~3.0.0",
+    "@folio/stripes-form": "~4.0.0",
     "@folio/stripes-logger": "~1.0.0",
     "@folio/stripes-util": "~2.1.0",
     "@rehooks/local-storage": "^2.3.0",
@@ -80,7 +81,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-intl": "^2.4.0",
+    "react-intl": "^4.5.3",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.0.0"
   },

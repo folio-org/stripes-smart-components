@@ -3,6 +3,7 @@
 ## 4.0.0 (IN PROGRESS)
 
 * Increment `react-intl` to `v4.5`. Refs STRIPES-672.
+* Do not use translations from `ui-circulation`; that module may not be present. 
 
 ## [3.2.0](IN PROGRESS)
 

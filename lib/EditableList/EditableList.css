@@ -37,10 +37,8 @@
 }
 
 .mclCellStyle {
-  line-height: var(--line-height);
-  padding: var(--gutter-static-one-third) var(--gutter-static-two-thirds);
-  min-height: var(--control-min-size-desktop);
   position: relative;
+  border: 0;
 
   &::after {
     content: '';
@@ -56,5 +54,14 @@
     &::after {
       display: none;
     }
+  }
+}
+
+[dir="rtl"] .mclCellStyle {
+  border: 0;
+
+  &::after {
+    right: auto;
+    left: 0;
   }
 }

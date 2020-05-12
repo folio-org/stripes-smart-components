@@ -1,0 +1,12 @@
+.fieldLabel {
+  position: relative;
+}
+
+.fieldLabel legend {
+  margin-bottom: 0;
+}
+
+.infoPopover {
+  position: absolute;
+  right: -2rem;
+}

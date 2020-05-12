@@ -1,9 +1,7 @@
-Currently, custom fields feature provides two components (pages) which can be utilized to edit and view custom fields configuration for a module.
-
-## ViewCustomFieldsSettings
+# ViewCustomFieldsSettings
 `ViewCustomFieldsSettings`'s responsibilities are basically fetching custom fields configuration data for the provided entity type and displaying them inside accordions.
 
-### Usage example
+## Usage example
 ```js
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
@@ -34,17 +32,17 @@ class CustomFieldsSettings extends Component {
 export default CustomFieldsSettings;
 ```
 
-### Props
+## Props
 Name | type | description | required
 --- | --- | --- | ---
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true
 `entityType` | string | used to filter custom files by particular entity type |true
 `redirectToEdit` | func | function that redirect to route which renders `<EditCustomFieldsSettings />` |true
 
-## EditCustomFieldsSettings
+# EditCustomFieldsSettings
 `EditCustomFieldsSettings` provides the functionality to create, edit and delete custom fields for the provided entity type.
 
-### Usage example
+## Usage example
 ```js
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
@@ -76,7 +74,7 @@ class EditCustomFields extends Component {
 export default EditCustomFields;
 ```
 
-### Props
+## Props
 Name | type | description | required
 --- | --- | --- | ---
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true
@@ -84,10 +82,10 @@ Name | type | description | required
 `redirectToView` | func | function that redirect to route which renders `<ViewCustomFieldsSettings />` |true
 
 
-## ViewCustomFieldsRecord
+# ViewCustomFieldsRecord
 `ViewCustomFieldsRecord`'s responsibilities are basically fetching custom fields configuration data for displaying accordions with them.
 
-### Usage example
+## Usage example
 ```js
 import { ViewCustomFieldsRecord } from '@folio/stripes/smart-components';
 
@@ -106,7 +104,7 @@ import { ViewCustomFieldsRecord } from '@folio/stripes/smart-components';
 />
 ```
 
-### Props
+## Props
 Name | type | description | required | default
 --- | --- | --- | --- | ---
 `accordionId` | string | used to set accordion id | true |
@@ -119,10 +117,14 @@ Name | type | description | required | default
 
 
 
-## EditCustomFieldsRecord
-`EditCustomFieldsSettings` provides the functionality to create, edit and delete custom fields values for the choosing record.
+# EditCustomFieldsRecord
+`EditCustomFieldsSettings` provides the functionality of changing custom fields values of a particular record.
 
-### Usage example
+## Usage example
+The components supports both `redux-form` and `final-form` and requires specific props for each of them.
+
+### redux-form example
+
 ```js
 import { Field } from 'redux-form';
 import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
@@ -130,22 +132,68 @@ import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
 ---
 
 <EditCustomFieldsRecord
-  accordionId="customFields"
-  backendModuleName="users"
+  isReduxForm
+  formName="userForm"
   entityType="user"
-  expanded={this.state.sections.customFields}
+  backendModuleName="users"
+  accordionId="customFields"
+  onToggle={this.toggleSection}
+  expanded={sections.customFields}
   fieldComponent={Field}
-  onToggle={this.handleSectionToggle}
 />
 ```
 
-### Props
+### final-form example
+
+```js
+import {
+  Field,
+  Form
+} from 'react-final-form';
+
+import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
+
+---
+
+<Form {...formProps}>
+  ({ form: { change, getState } }) => (
+    <EditCustomFieldsRecord
+      changeFinalFormField={change}
+      finalFormCustomFieldsValues={getState().values.customFields}
+      entityType="user"
+      backendModuleName="users"
+      accordionId="customFields"
+      onToggle={this.toggleSection}
+      expanded={sections.customFields}
+      fieldComponent={Field}
+    />
+ </Form>
+```
+
+
+## Props
+
+### General props
 Name | type | description | required | default
 --- | --- | --- | --- | ---
 `accordionId` | string | used to set accordion id | true |
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true
-`columnCount` | number | grid display in the same menner as other accordions in current page | false | 4
+`columnCount` | number | grid display in the same manner as other accordions in current page | false | 4
 `entityType` | string | used to filter custom files by particular entity type |true
-`expanded` | boolean | accordion open or closed | true |
-`fieldComponent` | node | Field component | true |
+`expanded` | boolean | indicates if the accordion is open | true |
+`fieldComponent` | func | Field component | true |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
+
+
+### redux-form specific props
+Name | type | description | required | default
+--- | --- | --- | --- | ---
+`isReduxForm` | boolean | indicates that custom fields are used with redux-form | required when redux-form is used | false
+`formName` | string | the name of the redux-form that contains custom field | required when redux-form is used | 
+
+
+### final-form specific props
+Name | type | description | required | default
+--- | --- | --- | --- | ---
+`changeFinalFormField` | func | a function used to change `final-form` field value | required when final-form is used |
+`finalFormCustomFieldsValues` | object | custom fields values stored in final-form state. Can be retrieved using `<Form>` render props: `{form.getState().values.customFields}` | required when final-form is used

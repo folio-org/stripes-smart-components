@@ -3,6 +3,8 @@
 ## 4.0.0 (IN PROGRESS)
 
 * Increment `react-intl` to `v4.5`. Refs STRIPES-672.
+* Do not use translations from `ui-circulation`; that module may not be present. 
+* Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
 
 ## [3.2.0](IN PROGRESS)
 
@@ -21,6 +23,8 @@
 * Custom fields: Single select dropdown. Refs STSMACOM-285.
 * Custom fields: Multi-select dropdown. Refs STSMACOM-326.
 * Custom fields: Radio button set. Refs STSMACOM-292.
+* Entry Manager: hide Edit button when actions menu is enabled. Refs UICIRC-437.
+* Custom fields: support redux-form and final-form.
 * Add drag and drop support for Custom Fields. Refs STSMACOM-267.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)

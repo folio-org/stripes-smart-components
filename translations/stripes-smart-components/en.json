@@ -195,7 +195,7 @@
   "customFields.fieldTypes.TEXTFIELD": "Text field",
   "customFields.fieldTypes.TEXTAREA": "Text area",
   "customFields.fieldTypes.CHECKBOX": "Checkbox",
-  "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
+  "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Radio button set",
   "customFields.fieldTypes.SELECT": "Single select",
   "customFields.fieldTypes.MULTISELECT": "Multi-select",
   "customFields.fieldLabel": "Field label",
@@ -229,8 +229,6 @@
   "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
   "customFields.dropdown.label": "Label",
   "customFields.dropdown.code": "Code",
-  "customFields.dropdown.default": "Default",
-  "customFields.dropdown.defaults": "Default(s)",
   "customFields.options": "Options",
   "customFields.addOption": "Add option",
   "customFields.option.required": "Option label is required.",
@@ -244,5 +242,10 @@
   "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
   "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
   "customFields.options.maxNumberReached": "You have added the maximum number of options.",
-  "customFields.options.default": "Default"
+  "customFields.options.default": "Default",
+  "customFields.options.defaults": "Default(s)",
+
+  "settings.common.duplicate": "Duplicate",
+  "settings.common.edit": "Edit",
+  "settings.common.delete": "Delete"
 }

@@ -195,7 +195,7 @@
   "customFields.fieldTypes.TEXTFIELD": "Text field",
   "customFields.fieldTypes.TEXTAREA": "Text area",
   "customFields.fieldTypes.CHECKBOX": "Checkbox",
-  "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
+  "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Radio button set",
   "customFields.fieldTypes.SELECT": "Single select",
   "customFields.fieldTypes.MULTISELECT": "Multi-select",
   "customFields.fieldLabel": "Field label",

@@ -24,6 +24,7 @@
 * Custom fields: Multi-select dropdown. Refs STSMACOM-326.
 * Custom fields: Radio button set. Refs STSMACOM-292.
 * Entry Manager: hide Edit button when actions menu is enabled. Refs UICIRC-437.
+* Custom fields: support redux-form and final-form.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

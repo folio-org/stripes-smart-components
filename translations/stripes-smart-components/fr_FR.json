@@ -221,16 +221,19 @@
     "customFields.fieldTypes.SELECT": "Sélection unique",
     "customFields.dropdown.label": "Intitulé",
     "customFields.dropdown.code": "Code",
-    "customFields.dropdown.default": "Par défaut",
     "customFields.options": "Options",
     "customFields.addOption": "Ajouter une option",
     "customFields.option.required": "Option label is required.",
     "customFields.option.duplicate": "Option en double. Merci de corriger.",
     "customFields.characters.limit": "{limit} has been exceeded.",
-    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
     "customFields.options.left": "Vous pouvez ajouter {count, number} plus d' {count, plural, one { option } other { options }} .",
     "customFields.options.maxNumberReached": "Vous avez ajouté le nombre maximal d'options.",
     "customFields.options.default": "Par défaut",
     "customFields.fieldTypes.MULTISELECT": "Sélection multiple",
-    "customFields.dropdown.defaults": "Par défaut"
+    "password.consecutiveWhitespaces.invalid": "Le mot de passe ne doit pas contenir de caractères blancs consécutifs.",
+    "settings.common.duplicate": "Dupliquer",
+    "settings.common.edit": "Modifier",
+    "settings.common.delete": "Supprimer",
+    "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Radio button set",
+    "customFields.options.defaults": "Default(s)"
 }

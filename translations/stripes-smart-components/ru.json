@@ -221,16 +221,19 @@
     "customFields.fieldTypes.SELECT": "Single select",
     "customFields.dropdown.label": "Метка",
     "customFields.dropdown.code": "Код",
-    "customFields.dropdown.default": "По умолчанию",
     "customFields.options": "Параметры",
     "customFields.addOption": "Добавить параметры",
     "customFields.option.required": "Option label is required.",
     "customFields.option.duplicate": "Дублированная опция. Пожалуйста, исправьте.",
     "customFields.characters.limit": "{лимит} был превышен.",
-    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
     "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
     "customFields.options.maxNumberReached": "You have added the maximum number of options.",
     "customFields.options.default": "Default",
     "customFields.fieldTypes.MULTISELECT": "Multi-select",
-    "customFields.dropdown.defaults": "Default(s)"
+    "password.consecutiveWhitespaces.invalid": "The password must not contain consecutive white space characters.",
+    "settings.common.duplicate": "Duplicate",
+    "settings.common.edit": "Edit",
+    "settings.common.delete": "Delete",
+    "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Набор зависимых кнопок",
+    "customFields.options.defaults": "По умолчанию"
 }

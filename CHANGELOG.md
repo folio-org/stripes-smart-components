@@ -6,7 +6,7 @@
 * Do not use translations from `ui-circulation`; that module may not be present. 
 * Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
 
-## [3.2.0](IN PROGRESS)
+## [3.2.0](UNRELEASED)
 
 * Custom fields: create page accordions for create/edit/view record. UIU-1279.
 * Custom fields: apply checkbox vertical alignment. Refs UIU-1527.

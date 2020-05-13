@@ -221,16 +221,19 @@
     "customFields.fieldTypes.SELECT": "واحد منتخب",
     "customFields.dropdown.label": "Label",
     "customFields.dropdown.code": "Code",
-    "customFields.dropdown.default": "Default",
     "customFields.options": "Options",
     "customFields.addOption": "Add option",
     "customFields.option.required": "Option label is required.",
     "customFields.option.duplicate": "Duplicate option. Please revise.",
     "customFields.characters.limit": "{limit} has been exceeded.",
-    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
     "customFields.options.left": "آپ {گنتی ، نمبر} مزید {شمار ، جمع ، ایک {اختیار} دیگر {اختیارات}} شامل کرسکتے ہيں ۔",
     "customFields.options.maxNumberReached": "آپ نے زیادہ سے زیادہ اختیارات شامل کیے ہیں۔",
     "customFields.options.default": "طے شدہ",
     "customFields.fieldTypes.MULTISELECT": "کثیر انتخاب",
-    "customFields.dropdown.defaults": "طے شدہ (ے)"
+    "password.consecutiveWhitespaces.invalid": "The password must not contain consecutive white space characters.",
+    "settings.common.duplicate": "Duplicate",
+    "settings.common.edit": "Edit",
+    "settings.common.delete": "Delete",
+    "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Radio button set",
+    "customFields.options.defaults": "Default(s)"
 }

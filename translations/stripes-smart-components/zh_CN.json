@@ -221,16 +221,19 @@
     "customFields.fieldTypes.SELECT": "单选下拉菜单",
     "customFields.dropdown.label": "标签",
     "customFields.dropdown.code": "代码",
-    "customFields.dropdown.default": "默认",
     "customFields.options": "选项",
     "customFields.addOption": "添加选项",
     "customFields.option.required": "选项标签必备。",
     "customFields.option.duplicate": "重复选项。请修改。",
     "customFields.characters.limit": "已超过{limit} 。",
-    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
     "customFields.options.left": "You can add {count, number} more {count, plural, one {option} other {options}}.",
     "customFields.options.maxNumberReached": "You have added the maximum number of options.",
     "customFields.options.default": "Default",
     "customFields.fieldTypes.MULTISELECT": "Multi-select",
-    "customFields.dropdown.defaults": "Default(s)"
+    "password.consecutiveWhitespaces.invalid": "The password must not contain consecutive white space characters.",
+    "settings.common.duplicate": "Duplicate",
+    "settings.common.edit": "Edit",
+    "settings.common.delete": "Delete",
+    "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Radio button set",
+    "customFields.options.defaults": "Default(s)"
 }

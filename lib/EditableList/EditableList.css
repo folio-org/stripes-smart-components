@@ -35,3 +35,33 @@
   padding: 6px;
   color: var(--error);
 }
+
+.mclCellStyle {
+  position: relative;
+  border: 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    right: 0;
+    top: var(--gutter-static-one-third);
+    bottom: var(--gutter-static-one-third);
+    background-color: var(--color-border-p2);
+  }
+
+  &:last-child {
+    &::after {
+      display: none;
+    }
+  }
+}
+
+[dir="rtl"] .mclCellStyle {
+  border: 0;
+
+  &::after {
+    right: auto;
+    left: 0;
+  }
+}

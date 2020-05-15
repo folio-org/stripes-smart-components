@@ -234,6 +234,12 @@
     "settings.common.duplicate": "تكرار",
     "settings.common.edit": "تحرير",
     "settings.common.delete": "حذف",
-    "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "مجموعة أزرار راديو",
-    "customFields.options.defaults": "الإعدادات الافتراضية"
+    "customFields.options.defaults": "الإعدادات الافتراضية",
+    "customFields.dragDrop": "تغيير ترتيب الحقول المخصصة",
+    "customFields.dragDrop.lifted": "لقد قمت برفع الحقل {name} في الموضع {position}",
+    "customFields.dragDrop.moving": "لقد قمت بنقل الحقل {name} إلى الموضع {position}",
+    "customFields.dragDrop.notOverDroppable": "أنت لا تتواجد حالياً فوق مساحة قابلة للإسقاط",
+    "customFields.dragDrop.moved": "لقد قمت بنقل الحقل {name} من الموضع {start} إلى الموضع {end}",
+    "customFields.dragDrop.returned": "تمت إعادة الحقل {name} إلى موضعه المبدئي {position}",
+    "customFields.fieldTypes.RADIO_BUTTON": "مجموعة أزرار راديو"
 }

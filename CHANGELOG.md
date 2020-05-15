@@ -26,6 +26,7 @@
 * Entry Manager: hide Edit button when actions menu is enabled. Refs UICIRC-437.
 * Custom fields: support redux-form and final-form.
 * Add support for `MULTI_SELECT` Custom Field in User View/Edit/Create. Refs UIU-1569.
+* Add drag and drop support for Custom Fields. Refs STSMACOM-267.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

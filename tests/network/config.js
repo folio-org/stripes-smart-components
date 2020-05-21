@@ -172,4 +172,10 @@ export default function config() {
       }
     }],
   });
+
+  this.get('/custom-fields/:id/stats', (_, request) => ({
+    count: 0,
+    entityType: 'user',
+    id: request.params.id,
+  }));
 }

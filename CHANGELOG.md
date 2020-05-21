@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 4.0.0 (IN PROGRESS)
+## [4.0.0](https://github.com/folio-org/stripes-smart-components/tree/v4.0.0) (2020-05-20)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.1.0...v4.0.0)
 
 * Increment `react-intl` to `v4.5`. Refs STRIPES-672.
 * Do not use translations from `ui-circulation`; that module may not be present. 

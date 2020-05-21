@@ -234,6 +234,12 @@
     "settings.common.duplicate": "Duplicar",
     "settings.common.edit": "Editar",
     "settings.common.delete": "Excluir",
-    "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Conjunto de botões de opção",
-    "customFields.options.defaults": "Padrão(ões)"
+    "customFields.options.defaults": "Padrão(ões)",
+    "customFields.dragDrop": "Alterar a ordem do campo personalizado",
+    "customFields.dragDrop.lifted": "Você arrastou o campo {name} na posição {position}",
+    "customFields.dragDrop.moving": "Você moveu o campo {name} para a posição {position}",
+    "customFields.dragDrop.notOverDroppable": "No momento, você não está em uma área em que é possível arrastar e soltar",
+    "customFields.dragDrop.moved": "Você moveu o campo {name} da posição {start} para a posição {end}",
+    "customFields.dragDrop.returned": "O campo {name} foi retornado à sua posição inicial de {position}",
+    "customFields.fieldTypes.RADIO_BUTTON": "Conjunto de botões de opção"
 }

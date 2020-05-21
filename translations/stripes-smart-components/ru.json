@@ -230,10 +230,16 @@
     "customFields.options.maxNumberReached": "You have added the maximum number of options.",
     "customFields.options.default": "Default",
     "customFields.fieldTypes.MULTISELECT": "Multi-select",
-    "password.consecutiveWhitespaces.invalid": "The password must not contain consecutive white space characters.",
-    "settings.common.duplicate": "Duplicate",
-    "settings.common.edit": "Edit",
-    "settings.common.delete": "Delete",
-    "customFields.fieldTypes.RADIO_BUTTON_GROUP ": "Набор зависимых кнопок",
-    "customFields.options.defaults": "По умолчанию"
+    "password.consecutiveWhitespaces.invalid": "Пароль не должен содержать последовательных пробелов.",
+    "settings.common.duplicate": "Дубликат",
+    "settings.common.edit": "Редактировать",
+    "settings.common.delete": "Удалить",
+    "customFields.options.defaults": "По умолчанию",
+    "customFields.dragDrop": "Change custom field order",
+    "customFields.dragDrop.lifted": "You have lifted field {name} in position {position}",
+    "customFields.dragDrop.moving": "You have moved field {name} to position {position}",
+    "customFields.dragDrop.notOverDroppable": "You are currently not over a droppable area",
+    "customFields.dragDrop.moved": "You have moved field {name} from position {start} to position {end}",
+    "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
+    "customFields.fieldTypes.RADIO_BUTTON": "Набор зависимых кнопок"
 }

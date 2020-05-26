@@ -6,6 +6,7 @@
 * Increment `react-intl` to `v4.5`. Refs STRIPES-672.
 * Do not use translations from `ui-circulation`; that module may not be present. 
 * Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
+* Correctly prefix translation keys in `<IntlHarness>` so l10n actually works!
 
 ## [3.2.0](UNRELEASED)
 

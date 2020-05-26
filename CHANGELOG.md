@@ -1,6 +1,13 @@
 # Change history for stripes-smart-components
 
-## [3.2.0](IN PROGRESS)
+## [4.0.0](https://github.com/folio-org/stripes-smart-components/tree/v4.0.0) (2020-05-20)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.1.0...v4.0.0)
+
+* Increment `react-intl` to `v4.5`. Refs STRIPES-672.
+* Do not use translations from `ui-circulation`; that module may not be present. 
+* Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
+
+## [3.2.0](UNRELEASED)
 
 * Custom fields: create page accordions for create/edit/view record. UIU-1279.
 * Custom fields: apply checkbox vertical alignment. Refs UIU-1527.
@@ -10,6 +17,17 @@
 * Check if the component exists for `customField.type` before rendering. Fixes STSMACOM-333.
 * Change `redirectToView`, `redirectToEdit` props in CustomFields to `viewRoute` and `editRoute`. Refs UIU-1594.
 * Add support for `SINGLE_SELECT_DROPDOWN` Custom Field in User View/Edit/Create. Refs UIU-1565.
+* Prevent `ProxyManager` form submission from propagating to outer forms. Fixes UIREQ-449, UIREQ-454.
+* Marked Note Title field as required. Fixes STSMACOM-323.
+* Added `PersistedPaneset` component.
+* Pin `moment` at `~2.24.0`. Refs STRIPES-678.
+* Custom fields: Single select dropdown. Refs STSMACOM-285.
+* Custom fields: Multi-select dropdown. Refs STSMACOM-326.
+* Custom fields: Radio button set. Refs STSMACOM-292.
+* Entry Manager: hide Edit button when actions menu is enabled. Refs UICIRC-437.
+* Custom fields: support redux-form and final-form.
+* Add support for `MULTI_SELECT` Custom Field in User View/Edit/Create. Refs UIU-1569.
+* Add drag and drop support for Custom Fields. Refs STSMACOM-267.
 
 ## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)

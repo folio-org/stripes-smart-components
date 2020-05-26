@@ -13,7 +13,7 @@
     "cddd.header.currentDueDate": "Date d'échéance actuelle",
     "cddd.header.barcode": "Code-barres",
     "cddd.header.loanPolicy": "Politique de prêt",
-    "cddd.warning.dueDateAfterPatronExpiration": "La nouvelle date d'échéance est postérieure à celle de l'adhérent",
+    "cddd.warning.dueDateAfterPatronExpiration": "La nouvelle date d'échéance est postérieure à celle de l'utilisateur",
     "cddd.warning.dueDateWhenLibraryClosed": "La nouvelle date d'échéance tombe pendant la fermeture de la bibliothèque.",
     "cddd.warning.dueDateInPast": "La nouvelle date d'échéance ne peut être antérieure",
     "cv.cannotDeleteTermHeader": "Impossible de supprimer {type}",

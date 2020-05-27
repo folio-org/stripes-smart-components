@@ -12,6 +12,7 @@
 * Do not use translations from `ui-circulation`; that module may not be present. 
 * Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
 * Correctly prefix translation keys in `<IntlHarness>` so l10n actually works!
+* Handle 'claimed returned' items in `<ChangeDueDate>`. Refs UIU-1260.
 
 ## [3.2.0](UNRELEASED)
 

@@ -11,6 +11,8 @@
   "cddd.changeFailed": "Failed to change due date",
   "cddd.itemDeclaredLost": "Failed to change due date: item is Declared lost",
   "cddd.itemDeclaredLostWarning": "Item is Declared lost",
+  "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
+  "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
   "cddd.itemHasRequestQueue": "Item has a request queue",
   "cddd.itemsHaveWarnings": "<b>{count}</b> items have <b>warnings.</b>",
   "cddd.header.alertDetails": "Alert details",

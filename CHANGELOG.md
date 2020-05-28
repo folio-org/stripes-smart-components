@@ -1,8 +1,9 @@
 # Change history for stripes-smart-components
 
-## [4.1.0](https://github.com/folio-org/stripes-smart-components/tree/v4.1.0) (IN PROGRESS)
+## 4.1.0 (IN PROGRESS)
 
 * `<Settings>` supports new optional `additionalRoutes` property, an array of `<Route>` objects that are included in the `<Settings>` component's routing for its sub-pane, but which are not displayed in the visible list of settings sections.
+* Use `UNSAFE_` prefix for deprecated React methods. We know, we know. Refs STSMACOM-324.
 
 ## [4.0.0](https://github.com/folio-org/stripes-smart-components/tree/v4.0.0) (2020-05-20)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.1.0...v4.0.0)

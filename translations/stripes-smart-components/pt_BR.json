@@ -241,5 +241,7 @@
     "customFields.dragDrop.notOverDroppable": "No momento, você não está em uma área em que é possível arrastar e soltar",
     "customFields.dragDrop.moved": "Você moveu o campo {name} da posição {start} para a posição {end}",
     "customFields.dragDrop.returned": "O campo {name} foi retornado à sua posição inicial de {position}",
-    "customFields.fieldTypes.RADIO_BUTTON": "Conjunto de botões de opção"
+    "customFields.fieldTypes.RADIO_BUTTON": "Conjunto de botões de opção",
+    "cddd.itemClaimedReturned": "Falha na alteração da data de vencimento: o item está alegado como devolvido",
+    "cddd.itemClaimedReturnedWarning": "O item foi alegado como devolvido"
 }

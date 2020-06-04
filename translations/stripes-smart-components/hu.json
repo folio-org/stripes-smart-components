@@ -241,5 +241,7 @@
     "customFields.dragDrop.notOverDroppable": "You are currently not over a droppable area",
     "customFields.dragDrop.moved": "You have moved field {name} from position {start} to position {end}",
     "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
-    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set"
+    "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
+    "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
+    "cddd.itemClaimedReturnedWarning": "Item is Claimed returned"
 }

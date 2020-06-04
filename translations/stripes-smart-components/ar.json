@@ -241,5 +241,7 @@
     "customFields.dragDrop.notOverDroppable": "أنت لا تتواجد حالياً فوق مساحة قابلة للإسقاط",
     "customFields.dragDrop.moved": "لقد قمت بنقل الحقل {name} من الموضع {start} إلى الموضع {end}",
     "customFields.dragDrop.returned": "تمت إعادة الحقل {name} إلى موضعه المبدئي {position}",
-    "customFields.fieldTypes.RADIO_BUTTON": "مجموعة أزرار راديو"
+    "customFields.fieldTypes.RADIO_BUTTON": "مجموعة أزرار راديو",
+    "cddd.itemClaimedReturned": "فشل تغيير تاريخ الاستحقاق: تم إدعاء إعادة المادة",
+    "cddd.itemClaimedReturnedWarning": "تم إدعاء إعادة المادة"
 }

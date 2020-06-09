@@ -1,9 +1,16 @@
 # Change history for stripes-smart-components
 
-## 4.1.0 (IN PROGRESS)
+## [4.1.0](https://github.com/folio-org/stripes-smart-components/tree/v4.1.0) (2020-06-08)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.0.0...v4.1.0)
 
+* `<Notes>` `onToggle` prop is optional.
+* Correctly show custom fields' `<MultiSelect>` validation message.
+* Vastly increase custom fields test coverage. Refs STSMACOM-331.
+* Correctly prefix translation keys in `<IntlHarness>` so l10n in tests actually works!
 * `<Settings>` supports new optional `additionalRoutes` property, an array of `<Route>` objects that are included in the `<Settings>` component's routing for its sub-pane, but which are not displayed in the visible list of settings sections.
 * Use `UNSAFE_` prefix for deprecated React methods. We know, we know. Refs STSMACOM-324.
+* Handle 'claimed returned' items in `<ChangeDueDate>`. Refs UIU-1260.
+* Sort custom fields' input types. Refs STSMACOM-394.
 
 ## [4.0.0](https://github.com/folio-org/stripes-smart-components/tree/v4.0.0) (2020-05-20)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.1.0...v4.0.0)
@@ -11,10 +18,8 @@
 * Increment `react-intl` to `v4.5`. Refs STRIPES-672.
 * Do not use translations from `ui-circulation`; that module may not be present. 
 * Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
-* Correctly prefix translation keys in `<IntlHarness>` so l10n actually works!
-* Handle 'claimed returned' items in `<ChangeDueDate>`. Refs UIU-1260.
 
-## [3.2.0](UNRELEASED)
+## 3.2.0 (UNRELEASED)
 
 * Custom fields: create page accordions for create/edit/view record. UIU-1279.
 * Custom fields: apply checkbox vertical alignment. Refs UIU-1527.

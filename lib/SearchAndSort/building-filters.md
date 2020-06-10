@@ -146,7 +146,7 @@ For example, the `supplier` key in the example above might provide values to be 
 	  },
 	}),
 
-
+In `generateQueryParams`, if you omit the filterKey for a key in the query, only the value will be passed through to the backend. This is useful if you want to use an operation other than ==. For example, if you have `'foo': 'bar'` in your `filterKeys` and something like `foo.42` in your URL it will send that as `bar==42` but you could make a comparison by omitting foo from `filterKeys` and setting the value as `bar>42`. That will show up in the URL as `foo.bar>42` and be sent as `bar>42`.
 
 ## Example: `ui-directory`
 

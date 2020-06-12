@@ -1,8 +1,10 @@
 # Change history for stripes-smart-components
 
-## [4.1.1] (IN PROGRESS)
+## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)
 
 * Add new unsaved Custom Fields to accordions state. Fixes STSMACOM-352.
+* Support unique ID for custom fields, required by changes to the response shape. Refs STSMACOM-339.
 
 ## [4.1.0](https://github.com/folio-org/stripes-smart-components/tree/v4.1.0) (2020-06-08)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.0.0...v4.1.0)

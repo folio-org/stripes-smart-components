@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## [4.2.0](In progress)
+
+* Allow a user to not select any option in a single select custom field Refs UIU-1673.
+
 ## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)
 

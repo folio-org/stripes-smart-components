@@ -1,7 +1,8 @@
 # Change history for stripes-smart-components
 
-## [4.2.0](In progress)
+## [4.2.0] (IN PROGRESS)
 
+* Edit/View Custom Fields UI updates. Refs STSMACOM-355.
 * Allow a user to not select any option in a single select custom field Refs UIU-1673.
 
 ## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)

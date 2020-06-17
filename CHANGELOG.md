@@ -3,6 +3,7 @@
 ## [4.2.0] (IN PROGRESS)
 
 * Edit/View Custom Fields UI updates. Refs STSMACOM-355.
+* Removing aria-labelledby attribute from primary address radio button.  Fixes UIU-1641
 
 ## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)

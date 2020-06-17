@@ -1,5 +1,4 @@
 .DraggableRow {
-
   &::after {
     position: absolute;
     bottom: 0;

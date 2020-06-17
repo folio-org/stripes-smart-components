@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## 4.14 (IN PROGRESS)
+
+* Sort custom fields dropdown values. Refs STSMACOM-349.
+* Allow a user to not select any option in a single select custom field Refs UIU-1673.
+
 ## [4.1.3](https://github.com/folio-org/stripes-smart-components/tree/v4.1.3) (2020-07-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.2...v4.1.3)
 

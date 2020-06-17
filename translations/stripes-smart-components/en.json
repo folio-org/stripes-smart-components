@@ -247,6 +247,7 @@
   "customFields.options.maxNumberReached": "You have added the maximum number of options.",
   "customFields.options.default": "Default",
   "customFields.options.defaults": "Default(s)",
+  "customFields.select.placeholder": "Select a {fieldLabel}",
 
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",

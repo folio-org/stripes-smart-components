@@ -180,7 +180,6 @@
     "customFields": "自定义字段",
     "customFields.edit": "编辑",
     "customFields.editCustomFields": "编辑自定义字段",
-    "customFields.clickNewToCreate": "单击新建按钮创建自定义字段部分",
     "customFields.metadata.createdBy": "由{userName} {date}创建",
     "customFields.fieldLabel": "字段标签",
     "customFields.fieldFormat": "字段格式",
@@ -243,5 +242,7 @@
     "customFields.dragDrop.returned": "字段{name}已返回其起始位置{position}",
     "customFields.fieldTypes.RADIO_BUTTON": "单选钮设置",
     "cddd.itemClaimedReturned": "到期日更改失败：单件声称已还",
-    "cddd.itemClaimedReturnedWarning": "单件声称已还"
+    "cddd.itemClaimedReturnedWarning": "单件声称已还",
+    "customFields.settings.accordionTitle": "Accordion title",
+    "customFields.select.placeholder": "Select a {fieldLabel}"
 }

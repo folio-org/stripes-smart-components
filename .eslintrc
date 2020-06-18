@@ -1,17 +1,28 @@
 {
   "extends": "@folio/eslint-config-stripes",
   "parser": "babel-eslint",
+  "plugins": ["react-hooks"],
   "rules": {
     "max-len": ["warn", { "code": 120 }],
     "operator-linebreak": ["off"],
-    "react/sort-prop-types": ["error"]
+    "prefer-object-spread": "off",
+    "react/sort-prop-types": ["error"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": [
+      "error",
+      {
+        "skipUndeclared": true
+      }
+    ]
   },
   "overrides": [
     {
-      "files": ["lib/**/tests/*"],
+      "files": ["lib/**/tests/**"],
       "rules": {
         "no-unused-expressions": "off",
-        "func-names": "off"
+        "func-names": "off",
+        "max-classes-per-file": "off"
       }
     }
   ]

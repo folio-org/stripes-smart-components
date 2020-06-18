@@ -1,0 +1,30 @@
+.custom-fields-form {
+  width: 100%;
+}
+
+.custom-fields-form-content {
+  margin: 0 auto;
+  max-width: 63rem;
+}
+
+.inputWrapper {
+  display: block;
+  margin-bottom: 3em;
+}
+
+.accordionNameInput {
+  font-size: 1.8em !important;
+  line-height: 1.7em !important;
+  font-weight: bold;
+  color: #5e5e5e;
+}
+
+.accordionNameLabel {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.expandAllWrapper {
+  padding: 0 0 0.7em;
+}

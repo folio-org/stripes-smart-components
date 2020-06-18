@@ -1,0 +1,12 @@
+.addOptionButton {
+  display: inline-block;
+  margin-right: 0.8rem;
+  padding: 0 7.325rem;
+}
+
+.optionsLeftMessage {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: #666;
+  font-size: 0.7085rem;
+}

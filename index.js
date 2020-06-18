@@ -20,6 +20,8 @@ export { default as LocationSelection } from './lib/LocationSelection';
 
 export { default as PasswordValidationField } from './lib/PasswordValidationField';
 
+export { default as PersistedPaneset } from './lib/PersistedPaneset';
+
 export { default as ProxyManager } from './lib/ProxyManager';
 
 export { default as SearchAndSort } from './lib/SearchAndSort';
@@ -42,6 +44,7 @@ export { default as StripesConnectedSource } from './lib/SearchAndSort/Connected
 export { default as ApolloConnectedSource } from './lib/SearchAndSort/ConnectedSource/ApolloConnectedSource';
 
 export * from './lib/SearchAndSort/nsQueryFunctions';
+export * from './lib/SearchAndSort/parseFilters';
 export { default as buildUrl } from './lib/SearchAndSort/buildUrl';
 
 export { default as Settings } from './lib/Settings';
@@ -61,3 +64,7 @@ export { default as NoteCreatePage } from './lib/Notes/NoteCreatePage';
 export { default as NoteViewPage } from './lib/Notes/NoteViewPage';
 export { default as NoteEditPage } from './lib/Notes/NoteEditPage';
 export { default as NotesSmartAccordion } from './lib/Notes/NotesSmartAccordion';
+export { default as ViewCustomFieldsSettings } from './lib/CustomFields/pages/ViewCustomFieldsSettings';
+export { default as EditCustomFieldsSettings } from './lib/CustomFields/pages/EditCustomFieldsSettings';
+export { default as EditCustomFieldsRecord } from './lib/CustomFields/pages/EditCustomFieldsRecord';
+export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/ViewCustomFieldsRecord';

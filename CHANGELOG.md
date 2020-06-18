@@ -1,14 +1,83 @@
 # Change history for stripes-smart-components
 
-## 2.13.0 IN PROGRESS
+## [4.2.0] (IN PROGRESS)
+
+* Edit/View Custom Fields UI updates. Refs STSMACOM-355.
+* Allow a user to not select any option in a single select custom field Refs UIU-1673.
+* Removing aria-labelledby attribute from primary address radio button.  Fixes UIU-1641
+* Move react-router, react-router-dom to a peerDependency and update to v5. Refs STCOM-581.
+
+## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)
+
+* Add new unsaved Custom Fields to accordions state. Fixes STSMACOM-352.
+* Support unique ID for custom fields, required by changes to the response shape. Refs STSMACOM-339.
+
+## [4.1.0](https://github.com/folio-org/stripes-smart-components/tree/v4.1.0) (2020-06-08)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.0.0...v4.1.0)
+
+* `<Notes>` `onToggle` prop is optional.
+* Correctly show custom fields' `<MultiSelect>` validation message.
+* Vastly increase custom fields test coverage. Refs STSMACOM-331.
+* Correctly prefix translation keys in `<IntlHarness>` so l10n in tests actually works!
+* `<Settings>` supports new optional `additionalRoutes` property, an array of `<Route>` objects that are included in the `<Settings>` component's routing for its sub-pane, but which are not displayed in the visible list of settings sections.
+* Use `UNSAFE_` prefix for deprecated React methods. We know, we know. Refs STSMACOM-324.
+* Handle 'claimed returned' items in `<ChangeDueDate>`. Refs UIU-1260.
+* Sort custom fields' input types. Refs STSMACOM-394.
+
+## [4.0.0](https://github.com/folio-org/stripes-smart-components/tree/v4.0.0) (2020-05-20)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.1.0...v4.0.0)
+
+* Increment `react-intl` to `v4.5`. Refs STRIPES-672.
+* Do not use translations from `ui-circulation`; that module may not be present. 
+* Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
+
+## 3.2.0 (UNRELEASED)
+
+* Custom fields: create page accordions for create/edit/view record. UIU-1279.
+* Custom fields: apply checkbox vertical alignment. Refs UIU-1527.
+* Add optional prop `hasNewButton` to `SearchAndSort` component. Refs UIREQ-415.
+* Modify change due date dialog behavior to report successes and failures. Refs UIU-1516.
+* Support custom `getEntity` and `getEntityTags` methods in `Tags` component (UIDATIMP-461)
+* Check if the component exists for `customField.type` before rendering. Fixes STSMACOM-333.
+* Change `redirectToView`, `redirectToEdit` props in CustomFields to `viewRoute` and `editRoute`. Refs UIU-1594.
+* Add support for `SINGLE_SELECT_DROPDOWN` Custom Field in User View/Edit/Create. Refs UIU-1565.
+* Prevent `ProxyManager` form submission from propagating to outer forms. Fixes UIREQ-449, UIREQ-454.
+* Marked Note Title field as required. Fixes STSMACOM-323.
+* Added `PersistedPaneset` component.
+* Pin `moment` at `~2.24.0`. Refs STRIPES-678.
+* Custom fields: Single select dropdown. Refs STSMACOM-285.
+* Custom fields: Multi-select dropdown. Refs STSMACOM-326.
+* Custom fields: Radio button set. Refs STSMACOM-292.
+* Entry Manager: hide Edit button when actions menu is enabled. Refs UICIRC-437.
+* Custom fields: support redux-form and final-form.
+* Add support for `MULTI_SELECT` Custom Field in User View/Edit/Create. Refs UIU-1569.
+* Add drag and drop support for Custom Fields. Refs STSMACOM-267.
+
+## [3.1.0](https://github.com/folio-org/stripes-smart-components/tree/v3.1.0) (2020-03-16)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.0.0...v3.1.0)
+
+* Notes: relocate expand-all accordion label. Refs STSMACOM-313.
+* Custom fields: provide `checkbox` input type. Refs STSMACOM-314.
+* Custom fields: allow change to accordion label. Refs STSMACOM-275.
+* Handle tags with special characters. Refs STSMACOM-257 STSMACOM-294.
+* Custom fields: accept required permissions props. Refs UIU-1492.
+
+## [3.0.0](https://github.com/folio-org/stripes-smart-components/tree/v3.0.0) (2020-03-04)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.12.0...v3.0.0)
 
 * Keep search term around after browser refresh. Fixes STSMACOM-271.
 * Added integration point for `resultOffset`, which supports `stripes-components` result list "load more" button. Refs STCON-57.
 * Reset `resultCount` and `resultOffset` when sorting. Fixes STSMACOM-269.
 * `<EditableList>`: Disable the actions in existing rows when another item is being created or edited. Refs STCOM-624.
-* Improve accessibility, add attribute `aria-label` to `nav` tag in Settings. Refs UICAL-85.   
+* Improve accessibility, add attribute `aria-label` to `nav` tag in Settings. Refs UICAL-85.
 * Bump `<ControlledVocab>` fetch limit to 2000. Refs STSMACOM-296.
-* Move react-router, react-router-dom to a peerDependency and update to v5. Refs STCOM-581.
+* Increase of character limit for notes to 3500. Refs STSMACOM-295.
+* Added support for periods in filter values.
+* Escape quotes and backslashes in the values inserted into CQL queries. Refs UIIN-589.
+* Display `effective call number prefix`, `call number`, `call number suffix`, `enumeration`, `chronology`, `volume` in loans contexts. Refs UIU-1391.
+* Handle (i.e., reject) 'declared lost' items in `<ChangeDueDateDialog>`. Refs UIU-1207.
+* Create UI permissions for Custom Fields. Refs UIU-1492
 
 ## [2.12.0](https://github.com/folio-org/stripes-smart-components/tree/v2.12.0) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v2.11.0...v2.12.0)

@@ -5,6 +5,7 @@
 * Edit/View Custom Fields UI updates. Refs STSMACOM-355.
 * Fix bug with New button. STSMACOM-355.
 * Allow loading more than 10 Custom Fields. Refs STSMACOM-370.
+* Fix cannot select a radio button when multiple Custom Field radio button sets are created. Refs STSMACOM-373.
 
 ## [4.1.2](https://github.com/folio-org/stripes-smart-components/tree/v4.1.2) (2020-07-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v4.1.2)

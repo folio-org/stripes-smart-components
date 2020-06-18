@@ -180,7 +180,6 @@
     "customFields": "Custom fields",
     "customFields.edit": "Edit",
     "customFields.editCustomFields": "Edit custom fields",
-    "customFields.clickNewToCreate": "Click the new button to create your custom field section",
     "customFields.metadata.createdBy": "Created by {userName} {date}",
     "customFields.fieldLabel": "Field label",
     "customFields.fieldFormat": "Field format",
@@ -243,5 +242,7 @@
     "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
     "customFields.fieldTypes.RADIO_BUTTON": "Набор зависимых кнопок",
     "cddd.itemClaimedReturned": "Не удалось изменить срок возврата: экземпляр возвращен",
-    "cddd.itemClaimedReturnedWarning": "Экземпляр возвращен"
+    "cddd.itemClaimedReturnedWarning": "Экземпляр возвращен",
+    "customFields.settings.accordionTitle": "Accordion title",
+    "customFields.select.placeholder": "Выберите {fieldLabel}"
 }

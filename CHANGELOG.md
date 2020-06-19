@@ -10,6 +10,7 @@
 * Apply correct styling to the save button on the edit custom fields page. Fixes STSMACOM-368
 * Make checkbox custom field correctly reflect form state. Fixes UIU-1690
 * Allow loading more than 10 Custom Fields. Refs STSMACOM-370.
+* Fix bug with drag and drop for radio button group. Refs STSMACOM-367.
 
 ## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)

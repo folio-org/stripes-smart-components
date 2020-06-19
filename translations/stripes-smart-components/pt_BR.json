@@ -180,7 +180,6 @@
     "customFields": "Campos personalizados",
     "customFields.edit": "Editar",
     "customFields.editCustomFields": "Editar campos personalizados",
-    "customFields.clickNewToCreate": "Clique no botão novo para criar sua seção de campo personalizado",
     "customFields.metadata.createdBy": "Criado por {userName} {date}",
     "customFields.fieldLabel": "Rótulo do campo",
     "customFields.fieldFormat": "Formato do campo",
@@ -243,5 +242,7 @@
     "customFields.dragDrop.returned": "O campo {name} foi retornado à sua posição inicial de {position}",
     "customFields.fieldTypes.RADIO_BUTTON": "Conjunto de botões de opção",
     "cddd.itemClaimedReturned": "Falha na alteração da data de vencimento: o item está alegado como devolvido",
-    "cddd.itemClaimedReturnedWarning": "O item foi alegado como devolvido"
+    "cddd.itemClaimedReturnedWarning": "O item foi alegado como devolvido",
+    "customFields.settings.accordionTitle": "Título do acordeão",
+    "customFields.select.placeholder": "Selecione um {fieldLabel}"
 }

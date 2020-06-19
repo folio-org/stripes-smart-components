@@ -180,7 +180,6 @@
     "customFields": "Custom fields",
     "customFields.edit": "編集",
     "customFields.editCustomFields": "カスタムフィールドを編集",
-    "customFields.clickNewToCreate": "Click the new button to create your custom field section",
     "customFields.metadata.createdBy": "Created by {userName} {date}",
     "customFields.fieldLabel": "フィールドラベル",
     "customFields.fieldFormat": "フィールドフォーマット",
@@ -243,5 +242,7 @@
     "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
     "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
     "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
-    "cddd.itemClaimedReturnedWarning": "Item is Claimed returned"
+    "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
+    "customFields.settings.accordionTitle": "Accordion title",
+    "customFields.select.placeholder": "Select a {fieldLabel}"
 }

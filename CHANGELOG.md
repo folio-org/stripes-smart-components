@@ -2,7 +2,8 @@
 
 ## [4.2.0] (IN PROGRESS)
 
-* Loan Details > Change due date| Error message is not read by screenreader Refs STSMACOM-374.
+* Loan Details > Successfully change due date is not read by a screenreader AND also there is a keyboard trap. Refs STSMACOM-376.
+* Loan Details > Change due date| Error message is not read by screenreader Refs STSMACOM-375.
 * Edit/View Custom Fields UI updates. Refs STSMACOM-355.
 * Allow a user to not select any option in a single select custom field Refs UIU-1673.
 * Removing aria-labelledby attribute from primary address radio button.  Fixes UIU-1641

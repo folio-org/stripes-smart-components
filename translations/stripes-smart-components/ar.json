@@ -180,7 +180,6 @@
     "customFields": "حقول مخصصة",
     "customFields.edit": "تحرير",
     "customFields.editCustomFields": "تحرير الحقول المخصصة",
-    "customFields.clickNewToCreate": "قم بالنقر على زر جديد لإنشاء قسم الحقل المخصص الخاص بك",
     "customFields.metadata.createdBy": "تم إنشاؤه بواسطة {userName} {date}",
     "customFields.fieldLabel": "ملصق تسمية الحقل",
     "customFields.fieldFormat": "تنسيق الحقل",
@@ -243,5 +242,7 @@
     "customFields.dragDrop.returned": "تمت إعادة الحقل {name} إلى موضعه المبدئي {position}",
     "customFields.fieldTypes.RADIO_BUTTON": "مجموعة أزرار راديو",
     "cddd.itemClaimedReturned": "فشل تغيير تاريخ الاستحقاق: تم إدعاء إعادة المادة",
-    "cddd.itemClaimedReturnedWarning": "تم إدعاء إعادة المادة"
+    "cddd.itemClaimedReturnedWarning": "تم إدعاء إعادة المادة",
+    "customFields.settings.accordionTitle": "عنوان أكورديون",
+    "customFields.select.placeholder": "اختر {fieldLabel}"
 }

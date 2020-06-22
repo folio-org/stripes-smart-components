@@ -180,7 +180,6 @@
     "customFields": "Custom fields",
     "customFields.edit": "Edit",
     "customFields.editCustomFields": "Edit custom fields",
-    "customFields.clickNewToCreate": "Click the new button to create your custom field section",
     "customFields.metadata.createdBy": "Created by {userName} {date}",
     "customFields.fieldLabel": "Field label",
     "customFields.fieldFormat": "Field format",
@@ -218,7 +217,7 @@
     "customFields.fieldTypes.TEXTFIELD": "Текстовое поле",
     "customFields.fieldTypes.TEXTAREA": "Текстовая область",
     "customFields.fieldTypes.CHECKBOX": "Поле для установки флажка",
-    "customFields.fieldTypes.SELECT": "Single select",
+    "customFields.fieldTypes.SELECT": "Единственный выбор",
     "customFields.dropdown.label": "Метка",
     "customFields.dropdown.code": "Код",
     "customFields.options": "Параметры",
@@ -242,6 +241,8 @@
     "customFields.dragDrop.moved": "You have moved field {name} from position {start} to position {end}",
     "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
     "customFields.fieldTypes.RADIO_BUTTON": "Набор зависимых кнопок",
-    "cddd.itemClaimedReturned": "Не удалось изменить срок оплаты: издание возвращено",
-    "cddd.itemClaimedReturnedWarning": "Издание возвращено"
+    "cddd.itemClaimedReturned": "Не удалось изменить срок возврата: экземпляр возвращен",
+    "cddd.itemClaimedReturnedWarning": "Экземпляр возвращен",
+    "customFields.settings.accordionTitle": "Accordion title",
+    "customFields.select.placeholder": "Выберите {fieldLabel}"
 }

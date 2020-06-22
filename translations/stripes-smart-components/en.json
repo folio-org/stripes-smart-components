@@ -192,7 +192,6 @@
   "customFields": "Custom fields",
   "customFields.edit": "Edit",
   "customFields.editCustomFields": "Edit custom fields",
-  "customFields.clickNewToCreate": "Click the new button to create your custom field section",
   "customFields.metadata.createdBy": "Created by {userName} {date}",
   "customFields.fieldTypes.TEXTFIELD": "Text field",
   "customFields.fieldTypes.TEXTAREA": "Text area",
@@ -222,6 +221,7 @@
   "customFields.addCustomField": "Add custom field",
   "customFields.fieldName.noSet": "No label set",
   "customFields.settings.sectionTitle": "Section title",
+  "customFields.settings.accordionTitle": "Accordion title",
   "customFields.settings.accordion.hidden": "(Hidden)",
   "customFields.recordAccordion.defaultName": "Custom fields",
   "customFields.recordAccordion.required": "Field is required.",
@@ -246,6 +246,7 @@
   "customFields.options.maxNumberReached": "You have added the maximum number of options.",
   "customFields.options.default": "Default",
   "customFields.options.defaults": "Default(s)",
+  "customFields.select.placeholder": "Select a {fieldLabel}",
 
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",

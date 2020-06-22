@@ -12,6 +12,7 @@
 * Make checkbox custom field correctly reflect form state. Fixes UIU-1690
 * Allow loading more than 10 Custom Fields. Refs STSMACOM-370.
 * Fix cannot select a radio button when multiple Custom Field radio button sets are created. Refs STSMACOM-373.
+* Display custom fields accordion with a spinner while custom fields data is being loaded.
 
 ## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)
@@ -35,7 +36,7 @@
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v3.1.0...v4.0.0)
 
 * Increment `react-intl` to `v4.5`. Refs STRIPES-672.
-* Do not use translations from `ui-circulation`; that module may not be present. 
+* Do not use translations from `ui-circulation`; that module may not be present.
 * Test clean-up etc related to the babel-7 upgrade. Refs STCOR-381.
 
 ## 3.2.0 (UNRELEASED)

@@ -3,7 +3,7 @@ module.exports = (config) => {
     browserStack: {
       project: 'stripes-smart-components'
     },
-
+    client: { captureConsole: false },
     browserDisconnectTimeout: 3e5,
     browserDisconnectTolerance: 3,
     browserNoActivityTimeout: 3e5,

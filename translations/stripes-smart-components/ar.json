@@ -244,5 +244,6 @@
     "cddd.itemClaimedReturned": "فشل تغيير تاريخ الاستحقاق: تم إدعاء إعادة المادة",
     "cddd.itemClaimedReturnedWarning": "تم إدعاء إعادة المادة",
     "customFields.settings.accordionTitle": "عنوان أكورديون",
-    "customFields.select.placeholder": "اختر {fieldLabel}"
+    "customFields.select.placeholder": "اختر {fieldLabel}",
+    "customFields.new": "New"
 }

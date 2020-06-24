@@ -11,7 +11,7 @@
     "cddd.header.title": "Заголовок",
     "cddd.header.itemStatus": "Состояние элемента",
     "cddd.header.currentDueDate": "Текущая дата платежа",
-    "cddd.header.barcode": "Штрих-код",
+    "cddd.header.barcode": "Штрихкод",
     "cddd.header.loanPolicy": "Политика книговыдачи",
     "cddd.warning.dueDateAfterPatronExpiration": "Продление срока читательского абонемента возможно после окончания срока действия абонемента.",
     "cddd.warning.dueDateWhenLibraryClosed": "Новый срок, когда библиотека закрыта.",
@@ -244,5 +244,6 @@
     "cddd.itemClaimedReturned": "Не удалось изменить срок возврата: экземпляр возвращен",
     "cddd.itemClaimedReturnedWarning": "Экземпляр возвращен",
     "customFields.settings.accordionTitle": "Accordion title",
-    "customFields.select.placeholder": "Выберите {fieldLabel}"
+    "customFields.select.placeholder": "Выберите {fieldLabel}",
+    "customFields.new": "New"
 }

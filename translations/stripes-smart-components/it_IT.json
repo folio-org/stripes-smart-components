@@ -244,5 +244,6 @@
     "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
     "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
     "customFields.settings.accordionTitle": "Accordion title",
-    "customFields.select.placeholder": "Select a {fieldLabel}"
+    "customFields.select.placeholder": "Select a {fieldLabel}",
+    "customFields.new": "New"
 }

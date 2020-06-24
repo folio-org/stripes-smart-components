@@ -244,5 +244,6 @@
     "cddd.itemClaimedReturned": "Falha na alteração da data de vencimento: o item está alegado como devolvido",
     "cddd.itemClaimedReturnedWarning": "O item foi alegado como devolvido",
     "customFields.settings.accordionTitle": "Título do acordeão",
-    "customFields.select.placeholder": "Selecione um {fieldLabel}"
+    "customFields.select.placeholder": "Selecione um {fieldLabel}",
+    "customFields.new": "New"
 }

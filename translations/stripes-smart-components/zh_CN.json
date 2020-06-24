@@ -244,5 +244,6 @@
     "cddd.itemClaimedReturned": "到期日更改失败：单件声称已还",
     "cddd.itemClaimedReturnedWarning": "单件声称已还",
     "customFields.settings.accordionTitle": "Accordion title",
-    "customFields.select.placeholder": "Select a {fieldLabel}"
+    "customFields.select.placeholder": "Select a {fieldLabel}",
+    "customFields.new": "New"
 }

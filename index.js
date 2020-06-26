@@ -5,6 +5,7 @@ export { default as AddressView } from './lib/AddressFieldGroup/AddressView';
 export { default as EmbeddedAddressForm } from './lib/AddressFieldGroup/AddressEdit/EmbeddedAddressForm';
 
 export { default as ChangeDueDateDialog } from './lib/ChangeDueDateDialog';
+export { default as ClipCopy } from './lib/ClipCopy';
 
 export { default as ConfigManager } from './lib/ConfigManager';
 export { default as ConfigForm } from './lib/ConfigManager/ConfigForm';

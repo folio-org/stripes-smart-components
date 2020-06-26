@@ -251,5 +251,7 @@
 
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",
-  "settings.common.delete": "Delete"
+  "settings.common.delete": "Delete",
+
+  "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
 }

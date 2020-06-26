@@ -7,11 +7,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import CalloutContext from '@folio/stripes-core';
 import { Callout } from '@folio/stripes-components';
 
 const CalloutHarness = ({ children }) => {
   const calloutRef = React.createRef();
+  const CalloutContext = React.createContext();
 
   return (
     <>

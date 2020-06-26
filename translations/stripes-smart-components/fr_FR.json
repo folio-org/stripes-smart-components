@@ -243,7 +243,7 @@
     "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
     "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
     "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
-    "customFields.settings.accordionTitle": "Accordion title",
+    "customFields.settings.accordionTitle": "Titre \"accordéon\"",
     "customFields.select.placeholder": "Select a {fieldLabel}",
-    "customFields.new": "New"
+    "customFields.new": "Nouveau"
 }

@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 5.0.0 (IN PROGRESS)
+
+* Increment `react-router` to `^5.2`. Refs STRIPES-674.
+
 ## [4.2.0] (IN PROGRESS)
 
 * Loan Details > Successfully change due date is not read by a screenreader AND also there is a keyboard trap. Refs STSMACOM-376.

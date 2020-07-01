@@ -3,6 +3,7 @@
 ## 5.0.0 (IN PROGRESS)
 
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
+* Prevent PUT request for accordion title during drag'n'drop custom field. STSMACOM-382.
 
 ## [4.2.0] (IN PROGRESS)
 

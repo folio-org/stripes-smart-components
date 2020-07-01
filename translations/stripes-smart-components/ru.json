@@ -243,7 +243,7 @@
     "customFields.fieldTypes.RADIO_BUTTON": "Набор зависимых кнопок",
     "cddd.itemClaimedReturned": "Не удалось изменить срок возврата: экземпляр возвращен",
     "cddd.itemClaimedReturnedWarning": "Экземпляр возвращен",
-    "customFields.settings.accordionTitle": "Accordion title",
+    "customFields.settings.accordionTitle": "Заголовок меню \"Аккордеон\"",
     "customFields.select.placeholder": "Выберите {fieldLabel}",
     "customFields.new": "Новое"
 }

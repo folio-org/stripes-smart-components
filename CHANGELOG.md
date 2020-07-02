@@ -3,6 +3,7 @@
 ## 5.0.0 (IN PROGRESS)
 
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
+* Add `entityTagsPath` to `Tags` to set custom entity tags path. Part of UIDATIMP-499.
 
 ## [4.2.0] (IN PROGRESS)
 

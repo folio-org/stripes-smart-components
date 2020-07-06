@@ -3,6 +3,7 @@
 ## 5.0.0 (IN PROGRESS)
 
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
+* Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.
 
 ## [4.2.0] (IN PROGRESS)
 

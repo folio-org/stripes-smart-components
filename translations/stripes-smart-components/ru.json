@@ -189,7 +189,6 @@
     "customFields.hidden": "Hidden",
     "customFields.defaultValue": "Default value",
     "customFields.cancel": "Cancel",
-    "customFields.save": "Save",
     "customFields.delete.modalTitle": "Delete field data",
     "customFields.delete.confirm": "Save & lose data",
     "customFields.delete.cancel": "Cancel & keep editing",
@@ -245,5 +244,6 @@
     "cddd.itemClaimedReturnedWarning": "Экземпляр возвращен",
     "customFields.settings.accordionTitle": "Заголовок меню \"Аккордеон\"",
     "customFields.select.placeholder": "Выберите {fieldLabel}",
-    "customFields.new": "Новое"
+    "customFields.new": "Новое",
+    "customFields.save&Close": "Save & close"
 }

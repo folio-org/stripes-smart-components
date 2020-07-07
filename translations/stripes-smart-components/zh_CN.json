@@ -189,7 +189,6 @@
     "customFields.hidden": "隐藏",
     "customFields.defaultValue": "默认值",
     "customFields.cancel": "取消",
-    "customFields.save": "保存",
     "customFields.delete.modalTitle": "删除字段数据",
     "customFields.delete.confirm": "保存并丢失数据",
     "customFields.delete.cancel": "取消并继续编辑",
@@ -245,5 +244,6 @@
     "cddd.itemClaimedReturnedWarning": "单件声称已还",
     "customFields.settings.accordionTitle": "Accordion title",
     "customFields.select.placeholder": "Select a {fieldLabel}",
-    "customFields.new": "New"
+    "customFields.new": "New",
+    "customFields.save&Close": "Save & close"
 }

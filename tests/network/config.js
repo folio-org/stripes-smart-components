@@ -208,4 +208,21 @@ export default function config() {
     entityType: 'user',
     id: request.params.id,
   }));
+
+  this.get('/notes/:id', ({ notes }, { params }) => {
+    return notes.find(params.id);
+  });
+
+  this.delete('/notes/:id', ({ notes, noteTypes }, { params }) => {
+    const note = notes.find(params.id);
+    const noteType = noteTypes.find(note.attrs.typeId);
+
+    noteType.update({
+      usage: {
+        noteTotal: --noteType.attrs.usage.noteTotal,
+      },
+    });
+
+    return notes.find(params.id).destroy();
+  });
 }

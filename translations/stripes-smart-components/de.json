@@ -189,7 +189,6 @@
     "customFields.hidden": "Hidden",
     "customFields.defaultValue": "Default value",
     "customFields.cancel": "Cancel",
-    "customFields.save": "Save",
     "customFields.delete.modalTitle": "Delete field data",
     "customFields.delete.confirm": "Save & lose data",
     "customFields.delete.cancel": "Cancel & keep editing",
@@ -245,5 +244,6 @@
     "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
     "customFields.settings.accordionTitle": "Accordion title",
     "customFields.select.placeholder": "Select a {fieldLabel}",
-    "customFields.new": "New"
+    "customFields.new": "New",
+    "customFields.save&Close": "Save & close"
 }

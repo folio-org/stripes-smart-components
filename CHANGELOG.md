@@ -8,6 +8,7 @@
 * Settings > Edit Custom Fields > change Save button label to Save & close. STSMACOM-380.
 * Prevent PUT request for accordion title during drag'n'drop custom field. STSMACOM-382.
 * Fix incorrect `Last updated source` in Note View metadata when record was never updated. Fixes STSMACOM-386.
+* Add `entityTagsPath` to `Tags` to set custom entity tags path. Refs STSMACOM-385.
 
 ## [4.2.0] (IN PROGRESS)
 

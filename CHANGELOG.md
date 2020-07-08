@@ -5,6 +5,7 @@
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
 * Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.
 * Add changeable content to assigned accordion to NotesView and NotesForm components. Part of UIREQ-467.
+* Settings > Edit Custom Fields > change Save button label to Save & close. STSMACOM-380.
 * Fix incorrect `Last updated source` in Note View metadata when record was never updated. Fixes STSMACOM-386.
 
 ## [4.2.0] (IN PROGRESS)

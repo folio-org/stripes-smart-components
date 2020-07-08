@@ -189,7 +189,6 @@
     "customFields.hidden": "非表示",
     "customFields.defaultValue": "Default value",
     "customFields.cancel": "キャンセル",
-    "customFields.save": "保存",
     "customFields.delete.modalTitle": "Delete field data",
     "customFields.delete.confirm": "データを保存して破棄",
     "customFields.delete.cancel": "キャンセルして編集を続ける",
@@ -245,5 +244,6 @@
     "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
     "customFields.settings.accordionTitle": "Accordion title",
     "customFields.select.placeholder": "Select a {fieldLabel}",
-    "customFields.new": "New"
+    "customFields.new": "New",
+    "customFields.save&Close": "Save & close"
 }

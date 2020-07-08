@@ -3,7 +3,12 @@
 ## 5.0.0 (IN PROGRESS)
 
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
-* Add `entityTagsPath` to `Tags` to set custom entity tags path. Part of UIDATIMP-499.
+* Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.
+* Add changeable content to assigned accordion to NotesView and NotesForm components. Part of UIREQ-467.
+* Settings > Edit Custom Fields > change Save button label to Save & close. STSMACOM-380.
+* Prevent PUT request for accordion title during drag'n'drop custom field. STSMACOM-382.
+* Fix incorrect `Last updated source` in Note View metadata when record was never updated. Fixes STSMACOM-386.
+* Add `entityTagsPath` to `Tags` to set custom entity tags path. Refs STSMACOM-385.
 
 ## [4.2.0] (IN PROGRESS)
 

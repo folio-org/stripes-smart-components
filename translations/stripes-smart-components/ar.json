@@ -189,7 +189,6 @@
     "customFields.hidden": "مخفي",
     "customFields.defaultValue": "القيمة الافتراضية",
     "customFields.cancel": "إلغاء",
-    "customFields.save": "حفظ",
     "customFields.delete.modalTitle": "حذف بيانات الحقل",
     "customFields.delete.confirm": "حفظ وفقدان البيانات",
     "customFields.delete.cancel": "إلغاء ومتابعة التحرير",
@@ -245,5 +244,6 @@
     "cddd.itemClaimedReturnedWarning": "تم إدعاء إعادة المادة",
     "customFields.settings.accordionTitle": "عنوان أكورديون",
     "customFields.select.placeholder": "اختر {fieldLabel}",
-    "customFields.new": "جديد"
+    "customFields.new": "جديد",
+    "customFields.save&Close": "حفظ وإغلاق"
 }

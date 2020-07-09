@@ -1,10 +1,11 @@
 # Change history for stripes-smart-components
 
-## 4.1.2 (IN PROGRESS)
+## [4.1.2](https://github.com/folio-org/stripes-smart-components/tree/v4.1.2) (2020-07-09)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v4.1.2)
 
 * Introduce `basePath` prop to add ability to control the path after search is performed. Part of STSMACOM-378.
 
-## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
+## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-06-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)
 
 * Add new unsaved Custom Fields to accordions state. Fixes STSMACOM-352.

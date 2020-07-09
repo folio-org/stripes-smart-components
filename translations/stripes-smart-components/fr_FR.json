@@ -189,7 +189,6 @@
     "customFields.hidden": "Masqué",
     "customFields.defaultValue": "Valeur par défaut",
     "customFields.cancel": "Annuler",
-    "customFields.save": "Sauvegarder",
     "customFields.delete.modalTitle": "Supprimer les données du champ",
     "customFields.delete.confirm": "Sauvegarder et perdre les données",
     "customFields.delete.cancel": "Annuler et continuer à modifier",
@@ -243,7 +242,8 @@
     "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
     "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
     "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
-    "customFields.settings.accordionTitle": "Accordion title",
+    "customFields.settings.accordionTitle": "Titre \"accordéon\"",
     "customFields.select.placeholder": "Select a {fieldLabel}",
-    "customFields.new": "New"
+    "customFields.new": "Nouveau",
+    "customFields.save&Close": "Save & close"
 }

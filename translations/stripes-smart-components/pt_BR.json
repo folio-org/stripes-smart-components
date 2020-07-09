@@ -189,7 +189,6 @@
     "customFields.hidden": "Oculto",
     "customFields.defaultValue": "Valor padrão",
     "customFields.cancel": "Cancelar",
-    "customFields.save": "Salvar",
     "customFields.delete.modalTitle": "Excluir dados do campo",
     "customFields.delete.confirm": "Salvar e perder dados",
     "customFields.delete.cancel": "Cancelar e continuar editando",
@@ -245,5 +244,6 @@
     "cddd.itemClaimedReturnedWarning": "O item foi alegado como devolvido",
     "customFields.settings.accordionTitle": "Título do acordeão",
     "customFields.select.placeholder": "Selecione um {fieldLabel}",
-    "customFields.new": "New"
+    "customFields.new": "Novo",
+    "customFields.save&Close": "Save & close"
 }

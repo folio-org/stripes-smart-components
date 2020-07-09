@@ -212,7 +212,7 @@
   "customFields.hidden": "Hidden",
   "customFields.defaultValue": "Default value",
   "customFields.cancel": "Cancel",
-  "customFields.save": "Save",
+  "customFields.save&Close": "Save & close",
   "customFields.delete.modalTitle": "Delete field data",
   "customFields.delete.confirm": "Save & lose data",
   "customFields.delete.cancel": "Cancel & keep editing",

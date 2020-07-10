@@ -33,3 +33,23 @@ The following properties are supported:
 * `sections`: an array of section objects. Each member of the list is an object with the following members:
   * `label`: the human-readable label that, when clicked on, links to the specified route.
   * `pages`: which has the same form as the `pages` prop
+* `additionalRoutes`: an optional array of `<Route>` objects that are included in the `<Settings>` component's routing for its sub-pane, but which are not displayed in the visible list of settings sections.
+
+  This is useful for routing paths below the top level of a settings
+  page. For example, if you want your Foo module's Bar settings page to
+  be able to see a specific Bar in detail, you might pass `pages`
+  including:
+
+	  {
+	    route: 'bar',
+	    id: 'Maintain all Bars',
+	    component: ListOfBar,
+	  },
+
+  and also `additionalRoutes` including:
+
+	  <Route
+	    path={`${match.path}/bar/:id`}
+	    render={p => <SingleBar {...p} label="Maintain specific Bar" />}
+	  />
+

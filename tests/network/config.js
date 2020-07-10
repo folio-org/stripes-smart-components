@@ -135,11 +135,17 @@ export default function config() {
       'order' : 3,
       'helpText' : '',
       'selectField' : {
-        'defaults' : ['option 1'],
         'multiSelect' : false,
         'options' : {
-          'values' : ['option 1', 'option 2'],
-          'sorted' : []
+          'values' : [{
+            'id': 'opt_0',
+            'value': 'option 1',
+            'default': true
+          }, {
+            'id': 'opt_1',
+            'value': 'option 2',
+            'default': false,
+          }],
         }
       }
     }, {
@@ -153,11 +159,21 @@ export default function config() {
       'order' : 4,
       'helpText' : '',
       'selectField' : {
-        'defaults' : ['option 1', 'option 2'],
         'multiSelect' : true,
         'options' : {
-          'values' : ['option 1', 'option 2', 'option 3'],
-          'sorted' : []
+          'values' : [{
+            'id': 'opt_0',
+            'value': 'option 1',
+            'default': true,
+          }, {
+            'id': 'opt_1',
+            'value': 'option 2',
+            'default': true,
+          }, {
+            'id': 'opt_2',
+            'value': 'option 3',
+            'default': false,
+          }],
         }
       }
     }, {
@@ -171,11 +187,17 @@ export default function config() {
       'order' : 5,
       'helpText' : '',
       'selectField' : {
-        'defaults' : ['option 1'],
         'multiSelect' : false,
         'options' : {
-          'values' : ['option 1', 'option 2'],
-          'sorted' : []
+          'values' : [{
+            'id': 'opt_0',
+            'value': 'option 1',
+            'default': true,
+          }, {
+            'id': 'opt_1',
+            'value': 'option 2',
+            'default': false,
+          }],
         }
       }
     }],

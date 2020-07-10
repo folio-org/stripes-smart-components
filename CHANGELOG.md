@@ -1,9 +1,11 @@
 # Change history for stripes-smart-components
 
-## 4.14 (IN PROGRESS)
+## [4.1.4](https://github.com/folio-org/stripes-smart-components/tree/v4.1.4) (2020-07-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.3...v4.1.4)
 
 * Sort custom fields dropdown values. Refs STSMACOM-349.
 * Allow a user to not select any option in a single select custom field Refs UIU-1673.
+* Display custom fields accordion with a spinner while custom fields data is being loaded.
 
 ## [4.1.3](https://github.com/folio-org/stripes-smart-components/tree/v4.1.3) (2020-07-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.2...v4.1.3)
@@ -13,7 +15,6 @@
 * Allow loading more than 10 Custom Fields. Refs STSMACOM-370.
 * Fix bug with drag and drop for radio button group. Refs STSMACOM-367.
 * Fix cannot select a radio button when multiple Custom Field radio button sets are created. Refs STSMACOM-373.
-* Display custom fields accordion with a spinner while custom fields data is being loaded.
 
 ## [4.1.2](https://github.com/folio-org/stripes-smart-components/tree/v4.1.2) (2020-07-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v4.1.2)

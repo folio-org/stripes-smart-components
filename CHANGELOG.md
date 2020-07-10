@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-# 4.1.5 (IN PROGRESS)
+## [4.1.5](https://github.com/folio-org/stripes-smart-components/tree/v4.1.5) (2020-07-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.4...v4.1.5)
 
 * Remove asterisk from radio button custom field label. Fixes UIU-1700
 * Apply correct styling to the save button on the edit custom fields page. Fixes STSMACOM-368

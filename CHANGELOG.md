@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 4.1.3 (IN PROGRESS)
+## [4.1.3](https://github.com/folio-org/stripes-smart-components/tree/v4.1.3) (2020-07-09)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.2...v4.1.3)
 
 * Edit/View Custom Fields UI updates. Refs STSMACOM-355.
 * Fix bug with New button. STSMACOM-355.

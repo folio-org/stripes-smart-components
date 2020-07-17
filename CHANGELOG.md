@@ -13,6 +13,7 @@
 * Remove horizontal scrollbar from `ChangeDueDateDialog`. Refs STSMACOM-402.
 * Use search term when filter is applied via `<SearchAndSort>`. Fixes STSMACOM-365.
 * Remove Note details length limit. Refs STSMACOM-383.
+* Added `headingLevel` for `<ViewMetaData>`-component. Refs STSMACOM-400.
 
 ## [4.2.0] (IN PROGRESS)
 

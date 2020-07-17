@@ -10,6 +10,8 @@
 * Fix incorrect `Last updated source` in Note View metadata when record was never updated. Fixes STSMACOM-386.
 * Add `entityTagsPath` to `Tags` to set custom entity tags path. Refs STSMACOM-385.
 * Increase record limit for loan policy lookups in `<ChangeDueDateDialog>`. Fixes UIU-1731.
+* Remove horizontal scrollbar from `ChangeDueDateDialog`. Refs STSMACOM-402.
+* Use search term when filter is applied via `<SearchAndSort>`. Fixes STSMACOM-365.
 * Remove Note details length limit. Refs STSMACOM-383.
 
 ## [4.2.0] (IN PROGRESS)

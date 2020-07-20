@@ -18,18 +18,21 @@ export default function (server) {
     type: generalNoteType.name,
     typeId: generalNoteType.id,
     id: 'providerNoteId',
+    content: new Array(240).fill('a').join(''),
     links: [{ type: 'provider', id: provider.id }],
   });
 
   server.create('note', {
     type: generalNoteType.name,
     typeId: generalNoteType.id,
+    id: 'packageNoteId',
     links: [{ type: 'package', id: faker.random.uuid() }],
   });
 
   server.create('note', {
     type: generalNoteType.name,
     typeId: generalNoteType.id,
+    content: new Array(260).fill('a').join(''),
     links: [
       { type: 'package', id: faker.random.uuid() },
       { type: 'provider', id: provider.id },

@@ -1,0 +1,19 @@
+@import '@folio/stripes-components/lib/variables';
+
+.NoteDetailsButton {
+  color: var(--color-link);
+  padding: 0 10px;
+
+  &:first-child {
+    padding-left: 0;    
+  }
+}
+
+.NoteDetailsShowMoreButton {
+  border-right: 1px solid var(--secondary);
+}
+
+.NotesListMCLCell {
+  justify-content: flex-start;
+  align-items: flex-start;
+}

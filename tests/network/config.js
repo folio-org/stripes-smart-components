@@ -12,20 +12,20 @@ export default function config() {
   this.get('/note-types');
 
   this.post('location-units/institutions', {
-    'errors' : [{
-      'message' : 'Cannot create entity; name is not unique',
-      'code' : 'name.duplicate',
-      'parameters' : [{
-        'key' : 'fieldLabel',
-        'value' : 'name'
+    'errors': [{
+      'message': 'Cannot create entity; name is not unique',
+      'code': 'name.duplicate',
+      'parameters': [{
+        'key': 'fieldLabel',
+        'value': 'name'
       }]
     },
     {
-      'message' : 'test',
-      'code' : '-1',
-      'parameters' : [{
-        'key' : 'test',
-        'value' : 'test'
+      'message': 'test',
+      'code': '-1',
+      'parameters': [{
+        'key': 'test',
+        'value': 'test'
       }]
     }]
   }, 422);
@@ -103,6 +103,10 @@ export default function config() {
     return { configs: [] };
   });
 
+  this.put('/configurations/entries/:id', () => {
+    return {};
+  });
+
   this.get('/custom-fields', {
     'customFields': [{
       'id': '1',
@@ -125,19 +129,19 @@ export default function config() {
       'order': 2,
       'helpText': '',
     }, {
-      'id' : '3',
-      'name' : 'Single select',
-      'refId' : 'single_select-1',
-      'type' : 'SINGLE_SELECT_DROPDOWN',
-      'entityType' : 'user',
-      'visible' : true,
-      'required' : false,
-      'order' : 3,
-      'helpText' : '',
-      'selectField' : {
-        'multiSelect' : false,
-        'options' : {
-          'values' : [{
+      'id': '3',
+      'name': 'Single select',
+      'refId': 'single_select-1',
+      'type': 'SINGLE_SELECT_DROPDOWN',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'order': 3,
+      'helpText': '',
+      'selectField': {
+        'multiSelect': false,
+        'options': {
+          'values': [{
             'id': 'opt_0',
             'value': 'option 1',
             'default': true
@@ -149,19 +153,19 @@ export default function config() {
         }
       }
     }, {
-      'id' : '4',
-      'name' : 'Multi select',
-      'refId' : 'multi_select-2',
-      'type' : 'MULTI_SELECT_DROPDOWN',
-      'entityType' : 'user',
-      'visible' : true,
-      'required' : false,
-      'order' : 4,
-      'helpText' : '',
-      'selectField' : {
-        'multiSelect' : true,
-        'options' : {
-          'values' : [{
+      'id': '4',
+      'name': 'Multi select',
+      'refId': 'multi_select-2',
+      'type': 'MULTI_SELECT_DROPDOWN',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'order': 4,
+      'helpText': '',
+      'selectField': {
+        'multiSelect': true,
+        'options': {
+          'values': [{
             'id': 'opt_0',
             'value': 'option 1',
             'default': true,
@@ -177,19 +181,19 @@ export default function config() {
         }
       }
     }, {
-      'id' : '5',
-      'name' : 'Radio',
-      'refId' : 'radio_1',
-      'type' : 'RADIO_BUTTON',
-      'entityType' : 'user',
-      'visible' : true,
-      'required' : false,
-      'order' : 5,
-      'helpText' : '',
-      'selectField' : {
-        'multiSelect' : false,
-        'options' : {
-          'values' : [{
+      'id': '5',
+      'name': 'Radio',
+      'refId': 'radio_1',
+      'type': 'RADIO_BUTTON',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'order': 5,
+      'helpText': '',
+      'selectField': {
+        'multiSelect': false,
+        'options': {
+          'values': [{
             'id': 'opt_0',
             'value': 'option 1',
             'default': true,

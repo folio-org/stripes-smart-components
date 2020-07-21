@@ -245,5 +245,6 @@
     "customFields.settings.accordionTitle": "Título do acordeão",
     "customFields.select.placeholder": "Selecione um {fieldLabel}",
     "customFields.new": "Novo",
-    "customFields.save&Close": "Salvar e fechar"
+    "customFields.save&Close": "Salvar e fechar",
+    "customFields.option.delete.warning": "Excluindo a opção <b>{optionName}</b> do campo <b>{fieldName}</b>. Nenhum dado armazenado para esta opção."
 }

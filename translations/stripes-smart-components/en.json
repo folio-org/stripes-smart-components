@@ -218,6 +218,7 @@
   "customFields.delete.cancel": "Cancel & keep editing",
   "customFields.delete.fieldWillBeDeleted": "<b>{fieldName}</b> will be <b>deleted</b>.",
   "customFields.delete.warning": "Deleting the field <b>{fieldName}</b> will also <b>delete the data</b> stored in this field in <b>{usageCount, number} {usageCount, plural, one {record} other {records}}</b>",
+  "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
   "customFields.delete.modalMessage": "If you prefer to keep the data, press the \"Cancel & keep editing\" button.",
   "customFields.addCustomField": "Add custom field",
   "customFields.fieldName.noSet": "No label set",

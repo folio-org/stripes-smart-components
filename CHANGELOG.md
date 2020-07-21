@@ -14,6 +14,7 @@
 * Use search term when filter is applied via `<SearchAndSort>`. Fixes STSMACOM-365.
 * Remove Note details length limit. Refs STSMACOM-383.
 * Fix reset the sort terms when clicking the 'Reset all' button. Fixes STSMACOM-194.
+* Extended Note title max length to 255. Refs STSMACOM-335.
 
 ## [4.2.0] (IN PROGRESS)
 

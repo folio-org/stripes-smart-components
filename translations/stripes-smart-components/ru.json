@@ -245,5 +245,6 @@
     "customFields.settings.accordionTitle": "Заголовок меню \"Аккордеон\"",
     "customFields.select.placeholder": "Выберите {fieldLabel}",
     "customFields.new": "Новое",
-    "customFields.save&Close": "Сохранить и закрыть"
+    "customFields.save&Close": "Сохранить и закрыть",
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options."
 }

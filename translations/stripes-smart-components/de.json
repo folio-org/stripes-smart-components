@@ -245,5 +245,6 @@
     "customFields.settings.accordionTitle": "Accordion title",
     "customFields.select.placeholder": "Select a {fieldLabel}",
     "customFields.new": "New",
-    "customFields.save&Close": "Save & close"
+    "customFields.save&Close": "Save & close",
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options."
 }

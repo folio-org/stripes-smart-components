@@ -16,6 +16,7 @@
 * Fix reset the sort terms when clicking the 'Reset all' button. Fixes STSMACOM-194.
 * Extended Note title max length to 255. Refs STSMACOM-335.
 * Show Note details in Notes Accordion. Refs STSMACOM-353.
+* Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
 
 ## [4.2.0] (IN PROGRESS)
 

@@ -17,6 +17,7 @@
 * Extended Note title max length to 255. Refs STSMACOM-335.
 * Show Note details in Notes Accordion. Refs STSMACOM-353.
 * Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
+* Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
 
 ## [4.2.0] (IN PROGRESS)
 

@@ -246,5 +246,8 @@
     "customFields.select.placeholder": "Sélectionnez un {fieldLabel}",
     "customFields.new": "Nouveau",
     "customFields.save&Close": "Sauvegarder et fermer",
-    "customFields.option.delete.warning": "Suppression de l'option <b> {optionName} du champ <b> {fieldName} </b> . </b> Aucune donnée stockée pour ces options."
+    "customFields.option.delete.warning": "Suppression de l'option <b> {optionName} du champ <b> {fieldName} </b> . </b> Aucune donnée stockée pour ces options.",
+    "notes.titleAndDetails": "Title and details",
+    "notes.showLessDetails": "Show less",
+    "notes.showMoreDetails": "Show more"
 }

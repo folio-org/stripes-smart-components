@@ -246,5 +246,8 @@
     "customFields.select.placeholder": "选择一个{fieldLabel}",
     "customFields.new": "新建",
     "customFields.save&Close": "保存并关闭",
-    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options."
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
+    "notes.titleAndDetails": "Title and details",
+    "notes.showLessDetails": "Show less",
+    "notes.showMoreDetails": "Show more"
 }

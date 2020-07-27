@@ -8,6 +8,7 @@ import mirageOptions from './network';
 export function setupApplication({
   scenarios,
   permissions = {},
+  component,
 } = {}) {
   setupStripesCore({
     mirageOptions,
@@ -20,7 +21,7 @@ export function setupApplication({
       name: '@folio/ui-dummy',
       displayName: 'dummy.title',
       route: '/dummy',
-      module: null
+      module: component ? () => component : null,
     }],
 
     translations: {

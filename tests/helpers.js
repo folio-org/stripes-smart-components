@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { beforeEach } from '@bigtest/mocha';
 import setupStripesCore from '@folio/stripes-core/test/bigtest/helpers/setup-application';
 import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';

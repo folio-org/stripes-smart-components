@@ -18,6 +18,7 @@
 * Show Note details in Notes Accordion. Refs STSMACOM-353.
 * Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
 * Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
+* Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
 
 ## [4.2.0] (IN PROGRESS)
 

@@ -19,6 +19,7 @@
 * Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
 * Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
 * Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
+* Remove 'no data' message displayed when saving the item. Fixes STSMACOM-384.
 
 ## [4.2.0] (IN PROGRESS)
 

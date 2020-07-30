@@ -1,3 +1,5 @@
+/* eslint-disable func-names */
+/* eslint-disable no-console */
 const warn = console.warn;
 const blacklist = [
   /componentWillReceiveProps has been renamed/,

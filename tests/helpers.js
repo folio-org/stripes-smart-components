@@ -1,5 +1,5 @@
-/* eslint-disable func-names */
-/* eslint-disable no-console */
+/* eslint-disable */
+
 import { beforeEach } from '@bigtest/mocha';
 import setupStripesCore from '@folio/stripes-core/test/bigtest/helpers/setup-application';
 import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';
@@ -7,6 +7,7 @@ import mirageOptions from './network';
 
 export function setupApplication({
   scenarios,
+  component = null,
   permissions = {},
 } = {}) {
   setupStripesCore({
@@ -23,7 +24,7 @@ export function setupApplication({
       name: '@folio/ui-dummy',
       displayName: 'dummy.title',
       route: '/dummy',
-      module: null
+      module: () => component,
     }],
 
     translations: {

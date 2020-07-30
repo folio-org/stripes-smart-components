@@ -55,7 +55,7 @@
     "new": "Новый",
     "hideSearchPane": "Свернуть панель поиска и фильтра",
     "showSearchPane": "Развернуть панель поиска и фильтра",
-    "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
+    "numberOfFilters": "{count, number} {count, plural, one {применен фильтр} other {применены фильтры}}",
     "permissionError": "Ошибка разрешения",
     "permissionsDoNotAllowAccess": "Извините - ваши разрешения не позволяют получить доступ к этой странице.",
     "searchResults": "{objectName} результаты поиска",

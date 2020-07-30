@@ -20,6 +20,7 @@
 * Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
 * Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
 * Remove 'no data' message displayed when saving the item. Fixes STSMACOM-384.
+* Fix Custom Fields multiselect Label field not read as required. Fixes STSMACOM-363.
 
 ## [4.2.0] (IN PROGRESS)
 

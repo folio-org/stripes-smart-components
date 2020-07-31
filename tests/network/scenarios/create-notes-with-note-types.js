@@ -1,4 +1,4 @@
-import { faker } from '@bigtest/mirage';
+import faker from 'faker';
 
 export default function (server) {
   const provider = {

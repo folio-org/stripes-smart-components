@@ -59,6 +59,29 @@ export default function config() {
       }
 
       return conditions.every(condition => !!condition);
+    }).sort((a, b) => {
+      if (queryParams.orderBy === 'updatedDate') {
+        const dateA = new Date(a.attrs.metadata.updatedDate);
+        const dateB = new Date(b.attrs.metadata.updatedDate);
+
+        return queryParams.order === 'asc'
+          ? dateB - dateA
+          : dateA - dateB;
+      }
+
+      if (queryParams.orderBy === 'title') {
+        return queryParams.order === 'asc'
+          ? a.title.localeCompare(b.title)
+          : b.title.localeCompare(a.title);
+      }
+
+      if (queryParams.orderBy === 'noteType') {
+        return queryParams.order === 'asc'
+          ? a.type.localeCompare(b.type)
+          : b.type.localeCompare(a.type);
+      }
+
+      return 0;
     });
   });
 

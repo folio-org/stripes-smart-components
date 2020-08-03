@@ -1,4 +1,4 @@
-import { JSONAPISerializer } from '@bigtest/mirage';
+import { JSONAPISerializer } from 'miragejs';
 
 export default JSONAPISerializer.extend({
   serialize(notes) {

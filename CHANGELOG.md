@@ -21,6 +21,8 @@
 * Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
 * Remove 'no data' message displayed when saving the item. Fixes STSMACOM-384.
 * Fix Custom Fields multiselect Label field not read as required. Fixes STSMACOM-363.
+* Make Notes list column headings sortable. Refs STSMACOM-328.
+* Refactor from `bigtest/mirage` to `miragejs`.
 * Add `listFormLabel` prop to `ControlledVocab` to set header of `EditableList`. Refs STSMACOM-408.
 
 ## [4.2.0] (IN PROGRESS)

@@ -29,7 +29,6 @@
   "devDependencies": {
     "@bigtest/convergence": "^1.0.0",
     "@bigtest/interactor": "^0.7.2",
-    "@bigtest/mirage": "^0.0.1",
     "@bigtest/mocha": "^0.5.1",
     "@bigtest/react": "^0.1.2",
     "@folio/eslint-config-stripes": "^5.2.0",
@@ -39,6 +38,9 @@
     "core-js": "^3.6.5",
     "eslint": "^6.2.1",
     "eslint-plugin-react-hooks": "^2.3.0",
+    "faker": "^4.1.0",
+    "inflected": "^2.0.4",
+    "miragejs": "^0.1.40",
     "mocha": "^5.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

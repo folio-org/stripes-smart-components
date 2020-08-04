@@ -23,6 +23,7 @@
 * Fix Custom Fields multiselect Label field not read as required. Fixes STSMACOM-363.
 * Make Notes list column headings sortable. Refs STSMACOM-328.
 * Refactor from `bigtest/mirage` to `miragejs`.
+* Fix Custom Fields Edit page has multiple elements with the same ID. Fixes STSMACOM-410.
 
 ## [4.2.0] (IN PROGRESS)
 

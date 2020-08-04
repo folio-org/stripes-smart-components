@@ -24,6 +24,7 @@
 * Make Notes list column headings sortable. Refs STSMACOM-328.
 * Refactor from `bigtest/mirage` to `miragejs`.
 * Fix Custom Fields Edit page has multiple elements with the same ID. Fixes STSMACOM-410.
+* Add `listFormLabel` prop to `ControlledVocab` to set header of `EditableList`. Refs STSMACOM-408.
 
 ## [4.2.0] (IN PROGRESS)
 

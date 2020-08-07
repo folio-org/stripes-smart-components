@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { beforeEach } from '@bigtest/mocha';
 import setupStripesCore from '@folio/stripes-core/test/bigtest/helpers/setup-application';
 import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';
@@ -5,10 +7,14 @@ import mirageOptions from './network';
 
 export function setupApplication({
   scenarios,
+  component = null,
   permissions = {},
 } = {}) {
   setupStripesCore({
-    mirageOptions,
+    mirageOptions: {
+      serverType: 'miragejs',
+      ...mirageOptions
+    },
     scenarios,
     permissions,
 
@@ -18,7 +24,7 @@ export function setupApplication({
       name: '@folio/ui-dummy',
       displayName: 'dummy.title',
       route: '/dummy',
-      module: null
+      module: () => component,
     }],
 
     translations: {
@@ -54,18 +60,42 @@ export const parseMessageFromJsx = (values, translation) => {
 };
 
 export const wait = (ms = 1000) => new Promise(resolve => { setTimeout(resolve, ms); });
+
 const warn = console.warn;
-const blacklist = [
+const warnBlocklist = [
   /componentWillReceiveProps has been renamed/,
   /componentWillUpdate has been renamed/,
   /componentWillMount has been renamed/,
+  /Formatter possibly needed for column/,
+];
+
+const error = console.error;
+const errorBlocklist = [
+  /React Intl/,
+  /Cannot update a component from inside the function body of a different component/,
+  /Can't perform a React state update on an unmounted component./,
+  /Invalid prop `component` supplied to.*Field/,
+  /Each child in a list/,
+  /Failed prop type/,
+  /component is changing an uncontrolled/,
+  /validateDOMNesting/,
+  /Invalid ARIA attribute/,
+  /Unknown event handler property/,
+  /React does not recognize the/,
 ];
 
 export function turnOffWarnings() {
   console.warn = function (...args) {
-    if (blacklist.some(rx => rx.test(args[0]))) {
+    if (warnBlocklist.some(rx => rx.test(args[0]))) {
       return;
     }
     warn.apply(console, args);
+  };
+
+  console.error = function (...args) {
+    if (errorBlocklist.some(rx => rx.test(args[0]))) {
+      return;
+    }
+    error.apply(console, args);
   };
 }

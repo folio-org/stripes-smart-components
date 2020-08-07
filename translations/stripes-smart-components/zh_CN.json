@@ -242,8 +242,12 @@
     "customFields.fieldTypes.RADIO_BUTTON": "单选钮设置",
     "cddd.itemClaimedReturned": "到期日更改失败：单件声称已还",
     "cddd.itemClaimedReturnedWarning": "单件声称已还",
-    "customFields.settings.accordionTitle": "Accordion title",
-    "customFields.select.placeholder": "Select a {fieldLabel}",
-    "customFields.new": "New",
-    "customFields.save&Close": "Save & close"
+    "customFields.settings.accordionTitle": "折叠题名",
+    "customFields.select.placeholder": "选择一个{fieldLabel}",
+    "customFields.new": "新建",
+    "customFields.save&Close": "保存并关闭",
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
+    "notes.titleAndDetails": "Title and details",
+    "notes.showLessDetails": "Show less",
+    "notes.showMoreDetails": "Show more"
 }

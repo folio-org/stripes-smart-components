@@ -55,7 +55,7 @@
     "new": "Новый",
     "hideSearchPane": "Свернуть панель поиска и фильтра",
     "showSearchPane": "Развернуть панель поиска и фильтра",
-    "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
+    "numberOfFilters": "{count, number} {count, plural, one {применен фильтр} other {применены фильтры}}",
     "permissionError": "Ошибка разрешения",
     "permissionsDoNotAllowAccess": "Извините - ваши разрешения не позволяют получить доступ к этой странице.",
     "searchResults": "{objectName} результаты поиска",
@@ -245,5 +245,9 @@
     "customFields.settings.accordionTitle": "Заголовок меню \"Аккордеон\"",
     "customFields.select.placeholder": "Выберите {fieldLabel}",
     "customFields.new": "Новое",
-    "customFields.save&Close": "Save & close"
+    "customFields.save&Close": "Сохранить и закрыть",
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
+    "notes.titleAndDetails": "Title and details",
+    "notes.showLessDetails": "Show less",
+    "notes.showMoreDetails": "Show more"
 }

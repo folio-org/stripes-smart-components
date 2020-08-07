@@ -9,6 +9,22 @@
 * Prevent PUT request for accordion title during drag'n'drop custom field. STSMACOM-382.
 * Fix incorrect `Last updated source` in Note View metadata when record was never updated. Fixes STSMACOM-386.
 * Add `entityTagsPath` to `Tags` to set custom entity tags path. Refs STSMACOM-385.
+* Increase record limit for loan policy lookups in `<ChangeDueDateDialog>`. Fixes UIU-1731.
+* Remove horizontal scrollbar from `ChangeDueDateDialog`. Refs STSMACOM-402.
+* Use search term when filter is applied via `<SearchAndSort>`. Fixes STSMACOM-365.
+* Remove Note details length limit. Refs STSMACOM-383.
+* Fix reset the sort terms when clicking the 'Reset all' button. Fixes STSMACOM-194.
+* Extended Note title max length to 255. Refs STSMACOM-335.
+* Show Note details in Notes Accordion. Refs STSMACOM-353.
+* Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
+* Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
+* Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
+* Remove 'no data' message displayed when saving the item. Fixes STSMACOM-384.
+* Fix Custom Fields multiselect Label field not read as required. Fixes STSMACOM-363.
+* Make Notes list column headings sortable. Refs STSMACOM-328.
+* Refactor from `bigtest/mirage` to `miragejs`.
+* Fix Custom Fields Edit page has multiple elements with the same ID. Fixes STSMACOM-410.
+* Add `listFormLabel` prop to `ControlledVocab` to set header of `EditableList`. Refs STSMACOM-408.
 
 ## [4.2.0] (IN PROGRESS)
 

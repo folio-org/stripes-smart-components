@@ -6,7 +6,7 @@ Show a clipboard icon that copies text to the clipboard and displays a success t
 
 ```
 import React from 'react';
-import ClipCopy from '@folio/stripes/smart-components';
+import { ClipCopy } from '@folio/stripes/smart-components';
 ...
 <>
   {item.barcode}

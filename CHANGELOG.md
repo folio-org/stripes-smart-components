@@ -2,6 +2,7 @@
 
 ## 5.0.0 (IN PROGRESS)
 
+* Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
 * Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.
 * Add changeable content to assigned accordion to NotesView and NotesForm components. Part of UIREQ-467.

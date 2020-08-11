@@ -249,5 +249,6 @@
     "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
     "notes.titleAndDetails": "Title and details",
     "notes.showLessDetails": "Show less",
-    "notes.showMoreDetails": "Show more"
+    "notes.showMoreDetails": "Show more",
+    "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
 }

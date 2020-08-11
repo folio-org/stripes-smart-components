@@ -249,5 +249,6 @@
     "customFields.option.delete.warning": "Excluindo a opção <b>{optionName}</b> do campo <b>{fieldName}</b>. Nenhum dado armazenado para esta opção.",
     "notes.titleAndDetails": "Título e detalhes",
     "notes.showLessDetails": "Mostrar menos",
-    "notes.showMoreDetails": "Mostrar mais"
+    "notes.showMoreDetails": "Mostrar mais",
+    "clipCopy.success": "Copiado \"{text}\" com sucesso para a área de transferência."
 }

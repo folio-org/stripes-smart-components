@@ -250,5 +250,7 @@
     "notes.titleAndDetails": "العنوان والتفاصيل",
     "notes.showLessDetails": "عرض أقل",
     "notes.showMoreDetails": "عرض المزيد",
-    "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح."
+    "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح.",
+    "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
+    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
 }

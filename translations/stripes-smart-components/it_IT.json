@@ -250,5 +250,7 @@
     "notes.titleAndDetails": "Title and details",
     "notes.showLessDetails": "Show less",
     "notes.showMoreDetails": "Show more",
-    "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
+    "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
+    "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
+    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
 }

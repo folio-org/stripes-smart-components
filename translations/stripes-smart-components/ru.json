@@ -55,7 +55,7 @@
     "new": "Новый",
     "hideSearchPane": "Свернуть панель поиска и фильтра",
     "showSearchPane": "Развернуть панель поиска и фильтра",
-    "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",
+    "numberOfFilters": "{count, number} {count, plural, one {применен фильтр} other {применены фильтры}}",
     "permissionError": "Ошибка разрешения",
     "permissionsDoNotAllowAccess": "Извините - ваши разрешения не позволяют получить доступ к этой странице.",
     "searchResults": "{objectName} результаты поиска",
@@ -189,7 +189,6 @@
     "customFields.hidden": "Hidden",
     "customFields.defaultValue": "Default value",
     "customFields.cancel": "Cancel",
-    "customFields.save": "Save",
     "customFields.delete.modalTitle": "Delete field data",
     "customFields.delete.confirm": "Save & lose data",
     "customFields.delete.cancel": "Cancel & keep editing",
@@ -245,5 +244,13 @@
     "cddd.itemClaimedReturnedWarning": "Экземпляр возвращен",
     "customFields.settings.accordionTitle": "Заголовок меню \"Аккордеон\"",
     "customFields.select.placeholder": "Выберите {fieldLabel}",
-    "customFields.new": "Новое"
+    "customFields.new": "Новое",
+    "customFields.save&Close": "Сохранить и закрыть",
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
+    "notes.titleAndDetails": "Title and details",
+    "notes.showLessDetails": "Show less",
+    "notes.showMoreDetails": "Show more",
+    "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
+    "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
+    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
 }

@@ -103,6 +103,8 @@
   "tagsTextArea": "Tag text area",
   "addTag": "Add",
   "newTagCreated": "New tag created",
+  "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
+  "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
   "addresses": "Addresses",
   "password.length.invalid": "The password length must be minimum 8 symbols.",
   "password.alphabetical.invalid": "The password must contain both lowercase and uppercase letters.",
@@ -134,12 +136,7 @@
   "noteType": "Note type",
   "noteTitle": "Note title",
   "details": "Details",
-  "notes": "Notes",
-  "notes.notFound": "No notes found",
   "notes.assignNote": "Assign note",
-  "notes.noteSearch": "Note search",
-  "notes.noteAssignmentStatus": "Note assignment status",
-  "notes.found": "{quantity, number} {quantity, plural, one {note found} other {notes found}}",
   "notes.generalInformation": "General information",
   "notes.assigned": "Assigned",
   "notes.assigned.count": "# of assignments",
@@ -161,6 +158,9 @@
   "notes.type": "Note type",
   "notes.type.general": "General note",
   "notes.type.customerSupport": "Customer support",
+  "notes.titleAndDetails": "Title and details",
+  "notes.showLessDetails": "Show less",
+  "notes.showMoreDetails": "Show more",
   "status": "Status",
   "assigned": "Assigned",
   "unassigned": "Unassigned",
@@ -218,6 +218,7 @@
   "customFields.delete.cancel": "Cancel & keep editing",
   "customFields.delete.fieldWillBeDeleted": "<b>{fieldName}</b> will be <b>deleted</b>.",
   "customFields.delete.warning": "Deleting the field <b>{fieldName}</b> will also <b>delete the data</b> stored in this field in <b>{usageCount, number} {usageCount, plural, one {record} other {records}}</b>",
+  "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
   "customFields.delete.modalMessage": "If you prefer to keep the data, press the \"Cancel & keep editing\" button.",
   "customFields.addCustomField": "Add custom field",
   "customFields.fieldName.noSet": "No label set",
@@ -251,5 +252,7 @@
 
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",
-  "settings.common.delete": "Delete"
+  "settings.common.delete": "Delete",
+
+  "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
 }

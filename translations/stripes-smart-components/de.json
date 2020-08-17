@@ -89,7 +89,7 @@
     "address.addAddress": "Adresse hinzufügen",
     "searchFieldLabel": "{moduleName} suchen",
     "sas.noResults.default": "Keine Ergebnisse für \"{searchTerm}\" gefunden. Bitte überprüfen Sie Ihre Schreibweise und Filter.",
-    "sas.noResults.noTerms": "Wählen Sie einen Filter oder geben Sie eine Suchanfrage ein, um Ergebnisse anzuzeigen.",
+    "sas.noResults.noTerms": "Wählen Sie einen Filter oder geben Sie eine Suchanfrage ein, um Trefferanzuzeigen.",
     "sas.noResults.noResults": "Keine Ergebnisse gefunden. Bitte überprüfen Sie Ihre Filter.",
     "sas.noResults.loading": "Wird geladen…",
     "cm.success": "Einstellung wurde erfolgreich aktualisiert.",
@@ -246,5 +246,11 @@
     "customFields.select.placeholder": "Select a {fieldLabel}",
     "customFields.new": "New",
     "customFields.save&Close": "Save & close",
-    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options."
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
+    "notes.titleAndDetails": "Title and details",
+    "notes.showLessDetails": "Show less",
+    "notes.showMoreDetails": "Show more",
+    "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
+    "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
+    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
 }

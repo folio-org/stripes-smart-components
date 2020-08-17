@@ -246,5 +246,11 @@
     "customFields.select.placeholder": "Select a {fieldLabel}",
     "customFields.new": "New",
     "customFields.save&Close": "Save & close",
-    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options."
+    "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
+    "notes.titleAndDetails": "Title and details",
+    "notes.showLessDetails": "Show less",
+    "notes.showMoreDetails": "Show more",
+    "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
+    "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
+    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
 }

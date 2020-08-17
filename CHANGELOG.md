@@ -2,6 +2,7 @@
 
 ## 5.0.0 (IN PROGRESS)
 
+* Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
 * Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.
 * Add changeable content to assigned accordion to NotesView and NotesForm components. Part of UIREQ-467.
@@ -17,6 +18,15 @@
 * Fix reset the sort terms when clicking the 'Reset all' button. Fixes STSMACOM-194.
 * Extended Note title max length to 255. Refs STSMACOM-335.
 * Show Note details in Notes Accordion. Refs STSMACOM-353.
+* Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
+* Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
+* Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
+* Remove 'no data' message displayed when saving the item. Fixes STSMACOM-384.
+* Fix Custom Fields multiselect Label field not read as required. Fixes STSMACOM-363.
+* Make Notes list column headings sortable. Refs STSMACOM-328.
+* Refactor from `bigtest/mirage` to `miragejs`.
+* Fix Custom Fields Edit page has multiple elements with the same ID. Fixes STSMACOM-410.
+* Add `listFormLabel` prop to `ControlledVocab` to set header of `EditableList`. Refs STSMACOM-408.
 
 ## [4.2.0] (IN PROGRESS)
 

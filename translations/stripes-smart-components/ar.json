@@ -251,6 +251,6 @@
     "notes.showLessDetails": "عرض أقل",
     "notes.showMoreDetails": "عرض المزيد",
     "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح.",
-    "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
-    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
+    "cannotSaveNewTag": "تعذر إنشاء وسم جديد، قد لا تكون لديك الصلاحيات المطلوبة.",
+    "cannotSaveTagToRecord": "تعذر حفظ بيانات الوسم إلى التسجيلة. تحقق من امتلاكك للصلاحيات المطلوبة."
 }

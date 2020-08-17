@@ -250,5 +250,7 @@
     "notes.titleAndDetails": "Título e detalhes",
     "notes.showLessDetails": "Mostrar menos",
     "notes.showMoreDetails": "Mostrar mais",
-    "clipCopy.success": "Copiado \"{text}\" com sucesso para a área de transferência."
+    "clipCopy.success": "Copiado \"{text}\" com sucesso para a área de transferência.",
+    "cannotSaveNewTag": "Não é possível criar uma nova tag: você pode não ter as permissões necessárias.",
+    "cannotSaveTagToRecord": "Não é possível salvar os dados da tag para gravar. Verifique se você possui as permissões necessárias."
 }

@@ -250,5 +250,7 @@
     "notes.titleAndDetails": "العنوان والتفاصيل",
     "notes.showLessDetails": "عرض أقل",
     "notes.showMoreDetails": "عرض المزيد",
-    "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح."
+    "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح.",
+    "cannotSaveNewTag": "تعذر إنشاء وسم جديد، قد لا تكون لديك الصلاحيات المطلوبة.",
+    "cannotSaveTagToRecord": "تعذر حفظ بيانات الوسم إلى التسجيلة. تحقق من امتلاكك للصلاحيات المطلوبة."
 }

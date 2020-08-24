@@ -251,6 +251,6 @@
     "notes.showLessDetails": "Show less",
     "notes.showMoreDetails": "Show more",
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
-    "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
-    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
+    "cannotSaveNewTag": "无法创建新字段名：可能没有所需的权限。",
+    "cannotSaveTagToRecord": "无法保存字段名数据到记录。检查是否具有必需的权限。"
 }

@@ -252,5 +252,6 @@
     "notes.showMoreDetails": "Afficher plus",
     "clipCopy.success": "\" {text} \" copié avec succès dans le presse-papiers.",
     "cannotSaveNewTag": "Impossible de créer un nouveau tag: vous ne disposez peut-être pas des autorisations requises.",
-    "cannotSaveTagToRecord": "Impossible d'enregistrer les données de tags à enregistrer. Vérifiez que vous disposez des autorisations requises."
+    "cannotSaveTagToRecord": "Impossible d'enregistrer les données de tags à enregistrer. Vérifiez que vous disposez des autorisations requises.",
+    "cddd.itemAgedToLostWarning": "Item is Aged to lost"
 }

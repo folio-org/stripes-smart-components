@@ -68,7 +68,7 @@
     "searchCriteria": "Inserisci i criteri di ricerca per avviare la ricerca",
     "cddd.date": "Data",
     "cddd.time": "Ora",
-    "searchResultsCountHeader": "{count, number} {count, plural, one {record trovato} other {records trovati}}",
+    "searchResultsCountHeader": "{count, number} {count, plural, one {record trovato} other {record trovati}}",
     "tags": "Tag",
     "numberOfTags": "{count, number} {count, plural, one {Tag} other {Tag}}",
     "deleteTag": "Rimuovi tag",
@@ -177,9 +177,9 @@
     "feesfines.policy.lost.duplicate": "Esiste già una politica per la tariffa degli item smarriti con questo nome. Inserisci un nome diverso.",
     "reset": "Azzera",
     "notes.assignUnassignAll": "Assegna / Annulla assegnazione di tutte le note",
-    "customFields": "Custom fields",
+    "customFields": "Campi personalizzati",
     "customFields.edit": "Modifica",
-    "customFields.editCustomFields": "Edit custom fields",
+    "customFields.editCustomFields": "Modifica i campi personalizzati",
     "customFields.metadata.createdBy": "Created by {userName} {date}",
     "customFields.fieldLabel": "Field label",
     "customFields.fieldFormat": "Field format",
@@ -199,7 +199,7 @@
     "customFields.fieldName.noSet": "No label set",
     "customFields.settings.sectionTitle": "Section title",
     "customFields.settings.accordion.hidden": "(Nascosto)",
-    "customFields.recordAccordion.defaultName": "Custom fields",
+    "customFields.recordAccordion.defaultName": "Campi personalizzati",
     "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
     "cddd.header.effectiveCallNumber": "Stringa di collocazione effettiva",
     "cddd.itemDeclaredLost": "Impossibile modificare la data di scadenza: l'item è Dichiarato perso",
@@ -252,5 +252,6 @@
     "notes.showMoreDetails": "Mostra di più",
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
-    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
+    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
+    "cddd.itemAgedToLostWarning": "Item is Aged to lost"
 }

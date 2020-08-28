@@ -29,6 +29,7 @@
 * Add `listFormLabel` prop to `ControlledVocab` to set header of `EditableList`. Refs STSMACOM-408.
 * Show correct number of characters in NoteList details. Refs STSMACOM-411.
 * Handle `react-router-dom` deprecation warnings. Refs STSMACOM-421.
+* Handle 'Aged to lost' items in `<ChangeDueDateDialog>`. Refs UIU-1495.
 
 ## [4.2.0] (IN PROGRESS)
 

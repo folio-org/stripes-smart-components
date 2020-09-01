@@ -253,5 +253,5 @@
     "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح.",
     "cannotSaveNewTag": "تعذر إنشاء وسم جديد، قد لا تكون لديك الصلاحيات المطلوبة.",
     "cannotSaveTagToRecord": "تعذر حفظ بيانات الوسم إلى التسجيلة. تحقق من امتلاكك للصلاحيات المطلوبة.",
-    "cddd.itemAgedToLostWarning": "Item is Aged to lost"
+    "cddd.itemAgedToLostWarning": "تأخرت المادة وتم اعتبارها مفقودة"
 }

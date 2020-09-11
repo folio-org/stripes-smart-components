@@ -31,6 +31,7 @@
 * Handle `react-router-dom` deprecation warnings. Refs STSMACOM-421.
 * Handle 'Aged to lost' items in `<ChangeDueDateDialog>`. Refs UIU-1495.
 * Fixed `Show more` button in `<NotesList>` expanding every note. Refs STSMACOM-419.
+* Increment `react-intl` to `v5`. Refs STSMACOM-433.
 
 ## [4.2.0] (IN PROGRESS)
 

@@ -10,6 +10,13 @@ export function setupApplication({
   component = null,
   permissions = {},
 } = {}) {
+  const initialState = {
+    discovery: {
+      modules: {
+        'users-module-id': 'users-test',
+      },
+    }
+  }
   setupStripesCore({
     mirageOptions: {
       serverType: 'miragejs',
@@ -17,7 +24,7 @@ export function setupApplication({
     },
     scenarios,
     permissions,
-
+    initialState,
     // setup a dummy app for smart components
     modules: [{
       type: 'app',

@@ -2,13 +2,6 @@
 export default function config() {
   // okapi endpoints
 
-  this.get('_/proxy/tenants/:id/modules', [
-    {
-      id: 'users-module-id',
-      name: 'users-test',
-    },
-  ]);
-
   this.get('/note-types');
 
   this.post('location-units/institutions', {

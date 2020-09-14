@@ -2,6 +2,7 @@
 
 ## 5.0.0 (IN PROGRESS)
 
+* Fixing tests to use initalState rather than back-end calls for module data.
 * Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
 * Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.

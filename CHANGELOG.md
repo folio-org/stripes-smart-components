@@ -2,6 +2,7 @@
 
 ## 5.0.0 (IN PROGRESS)
 
+* Fixes to change due date modal to show coirrect request data.  Addresses STSMACOM-431.
 * Fixing tests to use initalState rather than back-end calls for module data.
 * Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.

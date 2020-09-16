@@ -1,7 +1,6 @@
 // typical mirage config export
 export default function config() {
   // okapi endpoints
-
   this.get('_/proxy/tenants/:id/modules', [
     {
       id: 'users-module-id',

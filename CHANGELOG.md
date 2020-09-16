@@ -34,6 +34,8 @@
 * Fixed `Show more` button in `<NotesList>` expanding every note. Refs STSMACOM-419.
 * Fix bug in `<ChangeDueDateDialog>` that saved an unwanted actionComment. Fixes STSMACOM-432.
 * Increment `react-intl` to `v5`. Refs STSMACOM-433.
+* Refactor PasswordValidationField to use `final-form` instead of `redux-form`. Refs STSMACOM-389.
+* Increase PasswordValidationField test coverage to 80%. Refs STSMACOM-424.
 
 ## [4.2.0] (IN PROGRESS)
 

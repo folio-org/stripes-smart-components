@@ -37,6 +37,7 @@
 * Increment `react-intl` to `v5`. Refs STSMACOM-433.
 * Refactor PasswordValidationField to use `final-form` instead of `redux-form`. Refs STSMACOM-389.
 * Increase PasswordValidationField test coverage to 80%. Refs STSMACOM-424.
+* `NotesList` - Suppress Edit link when user lacks edit permissions. Refs STSMACOM-430.
 
 ## [4.2.0] (IN PROGRESS)
 

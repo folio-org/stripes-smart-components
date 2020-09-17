@@ -2,6 +2,7 @@
 
 ## 5.0.0 (IN PROGRESS)
 
+* Fixes to change due date modal to show correct request data.  Addresses STSMACOM-431.
 * Fixing tests to use initalState rather than back-end calls for module data.
 * Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
 * Increment `react-router` to `^5.2`. Refs STRIPES-674.
@@ -34,7 +35,9 @@
 * Fixed `Show more` button in `<NotesList>` expanding every note. Refs STSMACOM-419.
 * Fix bug in `<ChangeDueDateDialog>` that saved an unwanted actionComment. Fixes STSMACOM-432.
 * Increment `react-intl` to `v5`. Refs STSMACOM-433.
-* `NotesList` - Suppress Edit link when only Notes permission assigned is View only. Refs STSMACOM-430.
+* Refactor PasswordValidationField to use `final-form` instead of `redux-form`. Refs STSMACOM-389.
+* Increase PasswordValidationField test coverage to 80%. Refs STSMACOM-424.
+* `NotesList` - Suppress Edit link when user lacks edit permissions. Refs STSMACOM-430.
 
 ## [4.2.0] (IN PROGRESS)
 

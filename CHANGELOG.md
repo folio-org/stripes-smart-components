@@ -38,6 +38,7 @@
 * Refactor PasswordValidationField to use `final-form` instead of `redux-form`. Refs STSMACOM-389.
 * Increase PasswordValidationField test coverage to 80%. Refs STSMACOM-424.
 * Fix `ClipCopy` success message
+* `NotesList` - Suppress Edit link when user lacks edit permissions. Refs STSMACOM-430.
 
 ## [4.2.0] (IN PROGRESS)
 

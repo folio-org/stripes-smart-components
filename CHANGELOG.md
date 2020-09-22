@@ -39,6 +39,7 @@
 * Increase PasswordValidationField test coverage to 80%. Refs STSMACOM-424.
 * Fix `ClipCopy` success message
 * `NotesList` - Suppress Edit link when user lacks edit permissions. Refs STSMACOM-430.
+* Add accessibility tests for Custom Fields. Refs STSMACOM-435.
 
 ## [4.2.0] (IN PROGRESS)
 

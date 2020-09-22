@@ -234,6 +234,7 @@
   "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
   "customFields.dropdown.label": "Label",
   "customFields.dropdown.code": "Code",
+  "customFields.dropdown.default": "Default value",
   "customFields.options": "Options",
   "customFields.addOption": "Add option",
   "customFields.option.required": "Option label is required.",

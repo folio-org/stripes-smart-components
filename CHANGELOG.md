@@ -41,6 +41,7 @@
 * `NotesList` - Suppress Edit link when user lacks edit permissions. Refs STSMACOM-430.
 * Added `headerProps` property to `NotesSmartAccordion` and `NotesAccordion`. Refs STSMACOM-439.
 * Execute `<ChangeDueDateDialog>` PUT requests in sequence. Refs UIU-1789.
+* Add accessibility tests for Custom Fields. Refs STSMACOM-435.
 
 ## [4.2.0] (IN PROGRESS)
 

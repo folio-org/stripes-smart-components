@@ -42,6 +42,7 @@
 * Added `headerProps` property to `NotesSmartAccordion` and `NotesAccordion`. Refs STSMACOM-439.
 * Execute `<ChangeDueDateDialog>` PUT requests in sequence. Refs UIU-1789.
 * Add accessibility tests for Custom Fields. Refs STSMACOM-435.
+* Fix bug in `<ChangeDueDateDialog>` that did not allow data to be updated. Fixes STSMACOM-441.
 
 ## [4.2.0] (IN PROGRESS)
 

@@ -41,9 +41,9 @@
     "ls.temporaryLocation": "Временное расположение",
     "ls.permanentLocation": "Постоянное расположение",
     "ls.locationPlaceholder": "Выберите название места или код",
-    "pm.proxyExpired": "Полномочия доверенного лица истекли",
+    "pm.proxyExpired": "Полномочия представителя истекли",
     "pm.sponsorExpired": "Срок действия полномочий спонсора истёк",
-    "pm.cannotRequestFoSponsor": "Доверенное лицо не может осуществлять запросы от лица спонсора",
+    "pm.cannotRequestFoSponsor": "Представитель не может осуществлять запросы от лица спонсора",
     "pm.continue": "Продолжить",
     "pm.cancel": "Отмена",
     "closeEntryDialog": "Закрыть диалог ввода",
@@ -64,7 +64,7 @@
     "whoAreYouActingAs": "В качестве кого Вы предполагаете зарегистрироваться?",
     "self": "Самостоятельно",
     "isActingAs": "{name} действует как:",
-    "actingAsProxyFor": "Или Вы доверенное лицо для:",
+    "actingAsProxyFor": "Или Вы представитель для:",
     "searchCriteria": "Введите критерии поиска для начала поиска",
     "cddd.date": "Дата",
     "cddd.time": "Время",
@@ -253,5 +253,6 @@
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
     "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
-    "cddd.itemAgedToLostWarning": "Item is Aged to lost"
+    "cddd.itemAgedToLostWarning": "Item is Aged to lost",
+    "customFields.dropdown.default": "Default value"
 }

@@ -253,5 +253,6 @@
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
     "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
-    "cddd.itemAgedToLostWarning": "Item is Aged to lost"
+    "cddd.itemAgedToLostWarning": "Item is Aged to lost",
+    "customFields.dropdown.default": "Default value"
 }

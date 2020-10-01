@@ -43,6 +43,7 @@
 * Execute `<ChangeDueDateDialog>` PUT requests in sequence. Refs UIU-1789.
 * Add accessibility tests for Custom Fields. Refs STSMACOM-435.
 * Fix bug in `<ChangeDueDateDialog>` that did not allow data to be updated. Fixes STSMACOM-441.
+* Move inter-stripes deps to peers. Refs STSMACOM-442.
 
 ## [4.2.0] (IN PROGRESS)
 

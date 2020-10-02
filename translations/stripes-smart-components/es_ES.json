@@ -136,8 +136,8 @@
     "notes.edit": "Editar",
     "notes.deleteNote": "Borrar nota",
     "notes.unassignNote": "Desasignar nota",
-    "notes.unassign.confirm.message": "La nota {title} quedará sin asignar.",
-    "notes.delete.confirm.message": "La nota {title} se eliminará permanentemente de:",
+    "notes.unassign.confirm.message": "La nota <b>{title}</b> quedará <b>sin asignar</b>.",
+    "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber, number}</b> {resourcesNumber, plural, one {resource} other {resources}}",
     "notes.editNoteTitle": "Editar: {noteTitle}",
     "notes.noteTypesMissing": "No se puede guardar la nota. Se debe seleccionar un tipo de nota",
     "addressEdit.useAddressAsPrimaryAddress": "Use address {index} as primary address",
@@ -253,5 +253,6 @@
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
     "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
-    "cddd.itemAgedToLostWarning": "Préstamo vencido a perdido"
+    "cddd.itemAgedToLostWarning": "Préstamo vencido a perdido",
+    "customFields.dropdown.default": "Default value"
 }

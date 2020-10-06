@@ -14,6 +14,7 @@
   "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
   "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
   "cddd.itemAgedToLostWarning": "Item is Aged to lost",
+  "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
   "cddd.itemHasRequestQueue": "Item has a request queue",
   "cddd.itemsHaveWarnings": "<b>{count}</b> items have <b>warnings.</b>",
   "cddd.header.alertDetails": "Alert details",

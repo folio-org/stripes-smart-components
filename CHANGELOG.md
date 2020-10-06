@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 5.0.0 (IN PROGRESS)
+## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)
 
 * Fixes to change due date modal to show correct request data.  Addresses STSMACOM-431.
 * Fixing tests to use initalState rather than back-end calls for module data.
@@ -63,9 +64,7 @@
 * Add `label` prop to `<NotesSmartAccordion>` and `createFormTitle` for `<NoteForm>`. Part of UIREQ-457.
 * Introduce `basePath` prop to add ability to control the path after search is performed. Part of STSMACOM-378.
 
-## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
-[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)
-
+a
 * Add new unsaved Custom Fields to accordions state. Fixes STSMACOM-352.
 * Support unique ID for custom fields, required by changes to the response shape. Refs STSMACOM-339.
 

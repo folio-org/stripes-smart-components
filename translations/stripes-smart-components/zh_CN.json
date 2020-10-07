@@ -254,5 +254,6 @@
     "cannotSaveNewTag": "无法创建新字段名：可能没有所需的权限。",
     "cannotSaveTagToRecord": "无法保存字段名数据到记录。检查是否具有必需的权限。",
     "cddd.itemAgedToLostWarning": "单件超期太久视为遗失",
-    "customFields.dropdown.default": "默认值"
+    "customFields.dropdown.default": "默认值",
+    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost"
 }

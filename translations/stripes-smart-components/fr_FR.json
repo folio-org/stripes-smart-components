@@ -254,5 +254,6 @@
     "cannotSaveNewTag": "Impossible de créer un nouveau tag: vous ne disposez peut-être pas des autorisations requises.",
     "cannotSaveTagToRecord": "Impossible d'enregistrer les données de tags à enregistrer. Vérifiez que vous disposez des autorisations requises.",
     "cddd.itemAgedToLostWarning": "Item is Aged to lost",
-    "customFields.dropdown.default": "Valeur par défaut"
+    "customFields.dropdown.default": "Valeur par défaut",
+    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost"
 }

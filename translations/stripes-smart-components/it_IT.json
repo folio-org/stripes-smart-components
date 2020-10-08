@@ -11,7 +11,7 @@
     "cddd.header.title": "Titolo",
     "cddd.header.itemStatus": "Stato item",
     "cddd.header.currentDueDate": "Attuale data di scadenza",
-    "cddd.header.barcode": "Barcode",
+    "cddd.header.barcode": "Codice a barre",
     "cddd.header.loanPolicy": "Politica di prestito",
     "cddd.warning.dueDateAfterPatronExpiration": "La nuova scadenza è successiva alla scadenza dell'utente.",
     "cddd.warning.dueDateWhenLibraryClosed": "La nuova data di scadenza cade in un periodo di chiusura della biblioteca.",

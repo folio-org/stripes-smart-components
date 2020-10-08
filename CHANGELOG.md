@@ -46,6 +46,7 @@
 * Fix bug in `<ChangeDueDateDialog>` that did not allow data to be updated. Fixes STSMACOM-441.
 * Move inter-stripes deps to peers. Refs STSMACOM-442.
 * Move `moment` to `peerDependencies`. Ref STSMACOM-443.
+* Fix invalid ARIA attribute order in `<EditableList>`. Fixes UIEH-963.
 
 ## [4.2.0] (IN PROGRESS)
 

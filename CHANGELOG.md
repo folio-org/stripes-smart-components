@@ -1,8 +1,26 @@
 # Change history for stripes-smart-components
 
+## 5.1.0 IN PROGRESS
+
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)
 
+* Loan Details > Successfully change due date is not read by a screenreader AND also there is a keyboard trap. Refs STSMACOM-376.
+* Loan Details > Change due date| Error message is not read by screenreader Refs STSMACOM-375.
+* Edit/View Custom Fields UI updates. Refs STSMACOM-355.
+* Allow a user to not select any option in a single select custom field Refs UIU-1673.
+* Removing aria-labelledby attribute from primary address radio button.  Fixes UIU-1641
+* Remove asterisk from radio button custom field label. Fixes UIU-1700
+* Apply correct styling to the save button on the edit custom fields page. Fixes STSMACOM-368
+* Make checkbox custom field correctly reflect form state. Fixes UIU-1690
+* Allow loading more than 10 Custom Fields. Refs STSMACOM-370.
+* Fix bug with drag and drop for radio button group. Refs STSMACOM-367.
+* Fix cannot select a radio button when multiple Custom Field radio button sets are created. Refs STSMACOM-373.
+* Display custom fields accordion with a spinner while custom fields data is being loaded.
+* Add `label` prop to `<NotesSmartAccordion>` and `createFormTitle` for `<NoteForm>`. Part of UIREQ-457.
+* Introduce `basePath` prop to add ability to control the path after search is performed. Part of STSMACOM-378.
+* Add new unsaved Custom Fields to accordions state. Fixes STSMACOM-352.
+* Support unique ID for custom fields, required by changes to the response shape. Refs STSMACOM-339.
 * Fixes to change due date modal to show correct request data.  Addresses STSMACOM-431.
 * Fixing tests to use initalState rather than back-end calls for module data.
 * Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
@@ -48,26 +66,6 @@
 * Move `moment` to `peerDependencies`. Ref STSMACOM-443.
 * Fix invalid ARIA attribute order in `<EditableList>`. Fixes UIEH-963.
 
-## [4.2.0] (IN PROGRESS)
-
-* Loan Details > Successfully change due date is not read by a screenreader AND also there is a keyboard trap. Refs STSMACOM-376.
-* Loan Details > Change due date| Error message is not read by screenreader Refs STSMACOM-375.
-* Edit/View Custom Fields UI updates. Refs STSMACOM-355.
-* Allow a user to not select any option in a single select custom field Refs UIU-1673.
-* Removing aria-labelledby attribute from primary address radio button.  Fixes UIU-1641
-* Remove asterisk from radio button custom field label. Fixes UIU-1700
-* Apply correct styling to the save button on the edit custom fields page. Fixes STSMACOM-368
-* Make checkbox custom field correctly reflect form state. Fixes UIU-1690
-* Allow loading more than 10 Custom Fields. Refs STSMACOM-370.
-* Fix bug with drag and drop for radio button group. Refs STSMACOM-367.
-* Fix cannot select a radio button when multiple Custom Field radio button sets are created. Refs STSMACOM-373.
-* Display custom fields accordion with a spinner while custom fields data is being loaded.
-* Add `label` prop to `<NotesSmartAccordion>` and `createFormTitle` for `<NoteForm>`. Part of UIREQ-457.
-* Introduce `basePath` prop to add ability to control the path after search is performed. Part of STSMACOM-378.
-
-a
-* Add new unsaved Custom Fields to accordions state. Fixes STSMACOM-352.
-* Support unique ID for custom fields, required by changes to the response shape. Refs STSMACOM-339.
 
 ## [4.1.0](https://github.com/folio-org/stripes-smart-components/tree/v4.1.0) (2020-06-08)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.0.0...v4.1.0)

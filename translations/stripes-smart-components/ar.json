@@ -255,5 +255,5 @@
     "cannotSaveTagToRecord": "تعذر حفظ بيانات الوسم إلى التسجيلة. تحقق من امتلاكك للصلاحيات المطلوبة.",
     "cddd.itemAgedToLostWarning": "تأخرت المادة وتم اعتبارها مفقودة",
     "customFields.dropdown.default": "القيمة الافتراضية",
-    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost"
+    "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تأخرت المادة وتم اعتبارها مفقودة"
 }

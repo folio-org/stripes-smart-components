@@ -254,6 +254,6 @@
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
     "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
     "cddd.itemAgedToLostWarning": "Préstamo vencido a perdido",
-    "customFields.dropdown.default": "Default value",
-    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost"
+    "customFields.dropdown.default": "Valor por defecto",
+    "cddd.itemAgedToLost": "El cambio de fecha de vencimiento falló: el artículo está señalado como perdido por el tiempo"
 }

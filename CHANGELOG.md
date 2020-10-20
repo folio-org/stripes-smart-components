@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
 ## 5.1.0 IN PROGRESS
+* Increase returnted Note Types per response limit. Refs STSMACOM-449.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

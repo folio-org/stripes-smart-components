@@ -1,33 +1,11 @@
 # Change history for stripes-smart-components
 
-## 5.0.0 (IN PROGRESS)
+## 5.1.0 IN PROGRESS
 
-* Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
-* Increment `react-router` to `^5.2`. Refs STRIPES-674.
-* Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.
-* Add changeable content to assigned accordion to NotesView and NotesForm components. Part of UIREQ-467.
-* Settings > Edit Custom Fields > change Save button label to Save & close. STSMACOM-380.
-* Prevent PUT request for accordion title during drag'n'drop custom field. STSMACOM-382.
-* Fix incorrect `Last updated source` in Note View metadata when record was never updated. Fixes STSMACOM-386.
-* Add `entityTagsPath` to `Tags` to set custom entity tags path. Refs STSMACOM-385.
-* Increase record limit for loan policy lookups in `<ChangeDueDateDialog>`. Fixes UIU-1731.
-* Remove horizontal scrollbar from `ChangeDueDateDialog`. Refs STSMACOM-402.
-* Use search term when filter is applied via `<SearchAndSort>`. Fixes STSMACOM-365.
-* Remove Note details length limit. Refs STSMACOM-383.
-* Fix reset the sort terms when clicking the 'Reset all' button. Fixes STSMACOM-194.
-* Extended Note title max length to 255. Refs STSMACOM-335.
-* Show Note details in Notes Accordion. Refs STSMACOM-353.
-* Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
-* Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
-* Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
-* Remove 'no data' message displayed when saving the item. Fixes STSMACOM-384.
-* Fix Custom Fields multiselect Label field not read as required. Fixes STSMACOM-363.
-* Make Notes list column headings sortable. Refs STSMACOM-328.
-* Refactor from `bigtest/mirage` to `miragejs`.
-* Fix Custom Fields Edit page has multiple elements with the same ID. Fixes STSMACOM-410.
-* Add `listFormLabel` prop to `ControlledVocab` to set header of `EditableList`. Refs STSMACOM-408.
+* Do not execute search automatically when query index changes. Fixes STSMACOM-350.
 
-## [4.2.0] (IN PROGRESS)
+## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)
 
 * Loan Details > Successfully change due date is not read by a screenreader AND also there is a keyboard trap. Refs STSMACOM-376.
 * Loan Details > Change due date| Error message is not read by screenreader Refs STSMACOM-375.
@@ -43,12 +21,53 @@
 * Display custom fields accordion with a spinner while custom fields data is being loaded.
 * Add `label` prop to `<NotesSmartAccordion>` and `createFormTitle` for `<NoteForm>`. Part of UIREQ-457.
 * Introduce `basePath` prop to add ability to control the path after search is performed. Part of STSMACOM-378.
-
-## [4.1.1](https://github.com/folio-org/stripes-smart-components/tree/v4.1.1) (2020-07-12)
-[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.0...v4.1.1)
-
 * Add new unsaved Custom Fields to accordions state. Fixes STSMACOM-352.
 * Support unique ID for custom fields, required by changes to the response shape. Refs STSMACOM-339.
+* Fixes to change due date modal to show correct request data.  Addresses STSMACOM-431.
+* Fixing tests to use initalState rather than back-end calls for module data.
+* Added code to check results of saving tag data and show appropriate toast.  Refs STSMACOM-401.
+* Increment `react-router` to `^5.2`. Refs STRIPES-674.
+* Add alphabetical sorting of Custom Field options. Refs STSMACOM-379.
+* Add changeable content to assigned accordion to NotesView and NotesForm components. Part of UIREQ-467.
+* Settings > Edit Custom Fields > change Save button label to Save & close. STSMACOM-380.
+* Prevent PUT request for accordion title during drag'n'drop custom field. STSMACOM-382.
+* Fix incorrect `Last updated source` in Note View metadata when record was never updated. Fixes STSMACOM-386.
+* Add `entityTagsPath` to `Tags` to set custom entity tags path. Refs STSMACOM-385.
+* Increase record limit for loan policy lookups in `<ChangeDueDateDialog>`. Fixes UIU-1731.
+* Remove horizontal scrollbar from `ChangeDueDateDialog`. Refs STSMACOM-402.
+* Use search term when filter is applied via `<SearchAndSort>`. Fixes STSMACOM-365.
+* Remove Note details length limit. Refs STSMACOM-383.
+* Added `headingLevel` for `<ViewMetaData>`-component. Refs STSMACOM-400.
+* Fix reset the sort terms when clicking the 'Reset all' button. Fixes STSMACOM-194.
+* Extended Note title max length to 255. Refs STSMACOM-335.
+* Show Note details in Notes Accordion. Refs STSMACOM-353.
+* Set record limit for libraries in `<LocationLookup>`. Fixes UIOR-591.
+* Increase record limit for open request lookups in `<ChangeDueDateDialog>`. Fixes STSMACOM-404.
+* Use search term when filter is applied via `<SearchAndSortQuery>`. Fixes STSMACOM-407.
+* Remove 'no data' message displayed when saving the item. Fixes STSMACOM-384.
+* Fix Custom Fields multiselect Label field not read as required. Fixes STSMACOM-363.
+* Make Notes list column headings sortable. Refs STSMACOM-328.
+* Refactor from `bigtest/mirage` to `miragejs`.
+* Fix Custom Fields Edit page has multiple elements with the same ID. Fixes STSMACOM-410.
+* Add `listFormLabel` prop to `ControlledVocab` to set header of `EditableList`. Refs STSMACOM-408.
+* Show correct number of characters in NoteList details. Refs STSMACOM-411.
+* Handle `react-router-dom` deprecation warnings. Refs STSMACOM-421.
+* Handle 'Aged to lost' items in `<ChangeDueDateDialog>`. Refs UIU-1495.
+* Fixed `Show more` button in `<NotesList>` expanding every note. Refs STSMACOM-419.
+* Fix bug in `<ChangeDueDateDialog>` that saved an unwanted actionComment. Fixes STSMACOM-432.
+* Increment `react-intl` to `v5`. Refs STSMACOM-433.
+* Refactor PasswordValidationField to use `final-form` instead of `redux-form`. Refs STSMACOM-389.
+* Increase PasswordValidationField test coverage to 80%. Refs STSMACOM-424.
+* Fix `ClipCopy` success message
+* `NotesList` - Suppress Edit link when user lacks edit permissions. Refs STSMACOM-430.
+* Added `headerProps` property to `NotesSmartAccordion` and `NotesAccordion`. Refs STSMACOM-439.
+* Execute `<ChangeDueDateDialog>` PUT requests in sequence. Refs UIU-1789.
+* Add accessibility tests for Custom Fields. Refs STSMACOM-435.
+* Fix bug in `<ChangeDueDateDialog>` that did not allow data to be updated. Fixes STSMACOM-441.
+* Move inter-stripes deps to peers. Refs STSMACOM-442.
+* Move `moment` to `peerDependencies`. Ref STSMACOM-443.
+* Fix invalid ARIA attribute order in `<EditableList>`. Fixes UIEH-963.
+
 
 ## [4.1.0](https://github.com/folio-org/stripes-smart-components/tree/v4.1.0) (2020-06-08)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.0.0...v4.1.0)

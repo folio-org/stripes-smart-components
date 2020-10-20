@@ -3,13 +3,40 @@
 import { beforeEach } from '@bigtest/mocha';
 import setupStripesCore from '@folio/stripes-core/test/bigtest/helpers/setup-application';
 import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';
+import axe from 'axe-core';
+
 import mirageOptions from './network';
+
+axe.configure({
+  rules: [{
+    id: 'meta-viewport',
+    enabled: false,
+  }, {
+    id: 'landmark-one-main',
+    enabled: false,
+  }, {
+    id: 'page-has-heading-one',
+    enabled: false,
+  }, {
+    id: 'bypass',
+    enabled: false,
+  }],
+});
+
+export { axe };
 
 export function setupApplication({
   scenarios,
   component = null,
   permissions = {},
 } = {}) {
+  const initialState = {
+    discovery: {
+      modules: {
+        'users-module-id': 'users-test',
+      },
+    }
+  }
   setupStripesCore({
     mirageOptions: {
       serverType: 'miragejs',
@@ -17,7 +44,7 @@ export function setupApplication({
     },
     scenarios,
     permissions,
-
+    initialState,
     // setup a dummy app for smart components
     modules: [{
       type: 'app',

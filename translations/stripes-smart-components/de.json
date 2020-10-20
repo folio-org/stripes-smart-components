@@ -137,7 +137,7 @@
     "notes.deleteNote": "Notiz löschen",
     "notes.unassignNote": "Notiz entfernen",
     "notes.unassign.confirm.message": "Die Anmerkung <b>{title}</b> wird <b>entfernt</b>",
-    "notes.delete.confirm.message": "Die Anmerkung <b>{title}</b> wird dauerhaft <b>gelöscht</b> aus:",
+    "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber, number}</b> {resourcesNumber, plural, one {resource} other {resources}}",
     "notes.editNoteTitle": "Bearbeiten: {notetitle}",
     "notes.noteTypesMissing": "Anmerkung kann nicht gespeichert werden. Es muss ein Notiztyp ausgewählt werden.",
     "addressEdit.useAddressAsPrimaryAddress": "Adresse {index} als primäre Adresse verwenden",
@@ -249,8 +249,11 @@
     "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
     "notes.titleAndDetails": "Title and details",
     "notes.showLessDetails": "Show less",
-    "notes.showMoreDetails": "Show more",
+    "notes.showMoreDetails": "Mehr anzeigen",
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
-    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions."
+    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
+    "cddd.itemAgedToLostWarning": "Item is Aged to lost",
+    "customFields.dropdown.default": "Default value",
+    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost"
 }

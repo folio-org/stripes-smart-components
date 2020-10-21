@@ -156,7 +156,7 @@
     "address.noAddressesStored": "- Keine Adressen gespeichert -",
     "notes.assigned.count": "# der Zuweisungen",
     "notes.cautionMessage": "Anmerkungen mit einer Zuweisung können nicht entfernt werden.",
-    "cddd.header.requests": "Vormerkungen",
+    "cddd.header.requests": "Bestandsanfragen",
     "cddd.itemHasBeenRecalled": "Exemplar wurde zurückgerufen",
     "notes.type": "Note type",
     "notes.type.general": "General note",

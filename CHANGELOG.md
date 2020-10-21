@@ -2,6 +2,7 @@
 
 ## 5.1.0 IN PROGRESS
 
+* Do not execute search automatically when query index changes. Fixes STSMACOM-350.
 * `<CollapseFilterPaneButton>` must pass a string to `<ToolTip>`. Refs STSMACOM-447.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)

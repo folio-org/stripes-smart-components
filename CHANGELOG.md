@@ -1,9 +1,11 @@
 # Change history for stripes-smart-components
 
-## 5.0.1 IN PROGRESS
+## [5.0.1](https://github.com/folio-org/stripes-smart-components/tree/v5.0.1) (2020-11-03)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v5.0.0...v5.0.1)
 
 * Increase returned Note Types per response limit. Refs STSMACOM-449.
 * Correctly retrieve related requests when changing a loan's due date. Refs STSMACOM-452.
+* It's election day in the USA. VOTE!
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

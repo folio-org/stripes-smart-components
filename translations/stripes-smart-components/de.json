@@ -89,7 +89,7 @@
     "address.addAddress": "Adresse hinzufügen",
     "searchFieldLabel": "{moduleName} suchen",
     "sas.noResults.default": "Keine Ergebnisse für \"{searchTerm}\" gefunden. Bitte überprüfen Sie Ihre Schreibweise und Filter.",
-    "sas.noResults.noTerms": "Wählen Sie einen Filter oder geben Sie eine Suchanfrage ein, um Trefferanzuzeigen.",
+    "sas.noResults.noTerms": "Wählen Sie einen Filter oder geben Sie eine Suchanfrage ein, um Treffer anzuzeigen.",
     "sas.noResults.noResults": "Keine Ergebnisse gefunden. Bitte überprüfen Sie Ihre Filter.",
     "sas.noResults.loading": "Wird geladen…",
     "cm.success": "Einstellung wurde erfolgreich aktualisiert.",

@@ -6,6 +6,7 @@
 * Do not execute search automatically when query index changes. Fixes STSMACOM-350.
 * `<CollapseFilterPaneButton>` must pass a string to `<ToolTip>`. Refs STSMACOM-447.
 * Correctly retrieve related requests when changing a loan's due date. Refs STSMACOM-452.
+* Allow configurable escaping in `makeQueryFunction`. Refs STSMACOM-454.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

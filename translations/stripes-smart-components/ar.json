@@ -253,7 +253,7 @@
     "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح.",
     "cannotSaveNewTag": "تعذر إنشاء وسم جديد، قد لا تكون لديك الصلاحيات المطلوبة.",
     "cannotSaveTagToRecord": "تعذر حفظ بيانات الوسم إلى التسجيلة. تحقق من امتلاكك للصلاحيات المطلوبة.",
-    "cddd.itemAgedToLostWarning": "تأخرت المادة وتم اعتبارها ضائعة",
+    "cddd.itemAgedToLostWarning": "تقادمت المادة وتم اعتبارها ضائعة",
     "customFields.dropdown.default": "القيمة الافتراضية",
-    "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تأخرت المادة وتم اعتبارها ضائعة"
+    "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تقادمت المادة وتم اعتبارها ضائعة"
 }

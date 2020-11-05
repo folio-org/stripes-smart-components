@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 5.0.2 IN PROGRESS
+
+* Allow configurable escaping in `makeQueryFunction`. Refs STSMACOM-454.
+
 ## [5.0.1](https://github.com/folio-org/stripes-smart-components/tree/v5.0.1) (2020-11-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v5.0.0...v5.0.1)
 

@@ -3,7 +3,7 @@
     "cddd.changeDueDateConfirmation": "Cambia la data di scadenza",
     "cddd.itemsSelected": "<b>{count}</b> items <b>selezionati</b>",
     "cddd.changeSucceeded": "Data e ora di scadenza sono stati modificati con successo",
-    "cddd.changeSucceededWithCount": "La data e l'ora di scadenza sono state <b> cambiate </b> correttamente per <b> {count} </b> items.",
+    "cddd.changeSucceededWithCount": "La data e l'ora di scadenza sono state cambiate <b> correttamente  </b> per <b> {count} </b> items.",
     "cddd.changeFailed": "Impossibile modificare la data di scadenza",
     "cddd.itemHasRequestQueue": "L'Item ha una coda richieste",
     "cddd.itemsHaveWarnings": "<b> {count} </b> items hanno <b> avvisi. </b>",

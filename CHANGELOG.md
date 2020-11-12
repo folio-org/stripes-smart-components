@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 5.0.3 IN PROGRESS
+
+* Increase record limit for tags query in `<Tags>`. Fixes STSMACOM-457.
+
 ## [5.0.2](https://github.com/folio-org/stripes-smart-components/tree/v5.0.2) (2020-11-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v5.0.1...v5.0.2)
 

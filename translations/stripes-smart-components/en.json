@@ -256,6 +256,7 @@
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",
   "settings.common.delete": "Delete",
+  "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
 
   "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
 }

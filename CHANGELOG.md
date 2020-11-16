@@ -9,6 +9,7 @@
 * Allow configurable escaping in `makeQueryFunction`. Refs STSMACOM-454.
 * Show `callout` in `EntryManager` component. Refs STSMACOM-456.
 * Increase record limit for tags query in `<Tags>`. Fixes STSMACOM-457.
+* Return promise from `createRecord` to make `submitting` work correctly. Fixes STCOM-782.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

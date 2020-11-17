@@ -3,6 +3,7 @@
 ## 5.0.4  IN PROGRESS
 
 * Return promise from `createRecord` to make `submitting` works correctly. Fixes STCOM-782.
+* Improve tags loading experience. Fixes STSMACOM-459.
 
 ## [5.0.3](https://github.com/folio-org/stripes-smart-components/tree/v5.0.3) (2020-11-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v5.0.2...v5.0.3)

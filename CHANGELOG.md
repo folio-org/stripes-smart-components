@@ -10,6 +10,7 @@
 * Show `callout` in `EntryManager` component. Refs STSMACOM-456.
 * Increase record limit for tags query in `<Tags>`. Fixes STSMACOM-457.
 * Return promise from `createRecord` to make `submitting` works correctly. Fixes STCOM-782.
+* Improve tags loading experience. Fixes STSMACOM-459.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

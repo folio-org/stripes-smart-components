@@ -255,5 +255,6 @@
     "cannotSaveTagToRecord": "Impossible d'enregistrer les données de tags à enregistrer. Vérifiez que vous disposez des autorisations requises.",
     "cddd.itemAgedToLostWarning": "Item is Aged to lost",
     "customFields.dropdown.default": "Valeur par défaut",
-    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost"
+    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
+    "success.message": "L ' {entry} <strong> {name} </strong> a été <strong> {action} </strong> avec succès."
 }

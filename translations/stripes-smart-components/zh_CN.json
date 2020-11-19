@@ -255,5 +255,6 @@
     "cannotSaveTagToRecord": "无法保存字段名数据到记录。检查是否具有必需的权限。",
     "cddd.itemAgedToLostWarning": "单件超期太久视为遗失",
     "customFields.dropdown.default": "默认值",
-    "cddd.itemAgedToLost": "到期日更改失败：单件已超期太久视为遗失"
+    "cddd.itemAgedToLost": "到期日更改失败：单件已超期太久视为遗失",
+    "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>."
 }

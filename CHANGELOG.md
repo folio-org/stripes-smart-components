@@ -2,6 +2,7 @@
 
 ## 5.1.0 IN PROGRESS
 
+* Suggested tags are showing in reverse alpha order. Refs UITAG-37
 * Increase returned Note Types per response limit. Refs STSMACOM-449.
 * Do not execute search automatically when query index changes. Fixes STSMACOM-350.
 * `<CollapseFilterPaneButton>` must pass a string to `<ToolTip>`. Refs STSMACOM-447.

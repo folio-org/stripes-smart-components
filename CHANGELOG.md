@@ -14,6 +14,7 @@
 * Improve tags loading experience. Fixes STSMACOM-459.
 * Refactor `<ClipCopy>` with `useIntl` to avoid context problems. Refs STCOR-481; Fixes STSMACOM-463.
 * Extend `SearchAndSort` with the functionality to execute callback on reset search and filter button. Refs STSMACOM-465.
+* Support searching Notes by note title and note details. Refs STSMACOM-466.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

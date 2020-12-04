@@ -16,6 +16,7 @@
 * Extend `SearchAndSort` with the functionality to execute callback on reset search and filter button. Refs STSMACOM-465.
 * Add closedByDefault prop to `<TagsAccordion>`. Fixes UIIN-308.
 * AdressView headers are not translated. Fixes UIORGS-220.
+* Extend `SearchAndSort` with `customPaneSub` prop to display additional elements in `paneSub`. Refs STSMACOM-467.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

@@ -121,6 +121,8 @@
   "address.addAddress": "Add address",
   "address.addressLabel": "Address",
   "address.noAddressesStored": "- No addresses stored -",
+  "address.primary": "Primary",
+  "address.alternate ": "Alternate",
   "searchFieldLabel": "Search {moduleName}",
   "system": "System",
   "assignUnassign": "Assign / Unassign",
@@ -256,6 +258,7 @@
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",
   "settings.common.delete": "Delete",
+  "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
 
   "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
 }

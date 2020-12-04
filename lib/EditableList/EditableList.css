@@ -14,10 +14,14 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 8px;
-  background-color: #efefef;
+  border-radius: var(--radius);
   margin-bottom: 4px;
   min-height: 40px;
+  background-color: var(--color-fill-table-row-even);
+
+  &.isOdd {
+    background-color: var(--color-fill-table-row-odd);
+  }
 }
 
 .baselineListRow {

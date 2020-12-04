@@ -2,7 +2,21 @@
 
 ## 5.1.0 IN PROGRESS
 
+* Suggested tags are showing in reverse alpha order. Refs UITAG-37
+* Increase returned Note Types per response limit. Refs STSMACOM-449.
 * Do not execute search automatically when query index changes. Fixes STSMACOM-350.
+* `<CollapseFilterPaneButton>` must pass a string to `<ToolTip>`. Refs STSMACOM-447.
+* Correctly retrieve related requests when changing a loan's due date. Refs STSMACOM-452.
+* Allow configurable escaping in `makeQueryFunction`. Refs STSMACOM-454.
+* Show `callout` in `EntryManager` component. Refs STSMACOM-456.
+* Increase record limit for tags query in `<Tags>`. Fixes STSMACOM-457.
+* Return promise from `createRecord` to make `submitting` works correctly. Fixes STCOM-782.
+* Improve tags loading experience. Fixes STSMACOM-459.
+* Refactor `<ClipCopy>` with `useIntl` to avoid context problems. Refs STCOR-481; Fixes STSMACOM-463.
+* Extend `SearchAndSort` with the functionality to execute callback on reset search and filter button. Refs STSMACOM-465.
+* Add closedByDefault prop to `<TagsAccordion>`. Fixes UIIN-308.
+* AdressView headers are not translated. Fixes UIORGS-220.
+* Extend `SearchAndSort` with `customPaneSub` prop to display additional elements in `paneSub`. Refs STSMACOM-467.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

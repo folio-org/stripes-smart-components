@@ -255,5 +255,6 @@
     "cannotSaveTagToRecord": "Não é possível salvar os dados da tag para gravar. Verifique se você possui as permissões necessárias.",
     "cddd.itemAgedToLostWarning": "Item tem tempo para ser considerado perdido",
     "customFields.dropdown.default": "Valor padrão",
-    "cddd.itemAgedToLost": "Falha na alteração da data de vencimento: o item está envelhecido para perdido"
+    "cddd.itemAgedToLost": "Falha na alteração da data de vencimento: o item está envelhecido para perdido",
+    "success.message": "A {entry} <strong>{name}</strong> foi <strong>{action}</strong> com sucesso."
 }

@@ -81,7 +81,7 @@
     "password.alphabetical.invalid": "The password must contain both lowercase and uppercase letters.",
     "password.number.invalid": "The password must contain at least one numeric character.",
     "password.specialCharacter.invalid": "The password must contain at least one special character.",
-    "password.usernameDuplicate.invalid": "The password must not contain your username.",
+    "password.usernameDuplicate.invalid": " The password must not contain your username.",
     "password.keyboardSequence.invalid": "The password must not contain a keyboard sequence.",
     "password.repeatingSymbols.invalid": "The password must not contain the same character in a row.",
     "password.whiteSpace.invalid": "The password must not contain whitespaces.",
@@ -255,5 +255,6 @@
     "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
     "cddd.itemAgedToLostWarning": "Item is Aged to lost",
     "customFields.dropdown.default": "Default value",
-    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost"
+    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
+    "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>."
 }

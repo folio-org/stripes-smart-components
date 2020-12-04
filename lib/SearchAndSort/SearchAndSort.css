@@ -13,3 +13,9 @@
 .searchField {
   margin-bottom: calc(var(--control-margin-bottom) / 2);
 }
+
+.delimiter {
+  & > span:not(:last-child)::after {
+    content: "\00a0\B7\00a0";
+  }
+}

@@ -174,7 +174,7 @@
     "tags.filterError": "حدث خطأ أثناء تطبيق المنقح: {error}",
     "notes.assigned": "معيّن",
     "searchResultsCountUnknown": "تم العثور على أكثر من 10000 تسجيلة",
-    "feesfines.policy.lost.duplicate": "اسم سياسة رسم المادة المفقودة الذي قمت بإدخاله موجود بالفعل. يرجى إدخال اسم مختلف.",
+    "feesfines.policy.lost.duplicate": "اسم سياسة رسم المادة الضائعة الذي قمت بإدخاله موجود بالفعل. يرجى إدخال اسم مختلف.",
     "reset": "إعادة تعيين",
     "notes.assignUnassignAll": "تعيين / إلغاء تعيين كل الملاحظات",
     "customFields": "حقول مخصصة",
@@ -202,8 +202,8 @@
     "customFields.recordAccordion.defaultName": "حقول مخصصة",
     "customFields.errorOccurred": "تعذر التحديث بسبب خطأ في الوحدة. يرجى إعادة المحاولة مرة أخرى. إذا استمرت المشكلة يرجى الاتصال بمدير النظام.",
     "cddd.header.effectiveCallNumber": "مقطع رقم الاستدعاء النشط",
-    "cddd.itemDeclaredLost": "فشل تغيير تاريخ الاستحقاق: تم الإعلان عن فقدان المادة",
-    "cddd.itemDeclaredLostWarning": "تم الإعلان عن فقدان المادة",
+    "cddd.itemDeclaredLost": "فشل تغيير تاريخ الاستحقاق: تم الإعلان عن ضياع المادة",
+    "cddd.itemDeclaredLostWarning": "تم الإعلان عن ضياع المادة",
     "customFields.required.checked": "نعم",
     "customFields.required.unchecked": "لا",
     "customFields.recordAccordion.required": "الحقل مطلوب.",
@@ -253,7 +253,8 @@
     "clipCopy.success": "تم نسخ  \"{text}\" إلى الحافظة بنجاح.",
     "cannotSaveNewTag": "تعذر إنشاء وسم جديد، قد لا تكون لديك الصلاحيات المطلوبة.",
     "cannotSaveTagToRecord": "تعذر حفظ بيانات الوسم إلى التسجيلة. تحقق من امتلاكك للصلاحيات المطلوبة.",
-    "cddd.itemAgedToLostWarning": "تأخرت المادة وتم اعتبارها مفقودة",
+    "cddd.itemAgedToLostWarning": "تقادمت المادة وتم اعتبارها ضائعة",
     "customFields.dropdown.default": "القيمة الافتراضية",
-    "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تأخرت المادة وتم اعتبارها مفقودة"
+    "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تقادمت المادة وتم اعتبارها ضائعة",
+    "success.message": "تم <strong>{action}</strong> ال{entry} <strong>{name}1</strong> بنجاح."
 }

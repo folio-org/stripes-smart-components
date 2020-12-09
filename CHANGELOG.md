@@ -17,6 +17,7 @@
 * Add closedByDefault prop to `<TagsAccordion>`. Fixes UIIN-308.
 * AdressView headers are not translated. Fixes UIORGS-220.
 * Extend `SearchAndSort` with `customPaneSub` prop to display additional elements in `paneSub`. Refs STSMACOM-467.
+* Result list. Align text in the columns in the top. Refs UIIN-1356.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

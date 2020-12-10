@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## 5.1.0 IN PROGRESS
+## 6.0.0 IN PROGRESS
 
 * Suggested tags are showing in reverse alpha order. Refs UITAG-37
 * Increase returned Note Types per response limit. Refs STSMACOM-449.
@@ -16,6 +16,8 @@
 * Extend `SearchAndSort` with the functionality to execute callback on reset search and filter button. Refs STSMACOM-465.
 * Add closedByDefault prop to `<TagsAccordion>`. Fixes UIIN-308.
 * AdressView headers are not translated. Fixes UIORGS-220.
+* Extend `SearchAndSort` with `customPaneSub` prop to display additional elements in `paneSub`. Refs STSMACOM-467.
+* Result list. Align text in the columns in the top. Refs STSMACOM-469.
 * Support searching Notes by note title and note details. Refs STSMACOM-466.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)

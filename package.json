@@ -85,11 +85,11 @@
     "redux-form": "^7.0.3"
   },
   "peerDependencies": {
-    "@folio/stripes-components": "^8.0.0",
+    "@folio/stripes-components": "^9.0.0",
     "@folio/stripes-connect": "^6.0.0",
-    "@folio/stripes-core": "^6.0.0",
-    "@folio/stripes-final-form": "^4.0.0",
-    "@folio/stripes-form": "^5.0.0",
+    "@folio/stripes-core": "^7.0.0",
+    "@folio/stripes-final-form": "^5.0.0",
+    "@folio/stripes-form": "^6.0.0",
     "@folio/stripes-logger": "^1.0.0",
     "@folio/stripes-util": "^3.0.0",
     "moment": "^2.29.0",

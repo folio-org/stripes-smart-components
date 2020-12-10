@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## 5.1.0 IN PROGRESS
+## 6.0.0 IN PROGRESS
 
 * Suggested tags are showing in reverse alpha order. Refs UITAG-37
 * Increase returned Note Types per response limit. Refs STSMACOM-449.

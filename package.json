@@ -15,7 +15,7 @@
   },
   "stripes": {
     "okapiInterfaces": {
-      "notes": "1.0",
+      "notes": "2.0",
       "tags": "1.0",
       "password-validator": "1.0"
     }

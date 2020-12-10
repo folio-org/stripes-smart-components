@@ -18,6 +18,7 @@
 * AdressView headers are not translated. Fixes UIORGS-220.
 * Extend `SearchAndSort` with `customPaneSub` prop to display additional elements in `paneSub`. Refs STSMACOM-467.
 * Result list. Align text in the columns in the top. Refs STSMACOM-469.
+* Support searching Notes by note title and note details. Refs STSMACOM-466.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

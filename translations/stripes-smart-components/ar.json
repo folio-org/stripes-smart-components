@@ -157,7 +157,7 @@
     "notes.assigned.count": "عدد المهام",
     "notes.cautionMessage": "لا يمكن إلغاء تعيين الملاحظات التي تحتوي على مهمة واحدة",
     "cddd.header.requests": "طلبات",
-    "cddd.itemHasBeenRecalled": "تم استدعاء المادة",
+    "cddd.itemHasBeenRecalled": "تم طلب استرجاع المادة",
     "notes.type": "نوع الملاحظة",
     "notes.type.general": "ملاحظة عامة",
     "notes.type.customerSupport": "دعم العميل",
@@ -256,5 +256,7 @@
     "cddd.itemAgedToLostWarning": "تقادمت المادة وتم اعتبارها ضائعة",
     "customFields.dropdown.default": "القيمة الافتراضية",
     "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تقادمت المادة وتم اعتبارها ضائعة",
-    "success.message": "تم <strong>{action}</strong> ال{entry} <strong>{name}1</strong> بنجاح."
+    "success.message": "تم <strong>{action}</strong> ال{entry} <strong>{name}1</strong> بنجاح.",
+    "address.primary": "رئيسي",
+    "address.alternate ": "بديل"
 }

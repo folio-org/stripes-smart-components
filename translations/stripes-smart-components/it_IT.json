@@ -256,5 +256,7 @@
     "cddd.itemAgedToLostWarning": "Item dichiarato perso da utente",
     "customFields.dropdown.default": "Default value",
     "cddd.itemAgedToLost": "Impossibile modificare la data di scadenza: l'item è stato dichiarato perso dall'utente",
-    "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>."
+    "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
+    "address.primary": "Primary",
+    "address.alternate ": "Alternate"
 }

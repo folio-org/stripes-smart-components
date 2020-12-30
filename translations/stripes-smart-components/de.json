@@ -258,5 +258,7 @@
     "cddd.itemAgedToLost": "Fälligkeitsdatumsänderung fehlgeschlagen: Exemplar wurde für verloren erklärt",
     "success.message": "Der {entry} <strong>{name}</strong> wurde erfolgreich <strong>{action}</strong>.",
     "address.primary": "Primär",
-    "address.alternate ": "Alternativ"
+    "address.alternate ": "Alternativ",
+    "customFields.clickNewToCreate": "",
+    "customFields.save": ""
 }

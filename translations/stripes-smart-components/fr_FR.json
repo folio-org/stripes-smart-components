@@ -258,7 +258,5 @@
     "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
     "success.message": "L ' {entry} <strong> {name} </strong> a été <strong> {action} </strong> avec succès.",
     "address.primary": "Primary",
-    "address.alternate ": "Alternate",
-    "customFields.clickNewToCreate": "",
-    "customFields.save": ""
+    "address.alternate ": "Alternate"
 }

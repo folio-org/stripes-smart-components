@@ -21,6 +21,7 @@
 * Support searching Notes by note title and note details. Refs STSMACOM-466.
 * Allow submitting of Assign/Unassign Notes modal form by pressing Enter. Refs STSMACOM-471.
 * Fix modal a11y issues in NoteViewPage and NoteForm components. Refs UIEH-1017.
+* Refactor redux form context in `<EmbeddedAddressForm>`. Fixes STSMACOM-473.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

@@ -52,7 +52,7 @@
     "cancelEdit": "Cancel edit",
     "searchAndFilter": "Search & filter",
     "search": "Search",
-    "new": "New",
+    "new": "Ny",
     "hideSearchPane": "Collapse Search & filter pane",
     "showSearchPane": "Expand Search & filter pane",
     "numberOfFilters": "{count, number} {count, plural, one {applied filter} other {applied filters}}",

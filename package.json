@@ -65,7 +65,7 @@
     "stylelint-junit-formatter": "^0.2.1"
   },
   "dependencies": {
-    "@folio/react-intl-safe-html": "^2.0.0",
+    "@folio/react-intl-safe-html": "^3.0.0",
     "@rehooks/local-storage": "^2.3.0",
     "classnames": "^2.2.6",
     "final-form": "^4.18.2",

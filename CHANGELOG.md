@@ -23,7 +23,7 @@
 * Fix modal a11y issues in NoteViewPage and NoteForm components. Refs UIEH-1017.
 * Refactor redux form context in `<EmbeddedAddressForm>`. Fixes STSMACOM-473.
 * Use more efficient query clauses. Refs PERF-62.
-* Fix axe error with `aria-label` on Assign/Unassign modal. Refs UINOTES-86.
+* Fix axe error with `aria-label` on Assign/Unassign modal. Refs STSMACOM-475.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

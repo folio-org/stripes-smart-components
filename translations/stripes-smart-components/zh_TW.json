@@ -256,5 +256,7 @@
     "cddd.itemAgedToLostWarning": "Item is Aged to lost",
     "customFields.dropdown.default": "Default value",
     "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
-    "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>."
+    "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
+    "address.primary": "Primary",
+    "address.alternate ": "Alternate"
 }

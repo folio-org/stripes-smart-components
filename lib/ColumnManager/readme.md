@@ -85,7 +85,8 @@ A set of useful props is passed down to the render-prop function
 Prop | Description
 --- | ---
 visibleColumns | An array of visible column keys that can be passed directly down to the `<MultiColumnList>`
-renderColumnsMenu | Renders a `<MenuSection>` with `<Checkboxes>` for toggling columns. This makes it easy to implement dropdown menu for toggling columns
+renderCheckboxes | Renders an array of checkboxes for toggling columns.
+renderColumnsMenu | Renders a `<MenuSection>` that wraps `renderCheckboxes` for toggling columns. This makes it easy to implement inside e.g. a pane action menu.
 toggleColumn | A method that toggles the visiblity for a given column – e.g. toggleColumn('email')
 
 ## Prop Types

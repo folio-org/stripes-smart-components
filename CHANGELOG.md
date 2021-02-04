@@ -25,6 +25,7 @@
 * Use more efficient query clauses. Refs PERF-62.
 * Fix axe error with `aria-label` on Assign/Unassign modal. Refs STSMACOM-475.
 * Fix singular/plural translation strings. Refs STSMACOM-235.
+* Fix color contrast issues with Notes Accordion Show/Edit note buttons. Refs STSMACOM-416.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

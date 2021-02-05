@@ -7,9 +7,6 @@ export { default as EmbeddedAddressForm } from './lib/AddressFieldGroup/AddressE
 export { default as ChangeDueDateDialog } from './lib/ChangeDueDateDialog';
 export { default as ClipCopy } from './lib/ClipCopy';
 
-export { default as ConfigurationManager } from './lib/ConfigurationManager';
-export { default as ConfigurationForm } from './lib/ConfigurationManager/ConfigurationForm';
-
 export { default as ConfigManager } from './lib/ConfigManager';
 export { default as ConfigForm } from './lib/ConfigManager/ConfigForm';
 

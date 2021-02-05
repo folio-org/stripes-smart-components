@@ -1,0 +1,9 @@
+.lastUpdated {
+  width: stretch;
+}
+
+.lastUpdatedUser {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}

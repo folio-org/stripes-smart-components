@@ -26,6 +26,7 @@ export { default as PersistedPaneset } from './lib/PersistedPaneset';
 export { default as ProxyManager } from './lib/ProxyManager';
 
 export { default as SearchAndSort } from './lib/SearchAndSort';
+export { default as SearchAndSortES } from './lib/SearchAndSort/SearchAndSortES';
 export { default as SearchAndSortQuery } from './lib/SearchAndSort/SearchAndSortQuery';
 export { default as SearchAndSortNoResultsMessage } from './lib/SearchAndSort/components/NoResultsMessage';
 export { default as SearchAndSortResetButton } from './lib/SearchAndSort/components/ResetButton';

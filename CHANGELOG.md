@@ -2,6 +2,7 @@
 
 ## 6.0.0 IN PROGRESS
 
+* Require back-end permission `users.collection.get` instead of ui `ui-users.view` for ViewMetaData. Refs STSMACOM-480
 * Suggested tags are showing in reverse alpha order. Refs UITAG-37
 * Increase returned Note Types per response limit. Refs STSMACOM-449.
 * Do not execute search automatically when query index changes. Fixes STSMACOM-350.

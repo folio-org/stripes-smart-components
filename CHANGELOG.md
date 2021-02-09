@@ -2,6 +2,7 @@
 
 ## 6.0.0 IN PROGRESS
 
+* Require back-end permission `users.collection.get` instead of ui `ui-users.view` for ViewMetaData. Refs STSMACOM-480
 * Suggested tags are showing in reverse alpha order. Refs UITAG-37
 * Increase returned Note Types per response limit. Refs STSMACOM-449.
 * Do not execute search automatically when query index changes. Fixes STSMACOM-350.
@@ -26,6 +27,7 @@
 * Fix axe error with `aria-label` on Assign/Unassign modal. Refs STSMACOM-475.
 * Fix singular/plural translation strings. Refs STSMACOM-235.
 * Fix color contrast issues with Notes Accordion Show/Edit note buttons. Refs STSMACOM-416.
+* Increment `@folio/stripes-cli` to `v2`. Refs STSMACOM-481.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

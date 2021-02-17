@@ -28,6 +28,7 @@
 * Fix singular/plural translation strings. Refs STSMACOM-235.
 * Fix color contrast issues with Notes Accordion Show/Edit note buttons. Refs STSMACOM-416.
 * Increment `@folio/stripes-cli` to `v2`. Refs STSMACOM-481.
+* Allow the selection of remote storage locations. Refs STSMACOM-483.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

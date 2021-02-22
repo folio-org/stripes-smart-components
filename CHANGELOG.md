@@ -32,6 +32,7 @@
 * Upgrade `<ControlledVocab>` to final form. Refs STSMACOM-482.
 * Upgrade `<AddressFieldGroup>` to final form. Refs STSMACOM-484.
 * Allow the selection of remote storage locations. Refs STSMACOM-483.
+* Fix default sorting of Notes to sort by Updated Date in ascending order. Fixes STSMACOM-487.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

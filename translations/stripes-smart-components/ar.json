@@ -1,12 +1,12 @@
 {
     "cddd.changeDueDate": "تغيير تاريخ الاستحقاق",
     "cddd.changeDueDateConfirmation": "تغيير تاريخ الاستحقاق",
-    "cddd.itemsSelected": "تم <b>تحديد</b> <b>{count}</b> مادة",
+    "cddd.itemsSelected": "تم <b>تحديد</b> <b>{count, number}</b> {count, plural, one {مادة} other {مادة}}",
     "cddd.changeSucceeded": "تم تغيير الوقت وتاريخ الاستحقاق بنجاح",
-    "cddd.changeSucceededWithCount": "تم تغيير تاريخ الاستحقاق والوقت <b>بنجاح</b> لـ <b>{succeeded}</b> مادة.",
+    "cddd.changeSucceededWithCount": "تم تغيير تاريخ الاستحقاق والوقت <b>بنجاح</b> لـ <b>{succeeded, number}</b> {succeeded, plural, one {مادة} other {مادة}}.",
     "cddd.changeFailed": "فشل تغيير تاريخ الاستحقاق",
     "cddd.itemHasRequestQueue": "المادة لها صف طلبات",
-    "cddd.itemsHaveWarnings": "<b>{count}</b> مواد لديها <b>تنبيهات</b>",
+    "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {مادة} other {مادة}} لديها <b>تنبيهات</b>",
     "cddd.header.alertDetails": "تفاصيل التنبيه",
     "cddd.header.title": "العنوان",
     "cddd.header.itemStatus": "حالة المادة",
@@ -258,5 +258,6 @@
     "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تقادمت المادة وتم اعتبارها ضائعة",
     "success.message": "تم <strong>{action}</strong> ال{entry} <strong>{name}1</strong> بنجاح.",
     "address.primary": "رئيسي",
-    "address.alternate ": "بديل"
+    "address.alternate ": "بديل",
+    "ll.remoteLabel": "Remote"
 }

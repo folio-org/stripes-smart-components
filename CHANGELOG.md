@@ -34,6 +34,7 @@
 * Allow the selection of remote storage locations. Refs STSMACOM-483.
 * Guard appearance of remote-storage field with `hasInterface(). Refs STSMACOM-486.
 * Fix default sorting of Notes to sort by Updated Date in ascending order. Fixes STSMACOM-487.
+* Depend on `@folio/stripe-util` that is compatible with the shared peer `react-intl` `v5`.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

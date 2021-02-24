@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "5.1.0",
+  "version": "6.0.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -15,9 +15,12 @@
   },
   "stripes": {
     "okapiInterfaces": {
-      "notes": "1.0",
+      "notes": "2.0",
       "tags": "1.0",
       "password-validator": "1.0"
+    },
+    "optionalOkapiInterfaces": {
+      "remote-storage-mappings": "1.0"
     }
   },
   "scripts": {
@@ -32,15 +35,14 @@
     "@bigtest/mocha": "^0.5.1",
     "@bigtest/react": "^0.1.2",
     "@folio/eslint-config-stripes": "^5.2.0",
-    "@folio/stripes-cli": ">=1.5.0",
-    "@folio/stripes-components": ">=8.0.0",
+    "@folio/stripes-cli": ">=2.0.0",
+    "@folio/stripes-components": ">=9.0.0",
     "@folio/stripes-connect": ">=6.0.0",
-    "@folio/stripes-core": ">=6.0.0",
-    "@folio/stripes-final-form": ">=4.0.0",
-    "@folio/stripes-form": ">=5.0.0",
+    "@folio/stripes-core": ">=7.0.0",
+    "@folio/stripes-final-form": ">=5.0.0",
+    "@folio/stripes-form": ">=6.0.0",
     "@folio/stripes-logger": ">=1.0.0",
     "@folio/stripes-util": ">=3.0.0",
-    "@rehooks/local-storage": "^2.3.0",
     "axe-core": "^4.0.2",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
@@ -55,7 +57,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-intl": "^5.8.0",
-    "react-redux": "^5.0.7",
+    "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.0",
@@ -66,7 +68,12 @@
     "stylelint-junit-formatter": "^0.2.1"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@folio/react-intl-safe-html": "^2.0.0",
+=======
+    "@folio/react-intl-safe-html": "^3.0.0",
+    "@rehooks/local-storage": "^2.3.0",
+>>>>>>> master
     "classnames": "^2.2.6",
     "final-form": "^4.18.2",
     "final-form-arrays": "^3.0.2",
@@ -79,17 +86,18 @@
     "react-copy-to-clipboard": "^5.0.1",
     "react-final-form": "^6.3.0",
     "react-final-form-arrays": "^3.1.1",
+    "react-query": "^3.9.8",
     "react-router-prop-types": "^1.0.4",
     "react-transition-group": "^2.4.0",
     "react-virtualized-auto-sizer": "^1.0.2",
-    "redux-form": "^7.0.3"
+    "redux-form": "^8.3.0"
   },
   "peerDependencies": {
-    "@folio/stripes-components": "^8.0.0",
+    "@folio/stripes-components": "^9.0.0",
     "@folio/stripes-connect": "^6.0.0",
-    "@folio/stripes-core": "^6.0.0",
-    "@folio/stripes-final-form": "^4.0.0",
-    "@folio/stripes-form": "^5.0.0",
+    "@folio/stripes-core": "^7.0.0",
+    "@folio/stripes-final-form": "^5.0.0",
+    "@folio/stripes-form": "^6.0.0",
     "@folio/stripes-logger": "^1.0.0",
     "@folio/stripes-util": "^3.0.0",
     "moment": "^2.29.0",

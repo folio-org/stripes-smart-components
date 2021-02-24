@@ -1,7 +1,8 @@
 # Change history for stripes-smart-components
 
-## 5.1.0 IN PROGRESS
+## 6.0.0 IN PROGRESS
 
+* Require back-end permission `users.collection.get` instead of ui `ui-users.view` for ViewMetaData. Refs STSMACOM-480
 * Suggested tags are showing in reverse alpha order. Refs UITAG-37
 * Increase returned Note Types per response limit. Refs STSMACOM-449.
 * Do not execute search automatically when query index changes. Fixes STSMACOM-350.
@@ -17,6 +18,22 @@
 * Add closedByDefault prop to `<TagsAccordion>`. Fixes UIIN-308.
 * AdressView headers are not translated. Fixes UIORGS-220.
 * Extend `SearchAndSort` with `customPaneSub` prop to display additional elements in `paneSub`. Refs STSMACOM-467.
+* Result list. Align text in the columns in the top. Refs STSMACOM-469.
+* Support searching Notes by note title and note details. Refs STSMACOM-466.
+* Allow submitting of Assign/Unassign Notes modal form by pressing Enter. Refs STSMACOM-471.
+* Fix modal a11y issues in NoteViewPage and NoteForm components. Refs UIEH-1017.
+* Refactor redux form context in `<EmbeddedAddressForm>`. Fixes STSMACOM-473.
+* Use more efficient query clauses. Refs PERF-62.
+* Fix axe error with `aria-label` on Assign/Unassign modal. Refs STSMACOM-475.
+* Fix singular/plural translation strings. Refs STSMACOM-235.
+* Fix color contrast issues with Notes Accordion Show/Edit note buttons. Refs STSMACOM-416.
+* Increment `@folio/stripes-cli` to `v2`. Refs STSMACOM-481.
+* Fix Edit Custom Field Settings focus issues. Fixes STSMACOM-476, STSMACOM-477.
+* Upgrade `<ControlledVocab>` to final form. Refs STSMACOM-482.
+* Upgrade `<AddressFieldGroup>` to final form. Refs STSMACOM-484.
+* Allow the selection of remote storage locations. Refs STSMACOM-483.
+* Guard appearance of remote-storage field with `hasInterface(). Refs STSMACOM-486.
+* Fix default sorting of Notes to sort by Updated Date in ascending order. Fixes STSMACOM-487.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

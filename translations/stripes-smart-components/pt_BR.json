@@ -256,5 +256,8 @@
     "cddd.itemAgedToLostWarning": "Item tem tempo para ser considerado perdido",
     "customFields.dropdown.default": "Valor padrão",
     "cddd.itemAgedToLost": "Falha na alteração da data de vencimento: o item está envelhecido para perdido",
-    "success.message": "A {entry} <strong>{name}</strong> foi <strong>{action}</strong> com sucesso."
+    "success.message": "A {entry} <strong>{name}</strong> foi <strong>{action}</strong> com sucesso.",
+    "address.primary": "Primário",
+    "address.alternate ": "Alternar",
+    "ll.remoteLabel": "Remote"
 }

@@ -256,5 +256,8 @@
     "cddd.itemAgedToLostWarning": "单件超期太久视为遗失",
     "customFields.dropdown.default": "默认值",
     "cddd.itemAgedToLost": "到期日更改失败：单件已超期太久视为遗失",
-    "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>."
+    "success.message": "{entry} <strong> {name} </strong>已成功<strong> {action} </strong> 。",
+    "address.primary": "主要",
+    "address.alternate ": "备用",
+    "ll.remoteLabel": "Remote"
 }

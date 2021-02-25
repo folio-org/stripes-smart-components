@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 6.0.0 IN PROGRESS
+## [6.0.0](https://github.com/folio-org/stripes-smart-components/tree/v6.0.0) (2021-02-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v5.0.0...v6.0.0)
 
 * Require back-end permission `users.collection.get` instead of ui `ui-users.view` for ViewMetaData. Refs STSMACOM-480
 * Suggested tags are showing in reverse alpha order. Refs UITAG-37
@@ -32,7 +33,7 @@
 * Upgrade `<ControlledVocab>` to final form. Refs STSMACOM-482.
 * Upgrade `<AddressFieldGroup>` to final form. Refs STSMACOM-484.
 * Allow the selection of remote storage locations. Refs STSMACOM-483.
-* Guard appearance of remote-storage field with `hasInterface(). Refs STSMACOM-486.
+* Guard appearance of remote-storage field with `hasInterface()`. Refs STSMACOM-486.
 * Fix default sorting of Notes to sort by Updated Date in ascending order. Fixes STSMACOM-487.
 * Depend on `@folio/stripe-util` that is compatible with the shared peer `react-intl` `v5`.
 

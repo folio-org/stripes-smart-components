@@ -11,7 +11,7 @@
     "cddd.header.title": "العنوان",
     "cddd.header.itemStatus": "حالة المادة",
     "cddd.header.currentDueDate": "تاريخ الاستحقاق الحالي",
-    "cddd.header.barcode": "باركود",
+    "cddd.header.barcode": "الباركود",
     "cddd.header.loanPolicy": "سياسة الإعارة",
     "cddd.warning.dueDateAfterPatronExpiration": "يقع تاريخ الاستحقاق الجديد بعد انتهاء صلاحية المستفيد.",
     "cddd.warning.dueDateWhenLibraryClosed": "يقع تاريخ الاستحقاق الجديد أثناء غلق المكتبة.",

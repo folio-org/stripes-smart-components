@@ -18,6 +18,9 @@
       "notes": "2.0",
       "tags": "1.0",
       "password-validator": "1.0"
+    },
+    "optionalOkapiInterfaces": {
+      "remote-storage-mappings": "1.0"
     }
   },
   "scripts": {
@@ -39,7 +42,7 @@
     "@folio/stripes-final-form": "^5.0.0",
     "@folio/stripes-form": "^6.0.0",
     "@folio/stripes-logger": "^1.0.0",
-    "@folio/stripes-util": "^3.0.0",
+    "@folio/stripes-util": "^4.0.0",
     "axe-core": "^4.0.2",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
@@ -92,7 +95,7 @@
     "@folio/stripes-final-form": "^5.0.0",
     "@folio/stripes-form": "^6.0.0",
     "@folio/stripes-logger": "^1.0.0",
-    "@folio/stripes-util": "^3.0.0",
+    "@folio/stripes-util": "^4.0.0",
     "moment": "^2.29.0",
     "react": "*",
     "react-intl": "^5.8.0",

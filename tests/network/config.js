@@ -63,7 +63,7 @@ export default function config() {
         const dateA = new Date(a.attrs.metadata.updatedDate);
         const dateB = new Date(b.attrs.metadata.updatedDate);
 
-        return queryParams.order === 'asc'
+        return queryParams.order === 'desc'
           ? dateB - dateA
           : dateA - dateB;
       }

@@ -9,6 +9,8 @@ export { default as ClipCopy } from './lib/ClipCopy';
 
 export { default as ConfigManager } from './lib/ConfigManager';
 export { default as ConfigForm } from './lib/ConfigManager/ConfigForm';
+export { default as ConfigReduxForm } from './lib/ConfigManager/ConfigReduxForm';
+export { default as ConfigFinalForm } from './lib/ConfigManager/ConfigFinalForm';
 
 export { default as ControlledVocab } from './lib/ControlledVocab';
 export { default as ControlledVocabSwr } from './lib/ControlledVocabSwr';
@@ -70,3 +72,5 @@ export { default as ViewCustomFieldsSettings } from './lib/CustomFields/pages/Vi
 export { default as EditCustomFieldsSettings } from './lib/CustomFields/pages/EditCustomFieldsSettings';
 export { default as EditCustomFieldsRecord } from './lib/CustomFields/pages/EditCustomFieldsRecord';
 export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/ViewCustomFieldsRecord';
+
+export * from './lib/utils';

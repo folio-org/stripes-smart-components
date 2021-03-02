@@ -1,12 +1,12 @@
 {
     "cddd.changeDueDate": "改变到期日",
     "cddd.changeDueDateConfirmation": "改变到期日",
-    "cddd.itemsSelected": "<b>{count}</b>单件<b>已选</b>",
+    "cddd.itemsSelected": "<b> {count, number} </b> {count, plural, one {单件} other {单件}} <b>已选择。 </b>",
     "cddd.changeSucceeded": "到期日和时间已成功更改",
-    "cddd.changeSucceededWithCount": "<b> {succeeded} </b>单件的到期日和时间已<b>成功 </b>更改。",
+    "cddd.changeSucceededWithCount": "到期日期和时间已成功<b> </b>更改为<b> {succeeded, number} </b> {succeeded, plural, one {单件} other {单件}} 。",
     "cddd.changeFailed": "未能更改到期日",
     "cddd.itemHasRequestQueue": "单件有预约请求等候",
-    "cddd.itemsHaveWarnings": "<b>{count}</b>单件有<b>提醒</b>",
+    "cddd.itemsHaveWarnings": "<b> {count, number} </b> {count, plural, one {单件} other {单件}}有<b>警告。 </b>",
     "cddd.header.alertDetails": "提醒详情",
     "cddd.header.title": "题名",
     "cddd.header.itemStatus": "单件状态",
@@ -105,9 +105,9 @@
     "dateRange.to": "至",
     "dateRange.apply": "应用",
     "dateRange.invalidDate": "请输入有效日期",
-    "dateRange.missingStartDate": "请输入开始日期",
-    "dateRange.missingEndDate": "请输入结束日期",
-    "dateRange.wrongOrder": "开始日期大于结束日期",
+    "dateRange.missingStartDate": "请输入起始日期",
+    "dateRange.missingEndDate": "请输入终止日期",
+    "dateRange.wrongOrder": "起始日期大于终止日期",
     "label.name.isRequired": "*",
     "noteTitle": "附注标题",
     "details": "详情",
@@ -258,5 +258,6 @@
     "cddd.itemAgedToLost": "到期日更改失败：单件已超期太久视为遗失",
     "success.message": "{entry} <strong> {name} </strong>已成功<strong> {action} </strong> 。",
     "address.primary": "主要",
-    "address.alternate ": "备用"
+    "address.alternate ": "备用",
+    "ll.remoteLabel": "远程"
 }

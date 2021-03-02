@@ -3,9 +3,9 @@
     "cddd.changeDueDateConfirmation": "Fälligkeitsdatum ändern",
     "cddd.itemsSelected": "<b>{count}</b> Exemplare <b>ausgewählt.</b>",
     "cddd.changeSucceeded": "Fälligkeitsdatum und -zeit wurden erfolgreich geändert.",
-    "cddd.changeSucceededWithCount": "Fälligkeitsdatum und -zeit wurden <b>erfolgreich</b> für <b>{count}</b> Elemente geändert.",
+    "cddd.changeSucceededWithCount": "Fälligkeitsdatum und -zeit wurden <b>erfolgreich</b> für <b>{succeeded, number}</b> {succeeded, plural, one {Exemplar} other {Exemplare}} geändert.",
     "cddd.changeFailed": "Fälligkeitsdatum konnte nicht geändert werden",
-    "cddd.itemHasRequestQueue": "Exemplar hat Vormerk-Warteschlange",
+    "cddd.itemHasRequestQueue": "Exemplar hat eine Bestandsanfrage-Warteliste",
     "cddd.itemsHaveWarnings": "<b>{count}</b> Exemplare haben <b>Warnungen.</b>",
     "cddd.header.alertDetails": "Warndetails",
     "cddd.header.title": "Titel",
@@ -201,7 +201,7 @@
     "customFields.settings.accordion.hidden": "(Ausgeblendet)",
     "customFields.recordAccordion.defaultName": "Benutzerdefinierte Felder",
     "customFields.errorOccurred": "Aktualisierung aufgrund eines Modulfehlers fehlgeschlagen. Bitte erneut versuchen. Sollte das Problem weiterbestehen, Systemadministrator kontaktieren.",
-    "cddd.header.effectiveCallNumber": "Tatsächliche Signatur",
+    "cddd.header.effectiveCallNumber": "Effektive Signatur Zeichenkette",
     "cddd.itemDeclaredLost": "Fälligkeitsdatumsänderung fehlgeschlagen: Exemplar ist für verloren erklärt",
     "cddd.itemDeclaredLostWarning": "Exemplar ist für verloren erklärt",
     "customFields.required.checked": "Ja",
@@ -241,7 +241,7 @@
     "customFields.dragDrop.returned": "Feld {name} wurde auf seine Ausgangsposition {position} zurückgesetzt",
     "customFields.fieldTypes.RADIO_BUTTON": "Radiobutton gesetzt",
     "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
-    "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
+    "cddd.itemClaimedReturnedWarning": "Exemplar ist angeblich zurückgegeben",
     "customFields.settings.accordionTitle": "Abschnittstitel",
     "customFields.select.placeholder": "{fieldLabel} auswählen",
     "customFields.new": "Neu",
@@ -258,5 +258,6 @@
     "cddd.itemAgedToLost": "Fälligkeitsdatumsänderung fehlgeschlagen: Exemplar wurde für verloren erklärt",
     "success.message": "Der {entry} <strong>{name}</strong> wurde erfolgreich <strong>{action}</strong>.",
     "address.primary": "Primär",
-    "address.alternate ": "Alternativ"
+    "address.alternate ": "Alternativ",
+    "ll.remoteLabel": "Remote"
 }

@@ -9,6 +9,8 @@ export { default as ClipCopy } from './lib/ClipCopy';
 
 export { default as ConfigManager } from './lib/ConfigManager';
 export { default as ConfigForm } from './lib/ConfigManager/ConfigForm';
+export { default as ConfigReduxForm } from './lib/ConfigManager/ConfigReduxForm';
+export { default as ConfigFinalForm } from './lib/ConfigManager/ConfigFinalForm';
 
 export { default as ControlledVocab } from './lib/ControlledVocab';
 

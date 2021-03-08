@@ -259,5 +259,6 @@
     "success.message": "{entry} <strong> {name} </strong>已成功<strong> {action} </strong> 。",
     "address.primary": "主要",
     "address.alternate ": "备用",
-    "ll.remoteLabel": "远程"
+    "ll.remoteLabel": "远程",
+    "columnManager.showColumns": "Show columns"
 }

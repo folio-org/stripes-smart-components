@@ -72,4 +72,5 @@ export { default as EditCustomFieldsSettings } from './lib/CustomFields/pages/Ed
 export { default as EditCustomFieldsRecord } from './lib/CustomFields/pages/EditCustomFieldsRecord';
 export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/ViewCustomFieldsRecord';
 
+export { default as ColumnManager } from './lib/ColumnManager';
 export * from './lib/utils';

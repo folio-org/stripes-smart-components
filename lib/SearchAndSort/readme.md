@@ -40,6 +40,7 @@ createRecordPath | string | Path to link the "New" button to rather than use `ed
 editRecordComponent | component | A React component that displays an editing form for a record of the appropriate type, and which can also be used for creating new records. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<UserForm>` in ui-users](https://github.com/folio-org/ui-users/blob/master/UserForm.js).
 newRecordInitialValues | object whose keys are field-names | Values to set into the form when creating a new record.
 visibleColumns | array of fieldnames | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
+columnManagerProps | Applies additional props for the internal `<ColumnManager>` | As for [`<ColumnManager>`](https://github.com/folio-org/stripes-smart-components/blob/master/lib/ColumnManager/readme.md)
 columnWidths | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 columnMapping | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 resultsFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)

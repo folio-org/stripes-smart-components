@@ -38,6 +38,7 @@
 * Upgrade `<ControlledVocab>` to final form. Refs STSMACOM-482.
 * Upgrade `<AddressFieldGroup>` to final form. Refs STSMACOM-484.
 * Allow the selection of remote storage locations. Refs STSMACOM-483.
+* Added `<ColumnManager>`-component. Refs STSMACOM-468.
 * Guard appearance of remote-storage field with `hasInterface()`. Refs STSMACOM-486.
 * Fix default sorting of Notes to sort by Updated Date in ascending order. Fixes STSMACOM-487.
 * Depend on `@folio/stripe-util` that is compatible with the shared peer `react-intl` `v5`.

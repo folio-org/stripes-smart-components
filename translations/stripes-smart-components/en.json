@@ -261,5 +261,7 @@
   "settings.common.delete": "Delete",
   "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
 
-  "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
+  "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
+
+  "columnManager.showColumns": "Show columns"
 }

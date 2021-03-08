@@ -259,5 +259,6 @@
     "success.message": "A {entry} <strong>{name}</strong> foi <strong>{action}</strong> com sucesso.",
     "address.primary": "Primário",
     "address.alternate ": "Alternar",
-    "ll.remoteLabel": "Remoto"
+    "ll.remoteLabel": "Remoto",
+    "columnManager.showColumns": "Show columns"
 }

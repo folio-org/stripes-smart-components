@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)
+
+* Export `ConfigReduxForm`, `ConfigFinalForm`. Refs STSMACOM-490.
+
 ## [6.0.0](https://github.com/folio-org/stripes-smart-components/tree/v6.0.0) (2021-02-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v5.0.0...v6.0.0)
 

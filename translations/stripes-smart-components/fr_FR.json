@@ -1,18 +1,18 @@
 {
     "cddd.changeDueDate": "Modifier la date d'échéance",
     "cddd.changeDueDateConfirmation": "Modifier la date d'échéance",
-    "cddd.itemsSelected": "<b> {count} </b> éléments <b> sélectionnés. </b>",
+    "cddd.itemsSelected": "<b> {count, number} </b> {count, plural, one { item } other { items }} <b> sélectionnés. </b>",
     "cddd.changeSucceeded": "La date et l'heure d'échéance ont été modifiées avec succès.",
-    "cddd.changeSucceededWithCount": "La date et l'heure d'échéance ont été <b> correctement </b> modifiées pour les <b> {succeeded} </b> .",
+    "cddd.changeSucceededWithCount": "La date et l'heure d'échéance ont été <b> modifiées avec succès </b> <b> {succeeded, number} </b> {succeeded, plural, one { item } other { items }} .",
     "cddd.changeFailed": "Date d'échéance non modifiée",
     "cddd.itemHasRequestQueue": "L'article a une file d'attente",
-    "cddd.itemsHaveWarnings": "<b> {count} </b> éléments ont des <b> avertissements. </b>",
+    "cddd.itemsHaveWarnings": "<b> {count, number} </b> {count, plural, one { item } other { items }} ont <b> avertissements. </b>",
     "cddd.header.alertDetails": "Détails de l'alerte",
     "cddd.header.title": "Titre",
     "cddd.header.itemStatus": "Statut de l'article",
     "cddd.header.currentDueDate": "Date d'échéance actuelle",
     "cddd.header.barcode": "Code-barres",
-    "cddd.header.loanPolicy": "Politique de prêt",
+    "cddd.header.loanPolicy": "Règle de prêt",
     "cddd.warning.dueDateAfterPatronExpiration": "La nouvelle date d'échéance est postérieure à celle de l'utilisateur",
     "cddd.warning.dueDateWhenLibraryClosed": "La nouvelle date d'échéance tombe pendant la fermeture de la bibliothèque.",
     "cddd.warning.dueDateInPast": "La nouvelle date d'échéance ne peut être antérieure",
@@ -156,7 +156,7 @@
     "address.noAddressesStored": "- Aucune adresse enregistrée -",
     "notes.assigned.count": "Nombre d'affectations",
     "notes.cautionMessage": "Les notes avec une affectation ne peuvent pas être non affectées.",
-    "cddd.header.requests": "Demandes-Réservations",
+    "cddd.header.requests": "Réservations",
     "cddd.itemHasBeenRecalled": "L'article a été rappelé",
     "notes.type": "Type de note",
     "notes.type.general": "Note générale",
@@ -260,5 +260,5 @@
     "address.primary": "Primary",
     "address.alternate ": "Alternate",
     "ll.remoteLabel": "Remote",
-    "columnManager.showColumns": "Show columns"
+    "columnManager.showColumns": "Afficher les colonnes"
 }

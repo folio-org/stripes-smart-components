@@ -5,6 +5,7 @@
 * Organizations alternate address label in org view not showing correctly. Refs STSMACOM-497.
 * Execute validation manually when record is being saved. Fixes STSMACOM-496.
 * Adding a new custom field focus. Refs STSMACOM-479.
+* Make the move custom field icon a button. Refs STSMACOM-478.
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

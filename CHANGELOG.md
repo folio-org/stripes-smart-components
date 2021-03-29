@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## [6.0.2](IN PROGRESS)
+
+* Make the move custom field icon a button. Refs STSMACOM-478.
+
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)
 

@@ -240,7 +240,7 @@
     "customFields.dragDrop.moved": "Feld {name} wurde von Position {start} zu Position {end} verschoben",
     "customFields.dragDrop.returned": "Feld {name} wurde auf seine Ausgangsposition {position} zurückgesetzt",
     "customFields.fieldTypes.RADIO_BUTTON": "Radiobutton gesetzt",
-    "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
+    "cddd.itemClaimedReturned": "Fälligkeitsänderung fehlgeschlagen: Exemplar ist angeblich zurückgegeben",
     "cddd.itemClaimedReturnedWarning": "Exemplar ist angeblich zurückgegeben",
     "customFields.settings.accordionTitle": "Abschnittstitel",
     "customFields.select.placeholder": "{fieldLabel} auswählen",
@@ -260,5 +260,5 @@
     "address.primary": "Primär",
     "address.alternate ": "Alternativ",
     "ll.remoteLabel": "Remote",
-    "columnManager.showColumns": "Show columns"
+    "columnManager.showColumns": "Spalten anzeigen"
 }

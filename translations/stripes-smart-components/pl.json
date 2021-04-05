@@ -258,7 +258,7 @@
     "cddd.itemAgedToLost": "Zmiana terminu zwrotu nie powiodła się: egzemplarz jest uznany za zagubiony",
     "success.message": "Ten {entry} <strong>{name}</strong> został pomyślnie <strong>{action}</strong>.",
     "address.primary": "Główny",
-    "address.alternate ": "Alternatywny",
     "ll.remoteLabel": "Zdalny",
-    "columnManager.showColumns": "Pokaż kolumny"
+    "columnManager.showColumns": "Pokaż kolumny",
+    "address.alternate": "Alternate"
 }

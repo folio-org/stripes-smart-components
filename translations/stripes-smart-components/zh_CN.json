@@ -258,7 +258,7 @@
     "cddd.itemAgedToLost": "到期日更改失败：单件已超期太久视为遗失",
     "success.message": "{entry} <strong> {name} </strong>已成功<strong> {action} </strong> 。",
     "address.primary": "主要",
-    "address.alternate ": "备用",
     "ll.remoteLabel": "远程",
-    "columnManager.showColumns": "显示列"
+    "columnManager.showColumns": "显示列",
+    "address.alternate": "Alternate"
 }

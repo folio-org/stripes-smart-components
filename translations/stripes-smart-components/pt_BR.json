@@ -258,7 +258,7 @@
     "cddd.itemAgedToLost": "Falha na alteração da data de vencimento: o item está envelhecido para perdido",
     "success.message": "A {entry} <strong>{name}</strong> foi <strong>{action}</strong> com sucesso.",
     "address.primary": "Primário",
-    "address.alternate ": "Alternar",
     "ll.remoteLabel": "Remoto",
-    "columnManager.showColumns": "Mostrar colunas"
+    "columnManager.showColumns": "Mostrar colunas",
+    "address.alternate": "Alternate"
 }

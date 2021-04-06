@@ -3,6 +3,7 @@
 ## [6.0.2](IN PROGRESS)
 
 * Organizations alternate address label in org view not showing correctly. Refs STSMACOM-497.
+* Execute validation manually when record is being saved. Fixes STSMACOM-496.
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

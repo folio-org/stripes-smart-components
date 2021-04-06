@@ -258,6 +258,7 @@
     "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
     "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
     "address.primary": "Główny",
-    "address.alternate ": "Alternatywny",
-    "ll.remoteLabel": "Remote"
+    "address.alternate": "Alternatywny",
+    "ll.remoteLabel": "Zdalny",
+    "columnManager.showColumns": "Pokaż kolumny"
 }

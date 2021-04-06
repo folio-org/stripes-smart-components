@@ -1,7 +1,7 @@
 {
     "cddd.changeDueDate": "更改到期日",
     "cddd.changeDueDateConfirmation": "更改到期日",
-    "cddd.itemsSelected": "<b>已選擇</b> <b>{count}</b> 筆館藏。",
+    "cddd.itemsSelected": "<b>已選擇</b> <b>{count, number}</b> 筆館藏。",
     "cddd.changeSucceeded": "到期日期和時間已成功更改",
     "cddd.changeSucceededWithCount": "<b>{count}</b> 館藏到期日與時間已<b>成功</b>更改。",
     "cddd.changeFailed": "未能更改到期日期",

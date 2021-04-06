@@ -19,7 +19,7 @@
     "cv.cannotDeleteTermHeader": "Nie można usunąć {type}",
     "cv.cannotDeleteTermMessage": "Tego {type} nie można usunąć, ponieważ jest on używany przez jeden lub więcej rekordów.",
     "cv.lastUpdated": "Ostatnia aktualizacja",
-    "cv.updatedAtAndBy": "{data} przez {user}",
+    "cv.updatedAtAndBy": "{date} przez {user}",
     "cv.noExistingTerms": "Brak {terms}",
     "cv.numberOfObjects": "# {objects}",
     "cv.termWillBeDeleted": "{type} <b> {term} </b> zostanie <b> usunięty. </b>",

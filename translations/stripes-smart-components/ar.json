@@ -258,7 +258,7 @@
     "cddd.itemAgedToLost": "فشل تغيير تاريخ الاستحقاق: تقادمت المادة وتم اعتبارها ضائعة",
     "success.message": "تم <strong>{action}</strong> ال{entry} <strong>{name}1</strong> بنجاح.",
     "address.primary": "رئيسي",
-    "address.alternate": "بديل",
     "ll.remoteLabel": "البعيد",
-    "columnManager.showColumns": "عرض الأعمدة"
+    "columnManager.showColumns": "عرض الأعمدة",
+    "address.alternate": "بديل"
 }

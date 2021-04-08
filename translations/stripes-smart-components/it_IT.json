@@ -258,7 +258,7 @@
     "cddd.itemAgedToLost": "Impossibile modificare la data di scadenza: l'item è stato dichiarato perso dall'utente",
     "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
     "address.primary": "Primario",
-    "address.alternate ": "Alternativo",
     "ll.remoteLabel": "Remote",
-    "columnManager.showColumns": "Show columns"
+    "columnManager.showColumns": "Show columns",
+    "address.alternate": "Alternate"
 }

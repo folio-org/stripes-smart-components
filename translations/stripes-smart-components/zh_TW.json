@@ -1,12 +1,12 @@
 {
     "cddd.changeDueDate": "更改到期日",
     "cddd.changeDueDateConfirmation": "更改到期日",
-    "cddd.itemsSelected": "<b>已選擇</b> <b>{count, number}</b> 筆館藏。",
+    "cddd.itemsSelected": "<b>{count, number}</b> {count, plural, one {item} other {items}} <b>selected.</b>",
     "cddd.changeSucceeded": "到期日期和時間已成功更改",
-    "cddd.changeSucceededWithCount": "<b>{count}</b> 館藏到期日與時間已<b>成功</b>更改。",
+    "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{succeeded, number}</b> {succeeded, plural, one {item} other {items}}.",
     "cddd.changeFailed": "未能更改到期日期",
     "cddd.itemHasRequestQueue": "單件有預約",
-    "cddd.itemsHaveWarnings": "<b>{count}</b>館藏有<b>提醒</b>",
+    "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {item} other {items}} have <b>warnings.</b>",
     "cddd.header.alertDetails": "提醒詳細資訊",
     "cddd.header.title": "題名",
     "cddd.header.itemStatus": "單件狀態",
@@ -260,5 +260,5 @@
     "address.primary": "Primary",
     "ll.remoteLabel": "Remote",
     "columnManager.showColumns": "Show columns",
-    "address.alternate": "Alternate"
+    "address.alternate": "備用的"
 }

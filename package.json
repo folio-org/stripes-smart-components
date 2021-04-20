@@ -82,6 +82,7 @@
     "react-copy-to-clipboard": "^5.0.1",
     "react-final-form": "^6.3.0",
     "react-final-form-arrays": "^3.1.1",
+    "react-final-form-listeners": "^1.0.3",
     "react-query": "^3.9.8",
     "react-router-prop-types": "^1.0.4",
     "react-transition-group": "^2.4.0",

@@ -12,7 +12,7 @@
     "cddd.header.itemStatus": "Exemplarstatus",
     "cddd.header.currentDueDate": "Aktuelles Fälligkeitsdatum",
     "cddd.header.barcode": "Barcode",
-    "cddd.header.loanPolicy": "Ausleihregel",
+    "cddd.header.loanPolicy": "Ausleihrichtlinie",
     "cddd.warning.dueDateAfterPatronExpiration": "Neues Fälligkeitsdatum ist nach dem Ablauf der Nutzungsberechtigung.",
     "cddd.warning.dueDateWhenLibraryClosed": "Neues Fälligkeitsdatum liegt in der Schließzeit der Bibliothek.",
     "cddd.warning.dueDateInPast": "Neues Fälligkeitsdatum liegt in der Vergangenheit.",

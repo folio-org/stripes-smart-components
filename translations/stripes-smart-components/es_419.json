@@ -125,7 +125,7 @@
     "notes.assignNote": "Asignar nota",
     "notes.noteSearch": "Búsqueda de notas",
     "notes.noteAssignmentStatus": "Estado de asignación de notas",
-    "notes.found": "{quantity} Notas han sido encontradas",
+    "notes.found": "{quantity, number} {quantity, plural, one { nota encontrada } other { notas encontradas }}",
     "status": "Estado",
     "assigned": "Asignado",
     "unassigned": "Sin asignar",

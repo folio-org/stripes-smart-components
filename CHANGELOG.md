@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 6.0.3 (IN PROGRESS)
+## [6.0.3](https://github.com/folio-org/stripes-smart-components/tree/v6.0.3) (2021-04-22)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.2...v6.0.3)
 
 * Fix `<MultiSelect>` when using `<CustomField>` via final form. Fixes STSMACOM-500.
 * buggy @rehooks/local-storage 2.4.1 must be avoided. Refs STSMACOM-501.

@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## [6.0.2](IN PROGRESS)
+## 6.1.0 (IN PROGRESS)
 
 * Make the move custom field icon a button. Refs STSMACOM-478.
 * STSMACOM-415: Replace noteData type and title - with No value component. Refs STSMACOM-415.

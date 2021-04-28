@@ -20,6 +20,9 @@ axe.configure({
   }, {
     id: 'bypass',
     enabled: false,
+  }, {
+    id: 'nested-interactive',
+    enabled: false,
   }],
 });
 

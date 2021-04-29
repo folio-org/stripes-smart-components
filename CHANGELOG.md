@@ -9,6 +9,7 @@
 * Fix `<MultiSelect>` when using `<CustomField>` via final form. Fixes STSMACOM-500.
 * buggy @rehooks/local-storage 2.4.1 must be avoided. Refs STSMACOM-501.
 * Fix View Notes Record: Numbered / Nested lists not retained after editing/saving. Fixes STSMACOM-498.
+* hooks approach for ColumnManager. Refs STSMACOM-502.
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

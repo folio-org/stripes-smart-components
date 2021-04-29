@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## [6.0.2](IN PROGRESS)
+## 6.1.0 (IN PROGRESS)
 
 * Make the move custom field icon a button. Refs STSMACOM-478.
 * STSMACOM-415: Replace noteData type and title - with No value component. Refs STSMACOM-415.
@@ -8,6 +8,7 @@
 * Execute validation manually when record is being saved. Fixes STSMACOM-496.
 * Fix `<MultiSelect>` when using `<CustomField>` via final form. Fixes STSMACOM-500.
 * buggy @rehooks/local-storage 2.4.1 must be avoided. Refs STSMACOM-501.
+* Fix View Notes Record: Numbered / Nested lists not retained after editing/saving. Fixes STSMACOM-498.
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

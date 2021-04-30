@@ -8,6 +8,7 @@ export default function (server) {
 
   const generalNoteType = server.create('note-type', {
     name: 'General',
+    id: 'general-type-id',
   });
 
   const urgentNoteType = server.create('note-type', {
@@ -18,11 +19,11 @@ export default function (server) {
     type: generalNoteType.name,
     typeId: generalNoteType.id,
     title: 'A Note type',
+    content: '<p>Note details</p>',
     metadata: {
       updatedDate: '2020-12-04T09:05:30.000+0000',
     },
     id: 'providerNoteId',
-    content: new Array(240).fill('a').join(''),
     links: [{ type: 'provider', id: provider.id }],
   });
 

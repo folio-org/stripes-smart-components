@@ -239,6 +239,22 @@ export default function config() {
     return notes.find(params.id);
   });
 
+  this.post('/notes', (_, { requestBody }) => {
+    const noteData = JSON.parse(requestBody);
+
+    return this.create('note', noteData);
+  });
+
+  this.put('/notes/:id', ({ notes, noteTypes }, { params, requestBody }) => {
+    const noteData = JSON.parse(requestBody);
+    const noteTypeName = noteTypes.find(noteData.typeId).attrs.name;
+
+    return notes.find(params.id).update({
+      ...noteData,
+      type: noteTypeName,
+    });
+  });
+
   this.delete('/notes/:id', ({ notes, noteTypes }, { params }) => {
     const note = notes.find(params.id);
     const noteType = noteTypes.find(note.attrs.typeId);

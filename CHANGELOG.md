@@ -10,6 +10,7 @@
 * buggy @rehooks/local-storage 2.4.1 must be avoided. Refs STSMACOM-501.
 * Fix View Notes Record: Numbered / Nested lists not retained after editing/saving. Fixes STSMACOM-498.
 * hooks approach for ColumnManager. Refs STSMACOM-502.
+* Avoid calling `setState` when a promise returns after unmount. Refs STSMACOM-506.
 * Create/Edit Note | Addded Display note as a pop-up field. Refs STSMACOM-489
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)

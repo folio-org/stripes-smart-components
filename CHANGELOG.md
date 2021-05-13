@@ -11,6 +11,8 @@
 * Fix View Notes Record: Numbered / Nested lists not retained after editing/saving. Fixes STSMACOM-498.
 * hooks approach for ColumnManager. Refs STSMACOM-502.
 * Avoid calling `setState` when a promise returns after unmount. Refs STSMACOM-506.
+* Create/Edit Note | Addded Display note as a pop-up field. Refs STSMACOM-489
+* Relax `EditCustomFieldsRecord` proptypes to handle multi-select values. Refs STSMACOM-507.
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

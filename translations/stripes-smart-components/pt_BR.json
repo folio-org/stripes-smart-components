@@ -3,10 +3,10 @@
     "cddd.changeDueDateConfirmation": "Alterar data de vencimento",
     "cddd.itemsSelected": "<b> {count, number} </b> {count, plural, one {item} other {itens}} <b>selecionado(s).</b>",
     "cddd.changeSucceeded": "A data e hora de vencimento foram alteradas com sucesso",
-    "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{succeeded, number}</b> {succeeded, plural, one {item} other {items}}.",
+    "cddd.changeSucceededWithCount": "Data e hora de vencimento foram <b>alteradas</b> com sucesso para <b>{succeeded, number}</b> {succeeded, plural, one {item} other {itens}} .",
     "cddd.changeFailed": "Não foi possível alterar a data de devolução",
     "cddd.itemHasRequestQueue": "Item tem uma fila de pedidos",
-    "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {item} other {items}} have <b>warnings.</b>",
+    "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {item} other {itens}} tem <b>avisos.</b>",
     "cddd.header.alertDetails": "Detalhes de alertas",
     "cddd.header.title": "Título",
     "cddd.header.itemStatus": "Status do item",
@@ -260,5 +260,8 @@
     "address.primary": "Primário",
     "ll.remoteLabel": "Remoto",
     "columnManager.showColumns": "Mostrar colunas",
-    "address.alternate": "Alternar"
+    "address.alternate": "Alternar",
+    "notes.displayAsPopup.label": "Display note as a pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Users app"
 }

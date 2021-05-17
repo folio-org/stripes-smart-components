@@ -260,5 +260,8 @@
     "address.primary": "Primär",
     "ll.remoteLabel": "Remote",
     "columnManager.showColumns": "Spalten anzeigen",
-    "address.alternate": "Alternativ"
+    "address.alternate": "Alternativ",
+    "notes.displayAsPopup.label": "Display note as a pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Users app"
 }

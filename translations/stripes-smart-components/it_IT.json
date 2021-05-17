@@ -210,7 +210,7 @@
     "customFields.recordAccordion.length": "È stato superato il limite di 65 caratteri. Si prega di rivedere.",
     "customFields.fieldValue.required": "{field} è obbligatorio",
     "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
-    "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
+    "customFields.fieldName.lengthLimit": "È stato superato il limite di 65 caratteri. Si prega di rivedere.",
     "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
     "cddd.changeSucceededWithFailures": "{failed} due dates <b>not</b> changed. {succeeded} due dates <b>successfully</b> changed.",
     "customFields.fieldTypes.TEXTFIELD": "Text field",
@@ -260,5 +260,8 @@
     "address.primary": "Primario",
     "ll.remoteLabel": "Remote",
     "columnManager.showColumns": "Show columns",
-    "address.alternate": "Alternate"
+    "address.alternate": "Alternativo",
+    "notes.displayAsPopup.label": "Display note as a pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Users app"
 }

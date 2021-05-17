@@ -260,5 +260,8 @@
     "address.primary": "主要",
     "ll.remoteLabel": "远程",
     "columnManager.showColumns": "显示列",
-    "address.alternate": "備用的"
+    "address.alternate": "備用的",
+    "notes.displayAsPopup.label": "Display note as a pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Users app"
 }

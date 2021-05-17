@@ -260,5 +260,8 @@
     "address.primary": "رئيسي",
     "ll.remoteLabel": "البعيد",
     "columnManager.showColumns": "عرض الأعمدة",
-    "address.alternate": "بديل"
+    "address.alternate": "بديل",
+    "notes.displayAsPopup.label": "عرض الملاحظة كنافذة منبثقة",
+    "notes.displayAsPopup.checkout": "تطبيق الإعارة",
+    "notes.displayAsPopup.users": "تطبيق المستخدمين"
 }

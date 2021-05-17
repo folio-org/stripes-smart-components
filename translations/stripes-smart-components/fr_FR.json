@@ -233,12 +233,12 @@
     "settings.common.edit": "Modifier",
     "settings.common.delete": "Supprimer",
     "customFields.options.defaults": "Par défaut",
-    "customFields.dragDrop": "Change custom field order",
+    "customFields.dragDrop": "Modifier l'ordre des champs personnalisés",
     "customFields.dragDrop.lifted": "Vous avez élevé le champ {name} en position {position}",
     "customFields.dragDrop.moving": "Vous avez déplacé le champ {name} à la position {position}",
-    "customFields.dragDrop.notOverDroppable": "You are currently not over a droppable area",
-    "customFields.dragDrop.moved": "You have moved field {name} from position {start} to position {end}",
-    "customFields.dragDrop.returned": "Field {name} has been returned to its starting position of {position}",
+    "customFields.dragDrop.notOverDroppable": "Vous n'êtes actuellement pas au-dessus d'une zone à déposer",
+    "customFields.dragDrop.moved": "Vous avez déplacé le champ {name} de la position {start} à la position {end}",
+    "customFields.dragDrop.returned": "Le champ {name} a été renvoyé à sa position de départ de {position}",
     "customFields.fieldTypes.RADIO_BUTTON": "Bouton radio (?)",
     "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
     "cddd.itemClaimedReturnedWarning": "Item is Claimed returned",
@@ -260,5 +260,8 @@
     "address.primary": "Principal",
     "ll.remoteLabel": "À distance",
     "columnManager.showColumns": "Afficher les colonnes",
-    "address.alternate": "Autre"
+    "address.alternate": "Autre",
+    "notes.displayAsPopup.label": "Afficher la note sous forme de pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Application utilisateurs"
 }

@@ -25,6 +25,7 @@ export default function (server) {
     },
     id: 'providerNoteId',
     links: [{ type: 'provider', id: provider.id }],
+    popUpOnCheckout: true,
   });
 
   server.create('note', {

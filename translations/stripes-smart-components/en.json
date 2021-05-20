@@ -181,6 +181,8 @@
   "notes.navModal.dismissLabel": "Keep editing",
   "notes.navModal.continueLabel": "Close without saving",
   "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?",
+  "notes.popupModal.label": "Note for patron",
+  "notes.popupModal.delete": "Delete note",
   "addressEdit.useAddressAsPrimaryAddress": "Use address {index} as primary address",
   "addressEdit.useAsPrimaryAddress": "Use as primary address",
   "error.addressTypeRequired": "Address type is required",

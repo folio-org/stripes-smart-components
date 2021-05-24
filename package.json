@@ -20,7 +20,7 @@
       "password-validator": "1.0"
     },
     "optionalOkapiInterfaces": {
-      "remote-storage-mappings": "1.0"
+      "remote-storage-mappings": "2.0"
     }
   },
   "scripts": {

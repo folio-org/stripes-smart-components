@@ -263,5 +263,7 @@
     "address.alternate": "Alterno",
     "notes.displayAsPopup.label": "Display note as a pop-up",
     "notes.displayAsPopup.checkout": "Check out app",
-    "notes.displayAsPopup.users": "Users app"
+    "notes.displayAsPopup.users": "Users app",
+    "notes.popupModal.label": "Note for patron",
+    "notes.popupModal.delete": "Delete note"
 }

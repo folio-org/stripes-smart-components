@@ -25,7 +25,7 @@
     "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",
     "cv.termDeleted": "{type} <b> {term} </b> 이 (가) 성공적으로 <b> 삭제되었습니다 </b>",
     "ll.locationLookup": "위치 조회",
-    "ll.selectLocationHeader": "{유형} 위치 선택",
+    "ll.selectLocationHeader": "Select {type} location",
     "ll.institution": "기관",
     "ll.selectInstitution": "기관 선택",
     "ll.campus": "캠퍼스",

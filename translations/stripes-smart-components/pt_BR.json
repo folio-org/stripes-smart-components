@@ -261,7 +261,9 @@
     "ll.remoteLabel": "Remoto",
     "columnManager.showColumns": "Mostrar colunas",
     "address.alternate": "Alternar",
-    "notes.displayAsPopup.label": "Display note as a pop-up",
-    "notes.displayAsPopup.checkout": "Check out app",
-    "notes.displayAsPopup.users": "Users app"
+    "notes.displayAsPopup.label": "Exibir nota como um pop-up",
+    "notes.displayAsPopup.checkout": "App de Empréstimo",
+    "notes.displayAsPopup.users": "App de usuários",
+    "notes.popupModal.label": "Nota para o usuário",
+    "notes.popupModal.delete": "Excluir nota"
 }

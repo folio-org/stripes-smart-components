@@ -265,5 +265,6 @@
     "notes.displayAsPopup.checkout": "借出应用程序",
     "notes.displayAsPopup.users": "用户应用程序",
     "notes.popupModal.label": "读者附注",
-    "notes.popupModal.delete": "删除附注"
+    "notes.popupModal.delete": "删除附注",
+    "notes.close": "Close"
 }

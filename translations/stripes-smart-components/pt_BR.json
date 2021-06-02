@@ -265,5 +265,6 @@
     "notes.displayAsPopup.checkout": "App de Empréstimo",
     "notes.displayAsPopup.users": "App de usuários",
     "notes.popupModal.label": "Nota para o usuário",
-    "notes.popupModal.delete": "Excluir nota"
+    "notes.popupModal.delete": "Excluir nota",
+    "notes.close": "Close"
 }

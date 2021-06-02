@@ -253,9 +253,9 @@
     "clipCopy.success": "\" {text} \" copié avec succès dans le presse-papiers.",
     "cannotSaveNewTag": "Impossible de créer un nouveau tag: vous ne disposez peut-être pas des autorisations requises.",
     "cannotSaveTagToRecord": "Impossible d'enregistrer les données de tags à enregistrer. Vérifiez que vous disposez des autorisations requises.",
-    "cddd.itemAgedToLostWarning": "Item is Aged to lost",
+    "cddd.itemAgedToLostWarning": "L'exemplaire est considéré comme perdu",
     "customFields.dropdown.default": "Valeur par défaut",
-    "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
+    "cddd.itemAgedToLost": "Échec de la modification de la date d'échéance: l'exemplaire est considéré comme perdu",
     "success.message": "L ' {entry} <strong> {name} </strong> a été <strong> {action} </strong> avec succès.",
     "address.primary": "Principal",
     "ll.remoteLabel": "À distance",
@@ -263,5 +263,7 @@
     "address.alternate": "Autre",
     "notes.displayAsPopup.label": "Afficher la note sous forme de pop-up",
     "notes.displayAsPopup.checkout": "App. prêter",
-    "notes.displayAsPopup.users": "Application utilisateurs"
+    "notes.displayAsPopup.users": "Application utilisateurs",
+    "notes.popupModal.label": "Note pour l'utilisateur",
+    "notes.popupModal.delete": "Supprimer la note"
 }

@@ -261,7 +261,10 @@
     "ll.remoteLabel": "远程",
     "columnManager.showColumns": "显示列",
     "address.alternate": "备用",
-    "notes.displayAsPopup.label": "Display note as a pop-up",
-    "notes.displayAsPopup.checkout": "Check out app",
-    "notes.displayAsPopup.users": "Users app"
+    "notes.displayAsPopup.label": "将注释显示为弹出窗口",
+    "notes.displayAsPopup.checkout": "借出应用程序",
+    "notes.displayAsPopup.users": "用户应用程序",
+    "notes.popupModal.label": "读者附注",
+    "notes.popupModal.delete": "删除附注",
+    "notes.close": "Close"
 }

@@ -263,5 +263,8 @@
     "address.alternate": "بديل",
     "notes.displayAsPopup.label": "عرض الملاحظة كنافذة منبثقة",
     "notes.displayAsPopup.checkout": "تطبيق الإعارة",
-    "notes.displayAsPopup.users": "تطبيق المستخدمين"
+    "notes.displayAsPopup.users": "تطبيق المستخدمين",
+    "notes.popupModal.label": "ملاحظة للمستفيد",
+    "notes.popupModal.delete": "حذف الملاحظة",
+    "notes.close": "Close"
 }

@@ -265,5 +265,6 @@
     "notes.displayAsPopup.checkout": "Check out app",
     "notes.displayAsPopup.users": "Users app",
     "notes.popupModal.label": "Note for patron",
-    "notes.popupModal.delete": "Delete note"
+    "notes.popupModal.delete": "Delete note",
+    "notes.close": "Close"
 }

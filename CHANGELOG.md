@@ -14,6 +14,7 @@
 * Create/Edit Note | Addded Display note as a pop-up field. Refs STSMACOM-489
 * Relax `EditCustomFieldsRecord` proptypes to handle multi-select values. Refs STSMACOM-507.
 * Add `NotePopupModal` component. Refs STSMACOM-509.
+* Add 'autofocusSearchField` prop to SearchAndSort. fixes STSMACOM-516
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

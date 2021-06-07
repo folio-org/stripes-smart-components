@@ -171,7 +171,7 @@
     "notes.navModal.dismissLabel": "編集を続ける",
     "notes.navModal.continueLabel": "保存せずに閉じる",
     "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?",
-    "tags.filterError": "フィルタの適用中にエラーが発生しました: {エラー}",
+    "tags.filterError": "Error applying filter: {error}",
     "notes.assigned": "割り当て済み",
     "searchResultsCountUnknown": "10,000件を超えるレコードが見つかりました",
     "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name.",

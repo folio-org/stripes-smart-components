@@ -1,9 +1,10 @@
 # Change history for stripes-smart-components
 
-## 6.1.0 (IN PROGRESS)
+## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)
 
-* Make the move custom field icon a button. Refs STSMACOM-478.
-* STSMACOM-415: Replace noteData type and title - with No value component. Refs STSMACOM-415.
+* Make the move-custom-field icon a button. Refs STSMACOM-478.
+* Replace noteData type and title - with No value component. Refs STSMACOM-415.
 * Organizations alternate address label in org view not showing correctly. Refs STSMACOM-497.
 * Execute validation manually when record is being saved. Fixes STSMACOM-496.
 * Fix `<MultiSelect>` when using `<CustomField>` via final form. Fixes STSMACOM-500.
@@ -11,11 +12,11 @@
 * Fix View Notes Record: Numbered / Nested lists not retained after editing/saving. Fixes STSMACOM-498.
 * hooks approach for ColumnManager. Refs STSMACOM-502.
 * Avoid calling `setState` when a promise returns after unmount. Refs STSMACOM-506.
-* Create/Edit Note | Addded Display note as a pop-up field. Refs STSMACOM-489
+* Create/Edit Note | Added Display note as a pop-up field. Refs STSMACOM-489
 * Relax `EditCustomFieldsRecord` proptypes to handle multi-select values. Refs STSMACOM-507.
 * Add `NotePopupModal` component. Refs STSMACOM-509.
 * Always show `<NotePopupModal>` when popup notes exist. Refs STSMACOM-515.
-* Add 'autofocusSearchField` prop to SearchAndSort. fixes STSMACOM-516
+* Add `autofocusSearchField` prop to SearchAndSort. fixes STSMACOM-516
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

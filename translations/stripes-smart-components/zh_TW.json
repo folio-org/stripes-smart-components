@@ -87,7 +87,7 @@
     "password.whiteSpace.invalid": "密碼不得包含空格。",
     "password.lastTenPasswords.invalid": "曾經用過該密碼，請輸入新密碼。",
     "address.addAddress": "新增地址",
-    "searchFieldLabel": "查詢 {模組名稱}",
+    "searchFieldLabel": "查詢 {moduleName}",
     "sas.noResults.default": "沒有 “{searchTerm}” 的查詢结果，請確認沒有打錯並檢查篩選器。",
     "sas.noResults.noTerms": "點一個篩選項目或是輸入關鍵字以顯示結果。",
     "sas.noResults.noResults": "未找到結果，請檢查選擇的篩選項目。",

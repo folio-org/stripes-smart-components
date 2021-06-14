@@ -17,6 +17,7 @@
 * Add `NotePopupModal` component. Refs STSMACOM-509.
 * Always show `<NotePopupModal>` when popup notes exist. Refs STSMACOM-515.
 * Add `autofocusSearchField` prop to SearchAndSort. fixes STSMACOM-516
+* Use `isSelected` prop of MCL in SearchAndSort to highlight selected item with fewer criteria properties. fixes STSMACOM-518
 
 ## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)

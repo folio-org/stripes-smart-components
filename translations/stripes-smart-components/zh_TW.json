@@ -224,7 +224,7 @@
     "customFields.option.required": "选项标签必备。",
     "customFields.option.duplicate": "重复选项。请修改。",
     "customFields.characters.limit": "已超过{limit} 。",
-    "customFields.options.left": "可以再添加{count, number}个{count, number} {count, plural, one { 选项 } other { 选项 }} 。",
+    "customFields.options.left": "可以再添加{count, number}个{count, plural, one { 选项 } other { 选项 }} 。",
     "customFields.options.maxNumberReached": "已添加最大数量的选项。",
     "customFields.options.default": "默认",
     "customFields.fieldTypes.MULTISELECT": "多选",

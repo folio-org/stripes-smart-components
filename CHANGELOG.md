@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+##[6.1.1] (IN PROGRESS)
+
+* Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
+
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)
 

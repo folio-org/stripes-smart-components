@@ -9,6 +9,7 @@
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.3...v6.0.4)
 
 * Fix filtering in `<LocationSelection>`, Fixes STSMACOM-523.
+* Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
 
 ## [6.0.3](https://github.com/folio-org/stripes-smart-components/tree/v6.0.3) (2021-04-22)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.2...v6.0.3)

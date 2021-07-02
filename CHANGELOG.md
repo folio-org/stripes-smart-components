@@ -4,6 +4,7 @@
 
 * Fix filtering in `<LocationSelection>`, Fixes STSMACOM-523.
 * Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
+* Disable save button for `<NoteForm>` when form were no changes. Fixes STSMACOM-522. 
 
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)

@@ -4,6 +4,7 @@
 
 * Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
 * View Notes Record: List indentations are not retained. Fixes STSMACOM-527.
+* Use `selectedIndex` when `locallyChangedQueryIndex` is not present during search. Fixes STSMACOM-526.
 
 ## [6.0.5](https://github.com/folio-org/stripes-smart-components/tree/v6.0.5) (2021-07-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.4...v6.0.5)

@@ -18,7 +18,7 @@
     "cddd.warning.dueDateInPast": "新到期日是在过去。",
     "cv.cannotDeleteTermHeader": "无法删除 {type}",
     "cv.cannotDeleteTermMessage": "无法删除此 {type}，因为一个或多个记录正在使用。",
-    "cv.lastUpdated": "最后更新",
+    "cv.lastUpdated": "上次更新",
     "cv.updatedAtAndBy": "{date} 由 {user}",
     "cv.noExistingTerms": "没有{terms}",
     "cv.numberOfObjects": "{objects}",
@@ -266,5 +266,5 @@
     "notes.displayAsPopup.users": "用户应用程序",
     "notes.popupModal.label": "读者附注",
     "notes.popupModal.delete": "删除附注",
-    "notes.close": "Close"
+    "notes.close": "关闭"
 }

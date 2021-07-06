@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [6.0.5](https://github.com/folio-org/stripes-smart-components/tree/v6.0.5) (2021-07-06)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.4...v6.0.5)
+
+* Add missing value to `locationOpts` in `LocationForm`. Fixes STSMACOM-523.
+
 ## [6.0.4](https://github.com/folio-org/stripes-smart-components/tree/v6.0.4) (2021-07-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.3...v6.0.4)
 

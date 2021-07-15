@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 6.0.6
+## [6.0.6](https://github.com/folio-org/stripes-smart-components/tree/v6.0.6) (2021-07-15)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.5...v6.0.6)
 
 * Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
 * View Notes Record: List indentations are not retained. Fixes STSMACOM-527.

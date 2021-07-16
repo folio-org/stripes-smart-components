@@ -266,5 +266,6 @@
     "notes.displayAsPopup.users": "تطبيق المستخدمين",
     "notes.popupModal.label": "ملاحظة للمستفيد",
     "notes.popupModal.delete": "حذف الملاحظة",
-    "notes.close": "إغلاق"
+    "notes.close": "إغلاق",
+    "customFields.noCustomFieldsFound": "لم يتم العثور على حقول مخصصة"
 }

@@ -266,5 +266,6 @@
     "notes.displayAsPopup.users": "Users app",
     "notes.popupModal.label": "Note for patron",
     "notes.popupModal.delete": "Delete note",
-    "notes.close": "Cerrar"
+    "notes.close": "Cerrar",
+    "customFields.noCustomFieldsFound": "No custom fields found"
 }

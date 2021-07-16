@@ -266,5 +266,6 @@
     "notes.displayAsPopup.users": "Application utilisateurs",
     "notes.popupModal.label": "Note pour l'utilisateur",
     "notes.popupModal.delete": "Supprimer la note",
-    "notes.close": "Fermer"
+    "notes.close": "Fermer",
+    "customFields.noCustomFieldsFound": "No custom fields found"
 }

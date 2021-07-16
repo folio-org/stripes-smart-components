@@ -203,6 +203,7 @@
   "customFields": "Custom fields",
   "customFields.edit": "Edit",
   "customFields.new": "New",
+  "customFields.noCustomFieldsFound": "No custom fields found",
   "customFields.editCustomFields": "Edit custom fields",
   "customFields.metadata.createdBy": "Created by {userName} {date}",
   "customFields.fieldTypes.TEXTFIELD": "Text field",

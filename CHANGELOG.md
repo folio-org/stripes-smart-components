@@ -4,10 +4,11 @@
 
 * Fix filtering in `<LocationSelection>`, Fixes STSMACOM-523.
 * Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
-* Disable save button for `<NoteForm>` when form were no changes. Fixes STSMACOM-522. 
+* Disable save button for `<NoteForm>` when form were no changes. Fixes STSMACOM-522.
 * View Notes Record: List indentations are not retained. Fixes STSMACOM-527.
 * Use `selectedIndex` when `locallyChangedQueryIndex` is not present during search. Fixes STSMACOM-526.
 * Always show `<ViewCustomFieldsRecord>`, even if no custom-fields are present. Refs STSMACOM-470.
+* Sort institutions, campuses and libraries in alphabetical order. Fixes STSMACOM-530.
 
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)

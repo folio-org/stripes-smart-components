@@ -31,7 +31,7 @@ Use the `EditableList` component in your jsx
 ### Configuration (props)
 Name | type | description | default | required
 --- | --- | --- | --- | ---
-canCreate | boolean | Determines if the '+ New' button is active. | | no
+canCreate | boolean | Determines if the '+ New' button is active. | `true` | no
 contentData | array of objects | Array of objects to be rendered as list items. | | yes
 nameKey | string | The key that uniquely names listed objects: defaults to 'name'. | | no
 onCreate | function | Callback for creating new list items. | | no

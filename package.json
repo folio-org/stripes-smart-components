@@ -36,7 +36,7 @@
     "@bigtest/react": "^0.1.2",
     "@folio/eslint-config-stripes": "^5.2.0",
     "@folio/stripes-cli": "^2.0.0",
-    "@folio/stripes-components": "folio-org/stripes-components#stripes-v7",,
+    "@folio/stripes-components": "folio-org/stripes-components#stripes-v7",
     "@folio/stripes-connect": "folio-org/stripes-connect#stripes-v7",
     "@folio/stripes-core": "folio-org/stripes-core#stripes-v7",
     "@folio/stripes-final-form": "folio-org/stripes-final-form#stripes-v7",

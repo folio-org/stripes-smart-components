@@ -10,6 +10,7 @@
 * Always show `<ViewCustomFieldsRecord>`, even if no custom-fields are present. Refs STSMACOM-470.
 * Sort institutions, campuses and libraries in alphabetical order. Fixes STSMACOM-530.
 * Make sure custom-fields fetch has returned before evaluating its result-size. Refs STSMACOM-531.
+* Add validation for custom fields whitespace values. Refs BF-182.
 
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)

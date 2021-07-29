@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-##[6.2.0] (IN PROGRESS)
+##[7.0.0] (IN PROGRESS)
 
 * Fix filtering in `<LocationSelection>`, Fixes STSMACOM-523.
 * Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
@@ -10,6 +10,7 @@
 * Always show `<ViewCustomFieldsRecord>`, even if no custom-fields are present. Refs STSMACOM-470.
 * Sort institutions, campuses and libraries in alphabetical order. Fixes STSMACOM-530.
 * Make sure custom-fields fetch has returned before evaluating its result-size. Refs STSMACOM-531.
+* React 17. Refs STSMACOM-474.
 
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)

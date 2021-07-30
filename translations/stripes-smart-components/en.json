@@ -216,6 +216,7 @@
   "customFields.fieldFormat": "Field format",
   "customFields.fieldValue.required": "{field} is required",
   "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
+  "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
   "customFields.helperText": "Help text",
   "customFields.helperText.description": "This will show under an information icon",
   "customFields.required": "Required",

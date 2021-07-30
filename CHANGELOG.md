@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 6.1.2 IN PROGRESS
+## [6.1.2](https://github.com/folio-org/stripes-smart-components/tree/v6.1.2) (2021-07-30)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.1...v6.1.2)
 
 * Sort institutions, campuses and libraries in alphabetical order. Fixes STSMACOM-530.
 

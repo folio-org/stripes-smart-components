@@ -267,5 +267,6 @@
     "notes.popupModal.label": "Note for patron",
     "notes.popupModal.delete": "Delete note",
     "notes.close": "Close",
-    "customFields.noCustomFieldsFound": "No custom fields found"
+    "customFields.noCustomFieldsFound": "No custom fields found",
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
 }

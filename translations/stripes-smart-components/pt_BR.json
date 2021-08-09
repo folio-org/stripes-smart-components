@@ -267,5 +267,6 @@
     "notes.popupModal.label": "Nota para o usuário",
     "notes.popupModal.delete": "Excluir nota",
     "notes.close": "Fechar",
-    "customFields.noCustomFieldsFound": "Nenhum campo personalizado encontrado"
+    "customFields.noCustomFieldsFound": "Nenhum campo personalizado encontrado",
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
 }

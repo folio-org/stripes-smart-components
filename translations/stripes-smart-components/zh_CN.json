@@ -267,5 +267,6 @@
     "notes.popupModal.label": "读者附注",
     "notes.popupModal.delete": "删除附注",
     "notes.close": "关闭",
-    "customFields.noCustomFieldsFound": "No custom fields found"
+    "customFields.noCustomFieldsFound": "未找到自定义字段",
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
 }

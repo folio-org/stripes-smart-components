@@ -261,12 +261,12 @@
     "ll.remoteLabel": "Remoto",
     "columnManager.showColumns": "Mostrar columnas",
     "address.alternate": "Alterno",
-    "notes.displayAsPopup.label": "Display note as a pop-up",
-    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.label": "Mostrar la nota como una ventana emergente",
+    "notes.displayAsPopup.checkout": "Consulta la aplicación",
     "notes.displayAsPopup.users": "Usuarios app",
-    "notes.popupModal.label": "Note for patron",
-    "notes.popupModal.delete": "Delete note",
+    "notes.popupModal.label": "Nota para el usuario",
+    "notes.popupModal.delete": "Borrar nota",
     "notes.close": "Cerrar",
     "customFields.noCustomFieldsFound": "No se encontraron campos personalizados",
-    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
+    "customFields.fieldValue.whitespace": "No se permite el uso de espacios en blanco."
 }

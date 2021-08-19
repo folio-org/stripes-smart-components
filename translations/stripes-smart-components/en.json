@@ -271,5 +271,9 @@
 
   "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
 
-  "columnManager.showColumns": "Show columns"
+  "columnManager.showColumns": "Show columns",
+
+  "translationsActionsMenu.createNewKeysModal.label": "Create new translations keys",
+  "translationsActionsMenu.createNewKeysModal.keyName": "Key name",
+  "translationsActionsMenu.createNewKeysModal.keyValue": "Key Value"
 }

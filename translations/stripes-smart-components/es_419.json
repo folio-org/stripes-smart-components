@@ -257,7 +257,7 @@
     "customFields.dropdown.default": "Valor por defecto",
     "cddd.itemAgedToLost": "El cambio de fecha de vencimiento falló: el artículo está señalado como perdido por el tiempo",
     "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
-    "address.primary": "Primary",
+    "address.primary": "Principal",
     "ll.remoteLabel": "Remoto",
     "columnManager.showColumns": "Mostrar columnas",
     "address.alternate": "Alterno",

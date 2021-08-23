@@ -90,7 +90,7 @@
     "redux-form": "^8.3.0"
   },
   "peerDependencies": {
-    "@folio/stripes-components": "^9.0.0",
+    "@folio/stripes-components": "^9.3.0",
     "@folio/stripes-connect": "^6.0.0",
     "@folio/stripes-core": "^7.0.0",
     "@folio/stripes-final-form": "^5.0.0",

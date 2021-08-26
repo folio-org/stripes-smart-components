@@ -20,7 +20,7 @@ jobs:
     env:
       YARN_TEST_OPTIONS: '--karma.singleRun --karma.browsers ChromeDocker --karma.reporters mocha junit --coverage'
       SQ_ROOT_DIR: './lib'
-      COMPILE_TRANSLATION_FILES: 'true'
+      COMPILE_TRANSLATION_FILES: 'false'
       PUBLISH_MOD_DESCRIPTOR: 'true'
       DEFAULT_BRANCH: master
       FOLIO_NPM_REGISTRY: 'https://repository.folio.org/repository/npm-folioci/'

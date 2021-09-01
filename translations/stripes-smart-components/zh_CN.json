@@ -5,7 +5,7 @@
     "cddd.changeSucceeded": "到期日和时间已成功更改",
     "cddd.changeSucceededWithCount": "到期日期和时间已成功<b> </b>更改为<b> {succeeded, number} </b> {succeeded, plural, one {单件} other {单件}} 。",
     "cddd.changeFailed": "未能更改到期日",
-    "cddd.itemHasRequestQueue": "单件有预约请求等候",
+    "cddd.itemHasRequestQueue": "单件有请求队列",
     "cddd.itemsHaveWarnings": "<b> {count, number} </b> {count, plural, one {单件} other {单件}}有<b>警告。 </b>",
     "cddd.header.alertDetails": "提醒详情",
     "cddd.header.title": "题名",
@@ -43,7 +43,7 @@
     "ls.locationPlaceholder": "选择馆藏地名称或代码",
     "pm.proxyExpired": "代理关系已过期",
     "pm.sponsorExpired": "供应商用户记录已过期",
-    "pm.cannotRequestFoSponsor": "赞助商不需要代理",
+    "pm.cannotRequestFoSponsor": "不能为厂商请求代理",
     "pm.continue": "继续",
     "pm.cancel": "取消",
     "closeEntryDialog": "关闭输入对话框",
@@ -268,5 +268,5 @@
     "notes.popupModal.delete": "删除附注",
     "notes.close": "关闭",
     "customFields.noCustomFieldsFound": "未找到自定义字段",
-    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
+    "customFields.fieldValue.whitespace": "不允许仅使用空白字符。"
 }

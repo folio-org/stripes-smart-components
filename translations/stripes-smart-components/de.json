@@ -174,7 +174,7 @@
     "tags.filterError": "Fehler beim Anwenden des Filters: {error}",
     "notes.assigned": "Zugewiesen",
     "searchResultsCountUnknown": "Mehr als 10.000 Datensätze gefunden",
-    "feesfines.policy.lost.duplicate": "The Lost item fee policy name entered already exists. Please enter a different name.",
+    "feesfines.policy.lost.duplicate": "Der eingegebene Name der Gebührenrichtlinie für verlorene Exemplare existiert bereits. Bitte anderen Namen eingeben.",
     "reset": "Zurücksetzen",
     "notes.assignUnassignAll": "Alle Notizen zuweisen / entfernen",
     "customFields": "Benutzerdefinierte Felder",
@@ -261,11 +261,12 @@
     "ll.remoteLabel": "Remote",
     "columnManager.showColumns": "Spalten anzeigen",
     "address.alternate": "Alternativ",
-    "notes.displayAsPopup.label": "Display note as a pop-up",
-    "notes.displayAsPopup.checkout": "Check out app",
-    "notes.displayAsPopup.users": "Users app",
-    "notes.popupModal.label": "Note for patron",
-    "notes.popupModal.delete": "Delete note",
+    "notes.displayAsPopup.label": "Notiz als Pop-up anzeigen",
+    "notes.displayAsPopup.checkout": "Ausleihe App",
+    "notes.displayAsPopup.users": "Personen App",
+    "notes.popupModal.label": "Notizen für Benutzer/-in",
+    "notes.popupModal.delete": "Notiz löschen",
     "notes.close": "Schließen",
-    "customFields.noCustomFieldsFound": "No custom fields found"
+    "customFields.noCustomFieldsFound": "Keine benutzerdefinierten Felder gefunden",
+    "customFields.fieldValue.whitespace": "Nur Leerzeichen sind nicht erlaubt."
 }

@@ -267,5 +267,6 @@
     "notes.popupModal.label": "ملاحظة للمستفيد",
     "notes.popupModal.delete": "حذف الملاحظة",
     "notes.close": "إغلاق",
-    "customFields.noCustomFieldsFound": "لم يتم العثور على حقول مخصصة"
+    "customFields.noCustomFieldsFound": "لم يتم العثور على حقول مخصصة",
+    "customFields.fieldValue.whitespace": "غير مسموح بالمسافة البيضاء فقط."
 }

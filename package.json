@@ -27,7 +27,9 @@
     "lint": "eslint . && stylelint \"lib/**/*.css\"",
     "eslint": "eslint .",
     "stylelint": "stylelint \"lib/**/*.css\"",
-    "test": "stripes test karma"
+    "test": "stripes test karma",
+    "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-users ./translations/users/compiled"
   },
   "devDependencies": {
     "@bigtest/convergence": "^1.0.0",
@@ -43,6 +45,7 @@
     "@folio/stripes-form": "folio-org/stripes-form#stripes-v7",
     "@folio/stripes-logger": "^1.0.0",
     "@folio/stripes-util": "folio-org/stripes-util#stripes-v7",
+    "@formatjs/cli": "^4.2.20",
     "axe-core": "^4.0.2",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",

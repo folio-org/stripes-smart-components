@@ -10,6 +10,12 @@
 * Always show `<ViewCustomFieldsRecord>`, even if no custom-fields are present. Refs STSMACOM-470.
 * Sort institutions, campuses and libraries in alphabetical order. Fixes STSMACOM-530.
 * Make sure custom-fields fetch has returned before evaluating its result-size. Refs STSMACOM-531.
+* Add validation for custom fields whitespace values. Refs BF-182.
+* Fix edit a user record with a custom field. Refs STSMACOM-535.
+* `<DateRangeFilter>`: use `<Datepicker>` for fields. Refs STSMACOM-493.
+* Make `<DateRangeFilter>`submit on Enter key. Refs STSMACOM-494.
+* Add `focusRef` prop to `<DateRangeFilter>` pointing to the last focused field. Refs STSMACOM-536.
+* Add `useSetRefOnFocus` hook to support `focusRef` functionality. Refs STSMACOM-536.
 * React 17. Refs STSMACOM-474.
 
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)

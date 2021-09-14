@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-##[6.2.0] (IN PROGRESS)
+##[7.0.0] (IN PROGRESS)
 
 * Fix filtering in `<LocationSelection>`, Fixes STSMACOM-523.
 * Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
@@ -16,6 +16,7 @@
 * Make `<DateRangeFilter>`submit on Enter key. Refs STSMACOM-494.
 * Add `focusRef` prop to `<DateRangeFilter>` pointing to the last focused field. Refs STSMACOM-536.
 * Add `useSetRefOnFocus` hook to support `focusRef` functionality. Refs STSMACOM-536.
+* React 17. Refs STSMACOM-474.
 
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)

@@ -18,6 +18,7 @@
 * Add `focusRef` prop to `<DateRangeFilter>` pointing to the last focused field. Refs STSMACOM-536.
 * Add `useSetRefOnFocus` hook to support `focusRef` functionality. Refs STSMACOM-536.
 * React 17. Refs STSMACOM-474.
+* Disable several unit tests that don't like `react` `17`. Refs STSMACOM-541.
 
 ## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)

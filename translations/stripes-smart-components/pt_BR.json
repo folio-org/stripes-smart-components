@@ -268,5 +268,5 @@
     "notes.popupModal.delete": "Excluir nota",
     "notes.close": "Fechar",
     "customFields.noCustomFieldsFound": "Nenhum campo personalizado encontrado",
-    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
+    "customFields.fieldValue.whitespace": "Não é permitido o uso de apenas caráter(s) branco(s)."
 }

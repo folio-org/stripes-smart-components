@@ -1,7 +1,7 @@
 {
     "cddd.changeDueDate": "Cambiar fecha de vencimiento",
     "cddd.changeDueDateConfirmation": "Cambiar fecha de vencimiento",
-    "cddd.itemsSelected": "<strong>{count}</strong> {count, plural, one {item} other {items}} <b>seleccionado(s)</b>. ",
+    "cddd.itemsSelected": "<b>{count, number}</b> {count, plural, one {item} other {items}} <b>seleccionado(s)</b>.",
     "cddd.changeSucceeded": "La fecha y la hora de vencimiento se cambiaron con éxito",
     "cddd.changeSucceededWithCount": "La fecha y hora de vencimiento se han <b> cambiado correctamente </b> <b> {succeeded, number} </b> {succeeded, plural, one { elemento } other { elementos }} .",
     "cddd.changeFailed": "Error al cambiar la fecha de vencimiento",

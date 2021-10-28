@@ -1,7 +1,7 @@
 @import '@folio/stripes-components/lib/variables';
 
 .button {
-  composes: boxOffsetSmall from "@folio/stripes-components/lib/sharedStyles/interactionStyles.css";
+  composes: boxOffsetSmall from "~@folio/stripes-components/lib/sharedStyles/interactionStyles.css";
   margin: 0;
   padding: 0;
   font-size: var(--font-size-medium);

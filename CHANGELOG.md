@@ -4,6 +4,7 @@
 
 * Add disabled prop for `<LocationLookup>` component.
 * Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.
+* Lock to `axe-core` `4.3.3`; `4.3.4` causes test failures in CI/CD.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

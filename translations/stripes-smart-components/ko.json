@@ -90,7 +90,7 @@
     "searchFieldLabel": "{moduleName} 검색",
     "sas.noResults.default": "No results found for \"{searchTerm}\". Please check your spelling and filters.",
     "sas.noResults.noTerms": "Choose a filter or enter a search query to show results.",
-    "sas.noResults.noResults": "No results found. Please check your filters.",
+    "sas.noResults.noResults": "검색 결과가 없습니다. 필터를 확인하세요.",
     "sas.noResults.loading": "Loading…",
     "cm.success": "Setting was successfully updated.",
     "system": "System",

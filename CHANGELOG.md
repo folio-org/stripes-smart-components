@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## [7.0.1] (IN PROGRESS)
+## [7.1.0] (IN PROGRESS)
 
 * Add disabled prop for `<LocationLookup>` component.
 * Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.

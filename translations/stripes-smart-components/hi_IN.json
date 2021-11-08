@@ -258,6 +258,15 @@
     "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
     "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
     "address.primary": "Primary",
-    "address.alternate ": "Alternate",
-    "ll.remoteLabel": "Remote"
+    "ll.remoteLabel": "Remote",
+    "columnManager.showColumns": "Show columns",
+    "address.alternate": "Alternate",
+    "notes.displayAsPopup.label": "Display note as a pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Users app",
+    "notes.popupModal.label": "Note for patron",
+    "notes.popupModal.delete": "Delete note",
+    "notes.close": "Close",
+    "customFields.noCustomFieldsFound": "No custom fields found",
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
 }

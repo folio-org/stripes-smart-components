@@ -1,12 +1,12 @@
 {
     "cddd.changeDueDate": "Lejárati dátum módosítása",
     "cddd.changeDueDateConfirmation": "Lejárati dátum módosítása",
-    "cddd.itemsSelected": "<b>{count}</b> tétel <b>kiválasztva.</b>",
+    "cddd.itemsSelected": "<b>{count, number}</b> {count, plural, one {item} other {items}} <b>selected.</b>",
     "cddd.changeSucceeded": "Lejárati dátum & idő sikeresen módosult",
-    "cddd.changeSucceededWithCount": "Lejárati dátum & idő <b>sikeresen</b> módosult <b>{count}</b> tételre.",
+    "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{succeeded, number}</b> {succeeded, plural, one {item} other {items}}.",
     "cddd.changeFailed": "Nem sikerült a lejárati dátum módosítása",
     "cddd.itemHasRequestQueue": "A tételhez igénylista tartozik",
-    "cddd.itemsHaveWarnings": "<b> {count} </b> tételhez tartozik <b> figyelmeztetés.</b>",
+    "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {item} other {items}} have <b>warnings.</b>",
     "cddd.header.alertDetails": "Figyelmeztetés részletei",
     "cddd.header.title": "Cím",
     "cddd.header.itemStatus": "Tétel állapota",
@@ -258,6 +258,15 @@
     "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
     "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
     "address.primary": "Primary",
-    "address.alternate ": "Alternate",
-    "ll.remoteLabel": "Remote"
+    "ll.remoteLabel": "Remote",
+    "columnManager.showColumns": "Show columns",
+    "address.alternate": "Alternate",
+    "notes.displayAsPopup.label": "Display note as a pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Users app",
+    "notes.popupModal.label": "Note for patron",
+    "notes.popupModal.delete": "Delete note",
+    "notes.close": "Close",
+    "customFields.noCustomFieldsFound": "No custom fields found",
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
 }

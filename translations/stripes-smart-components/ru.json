@@ -1,12 +1,12 @@
 {
     "cddd.changeDueDate": "Изменить срок оплаты",
     "cddd.changeDueDateConfirmation": "Изменить срок оплаты",
-    "cddd.itemsSelected": "<b>{count}</b> элементов <b> выбрано. </b>",
+    "cddd.itemsSelected": "<b>{count, number}</b> {count, plural, one {item} other {items}} <b>selected.</b>",
     "cddd.changeSucceeded": "Дата и время были успешно изменены",
-    "cddd.changeSucceededWithCount": "Дата и время выполнения были <b>успешно</b> изменены для <b>{succeeded}</b> элементов.",
+    "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{succeeded, number}</b> {succeeded, plural, one {item} other {items}}.",
     "cddd.changeFailed": "Не удалось изменить срок оплаты",
     "cddd.itemHasRequestQueue": "Запрос на книговыдачу находится в очереди",
-    "cddd.itemsHaveWarnings": "<b>{count}</b> экземпляров получили <b>предупреждения.</b>",
+    "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {item} other {items}} have <b>warnings.</b>",
     "cddd.header.alertDetails": "Подробности оповещения",
     "cddd.header.title": "Заголовок",
     "cddd.header.itemStatus": "Состояние элемента",
@@ -258,6 +258,15 @@
     "cddd.itemAgedToLost": "Due date change failed: item is Aged to lost",
     "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
     "address.primary": "Primary",
-    "address.alternate ": "Alternate",
-    "ll.remoteLabel": "Remote"
+    "ll.remoteLabel": "Remote",
+    "columnManager.showColumns": "Show columns",
+    "address.alternate": "Alternate",
+    "notes.displayAsPopup.label": "Display note as a pop-up",
+    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.users": "Users app",
+    "notes.popupModal.label": "Note for patron",
+    "notes.popupModal.delete": "Delete note",
+    "notes.close": "Close",
+    "customFields.noCustomFieldsFound": "No custom fields found",
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
 }

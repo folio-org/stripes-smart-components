@@ -40,6 +40,7 @@ createRecordPath | string | Path to link the "New" button to rather than use `ed
 editRecordComponent | component | A React component that displays an editing form for a record of the appropriate type, and which can also be used for creating new records. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<UserForm>` in ui-users](https://github.com/folio-org/ui-users/blob/master/UserForm.js).
 newRecordInitialValues | object whose keys are field-names | Values to set into the form when creating a new record.
 visibleColumns | array of fieldnames | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
+columnManagerProps | Applies additional props for the internal `<ColumnManager>` | As for [`<ColumnManager>`](https://github.com/folio-org/stripes-smart-components/blob/master/lib/ColumnManager/readme.md)
 columnWidths | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 columnMapping | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 resultsFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
@@ -59,6 +60,12 @@ getHelperComponent | func | An optional function which can be used to return con
 title | string/element | An optional property to specify title of results pane. By default module display name is used.
 hasNewButton | boolean | An optional property to specify appearance Of `New` button of results pane. By default pane displays with `New` button.
 basePath | string | An optional string to customize the path which should be used after performing search.
+resultsVirtualize | boolean | controls the `virtualize` prop to the internally rendered `<MultiColumnList>` component. 
+resultsOnMarkPosition | func | sets the `onMarkPosition` prop to the internally rendered `<MultiColumnList>` component. A paramater "position" object with a list offset and selector is provided. This can be stored on the application side to resume scroll position of the results list (if using next/prev pagination.)
+resultsOnResetMarkedPosition | func | sets the `onMarkReset` prop to the internally rendered `<MultiColumnList>` component. It can be used to nullify the "position" object in application state. 
+resultsCachedPosition | position object |  sets the `ItemToView` prop of the internally rendered `<MultiColumnList>` component. It's in the shape of `{selector: string, clientTopOffset: number}`. This object is provided by the `resultsOnMarkPosition` prop.
+resultsKey | string | Sets a `key` prop on the internally rendered `<MultiColumnList>`. Changing this value will re-initialize the MCL. If necessary, this can be used to refresh the component so that it resets/readjusts to updates in data. This should be used sparingly as it can cause multiple re-renders of the list.
+
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

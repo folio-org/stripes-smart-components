@@ -123,7 +123,7 @@
   "address.addressLabel": "Address",
   "address.noAddressesStored": "- No addresses stored -",
   "address.primary": "Primary",
-  "address.alternate ": "Alternate",
+  "address.alternate": "Alternate",
   "searchFieldLabel": "Search {moduleName}",
   "system": "System",
   "assignUnassign": "Assign / Unassign",
@@ -150,6 +150,7 @@
   "notes.editNote": "Edit note",
   "notes.saveAndClose": "Save & close",
   "notes.cancel": "Cancel",
+  "notes.close": "Close",
   "notes.copy": "Copy",
   "notes.unassign": "Unassign",
   "notes.delete": "Delete",
@@ -166,6 +167,9 @@
   "notes.titleAndDetails": "Title and details",
   "notes.showLessDetails": "Show less",
   "notes.showMoreDetails": "Show more",
+  "notes.displayAsPopup.label": "Display note as a pop-up",
+  "notes.displayAsPopup.checkout": "Check out app",
+  "notes.displayAsPopup.users": "Users app",
   "status": "Status",
   "assigned": "Assigned",
   "unassigned": "Unassigned",
@@ -178,6 +182,8 @@
   "notes.navModal.dismissLabel": "Keep editing",
   "notes.navModal.continueLabel": "Close without saving",
   "notes.navModal.unsavedChangesMsg": "Your changes have not been saved. Are you sure you want to leave this page?",
+  "notes.popupModal.label": "Note for patron",
+  "notes.popupModal.delete": "Delete note",
   "addressEdit.useAddressAsPrimaryAddress": "Use address {index} as primary address",
   "addressEdit.useAsPrimaryAddress": "Use as primary address",
   "error.addressTypeRequired": "Address type is required",
@@ -197,6 +203,7 @@
   "customFields": "Custom fields",
   "customFields.edit": "Edit",
   "customFields.new": "New",
+  "customFields.noCustomFieldsFound": "No custom fields found",
   "customFields.editCustomFields": "Edit custom fields",
   "customFields.metadata.createdBy": "Created by {userName} {date}",
   "customFields.fieldTypes.TEXTFIELD": "Text field",
@@ -209,6 +216,7 @@
   "customFields.fieldFormat": "Field format",
   "customFields.fieldValue.required": "{field} is required",
   "customFields.fieldValue.length": "{field} character limit has been exceeded. Please revise.",
+  "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
   "customFields.helperText": "Help text",
   "customFields.helperText.description": "This will show under an information icon",
   "customFields.required": "Required",
@@ -261,5 +269,7 @@
   "settings.common.delete": "Delete",
   "success.message": "The {entry} <strong>{name}</strong> was successfully <strong>{action}</strong>.",
 
-  "clipCopy.success": "Successfully copied \"{text}\" to clipboard."
+  "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
+
+  "columnManager.showColumns": "Show columns"
 }

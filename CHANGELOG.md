@@ -1,6 +1,61 @@
 # Change history for stripes-smart-components
 
-## 6.0.0 IN PROGRESS
+## [7.0.1] (IN PROGRESS)
+
+* Add disabled prop for `<LocationLookup>` component.
+* Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.
+* Lock to `axe-core` `4.3.3`; `4.3.4` causes test failures in CI/CD.
+* Use correct `css-loader` syntax. Refs STSMACOM-545.
+
+## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)
+
+* Fix filtering in `<LocationSelection>`, Fixes STSMACOM-523.
+* Add default value for `validate` prop in `<EditableListForm>`. Fixes STSMACOM-525.
+* Disable save button for `<NoteForm>` when form were no changes. Fixes STSMACOM-522.
+* View Notes Record: List indentations are not retained. Fixes STSMACOM-527.
+* Use `selectedIndex` when `locallyChangedQueryIndex` is not present during search. Fixes STSMACOM-526.
+* Always show `<ViewCustomFieldsRecord>`, even if no custom-fields are present. Refs STSMACOM-470.
+* Sort institutions, campuses and libraries in alphabetical order. Fixes STSMACOM-530.
+* Make sure custom-fields fetch has returned before evaluating its result-size. Refs STSMACOM-531.
+* Add validation for custom fields whitespace values. Refs BF-182.
+* Fix edit a user record with a custom field. Refs STSMACOM-535.
+* `<DateRangeFilter>`: use `<Datepicker>` for fields. Refs STSMACOM-493.
+* Make `<DateRangeFilter>`submit on Enter key. Refs STSMACOM-494.
+* Add `focusRef` prop to `<DateRangeFilter>` pointing to the last focused field. Refs STSMACOM-536.
+* Add `useSetRefOnFocus` hook to support `focusRef` functionality. Refs STSMACOM-536.
+* React 17. Refs STSMACOM-474.
+* Disable several unit tests that don't like `react` `17`. Refs STSMACOM-541.
+
+## [6.1.0](https://github.com/folio-org/stripes-smart-components/tree/v6.1.0) (2021-06-09)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.1...v6.1.0)
+
+* Make the move-custom-field icon a button. Refs STSMACOM-478.
+* Replace noteData type and title - with No value component. Refs STSMACOM-415.
+* Organizations alternate address label in org view not showing correctly. Refs STSMACOM-497.
+* Execute validation manually when record is being saved. Fixes STSMACOM-496.
+* Fix `<MultiSelect>` when using `<CustomField>` via final form. Fixes STSMACOM-500.
+* buggy @rehooks/local-storage 2.4.1 must be avoided. Refs STSMACOM-501.
+* Fix View Notes Record: Numbered / Nested lists not retained after editing/saving. Fixes STSMACOM-498.
+* hooks approach for ColumnManager. Refs STSMACOM-502.
+* Avoid calling `setState` when a promise returns after unmount. Refs STSMACOM-506.
+* Create/Edit Note | Added Display note as a pop-up field. Refs STSMACOM-489
+* Relax `EditCustomFieldsRecord` proptypes to handle multi-select values. Refs STSMACOM-507.
+* Add `NotePopupModal` component. Refs STSMACOM-509.
+* Always show `<NotePopupModal>` when popup notes exist. Refs STSMACOM-515.
+* Add `autofocusSearchField` prop to SearchAndSort. fixes STSMACOM-516
+* Use `isSelected` prop of MCL in SearchAndSort to highlight selected item with fewer criteria properties. fixes STSMACOM-518
+* Always display Notes title and hide details if not present. Refs STSMACOM-520.
+* Fix `<NoteForm>` to take the screen width. Refs STSMACOM-524.
+
+## [6.0.1](https://github.com/folio-org/stripes-smart-components/tree/v6.0.1) (2021-03-03)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.0.0...v6.0.1)
+
+* Export `ConfigReduxForm`, `ConfigFinalForm`. Refs STSMACOM-490.
+* Adding a new custom field focus. Refs STSMACOM-479.
+
+## [6.0.0](https://github.com/folio-org/stripes-smart-components/tree/v6.0.0) (2021-02-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v5.0.0...v6.0.0)
 
 * Require back-end permission `users.collection.get` instead of ui `ui-users.view` for ViewMetaData. Refs STSMACOM-480
 * Suggested tags are showing in reverse alpha order. Refs UITAG-37
@@ -32,8 +87,10 @@
 * Upgrade `<ControlledVocab>` to final form. Refs STSMACOM-482.
 * Upgrade `<AddressFieldGroup>` to final form. Refs STSMACOM-484.
 * Allow the selection of remote storage locations. Refs STSMACOM-483.
-* Guard appearance of remote-storage field with `hasInterface(). Refs STSMACOM-486.
+* Added `<ColumnManager>`-component. Refs STSMACOM-468.
+* Guard appearance of remote-storage field with `hasInterface()`. Refs STSMACOM-486.
 * Fix default sorting of Notes to sort by Updated Date in ascending order. Fixes STSMACOM-487.
+* Depend on `@folio/stripe-util` that is compatible with the shared peer `react-intl` `v5`.
 
 ## [5.0.0](https://github.com/folio-org/stripes-smart-components/tree/v5.0.0) (2020-10-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v4.1.1...v5.0.0)

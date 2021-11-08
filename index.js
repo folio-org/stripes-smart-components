@@ -9,6 +9,8 @@ export { default as ClipCopy } from './lib/ClipCopy';
 
 export { default as ConfigManager } from './lib/ConfigManager';
 export { default as ConfigForm } from './lib/ConfigManager/ConfigForm';
+export { default as ConfigReduxForm } from './lib/ConfigManager/ConfigReduxForm';
+export { default as ConfigFinalForm } from './lib/ConfigManager/ConfigFinalForm';
 
 export { default as ControlledVocab } from './lib/ControlledVocab';
 
@@ -65,9 +67,11 @@ export { default as NoteCreatePage } from './lib/Notes/NoteCreatePage';
 export { default as NoteViewPage } from './lib/Notes/NoteViewPage';
 export { default as NoteEditPage } from './lib/Notes/NoteEditPage';
 export { default as NotesSmartAccordion } from './lib/Notes/NotesSmartAccordion';
+export { default as NotePopupModal } from './lib/Notes/NotePopupModal';
 export { default as ViewCustomFieldsSettings } from './lib/CustomFields/pages/ViewCustomFieldsSettings';
 export { default as EditCustomFieldsSettings } from './lib/CustomFields/pages/EditCustomFieldsSettings';
 export { default as EditCustomFieldsRecord } from './lib/CustomFields/pages/EditCustomFieldsRecord';
 export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/ViewCustomFieldsRecord';
 
+export * from './lib/ColumnManager';
 export * from './lib/utils';

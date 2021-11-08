@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -20,14 +20,16 @@
       "password-validator": "1.0"
     },
     "optionalOkapiInterfaces": {
-      "remote-storage-mappings": "1.0"
+      "remote-storage-mappings": "1.0 2.0"
     }
   },
   "scripts": {
     "lint": "eslint . && stylelint \"lib/**/*.css\"",
     "eslint": "eslint .",
     "stylelint": "stylelint \"lib/**/*.css\"",
-    "test": "stripes test karma"
+    "test": "stripes test karma",
+    "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-users ./translations/users/compiled"
   },
   "devDependencies": {
     "@bigtest/convergence": "^1.0.0",
@@ -43,7 +45,8 @@
     "@folio/stripes-form": ">=6.0.0",
     "@folio/stripes-logger": ">=1.0.0",
     "@folio/stripes-util": ">=3.0.0",
-    "axe-core": "^4.0.2",
+    "@formatjs/cli": "^4.2.20",
+    "axe-core": "^4.3.3",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",
@@ -54,8 +57,8 @@
     "miragejs": "^0.1.40",
     "mocha": "^5.2.0",
     "moment": "^2.29.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-intl": "^5.8.0",
     "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
@@ -69,7 +72,7 @@
   },
   "dependencies": {
     "@folio/react-intl-safe-html": "^3.0.0",
-    "@rehooks/local-storage": "^2.3.0",
+    "@rehooks/local-storage": "2.4.0",
     "classnames": "^2.2.6",
     "final-form": "^4.18.2",
     "final-form-arrays": "^3.0.2",
@@ -78,10 +81,11 @@
     "prop-types": "^15.5.10",
     "prop-types-extra": "^1.1.0",
     "query-string": "^5.0.0",
-    "react-beautiful-dnd": "^11.0.5",
+    "react-beautiful-dnd": "^13.1.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-final-form": "^6.3.0",
     "react-final-form-arrays": "^3.1.1",
+    "react-final-form-listeners": "^1.0.3",
     "react-query": "^3.9.8",
     "react-router-prop-types": "^1.0.4",
     "react-transition-group": "^2.4.0",
@@ -89,15 +93,15 @@
     "redux-form": "^8.3.0"
   },
   "peerDependencies": {
-    "@folio/stripes-components": "^9.0.0",
-    "@folio/stripes-connect": "^6.0.0",
-    "@folio/stripes-core": "^7.0.0",
-    "@folio/stripes-final-form": "^5.0.0",
-    "@folio/stripes-form": "^6.0.0",
+    "@folio/stripes-components": "^10.0.0",
+    "@folio/stripes-connect": "^7.0.0",
+    "@folio/stripes-core": "^8.0.0",
+    "@folio/stripes-final-form": "^6.0.0",
+    "@folio/stripes-form": "^7.0.0",
     "@folio/stripes-logger": "^1.0.0",
-    "@folio/stripes-util": "^3.0.0",
+    "@folio/stripes-util": "^5.0.0",
     "moment": "^2.29.0",
-    "react": "*",
+    "react": "^17.0.2",
     "react-intl": "^5.8.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"

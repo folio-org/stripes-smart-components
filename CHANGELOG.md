@@ -6,6 +6,7 @@
 * Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.
 * Lock to `axe-core` `4.3.3`; `4.3.4` causes test failures in CI/CD.
 * Use correct `css-loader` syntax. Refs STSMACOM-545.
+* Apply baseline keyboard shortcuts for controlled vocabulary. Refs STSMACOM-548.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

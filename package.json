@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -46,7 +46,7 @@
     "@folio/stripes-logger": "^1.0.0",
     "@folio/stripes-util": "^5.0.0",
     "@formatjs/cli": "^4.2.20",
-    "axe-core": "^4.0.2",
+    "axe-core": "4.3.3",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",

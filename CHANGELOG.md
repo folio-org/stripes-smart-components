@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [6.1.3](https://github.com/folio-org/stripes-smart-components/tree/v6.1.2) (2021-11-15)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.2...v6.1.3)
+
+* Fix filtering in `<LocationSelection>`. Fixes STSMACOM-523.
+
 ## [6.1.2](https://github.com/folio-org/stripes-smart-components/tree/v6.1.2) (2021-07-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.1...v6.1.2)
 

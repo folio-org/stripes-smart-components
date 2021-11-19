@@ -56,7 +56,7 @@ Name | type | description | required | default
 `filterParamsMapping` | object | Object containing key/function pairs for converting existing filters to query state. InitializeFilters converts the array of `group.filtername` to an object keyed on groups with arrays of the active. | | `{ 'filters': initializeFilters }`
 `initialSearch` | string | The initial query that should initialize the component. | |
 `initialSearchState` | object | sets up the inital state of the `searchFields` slice of query state. | |
-`initialFiltersState` | object | sets up the inital state of the `filterFields` slice of query state. | |
+`initialFilterState` | object | sets up the inital state of the `filterFields` slice of query state. | |
 `initialSortState` | object | sets up the initial state of the `sortFields` slice of query state. | |
 `maxSortKeys` | number | If provided, specifies that maximum number of sort-keys that should be remembered for "stable sorting". | | 2
 `sortableColumns` | array | If provided, specifies the columns that can be sorted.

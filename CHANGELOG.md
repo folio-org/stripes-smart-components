@@ -9,6 +9,7 @@
 * Apply baseline keyboard shortcuts for controlled vocabulary. Refs STSMACOM-548.
 * Add id attribute to Note elements that are used in e2e tests. Refs STSMACOM-606.
 * Use <PersistedPaneset> in <SearchAndSort>. Refs STSMACOM-613.
+* Update internal state in SASQ when sort changes. Fixes STSMACOM-614.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

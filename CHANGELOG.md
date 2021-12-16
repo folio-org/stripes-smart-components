@@ -8,6 +8,7 @@
 * Use correct `css-loader` syntax. Refs STSMACOM-545.
 * Apply baseline keyboard shortcuts for controlled vocabulary. Refs STSMACOM-548.
 * Add id attribute to Note elements that are used in e2e tests. Refs STSMACOM-606.
+* Use <PersistedPaneset> in <SearchAndSort>. Refs STSMACOM-613.
 * Update internal state in SASQ when sort changes. Fixes STSMACOM-614.
 * Add preferred name to the Proxy Modal. Fixes STSMACOM-615.
 

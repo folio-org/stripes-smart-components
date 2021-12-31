@@ -12,6 +12,7 @@
 * Update internal state in SASQ when sort changes. Fixes STSMACOM-614.
 * Add preferred name to the Proxy Modal. Fixes STSMACOM-615.
 * Lint
+* Correctly specify `LayoutHeader` shape in `AddressEditGroup`. Refs STSMACOM-619.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

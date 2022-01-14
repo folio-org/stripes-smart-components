@@ -65,6 +65,8 @@ resultsOnMarkPosition | func | sets the `onMarkPosition` prop to the internally 
 resultsOnResetMarkedPosition | func | sets the `onMarkReset` prop to the internally rendered `<MultiColumnList>` component. It can be used to nullify the "position" object in application state. 
 resultsCachedPosition | position object |  sets the `ItemToView` prop of the internally rendered `<MultiColumnList>` component. It's in the shape of `{selector: string, clientTopOffset: number}`. This object is provided by the `resultsOnMarkPosition` prop.
 resultsKey | string | Sets a `key` prop on the internally rendered `<MultiColumnList>`. Changing this value will re-initialize the MCL. If necessary, this can be used to refresh the component so that it resets/readjusts to updates in data. This should be used sparingly as it can cause multiple re-renders of the list.
+customPaneSubText | node | A component that will be rendered in PaneSubHeader instead of default.
+searchFieldButtonLabel | node | A component that will be rendered inside the SearchField button instead of default.
 
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.

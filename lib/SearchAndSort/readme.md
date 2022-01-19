@@ -23,9 +23,11 @@ searchableIndexes | array of structures | Each structure in the array represents
 searchableIndexesPlaceholder | string | If this is provided and is a string, then it appears as an unselectable (permanently disabled) first entry in the index-selection dropdown. If it is provided and is `null` then no placeholder is added. For backwards compatibility, if it completely absent then a default placeholder string is used.
 selectedIndex | string | When `searchableIndexes` is provided, this must also be supplied, its value matching one of those in the provided array.
 onChangeIndex | function | If provided, this function is invoked, and passed an event structure, when the user changes which index is selected.
+onDismissDetail | function | A function to call when the detail record pane is dismissed.
 maxSortKeys | number | If provided, specifies that maximum number of sort-keys that should be remembered for "stable sorting". Defaults to 2 if not specified.
 sortableColumns | array | If provided, specifies the columns that can be sorted.
 filterConfig | array of structures | Configuration for the module's filters, as documented [in the `<FilterGroups>` readme](https://github.com/folio-org/stripes-components/tree/master/lib/FilterGroups#filter-configuration).
+hasRowClickHandlers | bool | Defaults to true. Turns row-level click handlers on and off for the results.
 initialFilters | string | The initial state of the filters when the application started up, used when resetting to the initial state. Takes the same form as the `filters` part of the URL: a comma-separated list of `group`.`name` filters that are selected.
 disableFilters | object whose keys are filter-group names | In the display of filter groups, those that are named in this object are greyed out and cannot be selected.
 filterChangeCallback | function | If provided, this function is invoked when the user changes a filter. It is passed the new set of filters, in the form of an object whose keys are the `group`.`name` specifiers of each selected filter.
@@ -36,7 +38,6 @@ initialResultCount | number | The number of records to fetch when a new search i
 resultCountIncrement | number | The amount by which to increase the number of records when scrolling close to the bottom of the loaded list.
 viewRecordComponent | component | A React component that displays a record of the appropriate type in full view. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<ViewUser>` in ui-users](https://github.com/folio-org/ui-users/blob/master/ViewUser.js).
 viewRecordPathById | function | A function that takes an id and returns a path to link brief records to. Used in lieu of `viewRecordComponent`
-viewRecordOnCollapse | function | A function to call when the detail record pane is dismissed.
 createRecordPath | string | Path to link the "New" button to rather than use `editRecordComponent`.
 editRecordComponent | component | A React component that displays an editing form for a record of the appropriate type, and which can also be used for creating new records. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<UserForm>` in ui-users](https://github.com/folio-org/ui-users/blob/master/UserForm.js).
 newRecordInitialValues | object whose keys are field-names | Values to set into the form when creating a new record.
@@ -44,9 +45,8 @@ visibleColumns | array of fieldnames | As for [`<MultiColumnList>`](https://gith
 columnManagerProps | Applies additional props for the internal `<ColumnManager>` | As for [`<ColumnManager>`](https://github.com/folio-org/stripes-smart-components/blob/master/lib/ColumnManager/readme.md)
 columnWidths | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 columnMapping | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
-resultsFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
-resultRowClickHandlers | bool | Defaults to true. Turns row-level click handlers on and off for the results. 
-resultIsSelected | func | function returning a boolean to determine whether or not an item in the results should have the 'selected' CSS style applied. A default `isMatch` function is supplied.
+resultRowFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md) 
+resultRowIsSelected | func | function returning a boolean to determine whether or not an item in the results should have the 'selected' CSS style applied. A default `isMatch` function is supplied.
 onSelectRow | func | Optional function to override the default action when selecting a row (which displays the full record). May be used, for example, when running one module embedded in another, as when ui-checkin embeds an instance of ui-users to select the user for whom items are being checked out.
 massageNewRecord | func | If provided, this function is passed newly submitted records and may massage them in whatever way it wishes before they are persisted to the back-end. May be used to perform lookups, expand abbreviations, etc.
 onCreate | func | A function which is passed the (possibly massaged) record, and must persist it to the back-end. In most cases this will be a one-liner, but some modules (e.g. ui-users) have more complex requirements.

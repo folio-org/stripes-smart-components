@@ -16,6 +16,7 @@
 * Add `paneTitleRef` prop to the `Settings` component. Refs STSMACOM-623.
 * Fix issue with EditableList crashing when a new item is added. Fixes STSMACOM-549.
 * Settings : Move focus to second pane. Refs STSMACOM-628
+* Change focus on ConfigManager mount. Refs STSMACOM-631.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

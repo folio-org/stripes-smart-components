@@ -25,6 +25,7 @@ The following properties are supported:
 
 * `navPaneWidth`: a string indicating the width of the pane where the nav links are, e.g., `"30%"`
 * `paneTitle`: the human-readable label of the pane where the nav links are.
+* `paneTitleRef`: the function to set a ref to the pane title element
 * `pages`: the list of sub-pages to be linked from the settings page. Each member of the list is an object with the following members:
   * `route`: the route, relative to that of the settings page, on which the sub-page should be found.
   * `label`: the human-readable label that, when clicked on, links to the specified route.
@@ -40,16 +41,16 @@ The following properties are supported:
   be able to see a specific Bar in detail, you might pass `pages`
   including:
 
-	  {
-	    route: 'bar',
-	    id: 'Maintain all Bars',
-	    component: ListOfBar,
-	  },
+    {
+      route: 'bar',
+      id: 'Maintain all Bars',
+      component: ListOfBar,
+    },
 
   and also `additionalRoutes` including:
 
-	  <Route
-	    path={`${match.path}/bar/:id`}
-	    render={p => <SingleBar {...p} label="Maintain specific Bar" />}
-	  />
+    <Route
+      path={`${match.path}/bar/:id`}
+      render={p => <SingleBar {...p} label="Maintain specific Bar" />}
+    />
 

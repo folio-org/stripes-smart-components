@@ -19,6 +19,7 @@
 * Accessibility: Document has multiple static elements with the same ID attribute. Refs STSMACOM-630.
 * Settings : Move focus to second pane. Refs STSMACOM-628
 * Bump `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
+* Refactor from `react-intl-safe-html` to `react-intl`. Refs STSMACOM-513.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

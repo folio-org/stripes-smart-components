@@ -29,7 +29,7 @@
     "stylelint": "stylelint \"lib/**/*.css\"",
     "test": "stripes test karma",
     "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
-    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-users ./translations/users/compiled"
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/stripes-smart-components ./translations/stripes-smart-components/compiled"
   },
   "devDependencies": {
     "@bigtest/convergence": "^1.0.0",

@@ -27,6 +27,7 @@ module.exports = (config) => {
     }
   };
 
+  configuration.mocha = { asyncOnly: true };
   // BrowserStack launcher isn't automatically added by Stripes CLI
   configuration.plugins = config.plugins;
   configuration.plugins.push('karma-browserstack-launcher');

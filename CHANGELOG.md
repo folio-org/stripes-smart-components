@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## [7.1.0] (IN PROGRESS)
+## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)
 
 * Add disabled prop for `<LocationLookup>` component.
 * Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.

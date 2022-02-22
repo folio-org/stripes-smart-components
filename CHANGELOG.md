@@ -1,5 +1,7 @@
 # Change history for stripes-smart-components
 
+## 7.2.0 IN PROGRESS
+
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)
 

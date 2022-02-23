@@ -25,6 +25,7 @@
   "cddd.header.barcode": "Barcode",
   "cddd.header.effectiveCallNumber": "Effective call number string",
   "cddd.header.loanPolicy": "Loan policy",
+  "cddd.selectAll": "Select all",
   "cddd.warning.dueDateAfterPatronExpiration": "New due date is after patron's expiration.",
   "cddd.warning.dueDateWhenLibraryClosed": "New due date is when the library is closed.",
   "cddd.warning.dueDateInPast": "New due date is in the past.",

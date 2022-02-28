@@ -1,6 +1,11 @@
 # Change history for stripes-smart-components
 
-## [7.1.0] (IN PROGRESS)
+## 7.2.0 IN PROGRESS
+
+* Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
+
+## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)
 
 * Add disabled prop for `<LocationLookup>` component.
 * Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.
@@ -19,6 +24,8 @@
 * Accessibility: Document has multiple static elements with the same ID attribute. Refs STSMACOM-630.
 * Settings : Move focus to second pane. Refs STSMACOM-628
 * Bump `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
+* Refactor from `react-intl-safe-html` to `react-intl`. Refs STSMACOM-513.
+* Notes - Pop-up note is available in notes accordion after deleting. Refs STSMACOM-627.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

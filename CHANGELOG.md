@@ -1,6 +1,10 @@
 # Change history for stripes-smart-components
 
-## [7.1.0] (IN PROGRESS)
+## 7.2.0 IN PROGRESS
+* Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
+
+## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)
 
 * Add disabled prop for `<LocationLookup>` component.
 * Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.
@@ -15,7 +19,12 @@
 * Introduce `useCustomFields` hook. Refs STSMACOM-622.
 * Add `paneTitleRef` prop to the `Settings` component. Refs STSMACOM-623.
 * Fix issue with EditableList crashing when a new item is added. Fixes STSMACOM-549.
-* Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
+* Change focus on ConfigManager mount. Refs STSMACOM-631.
+* Accessibility: Document has multiple static elements with the same ID attribute. Refs STSMACOM-630.
+* Settings : Move focus to second pane. Refs STSMACOM-628
+* Bump `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
+* Refactor from `react-intl-safe-html` to `react-intl`. Refs STSMACOM-513.
+* Notes - Pop-up note is available in notes accordion after deleting. Refs STSMACOM-627.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

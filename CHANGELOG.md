@@ -2,7 +2,6 @@
 
 ## 7.2.0 IN PROGRESS
 * Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
-
 * Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)

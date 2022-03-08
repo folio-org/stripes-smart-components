@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 7.1.2 IN PROGRESS
+
+* Tests must not inspect `<NoValue>`'s rendered state. Refs STSMACOM-638.
+
 ## [7.1.1](https://github.com/folio-org/stripes-smart-components/tree/v7.1.1) (2022-03-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.1.1)
 

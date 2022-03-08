@@ -3,6 +3,7 @@
 ## 7.2.0 IN PROGRESS
 
 * Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
+* Tests must not inspect `<NoValue>`'s rendered state. Refs STSMACOM-638.
 * Do not push to history if the url didn't change in `<SearchAndSortQuery>`. Fixes STSMACOM-637.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)

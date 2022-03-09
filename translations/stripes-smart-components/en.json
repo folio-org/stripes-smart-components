@@ -28,6 +28,8 @@
   "cddd.warning.dueDateAfterPatronExpiration": "New due date is after patron's expiration.",
   "cddd.warning.dueDateWhenLibraryClosed": "New due date is when the library is closed.",
   "cddd.warning.dueDateInPast": "New due date is in the past.",
+  "cddd.selectAllLoans": "Select all loans",
+  "cddd.selectLoan": "Select \"{loanName}\" loan",
   "cm.success": "Setting was successfully updated.",
   "dateRange.from": "From",
   "dateRange.to": "To",

@@ -1,7 +1,7 @@
 # Change history for stripes-smart-components
 
 ## 7.2.0 IN PROGRESS
-
+* Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
 * Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
 * Tests must not inspect `<NoValue>`'s rendered state. Refs STSMACOM-638.
 * Do not push to history if the url didn't change in `<SearchAndSortQuery>`. Fixes STSMACOM-637.

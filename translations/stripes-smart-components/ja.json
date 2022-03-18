@@ -86,7 +86,7 @@
     "password.repeatingSymbols.invalid": "パスワードに同じ文字を続けて使用することはできません。",
     "password.whiteSpace.invalid": "パスワードに空白を含めることはできません。",
     "password.lastTenPasswords.invalid": "以前に使用したパスワードです。新しいパスワードを入力してください。",
-    "address.addAddress": "Add address",
+    "address.addAddress": "住所を追加",
     "searchFieldLabel": "Search {moduleName}",
     "sas.noResults.default": "「 {searchTerm} 」の結果は見つかりませんでした。スペルとフィルタを確認してください。",
     "sas.noResults.noTerms": "フィルターを選択するか、検索クエリを入力して結果を表示します。",
@@ -148,10 +148,10 @@
     "addressEdit.label.addressType": "住所の種類",
     "addressEdit.label.addressLine1": "Address line 1",
     "addressEdit.label.addressLine2": "Address line 2",
-    "addressEdit.label.stateRegion": "State/Prov/Region",
+    "addressEdit.label.stateRegion": "州/県/地域",
     "addressEdit.label.zipCode": "Zip/Postal Code",
     "addressEdit.label.country": "国",
-    "addressEdit.label.city": "City",
+    "addressEdit.label.city": "市",
     "addresses": "住所",
     "address.noAddressesStored": "- No addresses stored -",
     "notes.assigned.count": "割り当て数",
@@ -268,5 +268,7 @@
     "notes.popupModal.delete": "Delete note",
     "notes.close": "Close",
     "customFields.noCustomFieldsFound": "No custom fields found",
-    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
+    "cddd.selectAllLoans": "Select all loans",
+    "cddd.selectLoan": "Select \"{loanName}\" loan"
 }

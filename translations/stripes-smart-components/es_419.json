@@ -268,5 +268,7 @@
     "notes.popupModal.delete": "Borrar nota",
     "notes.close": "Cerrar",
     "customFields.noCustomFieldsFound": "No se encontraron campos personalizados",
-    "customFields.fieldValue.whitespace": "No se permite el uso de espacios en blanco."
+    "customFields.fieldValue.whitespace": "No se permite el uso de espacios en blanco.",
+    "cddd.selectAllLoans": "Select all loans",
+    "cddd.selectLoan": "Select \"{loanName}\" loan"
 }

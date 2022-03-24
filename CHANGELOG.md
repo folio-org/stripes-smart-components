@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 7.1.1 IN PROGRESS
+## [7.1.1](https://github.com/folio-org/stripes-smart-components/tree/v7.1.1) (2022-03-24)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.1.1)
 
 * Fix issue when applying a date range filter clears other filters. Fixes STSMACOM-640.
 

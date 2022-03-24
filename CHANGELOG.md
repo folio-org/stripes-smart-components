@@ -8,6 +8,7 @@
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.1.1)
 
 * Fix issue when applying a date range filter clears other filters. Fixes STSMACOM-640.
+* Users pop -up note has slight overwrite in "Details:". Fixes STSMACOM-642.
 
 * Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
 

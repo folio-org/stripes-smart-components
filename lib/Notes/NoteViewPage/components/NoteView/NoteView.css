@@ -2,3 +2,7 @@
   margin: 0 auto;
   max-width: 50rem;
 }
+
+.note-details-container {
+  padding: 0;
+}

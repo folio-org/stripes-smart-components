@@ -7,6 +7,7 @@
 * Do not push to history if the url didn't change in `<SearchAndSortQuery>`. Fixes STSMACOM-637.
 * Correctly specify `sortby` to the manifest for `<ControlledVocab>`. Fixes STSMACOM-639.
 * Fix issue when applying a date range filter clears other filters. Fixes STSMACOM-640.
+* Users pop -up note has slight overwrite in "Details:". Fixes STSMACOM-642.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

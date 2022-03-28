@@ -268,5 +268,7 @@
     "notes.popupModal.delete": "Supprimer la note",
     "notes.close": "Fermer",
     "customFields.noCustomFieldsFound": "Aucun champ personnalisé trouvé",
-    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed."
+    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
+    "cddd.selectAllLoans": "Sélectionner tous les prêts",
+    "cddd.selectLoan": "Sélectionnez le prêt \" {loanName} \""
 }

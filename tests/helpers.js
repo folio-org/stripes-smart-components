@@ -1,5 +1,5 @@
 /* eslint-disable */
-
+import ReactDOM from 'react-dom';
 import { beforeEach } from '@bigtest/mocha';
 import setupStripesCore from '@folio/stripes-core/test/bigtest/helpers/setup-application';
 import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';
@@ -27,6 +27,16 @@ axe.configure({
 });
 
 export { axe };
+
+export function clearRoot(id) {
+  let $root = document.getElementById(id);
+
+  // if a root exists, unmount anything inside and remove it
+  if ($root) {
+    ReactDOM.unmountComponentAtNode($root);
+    $root.parentNode.removeChild($root);
+  }
+}
 
 export function setupApplication({
   scenarios,
@@ -71,7 +81,6 @@ export function setupApplication({
 // replace the dummy app to mount the component
 export function mount(component) {
   clearModules();
-
   withModules([{
     type: 'app',
     name: '@folio/ui-dummy',

@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 7.1.3 IN PROGRESS
+
+* Retrieve up to 5k campuses in `<LocationModal>`, like other location-y things. Refs STSMACOM-647.
+
 ## [7.1.2](https://github.com/folio-org/stripes-smart-components/tree/v7.1.2) (2022-03-28)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.1...v7.1.2)
 
@@ -11,8 +15,6 @@
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.1.1)
 
 * Fix issue when applying a date range filter clears other filters. Fixes STSMACOM-640.
-* Users pop -up note has slight overwrite in "Details:". Fixes STSMACOM-642.
-* Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 7.1.3 IN PROGRESS
+## [7.1.3](https://github.com/folio-org/stripes-smart-components/tree/v7.1.3) (2022-04-12)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.2...v7.1.3)
 
 * Retrieve up to 5k campuses in `<LocationModal>`, like other location-y things. Refs STSMACOM-647.
 

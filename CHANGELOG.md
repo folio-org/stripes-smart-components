@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 7.1.4 IN PROGRESS
+
+* Add pane id's to ControlledVocab and Settings Smart components. Refs STSMACOM-652.
+
 ## [7.1.3](https://github.com/folio-org/stripes-smart-components/tree/v7.1.3) (2022-04-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.2...v7.1.3)
 

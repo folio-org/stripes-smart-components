@@ -32,11 +32,12 @@
     "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/stripes-smart-components ./translations/stripes-smart-components/compiled"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
     "@bigtest/convergence": "^1.0.0",
     "@bigtest/interactor": "^0.7.2",
     "@bigtest/mocha": "^0.5.1",
     "@bigtest/react": "^0.1.2",
-    "@folio/eslint-config-stripes": "^5.2.0",
+    "@folio/eslint-config-stripes": "^6.1.0",
     "@folio/stripes-cli": "^2.5.0",
     "@folio/stripes-components": "^10.1.0",
     "@folio/stripes-connect": "^7.0.0",
@@ -48,7 +49,6 @@
     "@folio/stripes-util": "^5.1.0",
     "@formatjs/cli": "^4.2.20",
     "axe-core": "4.3.3",
-    "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",
     "eslint": "^6.2.1",

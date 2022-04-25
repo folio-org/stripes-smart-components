@@ -11,6 +11,7 @@
 * Notes Accordion is Not Closed After Deleting a Note. Refs STSMACOM-645.
 * Retrieve up to 5k campuses in `<LocationModal>`, like other location-y things. Refs STSMACOM-647.
 * Add pane id's to ControlledVocab and Settings Smart components. Refs STSMACOM-652.
+* Fix Accessibility problems for "Tag" component. Refs STSMACOM-448.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

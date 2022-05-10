@@ -252,7 +252,7 @@
     "notes.showMoreDetails": "Show more",
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
-    "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
+    "cannotSaveTagToRecord": "No se pueden guardar los datos de la etiqueta en el registro. Compruebe que tiene los permisos necesarios.",
     "cddd.itemAgedToLostWarning": "Préstamo vencido a perdido",
     "customFields.dropdown.default": "Valor por defecto",
     "cddd.itemAgedToLost": "El cambio de fecha de vencimiento falló: el artículo está señalado como perdido por el tiempo",
@@ -269,6 +269,6 @@
     "notes.close": "Cerrar",
     "customFields.noCustomFieldsFound": "No se encontraron campos personalizados",
     "customFields.fieldValue.whitespace": "No se permite el uso de espacios en blanco.",
-    "cddd.selectAllLoans": "Select all loans",
+    "cddd.selectAllLoans": "Seleccionar todos los préstamos",
     "cddd.selectLoan": "Select \"{loanName}\" loan"
 }

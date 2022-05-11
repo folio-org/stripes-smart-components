@@ -173,6 +173,7 @@
   "notes.displayAsPopup.checkout": "Check out app",
   "notes.displayAsPopup.users": "Users app",
   "status": "Status",
+  "actions": "Actions",
   "assigned": "Assigned",
   "unassigned": "Unassigned",
   "notes.deleteNote": "Delete note",

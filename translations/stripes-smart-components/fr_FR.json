@@ -270,5 +270,6 @@
     "customFields.noCustomFieldsFound": "Aucun champ personnalisé trouvé",
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
     "cddd.selectAllLoans": "Sélectionner tous les prêts",
-    "cddd.selectLoan": "Sélectionnez le prêt \" {loanName} \""
+    "cddd.selectLoan": "Sélectionnez le prêt \" {loanName} \"",
+    "actions": "Actions"
 }

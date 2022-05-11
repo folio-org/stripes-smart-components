@@ -270,5 +270,6 @@
     "customFields.noCustomFieldsFound": "Nenhum campo personalizado encontrado",
     "customFields.fieldValue.whitespace": "Não é permitido o uso de apenas caráter(s) branco(s).",
     "cddd.selectAllLoans": "Selecione todos os empréstimos",
-    "cddd.selectLoan": "Selecione o empréstimo \" {loanName} \""
+    "cddd.selectLoan": "Selecione o empréstimo \" {loanName} \"",
+    "actions": "Actions"
 }

@@ -155,8 +155,8 @@
     "addresses": "Addresses",
     "address.noAddressesStored": "- No addresses stored -",
     "notes.assigned.count": "# of assignments",
-    "notes.cautionMessage": "Notes with one assignment cannot be unassigned.",
-    "cddd.header.requests": "Requests",
+    "notes.cautionMessage": "Poznámky s jedním přiřazením nelze zrušit.",
+    "cddd.header.requests": "Žádanky",
     "cddd.itemHasBeenRecalled": "Item has been recalled",
     "notes.type": "Note type",
     "notes.type.general": "General note",
@@ -184,7 +184,7 @@
     "customFields.fieldLabel": "Field label",
     "customFields.fieldFormat": "Field format",
     "customFields.helperText": "Help text",
-    "customFields.helperText.description": "This will show under an information icon",
+    "customFields.helperText.description": "Zobrazí se pod informační ikonou",
     "customFields.required": "Required",
     "customFields.hidden": "Hidden",
     "customFields.defaultValue": "Default value",
@@ -270,5 +270,6 @@
     "customFields.noCustomFieldsFound": "No custom fields found",
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
     "cddd.selectAllLoans": "Vybrat všechny výpůjčky",
-    "cddd.selectLoan": "Vybrat výpůjčku \"{loanName}\""
+    "cddd.selectLoan": "Vybrat výpůjčku \"{loanName}\"",
+    "actions": "Actions"
 }

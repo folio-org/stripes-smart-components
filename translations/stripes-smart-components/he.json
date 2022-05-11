@@ -270,5 +270,6 @@
     "customFields.noCustomFieldsFound": "No custom fields found",
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
     "cddd.selectAllLoans": "בחר את כל ההלוואות",
-    "cddd.selectLoan": "Select \"{loanName}\" loan"
+    "cddd.selectLoan": "Select \"{loanName}\" loan",
+    "actions": "Actions"
 }

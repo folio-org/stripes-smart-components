@@ -15,6 +15,7 @@
 * Fix Accessibility problems for "Tag" component. Refs STSMACOM-448.
 * Un-pin axe-core from 4.3.3. Refs STSMACOM-546.
 * Search results with a single hit should automatically open the detail view. Fixes STSMACOM-661.
+* Add `persist` prop to <ColumnManager> to persist selection into subsequent sessions. Fixes STSMACOM-662.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

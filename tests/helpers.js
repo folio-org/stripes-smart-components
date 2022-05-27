@@ -2,7 +2,7 @@
 
 import { beforeEach } from '@bigtest/mocha';
 import setupStripesCore from '@folio/stripes-core/test/bigtest/helpers/setup-application';
-import { withModules, clearModules } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';
+import { withModules, clearModules, clearConfig, clearCookies, isModuleReady } from '@folio/stripes-core/test/bigtest/helpers/stripes-config';
 import axe from 'axe-core';
 
 import mirageOptions from './network';
@@ -33,6 +33,7 @@ export function setupApplication({
   component = null,
   permissions = {},
 } = {}) {
+  console.log('calling setupApplication');
   const initialState = {
     discovery: {
       modules: {
@@ -63,8 +64,8 @@ export function setupApplication({
   });
 
   // go to the dummy app where smart components are mounted
-  beforeEach(function () { // eslint-disable-line func-names
-    this.visit('/dummy');
+  beforeEach(async function () { // eslint-disable-line func-names
+    await this.visit('/dummy');
   });
 }
 
@@ -77,7 +78,7 @@ export function mount(component) {
     name: '@folio/ui-dummy',
     displayName: 'dummy.title',
     route: '/dummy',
-    module: () => component
+    module: () => component,
   }]);
 }
 

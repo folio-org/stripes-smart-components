@@ -33,7 +33,6 @@ export function setupApplication({
   component = null,
   permissions = {},
 } = {}) {
-  console.log('calling setupApplication');
   const initialState = {
     discovery: {
       modules: {
@@ -78,7 +77,7 @@ export function mount(component) {
     name: '@folio/ui-dummy',
     displayName: 'dummy.title',
     route: '/dummy',
-    module: () => component,
+    module: () => component
   }]);
 }
 

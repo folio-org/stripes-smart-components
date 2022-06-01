@@ -30,7 +30,10 @@ export { axe };
 
 export function setupApplication({
   scenarios,
-  component = null,
+  component = () => {
+    console.log('application rendered null')
+    return null
+  },
   permissions = {},
 } = {}) {
   const initialState = {

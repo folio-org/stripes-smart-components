@@ -116,7 +116,7 @@
     "notes.saveAndClose": "Save & close",
     "notes.cancel": "Cancel",
     "notes.editNote": "Edit note",
-    "notes.title.missing": "Please enter a note title",
+    "notes.title.missing": "Zadejte prosím název poznámky",
     "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
     "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
     "notes.title.invalidCharacter": "Note title does not accept the following characters: {characters}",

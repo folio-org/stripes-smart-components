@@ -63,8 +63,8 @@ export function setupApplication({
   });
 
   // go to the dummy app where smart components are mounted
-  beforeEach(function () { // eslint-disable-line func-names
-    this.visit('/dummy');
+  beforeEach(async function () { // eslint-disable-line func-names
+    await this.visit('/dummy');
   });
 }
 

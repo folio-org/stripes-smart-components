@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -11,7 +11,7 @@
   },
   "license": "Apache-2.0",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=14.0.0"
   },
   "stripes": {
     "okapiInterfaces": {
@@ -29,30 +29,31 @@
     "stylelint": "stylelint \"lib/**/*.css\"",
     "test": "stripes test karma",
     "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
-    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-users ./translations/users/compiled"
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/stripes-smart-components ./translations/stripes-smart-components/compiled"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/eslint-parser": "^7.17.0",
     "@bigtest/convergence": "^1.0.0",
     "@bigtest/interactor": "^0.7.2",
     "@bigtest/mocha": "^0.5.1",
     "@bigtest/react": "^0.1.2",
-    "@folio/eslint-config-stripes": "^5.2.0",
-    "@folio/stripes-cli": "folio-org/stripes-cli#dont-watch",
-    "@folio/stripes-components": "^10.0.0",
+    "@folio/eslint-config-stripes": "^6.1.0",
+    "@folio/stripes-cli": "^2.5.0",
+    "@folio/stripes-components": "^10.2.0",
     "@folio/stripes-connect": "^7.0.0",
-    "@folio/stripes-core": "^8.0.0",
+    "@folio/stripes-core": "^8.1.0",
     "@folio/stripes-final-form": "^6.0.0",
     "@folio/stripes-form": "^7.0.0",
     "@folio/stripes-logger": "^1.0.0",
     "@folio/stripes-testing": "^4.2.0",
-    "@folio/stripes-util": "^5.0.0",
+    "@folio/stripes-util": "^5.1.0",
     "@formatjs/cli": "^4.2.20",
-    "axe-core": "4.3.3",
-    "babel-eslint": "^10.1.0",
+    "axe-core": "^4.3.5",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",
-    "eslint": "^6.2.1",
-    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
     "faker": "^4.1.0",
     "inflected": "^2.0.4",
     "miragejs": "^0.1.40",
@@ -65,7 +66,9 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.0",
+    "redux-observable": "^1.2.0",
     "regenerator-runtime": "^0.13.5",
+    "rxjs": "^6.6.3",
     "sinon": "^6.3.4",
     "stylelint": "^9.5.0",
     "stylelint-config-standard": "^18.2.0",
@@ -93,13 +96,13 @@
     "redux-form": "^8.3.0"
   },
   "peerDependencies": {
-    "@folio/stripes-components": "^10.0.0",
+    "@folio/stripes-components": "^10.2.0",
     "@folio/stripes-connect": "^7.0.0",
-    "@folio/stripes-core": "^8.0.0",
+    "@folio/stripes-core": "^8.1.0",
     "@folio/stripes-final-form": "^6.0.0",
     "@folio/stripes-form": "^7.0.0",
     "@folio/stripes-logger": "^1.0.0",
-    "@folio/stripes-util": "^5.0.0",
+    "@folio/stripes-util": "^5.1.0",
     "moment": "^2.29.0",
     "react": "^17.0.2",
     "react-intl": "^5.8.0",

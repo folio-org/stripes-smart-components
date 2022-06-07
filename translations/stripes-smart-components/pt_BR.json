@@ -5,7 +5,7 @@
     "cddd.changeSucceeded": "A data e hora de vencimento foram alteradas com sucesso",
     "cddd.changeSucceededWithCount": "Data e hora de vencimento foram <b>alteradas</b> com sucesso para <b>{succeeded, number}</b> {succeeded, plural, one {item} other {itens}} .",
     "cddd.changeFailed": "Não foi possível alterar a data de devolução",
-    "cddd.itemHasRequestQueue": "Item tem uma fila de pedidos",
+    "cddd.itemHasRequestQueue": "Exemplar tem uma fila de solicitações",
     "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {item} other {itens}} tem <b>avisos.</b>",
     "cddd.header.alertDetails": "Detalhes de alertas",
     "cddd.header.title": "Título",
@@ -13,7 +13,7 @@
     "cddd.header.currentDueDate": "Data de vencimento atual",
     "cddd.header.barcode": "Código de barras",
     "cddd.header.loanPolicy": "Política de empréstimos",
-    "cddd.warning.dueDateAfterPatronExpiration": "A nova data de vencimento é após a expiração do patrocinador.",
+    "cddd.warning.dueDateAfterPatronExpiration": "A nova data de vencimento é após a expiração do usuário.",
     "cddd.warning.dueDateWhenLibraryClosed": "A nova data de vencimento está definida quando a biblioteca está fechada.",
     "cddd.warning.dueDateInPast": "A data de vencimento nova está no passado.",
     "cv.cannotDeleteTermHeader": "Não é possível excluir {type}",
@@ -268,5 +268,8 @@
     "notes.popupModal.delete": "Excluir nota",
     "notes.close": "Fechar",
     "customFields.noCustomFieldsFound": "Nenhum campo personalizado encontrado",
-    "customFields.fieldValue.whitespace": "Não é permitido o uso de apenas caráter(s) branco(s)."
+    "customFields.fieldValue.whitespace": "Não é permitido o uso de apenas caráter(s) branco(s).",
+    "cddd.selectAllLoans": "Selecione todos os empréstimos",
+    "cddd.selectLoan": "Selecione o empréstimo \" {loanName} \"",
+    "actions": "Ações"
 }

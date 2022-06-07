@@ -1,6 +1,27 @@
 # Change history for stripes-smart-components
 
-## [7.1.0] (IN PROGRESS)
+## 7.2.0 IN PROGRESS
+* EditableList: `actions` column title should be capitalized and translated. Refs STSMACOM-519.
+* Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
+* Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
+* Tests must not inspect `<NoValue>`'s rendered state. Refs STSMACOM-638.
+* Do not push to history if the url didn't change in `<SearchAndSortQuery>`. Fixes STSMACOM-637.
+* Correctly specify `sortby` to the manifest for `<ControlledVocab>`. Fixes STSMACOM-639.
+* Fix issue when applying a date range filter clears other filters. Fixes STSMACOM-640.
+* Users pop -up note has slight overwrite in "Details:". Fixes STSMACOM-642.
+* Notes Accordion is Not Closed After Deleting a Note. Refs STSMACOM-645.
+* Retrieve up to 5k campuses in `<LocationModal>`, like other location-y things. Refs STSMACOM-647.
+* Add pane id's to ControlledVocab and Settings Smart components. Refs STSMACOM-652.
+* Fix Accessibility problems for "Tag" component. Refs STSMACOM-448.
+* Un-pin axe-core from 4.3.3. Refs STSMACOM-546.
+* Search results with a single hit should automatically open the detail view. Fixes STSMACOM-661.
+* Add `persist` prop to <ColumnManager> to persist selection into subsequent sessions. Fixes STSMACOM-662.
+* Update CI image to NodeJS 16. Refs STSMACOM-664.
+* Add pagingCanGoNext and pagingCanGoPrevious props to SearchAndSort component. Refs STSMACOM-665.
+* ControlledVocab - optimistic locking. Refs STSMACOM-668.
+
+## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)
 
 * Add disabled prop for `<LocationLookup>` component.
 * Config Manager | Apply baseline keyboard shortcuts. Refs STSMACOM-544.
@@ -20,6 +41,7 @@
 * Settings : Move focus to second pane. Refs STSMACOM-628
 * Bump `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
 * Refactor from `react-intl-safe-html` to `react-intl`. Refs STSMACOM-513.
+* Notes - Pop-up note is available in notes accordion after deleting. Refs STSMACOM-627.
 
 ## [7.0.0](https://github.com/folio-org/stripes-smart-components/tree/v7.0.0) (2021-09-27)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v6.1.0...v7.0.0)

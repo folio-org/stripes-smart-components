@@ -8,6 +8,8 @@ The UI for rendering a `<MenuSection>` with a set of checkboxes is passed down a
 
 The required ID passed to `<ColumnManager>` is used to persist the user's selected columns in sessionStorage.
 
+If the `persist` prop is present and true, then local storage is used instead of session storage, so that the set of selected columns persists into subsequent sessions.
+
 ## Basic Usage
 ```js
     import { ColumnManager } from '@stripes/folio/smart-components';
@@ -139,3 +141,4 @@ children | func | The render-prop function that will receive the relevant props 
 columnMapping | object | An object that maps keys to labels. The order of the keys will determine the default order of the columns. | | ☑️
 excludeKeys | array | Exclude some columns from being toggleable. These keys will be excluded from the columns menu UI. | |
 id | string | The unique ID is used to generate the storage key for persisting the visible columns in sessionStorage. The ID will also be used as a prefixed ID for any UI that is passed down to the render-prop function. | | ☑️
+persist | bool | If true, then the set of selected columns persists into subsequent sessions instead of being forgotten at the end of the present session | false |

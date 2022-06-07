@@ -269,6 +269,7 @@
     "notes.close": "关闭",
     "customFields.noCustomFieldsFound": "未找到自定义字段",
     "customFields.fieldValue.whitespace": "不允许仅使用空白字符。",
-    "cddd.selectAllLoans": "Select all loans",
-    "cddd.selectLoan": "Select \"{loanName}\" loan"
+    "cddd.selectAllLoans": "选择所有借阅",
+    "cddd.selectLoan": "选择“ {loanName} ”借阅",
+    "actions": "操作"
 }

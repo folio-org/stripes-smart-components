@@ -270,5 +270,6 @@
     "customFields.noCustomFieldsFound": "لم يتم العثور على حقول مخصصة",
     "customFields.fieldValue.whitespace": "غير مسموح بالمسافة البيضاء فقط.",
     "cddd.selectAllLoans": "تحديد كل الإعارات",
-    "cddd.selectLoan": "حدد إعارة \"{loanName}\""
+    "cddd.selectLoan": "حدد إعارة \"{loanName}\"",
+    "actions": "الإجراءات"
 }

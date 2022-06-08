@@ -271,5 +271,6 @@
     "customFields.fieldValue.whitespace": "Nur Leerzeichen sind nicht erlaubt.",
     "cddd.selectAllLoans": "Select all loans",
     "cddd.selectLoan": "Select \"{loanName}\" loan",
-    "actions": "Actions"
+    "actions": "Actions",
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
 }

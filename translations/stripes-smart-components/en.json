@@ -275,5 +275,6 @@
 
   "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
 
-  "columnManager.showColumns": "Show columns"
+  "columnManager.showColumns": "Show columns",
+  "editableList.actionsColumnHeader": "Actions"
 }

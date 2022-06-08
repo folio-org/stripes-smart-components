@@ -1,5 +1,7 @@
 // typical mirage config export
 export default function config() {
+  this.timing = 0;
+
   // okapi endpoints
   this.get('_/proxy/tenants/:id/modules', [
     {

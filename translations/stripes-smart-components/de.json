@@ -270,5 +270,7 @@
     "customFields.noCustomFieldsFound": "Keine benutzerdefinierten Felder gefunden",
     "customFields.fieldValue.whitespace": "Nur Leerzeichen sind nicht erlaubt.",
     "cddd.selectAllLoans": "Select all loans",
-    "cddd.selectLoan": "Select \"{loanName}\" loan"
+    "cddd.selectLoan": "Select \"{loanName}\" loan",
+    "actions": "Actions",
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
 }

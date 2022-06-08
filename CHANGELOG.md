@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
 ## 7.2.0 IN PROGRESS
+* EditableList: `actions` column title should be capitalized and translated. Refs STSMACOM-519.
 * Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
 * Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
 * Tests must not inspect `<NoValue>`'s rendered state. Refs STSMACOM-638.
@@ -12,6 +13,12 @@
 * Retrieve up to 5k campuses in `<LocationModal>`, like other location-y things. Refs STSMACOM-647.
 * Add pane id's to ControlledVocab and Settings Smart components. Refs STSMACOM-652.
 * Fix Accessibility problems for "Tag" component. Refs STSMACOM-448.
+* Un-pin axe-core from 4.3.3. Refs STSMACOM-546.
+* Search results with a single hit should automatically open the detail view. Fixes STSMACOM-661.
+* Add `persist` prop to <ColumnManager> to persist selection into subsequent sessions. Fixes STSMACOM-662.
+* Update CI image to NodeJS 16. Refs STSMACOM-664.
+* Add pagingCanGoNext and pagingCanGoPrevious props to SearchAndSort component. Refs STSMACOM-665.
+* ControlledVocab - optimistic locking. Refs STSMACOM-668.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

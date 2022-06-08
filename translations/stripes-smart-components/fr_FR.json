@@ -270,5 +270,7 @@
     "customFields.noCustomFieldsFound": "Aucun champ personnalisé trouvé",
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
     "cddd.selectAllLoans": "Sélectionner tous les prêts",
-    "cddd.selectLoan": "Sélectionnez le prêt \" {loanName} \""
+    "cddd.selectLoan": "Sélectionnez le prêt \" {loanName} \"",
+    "actions": "Actions",
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
 }

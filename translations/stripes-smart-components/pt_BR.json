@@ -271,5 +271,6 @@
     "customFields.fieldValue.whitespace": "Não é permitido o uso de apenas caráter(s) branco(s).",
     "cddd.selectAllLoans": "Selecione todos os empréstimos",
     "cddd.selectLoan": "Selecione o empréstimo \" {loanName} \"",
-    "actions": "Ações"
+    "actions": "Ações",
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
 }

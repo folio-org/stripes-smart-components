@@ -19,6 +19,7 @@
 * Update CI image to NodeJS 16. Refs STSMACOM-664.
 * Add pagingCanGoNext and pagingCanGoPrevious props to SearchAndSort component. Refs STSMACOM-665.
 * ControlledVocab - optimistic locking. Refs STSMACOM-668.
+* All notes on a user record set to pop up should pop up, not just the first. Refs STSMACOM-667.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

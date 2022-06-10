@@ -43,7 +43,7 @@ export function setupApplication({
   setupStripesCore({
     mirageOptions: {
       serverType: 'miragejs',
-      ...mirageOptions
+      ...mirageOptions,
     },
     scenarios,
     permissions,

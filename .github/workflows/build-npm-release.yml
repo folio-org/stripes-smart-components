@@ -27,14 +27,15 @@ jobs:
       COMPILE_TRANSLATION_FILES: 'true'
       PUBLISH_MOD_DESCRIPTOR: 'true'
       FOLIO_NPM_REGISTRY: 'https://repository.folio.org/repository/npm-folio/'
+      FOLIO_NPM_REGISTRY_AUTH: '//repository.folio.org/repository/npm-folio/'
       FOLIO_MD_REGISTRY: 'https://folio-registry.dev.folio.org'
-      NODEJS_VERSION: '12'
+      NODEJS_VERSION: '16'
       JEST_JUNIT_OUTPUT_DIR: 'artifacts/jest-junit'
       JEST_COVERAGE_REPORT_DIR: 'artifacts/coverage-jest/lcov-report/'
       BIGTEST_JUNIT_OUTPUT_DIR: 'artifacts/runTest'
       BIGTEST_COVERAGE_REPORT_DIR: 'artifacts/coverage/lcov-report/'
       OKAPI_PULL: '{ "urls" : [ "https://folio-registry.dev.folio.org" ] }'
-      SQ_LCOV_REPORT: 'artifacts/coverage-jest/lcov.info'
+      SQ_LCOV_REPORT: 'artifacts/coverage/lcov.info'
       SQ_EXCLUSIONS: '**/platform/alias-service.js,**/docs/**,**/node_modules/**,**/examples/**,**/artifacts/**,**/ci/**,Jenkinsfile,**/LICENSE,**/*.css,**/*.md,**/*.json,**/tests/**,**/stories/*.js,**/test/**,**/.stories.js,**/resources/bigtest/interactors/**,**/resources/bigtest/network/**,**/*-test.js,**/*.test.js,**/*-spec.js,**/karma.conf.js,**/jest.config.js'
 
     runs-on: ubuntu-latest
@@ -68,7 +69,7 @@ jobs:
       - name: Setup kernel for react native, increase watchers
         run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
       - name: Use Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODEJS_VERSION }}
           check-latest: true
@@ -207,7 +208,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
       - name: Set up NPM environment for publishing
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODEJS_VERSION }}
           check-latest: true
@@ -216,7 +217,7 @@ jobs:
       - name: Set _auth in .npmrc
         run: |
           npm config set @folio:registry $FOLIO_NPM_REGISTRY
-          npm config set _auth $NODE_AUTH_TOKEN
+          npm config set $FOLIO_NPM_REGISTRY_AUTH:_auth $NODE_AUTH_TOKEN
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 

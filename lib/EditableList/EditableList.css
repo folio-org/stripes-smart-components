@@ -9,6 +9,10 @@
   margin-bottom: 15px;
 }
 
+.mclRowContainer {
+  width: fit-content;
+}
+
 .editListRow {
   display: flex;
   max-width: 100%;

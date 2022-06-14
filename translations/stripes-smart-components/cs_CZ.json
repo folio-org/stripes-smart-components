@@ -13,7 +13,7 @@
     "cddd.header.currentDueDate": "Current due date",
     "cddd.header.barcode": "Čárový kód",
     "cddd.header.loanPolicy": "Loan policy",
-    "cddd.warning.dueDateAfterPatronExpiration": "New due date is after patron's expiration.",
+    "cddd.warning.dueDateAfterPatronExpiration": "Nové datum splatnosti je po vypršení platnosti čtenáře.",
     "cddd.warning.dueDateWhenLibraryClosed": "New due date is when the library is closed.",
     "cddd.warning.dueDateInPast": "New due date is in the past.",
     "cv.cannotDeleteTermHeader": "Nelze odstranit {type}",
@@ -116,7 +116,7 @@
     "notes.saveAndClose": "Save & close",
     "notes.cancel": "Cancel",
     "notes.editNote": "Edit note",
-    "notes.title.missing": "Please enter a note title",
+    "notes.title.missing": "Zadejte prosím název poznámky",
     "notes.title.lengthLimitExceeded": "Note title character limit has been exceeded",
     "notes.details.lengthLimitExceeded": "Note details character limit has been exceeded",
     "notes.title.invalidCharacter": "Note title does not accept the following characters: {characters}",
@@ -271,5 +271,6 @@
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
     "cddd.selectAllLoans": "Vybrat všechny výpůjčky",
     "cddd.selectLoan": "Vybrat výpůjčku \"{loanName}\"",
-    "actions": "Akce"
+    "actions": "Akce",
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
 }

@@ -191,6 +191,7 @@
   "addressEdit.useAsPrimaryAddress": "Use as primary address",
   "error.addressTypeRequired": "Address type is required",
   "error.addressTypeTaken": "Address type is already taken",
+  "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
   "error.name.duplicate": "{fieldLabel} already exists.",
   "error.defaultSaveError": "Error on saving data",
   "error.defaultRemoveError": "'Error on removing data'",
@@ -274,5 +275,6 @@
 
   "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
 
-  "columnManager.showColumns": "Show columns"
+  "columnManager.showColumns": "Show columns",
+  "editableList.actionsColumnHeader": "Actions"
 }

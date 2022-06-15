@@ -1,6 +1,8 @@
 # Change history for stripes-smart-components
 
-## 7.2.0 IN PROGRESS
+## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)
+
 * EditableList: `actions` column title should be capitalized and translated. Refs STSMACOM-519.
 * Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
 * Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.

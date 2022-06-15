@@ -1,5 +1,8 @@
 # Change history for stripes-smart-components
 
+## 7.3.0 IN PROGRESS
+* Use query from props as initial value for SearchAndSort search input instead of local state. Refs STSMACOM-671.
+
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)
 

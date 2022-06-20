@@ -24,6 +24,7 @@
 * All notes on a user record set to pop up should pop up, not just the first. Refs STSMACOM-667.
 * Enable nonInteractiveHeaders prop to be passed to MCL via SearchAndSort component. Refs STSMACOM-669.
 * Unable to scroll to action buttons in `<EditableListForm>` on small screens. Refs STSMACOM-670.
+* If two patrons in a row have pop-up notes, all should appear. Refs STSMACOM-672.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

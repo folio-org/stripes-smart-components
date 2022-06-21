@@ -272,5 +272,6 @@
     "cddd.selectAllLoans": "تحديد كل الإعارات",
     "cddd.selectLoan": "حدد إعارة \"{loanName}\"",
     "actions": "الإجراءات",
-    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
+    "error.conflict": "أنت تقوم بتحرير نسخة قديمة من هذه البيانات. لتحميل أحدث إصدار، قم بالنقر على إلغاء، <b>تحديث الصفحة </b> وحاول مرة أخرى.",
+    "editableList.actionsColumnHeader": "الإجراءات"
 }

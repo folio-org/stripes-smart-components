@@ -3,7 +3,7 @@
     "cddd.changeDueDateConfirmation": "Cambiar fecha de vencimiento",
     "cddd.itemsSelected": "<b>{count, number}</b> {count, plural, one {item} other {items}} <b>selected.</b>",
     "cddd.changeSucceeded": "La fecha y la hora de vencimiento se cambiaron con éxito",
-    "cddd.changeSucceededWithCount": "Due date & time has been <b>successfully</b> changed for <b>{succeeded, number}</b> {succeeded, plural, one {item} other {items}}.",
+    "cddd.changeSucceededWithCount": "La fecha y hora de vencimiento ha sido <b>correctamente</b> modificada <b>{succeeded, number}</b> {succeeded, plural, one {item} other {items}}.",
     "cddd.changeFailed": "Error al cambiar la fecha de vencimiento",
     "cddd.itemHasRequestQueue": "El ejemplar tiene una cola de solicitudes",
     "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {item} other {items}} have <b>warnings.</b>",
@@ -269,8 +269,9 @@
     "notes.close": "Close",
     "customFields.noCustomFieldsFound": "No custom fields found",
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
-    "cddd.selectAllLoans": "Select all loans",
-    "cddd.selectLoan": "Select \"{loanName}\" loan",
-    "actions": "Actions",
-    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
+    "cddd.selectAllLoans": "Seleccionar todos los préstamos",
+    "cddd.selectLoan": "Seleccione el préstamo \" {loanName} \"",
+    "actions": "Acciones",
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
+    "editableList.actionsColumnHeader": "Acciones"
 }

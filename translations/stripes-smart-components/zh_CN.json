@@ -272,5 +272,6 @@
     "cddd.selectAllLoans": "选择所有借阅",
     "cddd.selectLoan": "选择“ {loanName} ”借阅",
     "actions": "操作",
-    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
+    "editableList.actionsColumnHeader": "Actions"
 }

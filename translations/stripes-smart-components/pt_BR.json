@@ -272,5 +272,6 @@
     "cddd.selectAllLoans": "Selecione todos os empréstimos",
     "cddd.selectLoan": "Selecione o empréstimo \" {loanName} \"",
     "actions": "Ações",
-    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
+    "error.conflict": "Você está editando uma versão antiga desses dados. Para carregar a versão mais recente, clique em Cancelar, <b> atualize a página </b> e tente novamente.",
+    "editableList.actionsColumnHeader": "Ações"
 }

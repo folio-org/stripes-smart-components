@@ -69,6 +69,7 @@ Name | type | description | required | default
 `queryStateReducer` | func | Powerful function that allows for manipulation of the internal state of the component with each change. Simply return the state that you need to be set. | | `(curState, nextState) => nextState`
 `searchChangeCallback`, `filterChangeCallback`, `sortChangeCallback` | func | Callbacks to apply other updates within your application when their corresponding slice of internal state.
 `syncToLocationSearch` | bool | If `false`, this component will not update based on changes to the browser's location. This is ideal for sub-module searches and plug-ins that work solely of local resources and do not affect the browsers' location. With the `true` setting, this component will respond to changes in the browser's query string - this works with direct linking and resetting via link. | | `true`
+`setQueryOnMount` | bool | Defaults to `false`. If true, will call the querySetter when the component mounts providing any initialized query state. | | `false`
 
 ## Example Usage
 
@@ -177,7 +178,7 @@ const filterSort = (curState, nextState) => {
 
 ## Initializing the query state
 By default, `<SearchAndSortQuery>` will initialize its query state using its 'location' prop - this comes from the url in the address bar. SearchAndSort-based modules include their default queries in their 'home' url ex: `/users?sort=name`.
-If using the local resource strictly for your query string (typical plugin behavior), you can set the `syncToLocationSearch` prop to `false` and supply an `initialSearch` prop with the search string beginning with `?` - ex: `initialSearch="?sort=name"`
+If using the local resource strictly for your query string (typical plugin behavior), you can set the `syncToLocationSearch` prop to `false` and supply an `initialSearch` prop with the search string beginning with `?` - ex: `initialSearch="?sort=name"`. If your plugin uses `initialFilterState` or `initialSortState` and you wish to update the query accordingly when the component mounts, use the `setQueryOnMount` prop.
 
 ## Resetting
 `<SearchAndSortQuery>` will use the `initialSearch` prop to reset its query state for any 'reset' functionality for filters and search criteria.

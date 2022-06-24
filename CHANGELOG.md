@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 7.2.2 IN PROGRESS
+
+* Search/Filter pane is not in a collapsed state. Refs STSMACOM-677.
+
 ## [7.2.1](https://github.com/folio-org/stripes-smart-components/tree/v7.2.1) (2022-07-26)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.2.1)
 

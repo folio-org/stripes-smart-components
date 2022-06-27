@@ -2,6 +2,7 @@
 
 ## 7.3.0 IN PROGRESS
 * Search term isn't persisted in SearchAndSort. Refs STSMACOM-671.
+* Search/Filter pane is not in a collapsed state. Refs STSMACOM-677.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 7.2.1 IN PROGRESS
+
+* Mark `initialValues` as immutable in `<LocationForm>`. Fixes STSMACOM-679.
+
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)
 

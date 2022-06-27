@@ -3,6 +3,7 @@
 ## 7.3.0 IN PROGRESS
 * Search term isn't persisted in SearchAndSort. Refs STSMACOM-671.
 * Search/Filter pane is not in a collapsed state. Refs STSMACOM-677.
+* Mark `initialValues` as immutable in `<LocationForm>`. Fixes STSMACOM-679.
 * Fix `<SearchAndSort>` query doesn't reset when clicking back in browser. Fixes STSMACOM-676.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)

@@ -201,7 +201,7 @@
     "customFields.settings.accordion.hidden": "(Skryté)",
     "customFields.recordAccordion.defaultName": "Custom fields",
     "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
-    "cddd.header.effectiveCallNumber": "Effective call number string",
+    "cddd.header.effectiveCallNumber": "Efektivní řetězec signatur",
     "cddd.itemDeclaredLost": "Nepodařilo se změnit datum splatnosti: jednotka je prohlášena za ztracenou",
     "cddd.itemDeclaredLostWarning": "Jednotka je prohlášena za ztracenou",
     "customFields.required.checked": "Yes",

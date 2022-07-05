@@ -266,7 +266,7 @@
     "notes.displayAsPopup.users": "Users app",
     "notes.popupModal.label": "Note for patron",
     "notes.popupModal.delete": "Delete note",
-    "notes.close": "Close",
+    "notes.close": "Cerrar",
     "customFields.noCustomFieldsFound": "No custom fields found",
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
     "cddd.selectAllLoans": "Seleccionar todos los préstamos",

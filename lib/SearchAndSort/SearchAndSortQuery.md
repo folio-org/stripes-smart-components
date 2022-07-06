@@ -143,7 +143,7 @@ These are adapter functions used to get and set your your query according to you
     return get(this.props.resources, 'query', {});
   }
 ```
-If your application is not using stripes-connect it may need to provide its own logic for query manipulation such as full replacement of the query versus merely an update. The `nsValues` supplied to the `querySetter` are currently only calculated / provided for changed values that invoked the querySetter - so they should be assigned into existing an existing state object. For example:
+If your application is not using stripes-connect it may need to provide its own logic for query manipulation such as full replacement of the query versus merely an update. The `nsValues` supplied to the `querySetter` are currently only calculated / provided for changed values that invoked the querySetter - so they should be assigned into an existing state object for an update. For example:
 
 ```js
   const [query, setQuery] = useState({});

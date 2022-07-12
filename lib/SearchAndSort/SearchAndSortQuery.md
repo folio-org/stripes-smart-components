@@ -63,7 +63,7 @@ Name | type | description | required | default
 `nsParams` | string, object | For instances where namespacing params due to a shared query string is necessary. A string will place the string in front of the parameter separated by a dot. An object can be used for name-spacing on a per-parameter basis. | |
 `onComponentWillUnmount` | func | for performing any necessary cleanup when the component dismounts. | | The component alone will reset the query to the initial query.
 `queryGetter` | func | An adapter function called internally for querying parameters. Its passed the an object containing the `location` object from react-router. | | By default, it returns the search key of location, parsed via `queryString.parse`
-`querySetter` | func | An adapter function for applying your query. It's passed an object with `location`, `history` object, `values` (pre and post namespace), as well as the internal `state` of the component - all potentially useful for constructing and applying your query. | | By default it builds the url and applies it via `history.push`
+`querySetter` | func | An adapter function for applying your query. It's passed an object with `location`, `history` object, `values` (pre and post namespace) that are only from the invoking change - ( filters, search, or sorting) as well as the internal `state` of the component - all potentially useful for constructing and applying your query. | | By default it builds the url and applies it via `history.push`
 `searchParamsMapping` | object | Object containing key/function pairs for converting pre-existing search parameters to query state | | `{ 'query': v => v }`
 `sortParamsMapping` | object | Object containing key/function pairs for converting pre-existing sorting parameters to query state. | | `{ 'sort': v => v }`
 `queryStateReducer` | func | Powerful function that allows for manipulation of the internal state of the component with each change. Simply return the state that you need to be set. | | `(curState, nextState) => nextState`
@@ -131,7 +131,7 @@ Name | type | description | required | default
 ```
 
 ## Using QueryGetter and QuerySetter
-These are adapter functions used to get and set your your query according to your particular modules needs. Some modules may use the window location (default functionality), others may need to update the query via the mutator (local resource.) A basic example: using the local resource...
+These are adapter functions used to get and set your your query according to your particular modules needs. Some modules may use the window location (default functionality), others may need to update the query via the mutator (`stripes-connect` local resource.) A basic example: using the stripes-connect local resource...
 
 ```
 // nsValues simply return the base value name if no namespacing is provided.
@@ -142,6 +142,14 @@ These are adapter functions used to get and set your your query according to you
   queryGetter = () => {
     return get(this.props.resources, 'query', {});
   }
+```
+If your application is not using stripes-connect it may need to provide its own logic for query manipulation such as full replacement of the query versus merely an update. The `nsValues` supplied to the `querySetter` are currently only calculated / provided for changed values that invoked the querySetter - so they should be assigned into an existing state object for an update. For example:
+
+```js
+  const [query, setQuery] = useState({});
+  const querySetter = ({ nsValues }) => {
+    setQuery({ ...query, ...nsValues});
+  };
 ```
 
 ## changeType

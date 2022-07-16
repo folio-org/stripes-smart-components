@@ -73,6 +73,8 @@ customPaneSubText | node | A component that will be rendered in PaneSubHeader in
 searchFieldButtonLabel | node | A component that will be rendered inside the SearchField button instead of default.
 `regExpForQuery`| string | A prop for replacing the value in SearchField from query. For example, we need to use this when we have a specific query like this `subjects > "query value"` and we want to remove everything except for query value.
 `isCountHidden` | bool | A prop that give us possibiblty to hide count of records in Pane.
+onSubmitSearch | function | An optional function to extend the form submission functionality.
+
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

@@ -7,6 +7,7 @@
 * Fix `<SearchAndSort>` query doesn't reset when clicking back in browser. Fixes STSMACOM-676.
 * Copy query into search field when navigating back and forth. Fixes STSMACOM-681.
 * Add isCountHidden prop to SearchAndSort component. Refs STSMACOM-683.
+* Add an optional onSubmitSearch callback function to extend the form submission functionality. Fixes STSMACOM-682.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

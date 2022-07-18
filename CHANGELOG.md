@@ -6,7 +6,7 @@
 * Mark `initialValues` as immutable in `<LocationForm>`. Fixes STSMACOM-679.
 * Fix `<SearchAndSort>` query doesn't reset when clicking back in browser. Fixes STSMACOM-676.
 * Copy query into search field when navigating back and forth. Fixes STSMACOM-681.
-* CLONE - browse contributors with special characters shows incomplete error message. Refs STSMACOM-684.
+* Accept `validateSearchOnSubmit` prop to prevent invalid searches. Refs STSMACOM-684.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

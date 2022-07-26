@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 7.2.1 IN PROGRESS
+## [7.2.1](https://github.com/folio-org/stripes-smart-components/tree/v7.2.1) (2022-07-26)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.2.1)
 
 * Mark `initialValues` as immutable in `<LocationForm>`. Fixes STSMACOM-679.
 * Add isCountHidden prop to SearchAndSort component. Refs STSMACOM-683.

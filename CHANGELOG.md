@@ -11,6 +11,7 @@
 * Accept `validateSearchOnSubmit` prop to prevent invalid searches. Refs STSMACOM-684.
 * Support `notes` interface version `3.0`. Refs STSMACOM-686.
 * Extend NotePopupModal. Refs STSMACOM-688.
+* Pop-up Note > Display MetaSection component. Refs STSMACOM-694
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

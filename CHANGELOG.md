@@ -13,6 +13,7 @@
 * Extend NotePopupModal. Refs STSMACOM-688.
 * Pop-up Note > Display MetaSection component. Refs STSMACOM-694
 * Fix prop type for `regExpForQuery` prop in `<SearchAndSort>`. Fixes STSMACOM-689.
+* Add the ability to add a new parameter to the URL and synchronize it with the value of the search field. Fixes STSMACOM-697.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

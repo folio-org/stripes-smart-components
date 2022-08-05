@@ -1,8 +1,10 @@
 # Change history for stripes-smart-components
 
-## 7.2.2 IN PROGRESS
+## [7.2.2](https://github.com/folio-org/stripes-smart-components/tree/v7.2.2) (2022-08-04)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.1...v7.2.2)
 
 * Search/Filter pane is not in a collapsed state. Refs STSMACOM-677.
+* If two patrons in a row have pop-up notes, all should appear. Refs STSMACOM-672.
 
 ## [7.2.1](https://github.com/folio-org/stripes-smart-components/tree/v7.2.1) (2022-07-26)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.2.1)
@@ -34,7 +36,6 @@
 * All notes on a user record set to pop up should pop up, not just the first. Refs STSMACOM-667.
 * Enable nonInteractiveHeaders prop to be passed to MCL via SearchAndSort component. Refs STSMACOM-669.
 * Unable to scroll to action buttons in `<EditableListForm>` on small screens. Refs STSMACOM-670.
-* If two patrons in a row have pop-up notes, all should appear. Refs STSMACOM-672.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

@@ -73,6 +73,7 @@ customPaneSubText | node | A component that will be rendered in PaneSubHeader in
 searchFieldButtonLabel | node | A component that will be rendered inside the SearchField button instead of default.
 `isCountHidden` | bool | A prop that give us possibiblty to hide count of records in Pane.
 onSubmitSearch | function | An optional function to extend the form submission functionality.
+extraParamsToReset | object | An object with parameters to be removed from the URL after the search query is submitted and after the user's search query is cleared.
 
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.

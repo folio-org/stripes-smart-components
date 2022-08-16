@@ -1,5 +1,15 @@
 # Change history for stripes-smart-components
 
+## [7.2.3](https://github.com/folio-org/stripes-smart-components/tree/v7.2.3) (2022-08-15)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.2...v7.2.3)
+
+* Fix `<SearchAndSort>` query doesn't reset when clicking back in browser. Fixes STSMACOM-676.
+* Copy query into search field when navigating back and forth. Fixes STSMACOM-681.
+* Add an optional onSubmitSearch callback function to extend the form submission functionality. Fixes STSMACOM-682.
+* Accept `validateSearchOnSubmit` prop to prevent invalid searches. Refs STSMACOM-684.
+* Fix prop type for `regExpForQuery` prop in `<SearchAndSort>`. Fixes STSMACOM-689.
+* Add a new `browsePoint` parameter that will store the `browse` offset when clicking on the `<Previous` link or the `Next>` link. Fixes STSMACOM-697.
+
 ## [7.2.2](https://github.com/folio-org/stripes-smart-components/tree/v7.2.2) (2022-08-04)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.1...v7.2.2)
 

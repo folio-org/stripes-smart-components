@@ -23,13 +23,16 @@
       "remote-storage-mappings": "1.0 2.0"
     }
   },
+  "main": "dist/index.js",
   "scripts": {
+    "prepublish": "yarn transpile",
     "lint": "eslint . && stylelint \"lib/**/*.css\"",
     "eslint": "eslint .",
     "stylelint": "stylelint \"lib/**/*.css\"",
     "test": "stripes test karma",
     "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
-    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/stripes-smart-components ./translations/stripes-smart-components/compiled"
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/stripes-smart-components ./translations/stripes-smart-components/compiled",
+    "transpile": "stripes transpile"
   },
   "devDependencies": {
     "@babel/core": "^7.17.12",

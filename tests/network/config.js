@@ -10,6 +10,10 @@ export default function config() {
     },
   ]);
 
+  this.get('/saml/check', {
+    ssoEnabled: false
+  });
+
   this.get('/note-types');
 
   this.post('location-units/institutions', {
@@ -269,4 +273,12 @@ export default function config() {
 
     return notes.find(params.id).destroy();
   });
+
+  this.get('/samples', function ({ users }, { params }) {
+    const res = params ? users.all() :
+      users.find({ userGroup: params.qindex });
+    return this.serialize(res, 'users');
+  });
+
+  this.logging = true;
 }

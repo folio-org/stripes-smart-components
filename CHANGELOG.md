@@ -14,6 +14,7 @@
 * Pop-up Note > Display MetaSection component. Refs STSMACOM-694
 * Fix prop type for `regExpForQuery` prop in `<SearchAndSort>`. Fixes STSMACOM-689.
 * Add a new `browsePoint` parameter that will store the `browse` offset when clicking on the `<Previous` link or the `Next>` link. Fixes STSMACOM-697.
+* Cannot translate {type} placeholder in ControlledVocab. Fixes STSMACOM-453.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

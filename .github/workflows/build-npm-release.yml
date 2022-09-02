@@ -79,7 +79,7 @@ jobs:
         run: yarn config set @folio:registry $FOLIO_NPM_REGISTRY
 
       - name: Run yarn install
-        run: yarn install --ignore-scripts
+        run: yarn install --ignore-scripts --frozen-lockfile
 
       - name: Run yarn list
         run: yarn list --pattern @folio

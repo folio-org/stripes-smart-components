@@ -273,12 +273,4 @@ export default function config() {
 
     return notes.find(params.id).destroy();
   });
-
-  this.get('/samples', function ({ users }, { params }) {
-    const res = params ? users.all() :
-      users.find({ userGroup: params.qindex });
-    return this.serialize(res, 'users');
-  });
-
-  this.logging = true;
 }

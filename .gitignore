@@ -3,5 +3,5 @@ node_modules
 yarn-error.log
 /artifacts
 yarn.lock
-/.vscode
-.stripesclirc.js
+.vscode
+.stripesclirc.json

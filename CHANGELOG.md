@@ -16,6 +16,7 @@
 * Add a new `browsePoint` parameter that will store the `browse` offset when clicking on the `<Previous` link or the `Next>` link. Fixes STSMACOM-697.
 * Cannot translate {type} placeholder in ControlledVocab. Fixes STSMACOM-453.
 * leverage yarn.lock. Refs STSMACOM-696.
+* Refactor AddressList to avoid deprecated lifecycle methods. Refs STSMACOM-625.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)
@@ -42,7 +43,6 @@
 * Enable nonInteractiveHeaders prop to be passed to MCL via SearchAndSort component. Refs STSMACOM-669.
 * Unable to scroll to action buttons in `<EditableListForm>` on small screens. Refs STSMACOM-670.
 * If two patrons in a row have pop-up notes, all should appear. Refs STSMACOM-672.
-* Refactor AddressList to avoid deprecated lifecycle methods. Refs STSMACOM-625.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

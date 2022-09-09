@@ -25,6 +25,4 @@ const modules = req.keys().reduce((acc, modulePath) => {
   }
 }, {});
 
-console.log(JSON.stringify(modules));
-
 export default modules;

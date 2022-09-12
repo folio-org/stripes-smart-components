@@ -10,6 +10,10 @@ export default function config() {
     },
   ]);
 
+  this.get('/saml/check', {
+    ssoEnabled: false
+  });
+
   this.get('/note-types');
 
   this.post('location-units/institutions', {

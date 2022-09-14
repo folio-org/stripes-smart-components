@@ -246,7 +246,7 @@
     "customFields.select.placeholder": "Wybierz {fieldLabel}",
     "customFields.new": "Nowy",
     "customFields.save&Close": "Zapisz i zamknij",
-    "customFields.option.delete.warning": "Usuwanie opcji <b>{optionName}</b> <b> z</b> pola <b>{fieldName}</b>. Brak zapisanych danych dla tej opcji.",
+    "customFields.option.delete.warning": "Usuwanie opcji <b>{optionName}</b>  z pola <b>{fieldName}</b>. Brak zapisanych danych dla tej opcji.",
     "notes.titleAndDetails": "Tytuł i szczegóły",
     "notes.showLessDetails": "Pokaż mniej",
     "notes.showMoreDetails": "Pokaż więcej",

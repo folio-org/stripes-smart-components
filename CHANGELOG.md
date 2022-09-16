@@ -17,6 +17,7 @@
 * Cannot translate {type} placeholder in ControlledVocab. Fixes STSMACOM-453.
 * leverage yarn.lock. Refs STSMACOM-696.
 * Refactor AddressList to avoid deprecated lifecycle methods. Refs STSMACOM-625.
+* Implement status reinitialization for `EditableListForm` component. Refs STSMACOM-699.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

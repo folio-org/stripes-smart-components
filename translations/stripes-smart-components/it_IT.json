@@ -1,7 +1,7 @@
 {
     "cddd.changeDueDate": "Cambia la data di scadenza",
     "cddd.changeDueDateConfirmation": "Cambia la data di scadenza",
-    "cddd.itemsSelected": "<b>{count, number}</b> {count, plural, one {item} other {items}} <b>selected.</b>",
+    "cddd.itemsSelected": "<b>{count, number}</b> {count, plural, one {item} other {items}} <b>selezionati.</b>",
     "cddd.changeSucceeded": "Data e ora di scadenza sono stati modificati correttamente",
     "cddd.changeSucceededWithCount": "La data e l'ora di scadenza sono state <b> modificate correttamente </b> per <b> {succeeded, number} </b> {succeeded, plural, one { item } other { items }} .",
     "cddd.changeFailed": "Impossibile modificare la data di scadenza",

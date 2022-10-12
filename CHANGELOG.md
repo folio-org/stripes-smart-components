@@ -19,6 +19,7 @@
 * Refactor AddressList to avoid deprecated lifecycle methods. Refs STSMACOM-625.
 * Implement status reinitialization for `EditableListForm` component. Refs STSMACOM-699.
 * Fix SearchAndSortQuery bug - clear filters requires two clicks. Refs STSMACOM-700.
+* Mark `addressType` as required. Fixes STSMACOM-705.
 * Add props to ControlledVocab components. Refs STSMACOM-704.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)

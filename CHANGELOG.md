@@ -1,6 +1,8 @@
 # Change history for stripes-smart-components
 
-## 7.3.0 IN PROGRESS
+## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)
+
 * Search term isn't persisted in SearchAndSort. Refs STSMACOM-671.
 * Search/Filter pane is not in a collapsed state. Refs STSMACOM-677.
 * Mark `initialValues` as immutable in `<LocationForm>`. Fixes STSMACOM-679.

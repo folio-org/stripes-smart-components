@@ -67,4 +67,17 @@ export default function (server) {
     typeId: urgentNoteType.id,
     links: [{ type: 'package', id: faker.random.uuid() }],
   });
+
+  server.create('note', {
+    type: generalNoteType.name,
+    typeId: generalNoteType.id,
+    title: 'A Note type',
+    content: '<p>Note2 details</p>',
+    metadata: {
+      updatedDate: '2017-11-04T09:05:30.000+0000',
+    },
+    id: 'providerNoteIdTwo',
+    links: [{ type: 'provider', id: provider.id }],
+    popUpOnCheckout: true,
+  });
 }

@@ -55,6 +55,7 @@ viewRecordPerms | string | A comma-separated list of the permissions required in
 newRecordPerms | string | A comma-separated list of the permissions required in order to create a new record.
 disableRecordCreation | bool | If true, new record cannot be created. This is appropriate when one application is running embedded in another.
 parentResources | shape | The parent component's stripes-connect `resources` property, used to access the records of the relevant type. Must contain at least `records`, `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
+syncQueryWithUrl | bool | Will enable or disable syncing of `query` parameter in the url with search query input value.
 parentMutator | shape | The parent component's stripes-connect `mutator` property. Must contain at least `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
 nsParams | object or string | An object or string used to namespace search and sort parameters. More information can be found [here](https://github.com/folio-org/stripes-components/blob/master/util/parameterizing-makeQueryFunction.md)
 notLoadedMessage | string | A message to show the user before a search has been submitted. Defaults to "Choose a filter or enter search query to show results".
@@ -70,6 +71,9 @@ resultsCachedPosition | position object |  sets the `ItemToView` prop of the int
 resultsKey | string | Sets a `key` prop on the internally rendered `<MultiColumnList>`. Changing this value will re-initialize the MCL. If necessary, this can be used to refresh the component so that it resets/readjusts to updates in data. This should be used sparingly as it can cause multiple re-renders of the list.
 customPaneSubText | node | A component that will be rendered in PaneSubHeader instead of default.
 searchFieldButtonLabel | node | A component that will be rendered inside the SearchField button instead of default.
+`isCountHidden` | bool | A prop that give us possibiblty to hide count of records in Pane.
+onSubmitSearch | function | An optional function to extend the form submission functionality.
+extraParamsToReset | object | An object with parameters to be removed from the URL after the search query is submitted and after the user's search query is cleared.
 
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.

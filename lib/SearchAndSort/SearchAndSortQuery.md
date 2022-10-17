@@ -63,12 +63,13 @@ Name | type | description | required | default
 `nsParams` | string, object | For instances where namespacing params due to a shared query string is necessary. A string will place the string in front of the parameter separated by a dot. An object can be used for name-spacing on a per-parameter basis. | |
 `onComponentWillUnmount` | func | for performing any necessary cleanup when the component dismounts. | | The component alone will reset the query to the initial query.
 `queryGetter` | func | An adapter function called internally for querying parameters. Its passed the an object containing the `location` object from react-router. | | By default, it returns the search key of location, parsed via `queryString.parse`
-`querySetter` | func | An adapter function for applying your query. It's passed an object with `location`, `history` object, `values` (pre and post namespace), as well as the internal `state` of the component - all potentially useful for constructing and applying your query. | | By default it builds the url and applies it via `history.push`
+`querySetter` | func | An adapter function for applying your query. It's passed an object with `location`, `history` object, `values` (pre and post namespace) that are only from the invoking change - ( filters, search, or sorting) as well as the internal `state` of the component - all potentially useful for constructing and applying your query. | | By default it builds the url and applies it via `history.push`
 `searchParamsMapping` | object | Object containing key/function pairs for converting pre-existing search parameters to query state | | `{ 'query': v => v }`
 `sortParamsMapping` | object | Object containing key/function pairs for converting pre-existing sorting parameters to query state. | | `{ 'sort': v => v }`
 `queryStateReducer` | func | Powerful function that allows for manipulation of the internal state of the component with each change. Simply return the state that you need to be set. | | `(curState, nextState) => nextState`
 `searchChangeCallback`, `filterChangeCallback`, `sortChangeCallback` | func | Callbacks to apply other updates within your application when their corresponding slice of internal state.
 `syncToLocationSearch` | bool | If `false`, this component will not update based on changes to the browser's location. This is ideal for sub-module searches and plug-ins that work solely of local resources and do not affect the browsers' location. With the `true` setting, this component will respond to changes in the browser's query string - this works with direct linking and resetting via link. | | `true`
+`setQueryOnMount` | bool | Defaults to `false`. If true, will call the querySetter when the component mounts providing any initialized query state. | | `false`
 
 ## Example Usage
 
@@ -130,7 +131,7 @@ Name | type | description | required | default
 ```
 
 ## Using QueryGetter and QuerySetter
-These are adapter functions used to get and set your your query according to your particular modules needs. Some modules may use the window location (default functionality), others may need to update the query via the mutator (local resource.) A basic example: using the local resource...
+These are adapter functions used to get and set your your query according to your particular modules needs. Some modules may use the window location (default functionality), others may need to update the query via the mutator (`stripes-connect` local resource.) A basic example: using the stripes-connect local resource...
 
 ```
 // nsValues simply return the base value name if no namespacing is provided.
@@ -141,6 +142,14 @@ These are adapter functions used to get and set your your query according to you
   queryGetter = () => {
     return get(this.props.resources, 'query', {});
   }
+```
+If your application is not using stripes-connect it may need to provide its own logic for query manipulation such as full replacement of the query versus merely an update. The `nsValues` supplied to the `querySetter` are currently only calculated / provided for changed values that invoked the querySetter - so they should be assigned into an existing state object for an update. For example:
+
+```js
+  const [query, setQuery] = useState({});
+  const querySetter = ({ nsValues }) => {
+    setQuery({ ...query, ...nsValues});
+  };
 ```
 
 ## changeType
@@ -177,7 +186,7 @@ const filterSort = (curState, nextState) => {
 
 ## Initializing the query state
 By default, `<SearchAndSortQuery>` will initialize its query state using its 'location' prop - this comes from the url in the address bar. SearchAndSort-based modules include their default queries in their 'home' url ex: `/users?sort=name`.
-If using the local resource strictly for your query string (typical plugin behavior), you can set the `syncToLocationSearch` prop to `false` and supply an `initialSearch` prop with the search string beginning with `?` - ex: `initialSearch="?sort=name"`
+If using the local resource strictly for your query string (typical plugin behavior), you can set the `syncToLocationSearch` prop to `false` and supply an `initialSearch` prop with the search string beginning with `?` - ex: `initialSearch="?sort=name"`. If your plugin uses `initialFilterState` or `initialSortState` and you wish to update the query accordingly when the component mounts, use the `setQueryOnMount` prop.
 
 ## Resetting
 `<SearchAndSortQuery>` will use the `initialSearch` prop to reset its query state for any 'reset' functionality for filters and search criteria.

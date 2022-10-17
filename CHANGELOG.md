@@ -1,6 +1,32 @@
 # Change history for stripes-smart-components
 
-## 7.2.0 IN PROGRESS
+## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)
+
+* Search term isn't persisted in SearchAndSort. Refs STSMACOM-671.
+* Search/Filter pane is not in a collapsed state. Refs STSMACOM-677.
+* Mark `initialValues` as immutable in `<LocationForm>`. Fixes STSMACOM-679.
+* Fix `<SearchAndSort>` query doesn't reset when clicking back in browser. Fixes STSMACOM-676.
+* Copy query into search field when navigating back and forth. Fixes STSMACOM-681.
+* Add isCountHidden prop to SearchAndSort component. Refs STSMACOM-683.
+* Add an optional onSubmitSearch callback function to extend the form submission functionality. Fixes STSMACOM-682.
+* Accept `validateSearchOnSubmit` prop to prevent invalid searches. Refs STSMACOM-684.
+* Support `notes` interface version `3.0`. Refs STSMACOM-686.
+* Extend NotePopupModal. Refs STSMACOM-688.
+* Pop-up Note > Display MetaSection component. Refs STSMACOM-694
+* Fix prop type for `regExpForQuery` prop in `<SearchAndSort>`. Fixes STSMACOM-689.
+* Add a new `browsePoint` parameter that will store the `browse` offset when clicking on the `<Previous` link or the `Next>` link. Fixes STSMACOM-697.
+* Cannot translate {type} placeholder in ControlledVocab. Fixes STSMACOM-453.
+* leverage yarn.lock. Refs STSMACOM-696.
+* Refactor AddressList to avoid deprecated lifecycle methods. Refs STSMACOM-625.
+* Implement status reinitialization for `EditableListForm` component. Refs STSMACOM-699.
+* Fix SearchAndSortQuery bug - clear filters requires two clicks. Refs STSMACOM-700.
+* Mark `addressType` as required. Fixes STSMACOM-705.
+* Add props to ControlledVocab components. Refs STSMACOM-704.
+
+## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)
+
 * EditableList: `actions` column title should be capitalized and translated. Refs STSMACOM-519.
 * Add aria-label for checkboxes in <ChangeDueDateDialog> component. Refs STSMACOM-636.
 * Additional bump to `<LocationModal>` location query limits to 5000. Fixes STSMACOM-629.
@@ -19,6 +45,10 @@
 * Update CI image to NodeJS 16. Refs STSMACOM-664.
 * Add pagingCanGoNext and pagingCanGoPrevious props to SearchAndSort component. Refs STSMACOM-665.
 * ControlledVocab - optimistic locking. Refs STSMACOM-668.
+* All notes on a user record set to pop up should pop up, not just the first. Refs STSMACOM-667.
+* Enable nonInteractiveHeaders prop to be passed to MCL via SearchAndSort component. Refs STSMACOM-669.
+* Unable to scroll to action buttons in `<EditableListForm>` on small screens. Refs STSMACOM-670.
+* If two patrons in a row have pop-up notes, all should appear. Refs STSMACOM-672.
 
 ## [7.1.0](https://github.com/folio-org/stripes-smart-components/tree/v7.1.0) (2022-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.0.0...v7.1.0)

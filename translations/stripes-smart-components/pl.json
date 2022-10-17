@@ -246,7 +246,7 @@
     "customFields.select.placeholder": "Wybierz {fieldLabel}",
     "customFields.new": "Nowy",
     "customFields.save&Close": "Zapisz i zamknij",
-    "customFields.option.delete.warning": "Usuwanie opcji <b>{optionName}</b> <b> z</b> pola <b>{fieldName}</b>. Brak zapisanych danych dla tej opcji.",
+    "customFields.option.delete.warning": "Usuwanie opcji <b>{optionName}</b>  z pola <b>{fieldName}</b>. Brak zapisanych danych dla tej opcji.",
     "notes.titleAndDetails": "Tytuł i szczegóły",
     "notes.showLessDetails": "Pokaż mniej",
     "notes.showMoreDetails": "Pokaż więcej",
@@ -272,5 +272,6 @@
     "cddd.selectAllLoans": "Select all loans",
     "cddd.selectLoan": "Select \"{loanName}\" loan",
     "actions": "Actions",
-    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again."
+    "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
+    "editableList.actionsColumnHeader": "Actions"
 }

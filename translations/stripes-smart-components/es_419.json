@@ -271,7 +271,7 @@
     "customFields.fieldValue.whitespace": "No se permite el uso de espacios en blanco.",
     "cddd.selectAllLoans": "Seleccionar todos los préstamos",
     "cddd.selectLoan": "Select \"{loanName}\" loan",
-    "actions": "Actions",
+    "actions": "Acciones",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
     "editableList.actionsColumnHeader": "Actions"
 }

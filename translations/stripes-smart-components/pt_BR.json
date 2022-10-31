@@ -157,7 +157,7 @@
     "notes.assigned.count": "Núm. de atribuições",
     "notes.cautionMessage": "Notas com uma atribuição não podem ser desatribuídas.",
     "cddd.header.requests": "Requisições",
-    "cddd.itemHasBeenRecalled": "Item foi chamado de volta",
+    "cddd.itemHasBeenRecalled": "O item foi solicitado antecipadamente",
     "notes.type": "Tipo de nota",
     "notes.type.general": "Nota geral",
     "notes.type.customerSupport": "Suporte ao cliente",

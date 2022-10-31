@@ -1,6 +1,8 @@
 # Change history for stripes-smart-components
 
-## 7.3.0 IN PROGRESS
+## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)
+
 * Search term isn't persisted in SearchAndSort. Refs STSMACOM-671.
 * Search/Filter pane is not in a collapsed state. Refs STSMACOM-677.
 * Mark `initialValues` as immutable in `<LocationForm>`. Fixes STSMACOM-679.
@@ -14,6 +16,13 @@
 * Pop-up Note > Display MetaSection component. Refs STSMACOM-694
 * Fix prop type for `regExpForQuery` prop in `<SearchAndSort>`. Fixes STSMACOM-689.
 * Add a new `browsePoint` parameter that will store the `browse` offset when clicking on the `<Previous` link or the `Next>` link. Fixes STSMACOM-697.
+* Cannot translate {type} placeholder in ControlledVocab. Fixes STSMACOM-453.
+* leverage yarn.lock. Refs STSMACOM-696.
+* Refactor AddressList to avoid deprecated lifecycle methods. Refs STSMACOM-625.
+* Implement status reinitialization for `EditableListForm` component. Refs STSMACOM-699.
+* Fix SearchAndSortQuery bug - clear filters requires two clicks. Refs STSMACOM-700.
+* Mark `addressType` as required. Fixes STSMACOM-705.
+* Add props to ControlledVocab components. Refs STSMACOM-704.
 
 ## [7.2.0](https://github.com/folio-org/stripes-smart-components/tree/v7.2.0) (2022-06-14)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.1.0...v7.2.0)

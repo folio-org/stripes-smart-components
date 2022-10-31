@@ -13,6 +13,10 @@
   "engines": {
     "node": ">=14.0.0"
   },
+  "files": [
+    "dist",
+    "translations"
+  ],
   "stripes": {
     "okapiInterfaces": {
       "notes": "2.0 3.0",

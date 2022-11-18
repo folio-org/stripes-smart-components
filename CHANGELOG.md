@@ -4,6 +4,7 @@
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v7.3.1)
 
 * Fix bug with SearchAndSort not retaining search term when qindex changed. Refs STSMACOM-707.
+* Optimistic locking error appears when user adds more than 1 tag to "Holdings" record. Fixes STSMACOM-708.
 
 ## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)

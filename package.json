@@ -84,7 +84,7 @@
     "moment-timezone": "^0.5.17",
     "prop-types": "^15.5.10",
     "prop-types-extra": "^1.1.0",
-    "query-string": "^5.0.0",
+    "query-string": "^7.1.2",
     "react-beautiful-dnd": "^13.1.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-final-form": "^6.3.0",

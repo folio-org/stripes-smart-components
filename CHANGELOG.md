@@ -1,10 +1,14 @@
 # Change history for stripes-smart-components
 
+## [7.3.3](https://github.com/folio-org/stripes-smart-components/tree/v7.3.3) (2022-12-04)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.2...v7.3.3)
+
+* Disabled sorting after double click on the settings link. Refs STSMACOM-709.
+
 ## [7.3.2](https://github.com/folio-org/stripes-smart-components/tree/v7.3.2) (2022-11-28)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.1...v7.3.2)
 
 * Optimistic locking error appears when user adds more than 1 tag to "Holdings" record. Fixes STSMACOM-708.
-* Disabled sorting after double click on the settings link. Refs STSMACOM-709
 
 ## [7.3.1](https://github.com/folio-org/stripes-smart-components/tree/v7.3.1) (2022-11-15)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v7.3.1)

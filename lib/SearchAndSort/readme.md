@@ -45,7 +45,7 @@ visibleColumns | array of fieldnames | As for [`<MultiColumnList>`](https://gith
 columnManagerProps | Applies additional props for the internal `<ColumnManager>` | As for [`<ColumnManager>`](https://github.com/folio-org/stripes-smart-components/blob/master/lib/ColumnManager/readme.md)
 columnWidths | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 columnMapping | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
-resultRowFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md) 
+resultRowFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 resultRowIsSelected | func | function returning a boolean to determine whether or not an item in the results should have the 'selected' CSS style applied. A default `isMatch` function is supplied.
 onSelectRow | func | Optional function to override the default action when selecting a row (which displays the full record). May be used, for example, when running one module embedded in another, as when ui-checkin embeds an instance of ui-users to select the user for whom items are being checked out.
 massageNewRecord | func | If provided, this function is passed newly submitted records and may massage them in whatever way it wishes before they are persisted to the back-end. May be used to perform lookups, expand abbreviations, etc.
@@ -64,9 +64,11 @@ getHelperComponent | func | An optional function which can be used to return con
 title | string/element | An optional property to specify title of results pane. By default module display name is used.
 hasNewButton | boolean | An optional property to specify appearance Of `New` button of results pane. By default pane displays with `New` button.
 basePath | string | An optional string to customize the path which should be used after performing search.
-resultsVirtualize | boolean | controls the `virtualize` prop to the internally rendered `<MultiColumnList>` component. 
+resultsStickyFirstColumn | boolean | Sets the first result column as sticky, so it will stay visible during horizontal scroll.
+resultsStickyLastColumn | boolean | Sets the last result column as sticky, so it will stay visible during horizontal scroll.
+resultsVirtualize | boolean | controls the `virtualize` prop to the internally rendered `<MultiColumnList>` component.
 resultsOnMarkPosition | func | sets the `onMarkPosition` prop to the internally rendered `<MultiColumnList>` component. A paramater "position" object with a list offset and selector is provided. This can be stored on the application side to resume scroll position of the results list (if using next/prev pagination.)
-resultsOnResetMarkedPosition | func | sets the `onMarkReset` prop to the internally rendered `<MultiColumnList>` component. It can be used to nullify the "position" object in application state. 
+resultsOnResetMarkedPosition | func | sets the `onMarkReset` prop to the internally rendered `<MultiColumnList>` component. It can be used to nullify the "position" object in application state.
 resultsCachedPosition | position object |  sets the `ItemToView` prop of the internally rendered `<MultiColumnList>` component. It's in the shape of `{selector: string, clientTopOffset: number}`. This object is provided by the `resultsOnMarkPosition` prop.
 resultsKey | string | Sets a `key` prop on the internally rendered `<MultiColumnList>`. Changing this value will re-initialize the MCL. If necessary, this can be used to refresh the component so that it resets/readjusts to updates in data. This should be used sparingly as it can cause multiple re-renders of the list.
 customPaneSubText | node | A component that will be rendered in PaneSubHeader instead of default.

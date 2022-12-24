@@ -187,7 +187,7 @@
     "customFields.helperText.description": "This will show under an information icon",
     "customFields.required": "必須",
     "customFields.hidden": "非表示",
-    "customFields.defaultValue": "Default value",
+    "customFields.defaultValue": "デフォルト値",
     "customFields.cancel": "キャンセル",
     "customFields.delete.modalTitle": "Delete field data",
     "customFields.delete.confirm": "データを保存して破棄",
@@ -273,5 +273,6 @@
     "cddd.selectLoan": "Select \"{loanName}\" loan",
     "actions": "Actions",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
-    "editableList.actionsColumnHeader": "Actions"
+    "editableList.actionsColumnHeader": "Actions",
+    "customFields.option.deleteLabel": "Delete"
 }

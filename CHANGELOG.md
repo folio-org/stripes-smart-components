@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## 7.4.0 IN PROGRESS
+## 8.0.0 IN PROGRESS
 
 * Fix bug with SearchAndSort not retaining search term when qindex changed. Refs STSMACOM-707.
 * Optimistic locking error appears when user adds more than 1 tag to "Holdings" record. Fixes STSMACOM-708.

@@ -6,6 +6,7 @@
 * Optimistic locking error appears when user adds more than 1 tag to "Holdings" record. Fixes STSMACOM-708.
 * Disabled sorting after double click on the settings link. Refs STSMACOM-709
 * Expose MCL sticky column props through SearchAndSort. Refs STSMACOM-712.
+* PasswordValidationField swallows error messages from API queries. Refs STSMACOM-706.
 
 ## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)

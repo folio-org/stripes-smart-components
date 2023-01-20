@@ -8,6 +8,7 @@
 * Expose MCL sticky column props through SearchAndSort. Refs STSMACOM-712.
 * PasswordValidationField swallows error messages from API queries. Refs STSMACOM-706.
 * *BREAKING*: `<SearchAndSort>` no longer accepts `paginationBoundaries`. Refs STSMACOM-717.
+* Upgrade `react-redux` to `v8`. Refs STSMACOM-721.
 
 ## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)

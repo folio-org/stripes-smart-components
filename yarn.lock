@@ -1360,7 +1360,7 @@
     redux "^4.0.0"
     uuid "^8.3.2"
 
-"@folio/stripes-core@9.0.100000857":
+"@folio/stripes-core@^9.0.0":
   version "9.0.100000857"
   resolved "https://repository.folio.org/repository/npm-folioci/@folio/stripes-core/-/stripes-core-9.0.100000857.tgz#9994314decd0244ce5cf5ba5bcb8442a6387ebe1"
   integrity sha512-oukt0T8wCBA4hhw24DIpAqMCklcipfVLTAYthwjeYegIq0gpwv+XlSljfJNKDHGPdphOKhuKWW0VB0wsiiHziQ==

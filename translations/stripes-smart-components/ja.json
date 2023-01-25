@@ -134,7 +134,7 @@
     "notes.unassign": "Unassign",
     "notes.delete": "削除",
     "notes.edit": "編集",
-    "notes.deleteNote": "Delete note",
+    "notes.deleteNote": "メモを削除",
     "notes.unassignNote": "Unassign note",
     "notes.unassign.confirm.message": "The note <b>{title}</b> will be <b>unassigned</b>.",
     "notes.delete.confirm.message": "The note <b>{title}</b> will be permanently <b>deleted</b>. This note is attached to <b>{resourcesNumber, number}</b> {resourcesNumber, plural, one {resource} other {resources}}",
@@ -187,7 +187,7 @@
     "customFields.helperText.description": "This will show under an information icon",
     "customFields.required": "必須",
     "customFields.hidden": "非表示",
-    "customFields.defaultValue": "Default value",
+    "customFields.defaultValue": "デフォルト値",
     "customFields.cancel": "キャンセル",
     "customFields.delete.modalTitle": "Delete field data",
     "customFields.delete.confirm": "データを保存して破棄",
@@ -231,7 +231,7 @@
     "password.consecutiveWhitespaces.invalid": "パスワードには、連続する空白文字を含めることはできません。",
     "settings.common.duplicate": "Duplicate",
     "settings.common.edit": "編集",
-    "settings.common.delete": "Delete",
+    "settings.common.delete": "削除",
     "customFields.options.defaults": "Default(s)",
     "customFields.dragDrop": "Change custom field order",
     "customFields.dragDrop.lifted": "You have lifted field {name} in position {position}",
@@ -273,5 +273,6 @@
     "cddd.selectLoan": "Select \"{loanName}\" loan",
     "actions": "Actions",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
-    "editableList.actionsColumnHeader": "Actions"
+    "editableList.actionsColumnHeader": "Actions",
+    "customFields.option.deleteLabel": "Delete"
 }

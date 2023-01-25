@@ -1,5 +1,16 @@
 # Change history for stripes-smart-components
 
+## 8.0.0 IN PROGRESS
+
+* Fix bug with SearchAndSort not retaining search term when qindex changed. Refs STSMACOM-707.
+* Optimistic locking error appears when user adds more than 1 tag to "Holdings" record. Fixes STSMACOM-708.
+* Disabled sorting after double click on the settings link. Refs STSMACOM-709
+* Expose MCL sticky column props through SearchAndSort. Refs STSMACOM-712.
+* PasswordValidationField swallows error messages from API queries. Refs STSMACOM-706.
+* *BREAKING*: `<SearchAndSort>` no longer accepts `paginationBoundaries`. Refs STSMACOM-717.
+* *BREAKING*: Upgrade `react-redux` to `v8`. Refs STSMACOM-721.
+* Unpin `@rehooks/local-storage` now that it's no longer broken. Refs STSMACOM-723.
+
 ## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)
 

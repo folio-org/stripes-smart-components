@@ -267,7 +267,7 @@
   "customFields.options.default": "Default",
   "customFields.options.defaults": "Default(s)",
   "customFields.select.placeholder": "Select a {fieldLabel}",
-
+  "customFields.option.deleteLabel": "Delete",
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",
   "settings.common.delete": "Delete",

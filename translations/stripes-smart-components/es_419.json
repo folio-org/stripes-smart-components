@@ -273,5 +273,6 @@
     "cddd.selectLoan": "Select \"{loanName}\" loan",
     "actions": "Acciones",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
-    "editableList.actionsColumnHeader": "Actions"
+    "editableList.actionsColumnHeader": "Actions",
+    "customFields.option.deleteLabel": "Delete"
 }

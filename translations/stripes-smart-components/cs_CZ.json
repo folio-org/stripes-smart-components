@@ -168,7 +168,7 @@
     "error.defaultRemoveError": "'Chyba při odstraňování dat'",
     "type": "Typ",
     "notes.navModal.modalLabel": "Potvrďte prosím",
-    "notes.navModal.dismissLabel": "Pokračujte v úpravách",
+    "notes.navModal.dismissLabel": "Pokračovat v úpravách",
     "notes.navModal.continueLabel": "Zavřít bez uložení",
     "notes.navModal.unsavedChangesMsg": "Vaše změny nebyly uloženy. Opravdu chcete opustit tuto stránku?",
     "tags.filterError": "Chyba při využití filtru: {error}",
@@ -273,5 +273,6 @@
     "cddd.selectLoan": "Vybrat výpůjčku \"{loanName}\"",
     "actions": "Akce",
     "error.conflict": "Upravujete starou verzi těchto dat. Chcete-li načíst nejnovější verzi, klikněte na tlačítko zrušit, <b>obnovte stránku</b> a zkuste to znovu.",
-    "editableList.actionsColumnHeader": "Akce"
+    "editableList.actionsColumnHeader": "Akce",
+    "customFields.option.deleteLabel": "Smazat"
 }

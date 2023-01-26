@@ -7,6 +7,7 @@
 * Disabled sorting after double click on the settings link. Refs STSMACOM-709
 * Expose MCL sticky column props through SearchAndSort. Refs STSMACOM-712.
 * PasswordValidationField swallows error messages from API queries. Refs STSMACOM-706.
+* Update `<ConfigManager>` to work with mod-settings. Fixes STSMACOM-720.
 * *BREAKING*: `<SearchAndSort>` no longer accepts `paginationBoundaries`. Refs STSMACOM-717.
 * *BREAKING*: Upgrade `react-redux` to `v8`. Refs STSMACOM-721.
 * Unpin `@rehooks/local-storage` now that it's no longer broken. Refs STSMACOM-723.

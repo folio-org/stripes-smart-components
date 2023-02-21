@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 8.0.1 IN PROGRESS
+## [8.0.1](https://github.com/folio-org/stripes-smart-components/tree/v8.0.1) (2023-02-21)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v8.0.1)
 
 * Add `limit` query params to `ProxyManager` component. Refs STSMACOM-731.
 

@@ -268,7 +268,7 @@
     "notes.popupModal.delete": "Delete note",
     "notes.close": "Close",
     "customFields.noCustomFieldsFound": "No custom fields found",
-    "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
+    "customFields.fieldValue.whitespace": "空白のみの文字は使用できません。",
     "cddd.selectAllLoans": "Select all loans",
     "cddd.selectLoan": "Select \"{loanName}\" loan",
     "actions": "Actions",

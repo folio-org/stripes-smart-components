@@ -2,6 +2,7 @@
 
 ## 8.1.0 IN PROGRESS
 * Add `limit` query params to `ProxyManager` component. Refs STSMACOM-731.
+* Disabled action menu if user does not have any of the required permissions. Refs STSMACOM-736.
 * Reset the previously selected query index when there is none in the next selected segment. Fixes STSMACOM-735.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)

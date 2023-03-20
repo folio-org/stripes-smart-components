@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## 8.0.2
+
+* Reset the previously selected query index when there is none in the next selected segment. Fixes STSMACOM-735.
+* Fix a page crash if `searchableIndexes` prop is missing. Fixes STSMACOM-735.
+
 ## [8.0.1](https://github.com/folio-org/stripes-smart-components/tree/v8.0.1) (2023-02-21)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v8.0.1)
 

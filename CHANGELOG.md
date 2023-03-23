@@ -1,6 +1,10 @@
 # Change history for stripes-smart-components
 
-## [8.0.1](https://github.com/folio-org/stripes-smart-components/tree/v8.0.2) (2023-03-19)
+## 8.0.3 IN PROGRESS
+
+* Fix an excessive Notes pop-ups. Fixes STSMACOM-738.
+
+## [8.0.2](https://github.com/folio-org/stripes-smart-components/tree/v8.0.2) (2023-03-19)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.1...v8.0.2)
 
 * Reset the previously selected query index when there is none in the next selected segment. Fixes STSMACOM-735.

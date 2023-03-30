@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 8.0.3 IN PROGRESS
+## [8.0.3](https://github.com/folio-org/stripes-smart-components/tree/v8.0.3) (2023-03-30)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.2...v8.0.3)
 
 * Fix an excessive Notes pop-ups. Fixes STSMACOM-738.
 

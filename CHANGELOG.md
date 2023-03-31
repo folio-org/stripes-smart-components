@@ -8,6 +8,7 @@
 * Fix a page crush if searchableIndexes prop is missing. Fixes STSMACOM-735.
 * Fix an excessive Notes pop-ups. Fixes STSMACOM-738.
 * Accept override default column visibility in ColumnManager. Fixes STSMACOM-734.
+* Avoid experimental decorator syntax to enable `esbuild-loader` transpiler. Refs STSMACOM-742.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

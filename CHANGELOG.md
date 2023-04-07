@@ -8,6 +8,7 @@
 * Fix a page crush if searchableIndexes prop is missing. Fixes STSMACOM-735.
 * Fix an excessive Notes pop-ups. Fixes STSMACOM-738.
 * Accept override default column visibility in ColumnManager. Fixes STSMACOM-734.
+* Fix notes pop-up didn't appear in Checkout app when first checked out user didn't have notes. Fixes STSMACOM-741.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

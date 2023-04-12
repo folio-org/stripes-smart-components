@@ -1,3 +1,5 @@
+import { Server } from "miragejs";
+
 // typical mirage config export
 export default function config() {
   this.timing = 0;
@@ -128,6 +130,17 @@ export default function config() {
       };
     }
 
+    if (request.url.includes('tags_enabled')) {
+      return {
+        configs: [{
+          id: 'tested-tags-config-label',
+          module: 'DUMMY',
+          configName: 'tags_enabled',
+          enabled: true,
+          value: 'true',
+        }],
+      };
+    }
     return { configs: [] };
   });
 
@@ -272,5 +285,25 @@ export default function config() {
     });
 
     return notes.find(params.id).destroy();
+  });
+
+  this.get('/tags', ({ tags }) => {
+    return tags.all();
+  });
+
+  this.get('/dummy/tagged', function ({ tags }) {
+    return this.serialize(tags.all());
+  });
+
+  this.post('/tags', (_, { requestBody }) => {
+    const tagData = JSON.parse(requestBody);
+
+    this.create('tag', tagData);
+  });
+
+  this.put('/dummy/entity', (_, { requestBody }) => {
+    const tagData = JSON.parse(requestBody);
+
+    this.create('tag', tagData);
   });
 }

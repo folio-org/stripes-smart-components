@@ -1,6 +1,15 @@
 # Change history for stripes-smart-components
 
 ## 8.1.0 IN PROGRESS
+* Add `limit` query params to `ProxyManager` component. Refs STSMACOM-731.
+* Disabled action menu if user does not have any of the required permissions. Refs STSMACOM-736.
+* Reset the previously selected query index when there is none in the next selected segment. Fixes STSMACOM-735.
+* Optimize `useColumnManager` to reduce redundant renders. Refs STSMACOM-719.
+* Fix a page crush if searchableIndexes prop is missing. Fixes STSMACOM-735.
+* Fix an excessive Notes pop-ups. Fixes STSMACOM-738.
+* Accept override default column visibility in ColumnManager. Fixes STSMACOM-734.
+* Fix notes pop-up didn't appear in Checkout app when first checked out user didn't have notes. Fixes STSMACOM-741.
+* Make refreshRemote prop optional in Tags component. Refs STSMACOM-744.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

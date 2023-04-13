@@ -10,7 +10,6 @@
 * Accept override default column visibility in ColumnManager. Fixes STSMACOM-734.
 * Fix notes pop-up didn't appear in Checkout app when first checked out user didn't have notes. Fixes STSMACOM-741.
 * Make refreshRemote prop optional in Tags component. Refs STSMACOM-744.
-* Fix import to stripes-connect. Refs STSMACOM-745.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)
@@ -24,6 +23,7 @@
 * *BREAKING*: `<SearchAndSort>` no longer accepts `paginationBoundaries`. Refs STSMACOM-717.
 * *BREAKING*: Upgrade `react-redux` to `v8`. Refs STSMACOM-721.
 * Unpin `@rehooks/local-storage` now that it's no longer broken. Refs STSMACOM-723.
+* Remove aria-labelledby from Tags MultiSelection to resolve a11y/axe error. Fixes STSMACOM-728
 
 ## [7.3.0](https://github.com/folio-org/stripes-smart-components/tree/v7.3.0) (2022-10-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.2.0...v7.3.0)

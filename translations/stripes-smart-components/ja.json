@@ -217,7 +217,7 @@
     "customFields.fieldTypes.TEXTAREA": "Text area",
     "customFields.fieldTypes.CHECKBOX": "Checkbox",
     "customFields.fieldTypes.SELECT": "Single select",
-    "customFields.dropdown.label": "Label",
+    "customFields.dropdown.label": "ラベル",
     "customFields.dropdown.code": "Code",
     "customFields.options": "Options",
     "customFields.addOption": "Add option",
@@ -274,5 +274,5 @@
     "actions": "Actions",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
     "editableList.actionsColumnHeader": "Actions",
-    "customFields.option.deleteLabel": "Delete"
+    "customFields.option.deleteLabel": "削除"
 }

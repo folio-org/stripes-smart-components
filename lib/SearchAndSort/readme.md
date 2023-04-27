@@ -84,7 +84,9 @@ See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui
 
 Invoked as:
 
-	makeQueryFunction(findAll, queryTemplate, sortMap, filterConfig, failOnCondition)
+	makeQueryFunction(findAll, queryTemplate, sortMap, filterConfig, failOnCondition, nsParams, config)
+
+(The last three of there parameters are all optional.)
 
 Makes and returns a function, suitable to be used as the `query` param of a stripes-connect resource configuration. The function is itself configured by five parameters, which will vary depending on the module that is using it, and will use these to determine how to interpret the query, filters and sort-specification in the application state. It is generally used as follows:
 ```
@@ -107,7 +109,7 @@ static manifest = Object.freeze({
 });
 ```
 
-The five parameters are:
+The six parameters are:
 
 * `findAll` -- a CQL string that can be used to find all records, for situations where no query or filters are specified and the application wants all records to be listed.
 * `queryTemplate` -- a CQL string into which the query and other data can be substituted, using the same syntax as [path substitution in stripes-connect](https://github.com/folio-org/stripes-connect/blob/master/doc/api.md#text-substitution): for example, `?{query}` interpolates the `query` parameter from the URL.
@@ -119,10 +121,18 @@ The five parameters are:
   * `2`: fail if both query and filters and empty.
 
   For backwards compatibility, `false` (or omitting the argument altogether) is equivalent to `0` , and `true` is equivalent to `1`.
+* `nsParams` -- namespace keys
+* `config` -- an object containing configuration parameters:
+  * `escape` (boolean): whether to escape quote and backslash values in the query [default: `true`]
+  * `rightTrunc` (boolean): whether to append `*` to query terms [default: `true`].
 
-  ## Components for filtering
+  For backslash compatibility, a boolean value may be passed instead of the config structure: this is used as the `escape` configuration value.
 
-  Please, pay attention, there is a set of components to be used for filtering inside SearchAndSort component. Each component represents a wrapper on existing form element component e.g. MultiSelect or renders a set of elements working like one filter e.g. CheckboxFilter. After change returns data in format: {name: <String>, values: <ArrayOfObjects>}, where name -- is a filter name and values -- filter values.
+
+
+## Components for filtering
+
+Please, pay attention, there is a set of components to be used for filtering inside SearchAndSort component. Each component represents a wrapper on existing form element component e.g. MultiSelect or renders a set of elements working like one filter e.g. CheckboxFilter. After change returns data in format: {name: <String>, values: <ArrayOfObjects>}, where name -- is a filter name and values -- filter values.
 
 
 ## Implementing filters

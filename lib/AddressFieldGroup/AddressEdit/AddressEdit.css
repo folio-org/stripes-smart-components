@@ -1,4 +1,4 @@
-@import '@folio/stripes-components/lib/variables';
+@import url('@folio/stripes-components/lib/variables');
 
 .addressEditList {
   margin-bottom: 1rem;
@@ -27,7 +27,7 @@
 .removeAddress {
   padding: 0;
   text-align: center;
-  -webkit-appearance: none;
+  appearance: none;
   cursor: pointer;
   color: #555;
   border-radius: 6px;

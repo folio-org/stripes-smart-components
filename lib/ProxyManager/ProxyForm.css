@@ -1,4 +1,4 @@
-@import '@folio/stripes-components/lib/variables';
+@import url('@folio/stripes-components/lib/variables');
 
 .label {
   margin-left: 6px;

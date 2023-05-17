@@ -1,5 +1,3 @@
-import { Server } from "miragejs";
-
 // typical mirage config export
 export default function config() {
   this.timing = 0;

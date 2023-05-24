@@ -1,7 +1,7 @@
 /**
  * EditableList
  */
-@import url('@folio/stripes-components/lib/variables');
+@import '@folio/stripes-components/lib/variables';
 
 .editableListFormHeader {
   display: flex;

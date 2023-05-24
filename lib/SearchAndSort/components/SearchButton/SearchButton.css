@@ -1,4 +1,4 @@
-@import url('@folio/stripes-components/lib/variables');
+@import '@folio/stripes-components/lib/variables';
 
 .button {
   composes: boxoffsetsmall from "~@folio/stripes-components/lib/sharedStyles/interactionStyles.css";

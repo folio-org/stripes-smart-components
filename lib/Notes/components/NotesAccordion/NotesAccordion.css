@@ -1,4 +1,4 @@
-@import url('@folio/stripes-components/lib/variables');
+@import '@folio/stripes-components/lib/variables';
 
 /* Increasing specificity to override Button.css */
 .new-button.new-button.new-button {

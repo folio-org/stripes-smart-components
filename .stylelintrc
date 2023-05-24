@@ -1,6 +1,7 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
+    "import-notation": "string",
     "selector-pseudo-class-no-unknown": [true, {
       "ignorePseudoClasses": [
         "export",
@@ -13,7 +14,8 @@
       "ignoreProperties": [
         "composes",
         "compose-with"
-      ],
+      ]
     }],
+    "selector-class-pattern": null
   }
 }

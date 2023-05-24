@@ -73,9 +73,9 @@
     "regenerator-runtime": "^0.13.5",
     "rxjs": "^6.6.3",
     "sinon": "^6.3.4",
-    "stylelint": "^9.5.0",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-junit-formatter": "^0.2.1"
+    "stylelint": "^15.6.2",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-junit-formatter": "^0.2.2"
   },
   "dependencies": {
     "@rehooks/local-storage": "^2.4.4",

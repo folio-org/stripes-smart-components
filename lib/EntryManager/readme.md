@@ -30,3 +30,11 @@ addMenu | component | An optional component which can be used to override defaul
 parseInitialValues | function | An optional function which can be used to parse initialValues object
 isEntryInUse | function | An optional function which allows or prohibit item deletion. It takes an item id and returns a boolean value. 
 prohibitItemDelete | object with keys `close`, `label`, `message` | An optional object which provides a possibility to customize label, message and submit button of `prohibitDelete` modal with relevant object properties. 
+resourcePath | string | An optional string specifying the path to a resource from which full records can be obtained. See below.
+
+## Summary records
+
+The `<EntryList>` component was created on the assumption that the records it manages are returned in full when a list is requested: so, for example, the list of records returned from `/path/to/endpoint` are each the same shape as the individual ones obtained by ID at paths like `/path/to/endpoint/12335`. This pattern is generally followed by most web-service endpoints provided by most FOLIO modules.
+
+Some modules, however, return a list of summary records (for example, just ID and title), so that it's necessary to fetch each full record separately by ID. When `<EntryList>` is used to manage records on such an endpoint, the path to that service should be passed in as the `resourcePath` prop. When this is done, the full record is fetched each time a user views or edits a record.
+

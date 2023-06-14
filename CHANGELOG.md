@@ -15,6 +15,7 @@
 * Remove `isRequired` check from `expanded` prop on EditCustomFieldsRecord. Refs STSMACOM-750.
 * Unlock `locallyChangedSearchTerm` sync with `query` parameter. Fixes STSMACOM-754.
 * Enhance `<EntryManager>` with optional `resourcePath` prop to fetch full record. Fixes STSMACOM-757.
+* Update `locallyChangedSearchTerm` when `query` changes, but keep value when `qindex` changes. Fixes STSMACOM-758.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

@@ -32,6 +32,8 @@ isEntryInUse | function | An optional function which allows or prohibit item del
 prohibitItemDelete | object with keys `close`, `label`, `message` | An optional object which provides a possibility to customize label, message and submit button of `prohibitDelete` modal with relevant object properties. 
 enableDetailsActionMenu | bool | If present and true, replaces the **Edit** button at top right of full records with an action menu offering **Duplicate**, **Edit** and **Delete**.
 resourcePath | string | An optional string specifying the path to a resource from which full records can be obtained. See below.
+parseInitialValues | function | A function which accepts a record as loaded and returns a potentially modified version of that record suitable for display and editing. **Note.** the record must not be modified in place, but a modified copy of it returned.
+onBeforeSave | function | The converse of `parseInitialValues`: a function which accepts a record that has been edited in the entry form, and returns a potentially modified version of that record suitable for writing back to the WSAPI. **Note.** the record must not be modified in place, but a modified copy of it returned.
 
 ## Summary records
 

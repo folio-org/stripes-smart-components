@@ -17,6 +17,7 @@
 * Enhance `<EntryManager>` with optional `resourcePath` prop to fetch full record. Fixes STSMACOM-757.
 * Expose `<EntryForm>` and `<EntrySelector>` components for reuse. Refs STSMACOM-759.
 * Make `<EntryManager>`s `parseInitialValues` function work with correctly when `resourcePath` is defined. Document this previously undocumented prop and its converse, `onBeforeSave`. Fixes STSMACOM-761.
+* Expose expanded props of MetaSection through ViewMetaData component. Refs STSMACOM-752.
 * Update `locallyChangedSearchTerm` when `query` changes, but keep value when `qindex` changes. Fixes STSMACOM-758.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)

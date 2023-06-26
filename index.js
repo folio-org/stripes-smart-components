@@ -17,6 +17,8 @@ export { default as ControlledVocab } from './lib/ControlledVocab';
 export { default as EditableList } from './lib/EditableList';
 
 export { default as EntryManager } from './lib/EntryManager';
+export { default as EntryForm } from './lib/EntryManager/EntryForm';
+export { default as EntrySelector } from './lib/EntryManager/EntrySelector';
 
 export { default as LocationLookup } from './lib/LocationLookup';
 export { default as LocationSelection } from './lib/LocationSelection';

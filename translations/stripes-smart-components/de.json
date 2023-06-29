@@ -268,7 +268,7 @@
     "notes.popupModal.delete": "Notiz löschen",
     "notes.close": "Schließen",
     "customFields.noCustomFieldsFound": "Keine benutzerdefinierten Felder gefunden",
-    "customFields.fieldValue.whitespace": "Nur Leerzeichen sind nicht erlaubt.",
+    "customFields.fieldValue.whitespace": "Nur Leerzeichen sind nicht zulässig.",
     "cddd.selectAllLoans": "Alle Ausleihen auswählen",
     "cddd.selectLoan": "Ausleihe \"{loanName}\" auswählen",
     "actions": "Aktionen",

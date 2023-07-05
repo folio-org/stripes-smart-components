@@ -18,6 +18,7 @@
 * Expose `<EntryForm>` and `<EntrySelector>` components for reuse. Refs STSMACOM-759.
 * Expose expanded props of MetaSection through ViewMetaData component. Refs STSMACOM-752.
 * Update `locallyChangedSearchTerm` when `query` changes, but keep value when `qindex` changes. Fixes STSMACOM-758.
+* User Settings Permission sets: Disable editing for users with "Setting (Users): View all settings" permission. STSMACOM-766.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

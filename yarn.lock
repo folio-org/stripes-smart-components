@@ -1592,7 +1592,7 @@
 
 "@folio/stripes-core@folio-org/stripes-core#STCOR-729":
   version "9.1.0"
-  resolved "https://codeload.github.com/folio-org/stripes-core/tar.gz/ddc168c4b6ea8f20701764e47d4a7fda04d7215b"
+  resolved "https://codeload.github.com/folio-org/stripes-core/tar.gz/59805fdddfc23fc7afd0dbeb47b8d4e2422efae9"
   dependencies:
     "@apollo/client" "^3.2.1"
     classnames "^2.2.5"
@@ -5097,9 +5097,9 @@ effection@^1.0.0:
   integrity sha512-ITAAnuI7sJqKhjvYlnm66NHaW7zrXzqgsGsjVaaqFHYDWPN8WylVj46xASfkrtwq5wmklbzy6tvRYaj2C4rDHw==
 
 electron-to-chromium@^1.4.431:
-  version "1.4.460"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.460.tgz#f360a5059c039c4a5fb4dfa99680ad8129dd9f84"
-  integrity sha512-kKiHnbrHME7z8E6AYaw0ehyxY5+hdaRmeUbjBO22LZMdqTYCO29EvF0T1cQ3pJ1RN5fyMcHl1Lmcsdt9WWJpJQ==
+  version "1.4.461"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.461.tgz#6b14af66042732bf883ab63a4d82cac8f35eb252"
+  integrity sha512-1JkvV2sgEGTDXjdsaQCeSwYYuhLRphRpc+g6EHTFELJXEiznLt3/0pZ9JuAOQ5p2rI3YxKTbivtvajirIfhrEQ==
 
 element-is-visible@^1.0.0:
   version "1.0.0"

@@ -274,5 +274,6 @@
     "actions": "작업",
     "error.conflict": "이 데이터의 이전 버전을 편집하고 있습니다. 최신 버전을 로드하려면 취소를 클릭하고 <b> 페이지를 새로고침 </b> 한 다음 다시 시도하십시오.",
     "editableList.actionsColumnHeader": "작업",
-    "customFields.option.deleteLabel": "삭제"
+    "customFields.option.deleteLabel": "삭제",
+    "advancedSearch": "Advanced search"
 }

@@ -274,5 +274,6 @@
     "actions": "الإجراءات",
     "error.conflict": "أنت تقوم بتحرير نسخة قديمة من هذه البيانات. لتحميل أحدث إصدار، قم بالنقر على إلغاء، <b>تحديث الصفحة </b> وحاول مرة أخرى.",
     "editableList.actionsColumnHeader": "الإجراءات",
-    "customFields.option.deleteLabel": "Delete"
+    "customFields.option.deleteLabel": "Delete",
+    "advancedSearch": "Advanced search"
 }

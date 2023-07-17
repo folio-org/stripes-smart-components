@@ -32,6 +32,7 @@ export function setupApplication({
   scenarios,
   component = null,
   permissions = {},
+  stripesConfig
 } = {}) {
   const initialState = {
     discovery: {
@@ -45,6 +46,7 @@ export function setupApplication({
       serverType: 'miragejs',
       ...mirageOptions
     },
+    stripesConfig,
     scenarios,
     permissions,
     initialState,

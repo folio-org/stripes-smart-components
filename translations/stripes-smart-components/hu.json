@@ -274,5 +274,6 @@
     "actions": "Actions",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
     "editableList.actionsColumnHeader": "Actions",
-    "customFields.option.deleteLabel": "Delete"
+    "customFields.option.deleteLabel": "Delete",
+    "advancedSearch": "Advanced search"
 }

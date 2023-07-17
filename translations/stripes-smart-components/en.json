@@ -96,6 +96,7 @@
   "searchResultsCountUnknown": "More than 10,000 records found",
   "reset": "Reset",
   "resetAll": "Reset all",
+  "advancedSearch": "Advanced search",
   "whoAreYouActingAs": "Who are you acting as?",
   "self": "Self",
   "isActingAs": "{name} is acting as:",

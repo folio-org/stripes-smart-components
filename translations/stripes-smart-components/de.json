@@ -274,5 +274,6 @@
     "actions": "Aktionen",
     "error.conflict": "Sie bearbeiten gerade eine alte Version dieser Daten. Um die neueste Version zu laden, klicken Sie auf Abbrechen, <b>aktualisieren Sie die Seite</b> und versuchen Sie es erneut.",
     "editableList.actionsColumnHeader": "Aktionen",
-    "customFields.option.deleteLabel": "Löschen"
+    "customFields.option.deleteLabel": "Löschen",
+    "advancedSearch": "Advanced search"
 }

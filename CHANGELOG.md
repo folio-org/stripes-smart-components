@@ -22,6 +22,7 @@
 * User Settings Permission sets: Disable editing for users with "Setting (Users): View all settings" permission. Refs STSMACOM-766.
 * Propagate sort fields while applying filters too. Refs. STSMACOM-770.
 * Add `<AdvancedSearch>` to `<SearchAndSort>` component. Refs STSMACOM-767.
+* *BREAKING* Upgrade `react` to `v18`. Refs STSMACOM-769.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

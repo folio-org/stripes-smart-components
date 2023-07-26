@@ -4,11 +4,6 @@
  * SearchAndSort
  */
 
-/* reset button wrap - minor alignment adjustment */
-.resetButtonWrap {
-  margin-left: -3px;
-}
-
 .searchField {
   margin-bottom: calc(var(--control-margin-bottom) / 2);
 }

@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 8.1.0 IN PROGRESS
+## 9.0.0 IN PROGRESS
+
 * Add `limit` query params to `ProxyManager` component. Refs STSMACOM-731.
 * Disabled action menu if user does not have any of the required permissions. Refs STSMACOM-736.
 * Reset the previously selected query index when there is none in the next selected segment. Fixes STSMACOM-735.
@@ -18,7 +19,10 @@
 * Expose `<EntryForm>` and `<EntrySelector>` components for reuse. Refs STSMACOM-759.
 * Expose expanded props of MetaSection through ViewMetaData component. Refs STSMACOM-752.
 * Update `locallyChangedSearchTerm` when `query` changes, but keep value when `qindex` changes. Fixes STSMACOM-758.
-* User Settings Permission sets: Disable editing for users with "Setting (Users): View all settings" permission. STSMACOM-766.
+* User Settings Permission sets: Disable editing for users with "Setting (Users): View all settings" permission. Refs STSMACOM-766.
+* Propagate sort fields while applying filters too. Refs. STSMACOM-770.
+* Add `<AdvancedSearch>` to `<SearchAndSort>` component. Refs STSMACOM-767.
+* *BREAKING* Upgrade `react` to `v18`. Refs STSMACOM-769.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

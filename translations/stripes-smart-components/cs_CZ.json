@@ -275,5 +275,5 @@
     "error.conflict": "Upravujete starou verzi těchto dat. Chcete-li načíst nejnovější verzi, klikněte na tlačítko zrušit, <b>obnovte stránku</b> a zkuste to znovu.",
     "editableList.actionsColumnHeader": "Akce",
     "customFields.option.deleteLabel": "Smazat",
-    "advancedSearch": "Advanced search"
+    "advancedSearch": "Rozšířené vyhledávání"
 }

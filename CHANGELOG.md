@@ -25,6 +25,7 @@
 * *BREAKING* Upgrade `react` to `v18`. Refs STSMACOM-769.
 * Pass `labelInfo` prop to checkboxes in `<CheckboxFilter>`. Refs STSMACOM-773.
 * ControlledVocab "Last updated" display must be robust to sparse user data. Refs STSMACOM-756.
+* Provide the ability to handle the status change of the `<EditableListForm>`. Refs STSMACOM-774.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

@@ -27,6 +27,7 @@
 * ControlledVocab "Last updated" display must be robust to sparse user data. Refs STSMACOM-756.
 * Provide the ability to handle the status change of the `<EditableListForm>`. Refs STSMACOM-774.
 * Provide missing dependencies (`uuid`). Refs STSMACOM-776.
+* Do not reset advanced search filters if the advanced search option is already selected. Fixes STSMACOM-777.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

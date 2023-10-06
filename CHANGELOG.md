@@ -28,6 +28,9 @@
 * Provide the ability to handle the status change of the `<EditableListForm>`. Refs STSMACOM-774.
 * Provide missing dependencies (`uuid`). Refs STSMACOM-776.
 * Do not reset advanced search filters if the advanced search option is already selected. Fixes STSMACOM-777.
+* *BREAKING* bump `react-intl` to `v6.4.4`. Refs STSMACOM-780.
+* Add possible to pass `paneTitleRef` from `SearchAndSort` to `Pane` that already support `paneTitleRef`. Refs STSMACOM-779.
+* Correctly save empty list when all custom fields are removed. Refs STSMACOM-781.
 * *BREAKING* Handle access-control via cookies. Refs STSMACOM-714.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)

@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 9.0.0 IN PROGRESS
+## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)
 
 * Add `limit` query params to `ProxyManager` component. Refs STSMACOM-731.
 * Disabled action menu if user does not have any of the required permissions. Refs STSMACOM-736.

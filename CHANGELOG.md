@@ -2,6 +2,8 @@
 
 ## 9.1.0 IN PROGRESS
 
+* Entries passed into the `<Settings>` component can have an `iface` element specifying an interface that must be present in order for the settings page to be enabled (analogous to the `perm` element).
+
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)
 

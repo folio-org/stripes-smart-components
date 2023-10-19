@@ -196,7 +196,7 @@
     "customFields.delete.warning": "A exclusão do campo <b>{fieldName}</b> também <b>excluirá os dados</b> armazenados nesse campo em <b>{usageCount, number} {usageCount, plural, one {registro} other {registros}}</b>",
     "customFields.delete.modalMessage": "Se você preferir manter os dados, pressione o botão \"Cancelar e continuar editando\".",
     "customFields.addCustomField": "Adicionar campo personalizado",
-    "customFields.fieldName.noSet": "Nenhum conjunto de rótulos",
+    "customFields.fieldName.noSet": "Nenhum conjunto de etiquetas",
     "customFields.settings.sectionTitle": "Título da seção",
     "customFields.settings.accordion.hidden": "(Oculto)",
     "customFields.recordAccordion.defaultName": "Campos personalizados",

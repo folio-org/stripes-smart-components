@@ -248,8 +248,8 @@
     "customFields.save&Close": "Save & close",
     "customFields.option.delete.warning": "Deleting the field <b>{fieldName}'s</b> option <b>{optionName}.</b> No data stored for this options.",
     "notes.titleAndDetails": "Title and details",
-    "notes.showLessDetails": "Show less",
-    "notes.showMoreDetails": "Show more",
+    "notes.showLessDetails": "Mostrar menos",
+    "notes.showMoreDetails": "Mostrar más",
     "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
     "cannotSaveNewTag": "Cannot create new tag: you may not have the required permissions.",
     "cannotSaveTagToRecord": "Cannot save tag data to record.  Check that you have the required permissions.",
@@ -275,5 +275,5 @@
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
     "editableList.actionsColumnHeader": "Acciones",
     "customFields.option.deleteLabel": "Delete",
-    "advancedSearch": "Advanced search"
+    "advancedSearch": "Búsqueda avanzada"
 }

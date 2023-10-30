@@ -43,6 +43,7 @@ export { default as MultiSelectionFilter } from './lib/SearchAndSort/components/
 export { default as DateRangeFilter } from './lib/SearchAndSort/components/DateRangeFilter';
 
 export { default as makeQueryFunction } from './lib/SearchAndSort/makeQueryFunction';
+export { default as advancedSearchQueryToRows } from './lib/SearchAndSort/advancedSearchQueryToRows';
 
 export { default as makeConnectedSource } from './lib/SearchAndSort/ConnectedSource';
 export { default as StripesConnectedSource } from './lib/SearchAndSort/ConnectedSource/StripesConnectedSource';

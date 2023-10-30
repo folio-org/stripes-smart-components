@@ -30,6 +30,7 @@ filterConfig | array of structures | Configuration for the module's filters, as 
 hasRowClickHandlers | bool | Defaults to true. Turns row-level click handlers on and off for the results.
 initialFilters | string | The initial state of the filters when the application started up, used when resetting to the initial state. Takes the same form as the `filters` part of the URL: a comma-separated list of `group`.`name` filters that are selected.
 disableFilters | object whose keys are filter-group names | In the display of filter groups, those that are named in this object are greyed out and cannot be selected.
+inputType | string | Type of search box. Can  be `input` or `textarea`.
 filterChangeCallback | function | If provided, this function is invoked when the user changes a filter. It is passed the new set of filters, in the form of an object whose keys are the `group`.`name` specifiers of each selected filter.
 onFilterChange | function | Callback to be called after filter value is changed. Gets filter name and filter values in a form of an object `{ name: <String>, values: <Array> }`.
 renderFilters | function | Renders a set of filters. Gets onChange callback to be called after filter value change.

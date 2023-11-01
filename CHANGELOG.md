@@ -37,6 +37,7 @@
 * *BREAKING* bump `react-intl` to `v6.4.4`. Refs STSMACOM-780.
 * Add possible to pass `paneTitleRef` from `SearchAndSort` to `Pane` that already support `paneTitleRef`. Refs STSMACOM-779.
 * Correctly save empty list when all custom fields are removed. Refs STSMACOM-781.
+* *BREAKING* Handle access-control via cookies. Refs STSMACOM-714.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

@@ -28,8 +28,10 @@ maxSortKeys | number | If provided, specifies that maximum number of sort-keys t
 sortableColumns | array | If provided, specifies the columns that can be sorted.
 filterConfig | array of structures | Configuration for the module's filters, as documented [in the `<FilterGroups>` readme](https://github.com/folio-org/stripes-components/tree/master/lib/FilterGroups#filter-configuration).
 hasRowClickHandlers | bool | Defaults to true. Turns row-level click handlers on and off for the results.
+indexRef | ref | Reference to search index dropdown element.
 initialFilters | string | The initial state of the filters when the application started up, used when resetting to the initial state. Takes the same form as the `filters` part of the URL: a comma-separated list of `group`.`name` filters that are selected.
 disableFilters | object whose keys are filter-group names | In the display of filter groups, those that are named in this object are greyed out and cannot be selected.
+inputRef | ref | Reference to search query input element.
 inputType | string | Type of search box. Can  be `input` or `textarea`.
 filterChangeCallback | function | If provided, this function is invoked when the user changes a filter. It is passed the new set of filters, in the form of an object whose keys are the `group`.`name` specifiers of each selected filter.
 onFilterChange | function | Callback to be called after filter value is changed. Gets filter name and filter values in a form of an object `{ name: <String>, values: <Array> }`.

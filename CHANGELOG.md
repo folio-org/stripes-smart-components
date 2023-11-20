@@ -6,6 +6,7 @@
 * Export new `advancedSearchQueryToRows` helper to be used in Inventory app to reduce code duplication. Refs STSMACOM-787.
 * Show the username in the "last updated" accordion in the Note editing pane. Fixes STSMACOM-748.
 * Added `indexRef` and `inputRef` props to `<SearchAndSort>`. Refs STSMACOM-788.
+* Extend NotesAccordion and NotesSmartAccodion components to accept a prop  hideNewButton. Refs STSMACOM-789.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

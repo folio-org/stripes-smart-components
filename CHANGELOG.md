@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## IN PROGRESS
+
+* Extend NotesAccordion and NotesSmartAccodion components to accept a prop  hideNewButton. Refs STSMACOM-789.
+
 ## [9.0.1](https://github.com/folio-org/stripes-smart-components/tree/v9.0.1) (2023-10-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.0...v9.0.1)
 

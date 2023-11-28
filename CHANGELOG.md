@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## [9.0.2](https://github.com/folio-org/stripes-smart-components/tree/v9.0.2) (2023-11-28)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.0.2)
+
+* Send `X-Okapi-Token` header only when token is present in `stripes`. Refs STSMACOM-714.
+
 ## [9.0.1](https://github.com/folio-org/stripes-smart-components/tree/v9.0.1) (2023-10-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.0...v9.0.1)
 
@@ -37,7 +42,6 @@
 * *BREAKING* bump `react-intl` to `v6.4.4`. Refs STSMACOM-780.
 * Add possible to pass `paneTitleRef` from `SearchAndSort` to `Pane` that already support `paneTitleRef`. Refs STSMACOM-779.
 * Correctly save empty list when all custom fields are removed. Refs STSMACOM-781.
-* *BREAKING* Handle access-control via cookies. Refs STSMACOM-714.
 
 ## [8.0.0](https://github.com/folio-org/stripes-smart-components/tree/v8.0.0) (2023-01-30)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v7.3.0...v8.0.0)

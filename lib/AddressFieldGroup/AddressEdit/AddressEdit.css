@@ -45,8 +45,7 @@
 
   &:hover {
     & :global .stripes__icon {
-      /* stylelint-disable-next-line function-no-unknown */
-      fill: color(#900 blend(#aaa 50%));
+      fill: color-mix(in oklch, #900, #aaa);
     }
   }
 }

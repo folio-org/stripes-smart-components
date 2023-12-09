@@ -271,7 +271,7 @@
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
     "cddd.selectAllLoans": "Select all loans",
     "cddd.selectLoan": "Select \"{loanName}\" loan",
-    "actions": "Actions",
+    "actions": "Akcje",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
     "editableList.actionsColumnHeader": "Actions",
     "customFields.option.deleteLabel": "Delete",

@@ -10,6 +10,7 @@
 * Extend `Tags` component to accept `mutateEntity` prop. Refs STSMACOM-792.
 * Refactor CSS away from postcss-color-function. Refs STSMACOM-791.
 * `<EditCustomFieldsSettings>` now passes the `entityType` when making PUT requests to `/custom-fields`. Refs FCFIELDS-44.
+* Use the default match and search option in Advanced search when they are not entered. Refs STSMACOM-793.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

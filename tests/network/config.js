@@ -225,6 +225,16 @@ export default function config() {
           }],
         }
       }
+    }, {
+      'id': '6',
+      'name': 'Date',
+      'refId': 'date1',
+      'type': 'DATE_PICKER',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'order': 6,
+      'helpText': 'Enter a date here',
     }],
   });
 

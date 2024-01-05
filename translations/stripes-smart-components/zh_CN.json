@@ -40,7 +40,7 @@
     "ll.cancel": "取消",
     "ls.temporaryLocation": "临时馆藏地",
     "ls.permanentLocation": "永久馆藏地",
-    "ls.locationPlaceholder": "选择馆藏地名称或代码",
+    "ls.locationPlaceholder": "选择位置名称或代码",
     "pm.proxyExpired": "代理关系已过期",
     "pm.sponsorExpired": "供应商用户记录已过期",
     "pm.cannotRequestFoSponsor": "不能为厂商请求代理",

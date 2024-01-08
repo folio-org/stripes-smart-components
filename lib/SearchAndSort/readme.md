@@ -39,6 +39,7 @@ renderFilters | function | Renders a set of filters. Gets onChange callback to b
 renderNavigation | function | Renders a component at the top of the first section (filters) to be used as navigation. Default `noop`.
 initialResultCount | number | The number of records to fetch when a new search is executed (including the null search that is run when the module starts).
 resultCountIncrement | number | The amount by which to increase the number of records when scrolling close to the bottom of the loaded list.
+resultCountMessageKey | string | Override the default translation key for the result count message (defaults to something like `17 records found`)
 viewRecordComponent | component | A React component that displays a record of the appropriate type in full view. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<ViewUser>` in ui-users](https://github.com/folio-org/ui-users/blob/master/ViewUser.js).
 viewRecordPathById | function | A function that takes an id and returns a path to link brief records to. Used in lieu of `viewRecordComponent`
 createRecordPath | string | Path to link the "New" button to rather than use `editRecordComponent`.
@@ -86,6 +87,8 @@ advancedSearchQueryBuilder | function | Custom query builder for Advanced Search
 actionMenu | function | Customizes the pane's action menu; see [PaneHeader](https://github.com/folio-org/stripes-components/tree/master/lib/PaneHeader)_for more information. This function also recieves the provided `columnManagerProps`
 autofocusSearchField | boolean | If the `<SearchField>` should be auto-focused on mount
 browseOnly | boolean | If true, the component will not show or navigate to record information on selection
+pagingType | string | Type of paging to use on the `<MultiColumnList>`
+pageAmount | boolean | Number of items to show per page in the `<MultiColumnList>`
 pagingCanGoNext | boolean | If the "Next" button should be clickable on the `<MultiColumnList>`
 pagingCanGoPrevious | boolean | If the "Previous" button should be clickable on the `<MultiColumnList>`
 paneTitleRef | ref | Grab a ref to the pane's title element
@@ -95,6 +98,8 @@ hidePageIndices | boolean | If the page indexes should be hidden on the underlyi
 initiallySelectedRecord | string | The ID of an item to select upon initial mount
 nonInteractiveHeaders | string[] | Columns in the `<MultiColumnList>` which should not be clickable
 onCloseNewRecord | func | Callback for when the new record layer is closed
+onComponentWillUnmount | func | Exposes React `componentWillUnmount`. Called with all of this component's props
+onResetAll | func | Callback for when all filters/search is reset/cleared
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

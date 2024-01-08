@@ -89,6 +89,7 @@ browseOnly | boolean | If true, the component will not show or navigate to recor
 pagingCanGoNext | boolean | If the "Next" button should be clickable on the `<MultiColumnList>`
 pagingCanGoPrevious | boolean | If the "Previous" button should be clickable on the `<MultiColumnList>`
 paneTitleRef | ref | Grab a ref to the pane's title element
+detailProps | object | Additional props passed to the `viewRecordComponent` and `editRecordComponent`
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

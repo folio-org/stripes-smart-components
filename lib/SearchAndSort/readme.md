@@ -87,6 +87,7 @@ autofocusSearchField | boolean | If the `<SearchField>` should be auto-focused o
 browseOnly | boolean | If true, the component will not show or navigate to record information on selection
 pagingCanGoNext | boolean | If the "Next" button should be clickable on the `<MultiColumnList>`
 pagingCanGoPrevious | boolean | If the "Previous" button should be clickable on the `<MultiColumnList>`
+paneTitleRef | ref | Grab a ref to the pane's title element
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

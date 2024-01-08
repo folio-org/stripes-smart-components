@@ -75,6 +75,7 @@ resultsOnResetMarkedPosition | func | sets the `onMarkReset` prop to the interna
 resultsCachedPosition | position object |  sets the `ItemToView` prop of the internally rendered `<MultiColumnList>` component. It's in the shape of `{selector: string, clientTopOffset: number}`. This object is provided by the `resultsOnMarkPosition` prop.
 resultsKey | string | Sets a `key` prop on the internally rendered `<MultiColumnList>`. Changing this value will re-initialize the MCL. If necessary, this can be used to refresh the component so that it resets/readjusts to updates in data. This should be used sparingly as it can cause multiple re-renders of the list.
 customPaneSubText | node | A component that will be rendered in PaneSubHeader instead of default.
+customPaneSub | node | A component that will be rendered in the PaneSubHeader (after `customPaneSubText`).
 searchFieldButtonLabel | node | A component that will be rendered inside the SearchField button instead of default.
 isCountHidden | bool | A prop that give us possibiblty to hide count of records in Pane.
 onSubmitSearch | function | An optional function to extend the form submission functionality.

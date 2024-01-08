@@ -83,7 +83,7 @@ advancedSearchOptions | array | Array of options for Advanced Search component. 
 advancedSearchIndex | string | Value of advanced search index option. Tells `<SearchAndSort>` which index to set after searching by Advanced Search.
 advancedSearchQueryBuilder | function | Custom query builder for Advanced Search.
 actionMenu | function | Customizes the pane's action menu; see [PaneHeader](https://github.com/folio-org/stripes-components/tree/master/lib/PaneHeader)_for more information. This function also recieves the provided `columnManagerProps`
-
+autofocusSearchField | boolean | If the `<SearchField>` should be auto-focused on mount
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

@@ -92,6 +92,7 @@ paneTitleRef | ref | Grab a ref to the pane's title element
 detailProps | object | Additional props passed to the `viewRecordComponent` and `editRecordComponent`
 getCellClass | func | Customize cell classes for the underlying `<MultiColumnList>`.  See the [MultiColumnList docs for more information](https://github.com/folio-org/stripes-components/tree/master/lib/MultiColumnList)
 hidePageIndices | boolean | If the page indexes should be hidden on the underlying `<MultiColumnList>`
+initiallySelectedRecord | string | The ID of an item to select upon initial mount
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

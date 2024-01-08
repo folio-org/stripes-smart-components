@@ -76,12 +76,13 @@ resultsCachedPosition | position object |  sets the `ItemToView` prop of the int
 resultsKey | string | Sets a `key` prop on the internally rendered `<MultiColumnList>`. Changing this value will re-initialize the MCL. If necessary, this can be used to refresh the component so that it resets/readjusts to updates in data. This should be used sparingly as it can cause multiple re-renders of the list.
 customPaneSubText | node | A component that will be rendered in PaneSubHeader instead of default.
 searchFieldButtonLabel | node | A component that will be rendered inside the SearchField button instead of default.
-`isCountHidden` | bool | A prop that give us possibiblty to hide count of records in Pane.
+isCountHidden | bool | A prop that give us possibiblty to hide count of records in Pane.
 onSubmitSearch | function | An optional function to extend the form submission functionality.
 extraParamsToReset | object | An object with parameters to be removed from the URL after the search query is submitted and after the user's search query is cleared.
 advancedSearchOptions | array | Array of options for Advanced Search component. If empty then Advanced Search will not get rendered.
 advancedSearchIndex | string | Value of advanced search index option. Tells `<SearchAndSort>` which index to set after searching by Advanced Search.
 advancedSearchQueryBuilder | function | Custom query builder for Advanced Search.
+actionMenu | function | Customizes the pane's action menu; see [PaneHeader](https://github.com/folio-org/stripes-components/tree/master/lib/PaneHeader)_for more information. This function also recieves the provided `columnManagerProps`
 
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.

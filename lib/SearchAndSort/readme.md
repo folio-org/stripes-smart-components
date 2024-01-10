@@ -39,6 +39,7 @@ renderFilters | function | Renders a set of filters. Gets onChange callback to b
 renderNavigation | function | Renders a component at the top of the first section (filters) to be used as navigation. Default `noop`.
 initialResultCount | number | The number of records to fetch when a new search is executed (including the null search that is run when the module starts).
 resultCountIncrement | number | The amount by which to increase the number of records when scrolling close to the bottom of the loaded list.
+resultCountMessageKey | string | Override the default translation key for the result count message (defaults to something like `17 records found`)
 viewRecordComponent | component | A React component that displays a record of the appropriate type in full view. This is invoked with a specific set of properties that ought also to be documented, but for now, see the example of [`<ViewUser>` in ui-users](https://github.com/folio-org/ui-users/blob/master/ViewUser.js).
 viewRecordPathById | function | A function that takes an id and returns a path to link brief records to. Used in lieu of `viewRecordComponent`
 createRecordPath | string | Path to link the "New" button to rather than use `editRecordComponent`.
@@ -49,6 +50,7 @@ columnManagerProps | Applies additional props for the internal `<ColumnManager>`
 columnWidths | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 columnMapping | object whose names are field captions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 resultRowFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
+resultsFormatter | object mapping field-names to functions | As for [`<MultiColumnList>`](https://github.com/folio-org/stripes-components/blob/master/lib/MultiColumnList/readme.md)
 resultRowIsSelected | func | function returning a boolean to determine whether or not an item in the results should have the 'selected' CSS style applied. A default `isMatch` function is supplied.
 onSelectRow | func | Optional function to override the default action when selecting a row (which displays the full record). May be used, for example, when running one module embedded in another, as when ui-checkin embeds an instance of ui-users to select the user for whom items are being checked out.
 massageNewRecord | func | If provided, this function is passed newly submitted records and may massage them in whatever way it wishes before they are persisted to the back-end. May be used to perform lookups, expand abbreviations, etc.
@@ -61,7 +63,7 @@ parentResources | shape | The parent component's stripes-connect `resources` pro
 syncQueryWithUrl | bool | Will enable or disable syncing of `query` parameter in the url with search query input value.
 parentMutator | shape | The parent component's stripes-connect `mutator` property. Must contain at least `query` (the anointed resource used for navigation) and `resultCount` (a scalar used in infinite scrolling).
 nsParams | object or string | An object or string used to namespace search and sort parameters. More information can be found [here](https://github.com/folio-org/stripes-components/blob/master/util/parameterizing-makeQueryFunction.md)
-notLoadedMessage | string | A message to show the user before a search has been submitted. Defaults to "Choose a filter or enter search query to show results".
+notLoadedMessage | node | A message to show the user before a search has been submitted. Defaults to "Choose a filter or enter search query to show results".
 getHelperResourcePath | func | An optional function which can be used to return helper's resource path dynamically.
 getHelperComponent | func | An optional function which can be used to return connected helper component implementation.
 title | string/element | An optional property to specify title of results pane. By default module display name is used.
@@ -75,14 +77,33 @@ resultsOnResetMarkedPosition | func | sets the `onMarkReset` prop to the interna
 resultsCachedPosition | position object |  sets the `ItemToView` prop of the internally rendered `<MultiColumnList>` component. It's in the shape of `{selector: string, clientTopOffset: number}`. This object is provided by the `resultsOnMarkPosition` prop.
 resultsKey | string | Sets a `key` prop on the internally rendered `<MultiColumnList>`. Changing this value will re-initialize the MCL. If necessary, this can be used to refresh the component so that it resets/readjusts to updates in data. This should be used sparingly as it can cause multiple re-renders of the list.
 customPaneSubText | node | A component that will be rendered in PaneSubHeader instead of default.
+customPaneSub | node | A component that will be rendered in the PaneSubHeader (after `customPaneSubText`).
 searchFieldButtonLabel | node | A component that will be rendered inside the SearchField button instead of default.
-`isCountHidden` | bool | A prop that give us possibiblty to hide count of records in Pane.
+isCountHidden | bool | A prop that give us possibiblty to hide count of records in Pane.
 onSubmitSearch | function | An optional function to extend the form submission functionality.
 extraParamsToReset | object | An object with parameters to be removed from the URL after the search query is submitted and after the user's search query is cleared.
 advancedSearchOptions | array | Array of options for Advanced Search component. If empty then Advanced Search will not get rendered.
 advancedSearchIndex | string | Value of advanced search index option. Tells `<SearchAndSort>` which index to set after searching by Advanced Search.
 advancedSearchQueryBuilder | function | Custom query builder for Advanced Search.
-
+actionMenu | function | Customizes the pane's action menu; see [PaneHeader](https://github.com/folio-org/stripes-components/tree/master/lib/PaneHeader)_for more information. This function also recieves the provided `columnManagerProps`
+autofocusSearchField | boolean | If the `<SearchField>` should be auto-focused on mount
+browseOnly | boolean | If true, the component will not show or navigate to record information on selection
+pagingType | string | Type of paging to use on the `<MultiColumnList>`
+pageAmount | boolean | Number of items to show per page in the `<MultiColumnList>`
+pagingCanGoNext | boolean | If the "Next" button should be clickable on the `<MultiColumnList>`
+pagingCanGoPrevious | boolean | If the "Previous" button should be clickable on the `<MultiColumnList>`
+paneTitleRef | ref | Grab a ref to the pane's title element
+detailProps | object | Additional props passed to the `viewRecordComponent` and `editRecordComponent`
+getCellClass | func | Customize cell classes for the underlying `<MultiColumnList>`.  See the [MultiColumnList docs for more information](https://github.com/folio-org/stripes-components/tree/master/lib/MultiColumnList)
+hidePageIndices | boolean | If the page indexes should be hidden on the underlying `<MultiColumnList>`
+initiallySelectedRecord | string | The ID of an item to select upon initial mount
+nonInteractiveHeaders | string[] | Columns in the `<MultiColumnList>` which should not be clickable
+onCloseNewRecord | func | Callback for when the new record layer is closed
+onComponentWillUnmount | func | Exposes React `componentWillUnmount`. Called with all of this component's props
+onResetAll | func | Callback for when all filters/search is reset/cleared
+resultsOnNeedMore | func | Custom data-fetching function, triggered when getting near the end of the fetched data. Void return, accepts an object with `records`, `source`, `direction`, `index`, `firstIndex`, and `askAmount`
+showSingleResult | boolean | Whether to auto-show the details record when a search returns a single row
+validateSearchOnSubmit | func | Validates the search query (passed as a parameter) before submission. Submission will be prevented if this returns false.
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

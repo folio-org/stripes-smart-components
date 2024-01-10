@@ -47,6 +47,8 @@
   "cv.numberOfObjects": "# of {objects}",
   "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",
   "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>",
+  "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
+  "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
   "ll.locationLookup": "Location look-up",
   "ll.selectLocationHeader": "Select {type} location",
   "ll.institution": "Institution",

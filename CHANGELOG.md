@@ -13,6 +13,7 @@
 * Added `tenant` prop to `<ControlledVocab>`. Refs STSMACOM-794.
 * Use the default match and search option in Advanced search when they are not entered. Refs STSMACOM-793.
 * Show successful toast notifications for Create and Edit actions in `<ControlledVocab>`. Refs STSMACOM-796.
+* `<ControlledVocab>` - last updated by column - show "System" when items are created by system user. Refs STSMACOM-797.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

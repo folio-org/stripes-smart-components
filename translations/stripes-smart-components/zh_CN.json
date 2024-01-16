@@ -275,5 +275,7 @@
     "error.conflict": "正在编辑此数据的旧版本。要加载最新版本，请单击取消， <b>刷新页面</b>并重试。",
     "editableList.actionsColumnHeader": "操作",
     "customFields.option.deleteLabel": "删除",
-    "advancedSearch": "高级搜索"
+    "advancedSearch": "高级搜索",
+    "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
+    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>"
 }

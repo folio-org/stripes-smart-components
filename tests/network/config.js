@@ -225,6 +225,19 @@ export default function config() {
           }],
         }
       }
+    }, {
+      'id': '6',
+      'name': 'Checkbox',
+      'refId': 'cb_1',
+      'type': 'SINGLE_CHECKBOX',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'isRepeatable': false,
+      'order': 6,
+      'checkboxField': {
+        'default': false
+      },
     }],
   });
 

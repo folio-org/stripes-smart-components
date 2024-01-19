@@ -226,6 +226,7 @@ export default function config() {
         }
       }
     }, {
+      'id':'6',
       'name': 'Date',
       'refId': 'date1',
       'type': 'DATE_PICKER',

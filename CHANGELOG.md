@@ -14,6 +14,7 @@
 * Use the default match and search option in Advanced search when they are not entered. Refs STSMACOM-793.
 * Show successful toast notifications for Create and Edit actions in `<ControlledVocab>`. Refs STSMACOM-796.
 * `<ControlledVocab>` - last updated by column - show "System" when items are created by system user. Refs STSMACOM-797.
+* Add field type `DATE_PICKER` to custom fields components. Refs STSMACOM-800.
 * Make `helpText` prop as optional for all types of custom field components. Refs STSMACOM-799.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)

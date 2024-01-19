@@ -226,7 +226,16 @@ export default function config() {
         }
       }
     }, {
-      'id': '6',
+      'name': 'Date',
+      'refId': 'date1',
+      'type': 'DATE_PICKER',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'order': 6,
+      'helpText': 'Enter a date here',
+    }, {
+      'id': '7',
       'name': 'Checkbox',
       'refId': 'cb_1',
       'type': 'SINGLE_CHECKBOX',
@@ -234,7 +243,7 @@ export default function config() {
       'visible': true,
       'required': false,
       'isRepeatable': false,
-      'order': 6,
+      'order': 7,
       'checkboxField': {
         'default': false
       },

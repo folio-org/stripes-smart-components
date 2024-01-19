@@ -219,6 +219,7 @@
   "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
   "customFields.fieldTypes.SELECT": "Single select",
   "customFields.fieldTypes.MULTISELECT": "Multi-select",
+  "customFields.fieldTypes.DATE_PICKER": "Date picker",
   "customFields.fieldLabel": "Field label",
   "customFields.fieldFormat": "Field format",
   "customFields.fieldValue.required": "{field} is required",

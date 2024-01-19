@@ -245,6 +245,7 @@ export default function config() {
       'required': false,
       'isRepeatable': false,
       'order': 7,
+      'helpText': 'checkbox help text',
       'checkboxField': {
         'default': false
       },

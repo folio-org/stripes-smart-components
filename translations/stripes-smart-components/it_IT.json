@@ -275,5 +275,7 @@
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
     "editableList.actionsColumnHeader": "Azioni",
     "customFields.option.deleteLabel": "Delete",
-    "advancedSearch": "Advanced search"
+    "advancedSearch": "Advanced search",
+    "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
+    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>"
 }

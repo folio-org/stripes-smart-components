@@ -275,5 +275,7 @@
     "error.conflict": "Está editando una versión antigua de estos datos. Para cargar la versión más reciente, haga clic en cancelar, <b>actualice la página e inténtelo de</b> nuevo.",
     "editableList.actionsColumnHeader": "Acciones",
     "customFields.option.deleteLabel": "Borrar",
-    "advancedSearch": "Búsqueda Avanzada"
+    "advancedSearch": "Búsqueda Avanzada",
+    "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
+    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>"
 }

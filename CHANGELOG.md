@@ -6,7 +6,7 @@
 * Export new `advancedSearchQueryToRows` helper to be used in Inventory app to reduce code duplication. Refs STSMACOM-787.
 * Show the username in the "last updated" accordion in the Note editing pane. Fixes STSMACOM-748.
 * Added `indexRef` and `inputRef` props to `<SearchAndSort>`. Refs STSMACOM-788.
-* Extend NotesAccordion and NotesSmartAccodion components to accept a prop  hideNewButton. Refs STSMACOM-789.
+* Extend NotesAccordion and NotesSmartAccordion components to accept a prop  hideNewButton. Refs STSMACOM-789.
 * Extend `Tags` component to accept `mutateEntity` prop. Refs STSMACOM-792.
 * Refactor CSS away from postcss-color-function. Refs STSMACOM-791.
 * `<EditCustomFieldsSettings>` now passes the `entityType` when making PUT requests to `/custom-fields`. Refs FCFIELDS-44.
@@ -14,6 +14,8 @@
 * Use the default match and search option in Advanced search when they are not entered. Refs STSMACOM-793.
 * Show successful toast notifications for Create and Edit actions in `<ControlledVocab>`. Refs STSMACOM-796.
 * `<ControlledVocab>` - last updated by column - show "System" when items are created by system user. Refs STSMACOM-797.
+* Add field type `DATE_PICKER` to custom fields components. Refs STSMACOM-800.
+* Make `helpText` prop as optional for all types of custom field components. Refs STSMACOM-799.
 * `<EditableList>` - added new `getReadOnlyFieldsForItem` prop to control read only fields for different items. Refs STSMACOM-801.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)

@@ -277,5 +277,6 @@
     "customFields.option.deleteLabel": "削除",
     "advancedSearch": "Advanced search",
     "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
-    "cv.termUpdated": "{type} <b> {term} </b>は正常に<b>更新されました</b>"
+    "cv.termUpdated": "{type} <b> {term} </b>は正常に<b>更新されました</b>",
+    "customFields.fieldTypes.DATE_PICKER": "Date picker"
 }

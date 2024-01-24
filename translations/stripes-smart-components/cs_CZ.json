@@ -148,7 +148,7 @@
     "addressEdit.label.addressType": "Typ adresy",
     "addressEdit.label.addressLine1": "Řádek adresy 1",
     "addressEdit.label.addressLine2": "Řádek adresy 2",
-    "addressEdit.label.stateRegion": "Stát/Prov/Region",
+    "addressEdit.label.stateRegion": "Stát/Prov/Oblast",
     "addressEdit.label.zipCode": "PSČ",
     "addressEdit.label.country": "Země",
     "addressEdit.label.city": "Město",
@@ -276,6 +276,7 @@
     "editableList.actionsColumnHeader": "Akce",
     "customFields.option.deleteLabel": "Smazat",
     "advancedSearch": "Rozšířené vyhledávání",
-    "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
-    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>"
+    "cv.termCreated": "{type} <b>{term}</b> byl úspěšně <b>vytvořen</b>",
+    "cv.termUpdated": "{type} <b>{term}</b> byl úspěšně <b>aktualizován</b>",
+    "customFields.fieldTypes.DATE_PICKER": "Výběr data"
 }

@@ -277,5 +277,6 @@
     "customFields.option.deleteLabel": "Supprimer",
     "advancedSearch": "Advanced search",
     "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
-    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>"
+    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
+    "customFields.fieldTypes.DATE_PICKER": "Date picker"
 }

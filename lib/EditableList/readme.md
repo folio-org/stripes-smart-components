@@ -46,6 +46,7 @@ actionSuppression | object | Object containing properties of list action names: 
 actionProps | object | Object containing properties of list action names: 'delete', 'edit' and values of sentinel functions that return objects to destructure onto the action button props. | `{ delete: (item) => {return { disabled: item.item.inUse } } }`
 isEmptyMessage | string | Message to display for an empty list. | | no
 readOnlyFields | array of strings | Array of non-editable columns - good for displaying meta information within the row. | | no
+getReadOnlyFieldsForItem | function | Function that takes a row item as an argument and returns an array of non-editable columns. Can be used when different fields need to be editale based on item data. Values returned from this prop will be used together with values from `readOnlyFields`. | | no
 formatter | object | Allows custom content/components to be displayed in the grid. see example below. | | no
 columnMapping | object | Allows custom column names to be applied in case they differ from the properties of `contentData`'s objects| | no
 fieldComponents | object | Allows custom components for edit mode to be used. Fields not supplied will use a `<TextField>` by default| | no

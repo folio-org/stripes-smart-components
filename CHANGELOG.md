@@ -19,6 +19,7 @@
 * Upgrade `stylelint` and associated dependencies. Refs STSMACOM-803.
 * `<UserName>` must handle sparse data. Refs STSMACOM-802.
 * `<EditableList>` - added new `getReadOnlyFieldsForItem` prop to control read only fields for different items. Refs STSMACOM-801.
+* Set default title for Accordion in `<EditCustomFieldsRecord>`. Refs STSMACOM-805.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

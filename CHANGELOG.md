@@ -18,6 +18,7 @@
 * Make `helpText` prop as optional for all types of custom field components. Refs STSMACOM-799.
 * Upgrade `stylelint` and associated dependencies. Refs STSMACOM-803.
 * `<UserName>` must handle sparse data. Refs STSMACOM-802.
+* `ViewCustomFieldRecord` - remove required validation from `expanded`, `onToggle` props. Refs STSMACOM-798.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

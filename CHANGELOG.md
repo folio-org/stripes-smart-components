@@ -18,6 +18,7 @@
 * Make `helpText` prop as optional for all types of custom field components. Refs STSMACOM-799.
 * Upgrade `stylelint` and associated dependencies. Refs STSMACOM-803.
 * `<UserName>` must handle sparse data. Refs STSMACOM-802.
+* `ViewCustomFieldRecord` - remove required validation from `expanded`, `onToggle` props. Refs STSMACOM-798.
 * `<EditableList>` - added new `getReadOnlyFieldsForItem` prop to control read only fields for different items. Refs STSMACOM-801.
 * `<EditableList>` - added confirmation modal when deleting items. Refs STSMACOM-807.
 

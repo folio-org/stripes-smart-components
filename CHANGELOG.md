@@ -21,6 +21,7 @@
 * `ViewCustomFieldRecord` - remove required validation from `expanded`, `onToggle` props. Refs STSMACOM-798.
 * `<EditableList>` - added new `getReadOnlyFieldsForItem` prop to control read only fields for different items. Refs STSMACOM-801.
 * `<EditableList>` - added confirmation modal when deleting items. Refs STSMACOM-807.
+* Add `onComponentLoad` prop to `<EditCustomFieldsRecord>`. Refs STSMACOM-806.
 * Set default title for Accordion in `<EditCustomFieldsRecord>`. Refs STSMACOM-805.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)

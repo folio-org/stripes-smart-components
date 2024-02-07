@@ -184,6 +184,7 @@ Name | type | description | required | default
 `entityType` | string | used to filter custom files by particular entity type |true
 `expanded` | boolean | indicates if the accordion is open | true |
 `fieldComponent` | func | Field component | true |
+`onComponentLoad` | func | callback function invoked when all form fields have been rendered | false |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
 
 

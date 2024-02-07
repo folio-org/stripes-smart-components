@@ -280,5 +280,7 @@
   "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
 
   "columnManager.showColumns": "Show columns",
-  "editableList.actionsColumnHeader": "Actions"
+  "editableList.actionsColumnHeader": "Actions",
+  "editableList.confirmationModal.cancelLabel": "No, do not delete",
+  "editableList.confirmationModal.confirmLabel": "Yes, delete"
 }

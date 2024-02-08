@@ -275,8 +275,10 @@
     "error.conflict": "Sie bearbeiten gerade eine alte Version dieser Daten. Um die neueste Version zu laden, klicken Sie auf Abbrechen, <b>aktualisieren Sie die Seite</b> und versuchen Sie es erneut.",
     "editableList.actionsColumnHeader": "Aktionen",
     "customFields.option.deleteLabel": "Löschen",
-    "advancedSearch": "Advanced search",
+    "advancedSearch": "Erweiterte Suche",
     "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
     "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
-    "customFields.fieldTypes.DATE_PICKER": "Date picker"
+    "customFields.fieldTypes.DATE_PICKER": "Date picker",
+    "editableList.confirmationModal.cancelLabel": "No, do not delete",
+    "editableList.confirmationModal.confirmLabel": "Yes, delete"
 }

@@ -264,12 +264,12 @@
     "notes.displayAsPopup.label": "Display note as a pop-up",
     "notes.displayAsPopup.checkout": "Check out app",
     "notes.displayAsPopup.users": "Users app",
-    "notes.popupModal.label": "Note for patron",
-    "notes.popupModal.delete": "Delete note",
+    "notes.popupModal.label": "Uwaga dla czytelnika",
+    "notes.popupModal.delete": "Uwaga do usunięcia",
     "notes.close": "Zamknij",
     "customFields.noCustomFieldsFound": "No custom fields found",
     "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
-    "cddd.selectAllLoans": "Select all loans",
+    "cddd.selectAllLoans": "Wybierz wszystkie wypożyczenia",
     "cddd.selectLoan": "Select \"{loanName}\" loan",
     "actions": "Akcje",
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
@@ -278,5 +278,7 @@
     "advancedSearch": "Wyszukiwanie zaawansowane",
     "cv.termCreated": "{type} <b>{term}</b> został pomyślnie <b>utworzony</b>",
     "cv.termUpdated": "{type} <b> {term} </b> został pomyślnie <b> zaktualizowany </b>",
-    "customFields.fieldTypes.DATE_PICKER": "Date picker"
+    "customFields.fieldTypes.DATE_PICKER": "Date picker",
+    "editableList.confirmationModal.cancelLabel": "No, do not delete",
+    "editableList.confirmationModal.confirmLabel": "Yes, delete"
 }

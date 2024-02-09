@@ -278,5 +278,7 @@
     "advancedSearch": "Busca avançada",
     "cv.termCreated": "O {type} <b>{term}</b> foi <b>criado</b> com sucesso",
     "cv.termUpdated": "O {type} <b>{term}</b> foi <b>atualizado</b> com sucesso",
-    "customFields.fieldTypes.DATE_PICKER": "Seletor de data"
+    "customFields.fieldTypes.DATE_PICKER": "Seletor de data",
+    "editableList.confirmationModal.cancelLabel": "Não, não excluir",
+    "editableList.confirmationModal.confirmLabel": "Sim, excluir"
 }

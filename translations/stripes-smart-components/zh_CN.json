@@ -276,7 +276,9 @@
     "editableList.actionsColumnHeader": "操作",
     "customFields.option.deleteLabel": "删除",
     "advancedSearch": "高级搜索",
-    "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
-    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
-    "customFields.fieldTypes.DATE_PICKER": "Date picker"
+    "cv.termCreated": "{type} <b> {term} </b>已成功<b>创建</b>",
+    "cv.termUpdated": "{type} <b> {term} </b>已成功<b>更新</b>",
+    "customFields.fieldTypes.DATE_PICKER": "日期选择器",
+    "editableList.confirmationModal.cancelLabel": "No, do not delete",
+    "editableList.confirmationModal.confirmLabel": "Yes, delete"
 }

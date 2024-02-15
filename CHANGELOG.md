@@ -25,6 +25,7 @@
 * Keep final form state when update request fails in `<EditableList>`. Refs STSMACOM-809.
 * Set default title for Accordion in `<EditCustomFieldsRecord>`. Refs STSMACOM-805.
 * `<EditableList>` - make `confirmationMessage` prop accept a function. Refs STSMACOM-810.
+* Don't use `form.getState` in `<EditableListForm>` because redux-form doesn't have this API. Initialization will happen automatically when fresh data has been loaded after edit. Fixes STSMACOM-813.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

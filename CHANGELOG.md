@@ -24,6 +24,7 @@
 * Add `onComponentLoad` prop to `<EditCustomFieldsRecord>`. Refs STSMACOM-806.
 * Keep final form state when update request fails in `<EditableList>`. Refs STSMACOM-809.
 * Set default title for Accordion in `<EditCustomFieldsRecord>`. Refs STSMACOM-805.
+* `<EditableList>` - make `confirmationMessage` prop accept a function. Refs STSMACOM-810.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

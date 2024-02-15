@@ -279,6 +279,6 @@
     "cv.termCreated": "{type} <b>{term}</b> byl úspěšně <b>vytvořen</b>",
     "cv.termUpdated": "{type} <b>{term}</b> byl úspěšně <b>aktualizován</b>",
     "customFields.fieldTypes.DATE_PICKER": "Výběr data",
-    "editableList.confirmationModal.cancelLabel": "No, do not delete",
-    "editableList.confirmationModal.confirmLabel": "Yes, delete"
+    "editableList.confirmationModal.cancelLabel": "Ne, nemazat",
+    "editableList.confirmationModal.confirmLabel": "Ano, smazat"
 }

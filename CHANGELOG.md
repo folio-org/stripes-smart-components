@@ -27,6 +27,7 @@
 * `<EditableList>` - make `confirmationMessage` prop accept a function. Refs STSMACOM-810.
 * Don't use `form.getState` in `<EditableListForm>` because redux-form doesn't have this API. Initialization will happen automatically when fresh data has been loaded after edit. Fixes STSMACOM-813.
 * `<EditableListForm>` - don't show an error after the user clicks on the edit icon. Fixes STSMACOM-812.
+* Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

@@ -1,6 +1,9 @@
 # Change history for stripes-smart-components
 
-## 9.1.0 IN PROGRESS
+## 9.2.0 IN PROGRESS
+
+## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)
 
 * Added `inputType` prop to `<SearchAndSort>` component to support both input and textarea search boxes. Refs STSMACOM-786.
 * Export new `advancedSearchQueryToRows` helper to be used in Inventory app to reduce code duplication. Refs STSMACOM-787.
@@ -27,6 +30,11 @@
 * `<EditableList>` - make `confirmationMessage` prop accept a function. Refs STSMACOM-810.
 * Don't use `form.getState` in `<EditableListForm>` because redux-form doesn't have this API. Initialization will happen automatically when fresh data has been loaded after edit. Fixes STSMACOM-813.
 * `<EditableListForm>` - don't show an error after the user clicks on the edit icon. Fixes STSMACOM-812.
+
+## [9.0.1](https://github.com/folio-org/stripes-smart-components/tree/v9.0.1) (2023-10-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.0...v9.0.1)
+
+* add default parameters to `onSubmit`, `submitAll` internal SASQ handlers. Refs STSMACOM-785, STSMACOM-775.
 
 ## [9.0.0](https://github.com/folio-org/stripes-smart-components/tree/v9.0.0) (2023-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v8.0.0...v9.0.0)

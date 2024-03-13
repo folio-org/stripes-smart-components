@@ -73,7 +73,7 @@
     "numberOfTags": "{count, number} {count, plural, one {Štítek} other {Štítků}}",
     "deleteTag": "Odstranit štítek",
     "enterATag": "Zadat štítek.",
-    "tagsTextArea": "Textová oblast štítku",
+    "tagsTextArea": "Textová oblast tagu",
     "addTag": "Přidat",
     "addNew": "Přidat nový",
     "newTagCreated": "Byl vytvořen nový štítek",

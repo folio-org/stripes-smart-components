@@ -276,9 +276,9 @@
     "editableList.actionsColumnHeader": "Aktionen",
     "customFields.option.deleteLabel": "Löschen",
     "advancedSearch": "Erweiterte Suche",
-    "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
-    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
-    "customFields.fieldTypes.DATE_PICKER": "Date picker",
-    "editableList.confirmationModal.cancelLabel": "No, do not delete",
-    "editableList.confirmationModal.confirmLabel": "Yes, delete"
+    "cv.termCreated": "Der {type} <b> {term} </b> wurde erfolgreich <b> erstellt </b>",
+    "cv.termUpdated": "Der {type} <b> {term} </b> wurde erfolgreich <b> aktualisiert </b>",
+    "customFields.fieldTypes.DATE_PICKER": "Datumsauswahl",
+    "editableList.confirmationModal.cancelLabel": "Nein, nicht löschen",
+    "editableList.confirmationModal.confirmLabel": "Ja, löschen"
 }

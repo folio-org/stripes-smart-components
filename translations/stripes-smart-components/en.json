@@ -47,6 +47,8 @@
   "cv.numberOfObjects": "# of {objects}",
   "cv.termWillBeDeleted": "The {type} <b>{term}</b> will be <b>deleted.</b>",
   "cv.termDeleted": "The {type} <b>{term}</b> was successfully <b>deleted</b>",
+  "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
+  "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
   "ll.locationLookup": "Location look-up",
   "ll.selectLocationHeader": "Select {type} location",
   "ll.institution": "Institution",
@@ -217,6 +219,7 @@
   "customFields.fieldTypes.RADIO_BUTTON": "Radio button set",
   "customFields.fieldTypes.SELECT": "Single select",
   "customFields.fieldTypes.MULTISELECT": "Multi-select",
+  "customFields.fieldTypes.DATE_PICKER": "Date picker",
   "customFields.fieldLabel": "Field label",
   "customFields.fieldFormat": "Field format",
   "customFields.fieldValue.required": "{field} is required",
@@ -277,5 +280,7 @@
   "clipCopy.success": "Successfully copied \"{text}\" to clipboard.",
 
   "columnManager.showColumns": "Show columns",
-  "editableList.actionsColumnHeader": "Actions"
+  "editableList.actionsColumnHeader": "Actions",
+  "editableList.confirmationModal.cancelLabel": "No, do not delete",
+  "editableList.confirmationModal.confirmLabel": "Yes, delete"
 }

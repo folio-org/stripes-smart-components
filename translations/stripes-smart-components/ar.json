@@ -275,5 +275,10 @@
     "error.conflict": "أنت تقوم بتحرير نسخة قديمة من هذه البيانات. لتحميل أحدث إصدار، قم بالنقر على إلغاء، <b>تحديث الصفحة </b> وحاول مرة أخرى.",
     "editableList.actionsColumnHeader": "الإجراءات",
     "customFields.option.deleteLabel": "Delete",
-    "advancedSearch": "Advanced search"
+    "advancedSearch": "Advanced search",
+    "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
+    "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
+    "customFields.fieldTypes.DATE_PICKER": "Date picker",
+    "editableList.confirmationModal.cancelLabel": "No, do not delete",
+    "editableList.confirmationModal.confirmLabel": "Yes, delete"
 }

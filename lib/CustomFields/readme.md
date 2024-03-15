@@ -110,6 +110,7 @@ Name | type | description | required | default
 `accordionId` | string | used to set accordion id | true |
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true |
 `columnCount` | number | grid display in the same menner as other accordions in current page | false | 4
+`customFieldsLabel` | node | default accordion label | false | `<FormattedMessage id="stripes-smart-components.customFields" />`
 `customFieldsValues` | object | values for the custom fields | true |
 `entityType` | string | used to filter custom files by particular entity type | true |
 `expanded` | boolean | accordion open or closed | true |
@@ -179,9 +180,11 @@ Name | type | description | required | default
 `accordionId` | string | used to set accordion id | true |
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true
 `columnCount` | number | grid display in the same manner as other accordions in current page | false | 4
+`customFieldsLabel` | node | default accordion label | false | `<FormattedMessage id="stripes-smart-components.customFields" />`
 `entityType` | string | used to filter custom files by particular entity type |true
 `expanded` | boolean | indicates if the accordion is open | true |
 `fieldComponent` | func | Field component | true |
+`onComponentLoad` | func | callback function invoked when all form fields have been rendered | false |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
 
 

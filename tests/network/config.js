@@ -17,25 +17,6 @@ export default function config() {
 
   this.get('/note-types');
 
-  this.post('location-units/institutions', {
-    'errors': [{
-      'message': 'Cannot create entity; name is not unique',
-      'code': 'name.duplicate',
-      'parameters': [{
-        'key': 'fieldLabel',
-        'value': 'name'
-      }]
-    },
-    {
-      'message': 'test',
-      'code': '-1',
-      'parameters': [{
-        'key': 'test',
-        'value': 'test'
-      }]
-    }]
-  }, 422);
-
   this.get('/note-links/domain/dummy/type/:type/id/:id', ({ notes }, { params, queryParams }) => {
     return notes.where((note) => {
       const conditions = [];
@@ -244,6 +225,30 @@ export default function config() {
           }],
         }
       }
+    }, {
+      'id':'6',
+      'name': 'Date',
+      'refId': 'date1',
+      'type': 'DATE_PICKER',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'order': 6,
+      'helpText': 'Enter a date here',
+    }, {
+      'id': '7',
+      'name': 'Checkbox',
+      'refId': 'cb_1',
+      'type': 'SINGLE_CHECKBOX',
+      'entityType': 'user',
+      'visible': true,
+      'required': false,
+      'isRepeatable': false,
+      'order': 7,
+      'helpText': 'checkbox help text',
+      'checkboxField': {
+        'default': false
+      },
     }],
   });
 

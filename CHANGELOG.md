@@ -2,6 +2,10 @@
 
 ## 9.2.0 IN PROGRESS
 
+## [9.1.1] (IN PROGRESS)
+
+* Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
+
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)
 

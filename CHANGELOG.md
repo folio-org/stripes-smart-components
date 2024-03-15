@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## 9.1.1 IN PROGRESS
+
+* Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
+* Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
+
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)
 
@@ -28,7 +33,6 @@
 * `<EditableList>` - make `confirmationMessage` prop accept a function. Refs STSMACOM-810.
 * Don't use `form.getState` in `<EditableListForm>` because redux-form doesn't have this API. Initialization will happen automatically when fresh data has been loaded after edit. Fixes STSMACOM-813.
 * `<EditableListForm>` - don't show an error after the user clicks on the edit icon. Fixes STSMACOM-812.
-* Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
 
 ## [9.0.1](https://github.com/folio-org/stripes-smart-components/tree/v9.0.1) (2023-10-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.0...v9.0.1)

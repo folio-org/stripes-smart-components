@@ -2,6 +2,7 @@
 
 ## 9.2.0 IN PROGRESS
 
+* Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
 * Use `react-quill` compatible with `react` `v18`. Refs STSMACOM-821.
 
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)

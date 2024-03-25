@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 9.1.1 IN PROGRESS
+## [9.1.1](https://github.com/folio-org/stripes-smart-components/tree/v9.1.1) (2024-03-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.0...v9.1.1)
 
 * Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
 * Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.

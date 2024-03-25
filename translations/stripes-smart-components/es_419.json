@@ -6,7 +6,7 @@
     "cddd.changeSucceededWithCount": "La fecha y hora de vencimiento se han <b> cambiado correctamente </b> <b> {succeeded, number} </b> {succeeded, plural, one { elemento } other { elementos }} .",
     "cddd.changeFailed": "Error al cambiar la fecha de vencimiento",
     "cddd.itemHasRequestQueue": "El artículo tiene una cola de solicitudes",
-    "cddd.itemsHaveWarnings": "<b>{count,  number}</b> {count, plural, one {artículo} other {artículos}} tienen <b>advertencias.</b>",
+    "cddd.itemsHaveWarnings": "<b>{count,  number}</b> {count, plural, one {artículo} other {ítems}} tienen <b>advertencias.</b>",
     "cddd.header.alertDetails": "Datos de alerta",
     "cddd.header.title": "Título",
     "cddd.header.itemStatus": "Estado del artículo",

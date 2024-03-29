@@ -55,7 +55,7 @@ id | string | Used as a basic suffix for `id` attributes throughout the componen
 editable | boolean | Used as a flag for the component to be editable or not editable (without '+ New' button and column 'actions'). | `true` | no
 withDeleteConfirmation | boolean | Should user be asked to confirm delete action | `false` | no
 confirmationHeading | function/string/node | Confirmation modal heading. If it's a function - it will be called with id of the deleted item. | | yes
-confirmationMessage | string/node | Confirmation modal message | | yes
+confirmationMessage | function/string/node | Confirmation modal message. If it's a function - it will be called with id of the deleted item. | | yes
 confirmationCancelLabel | string/node | Confirmation modal cancel button label | default label | no
 confirmationConfirmLabel | string/node | Confirmation modal confirm button label | default label | no
 

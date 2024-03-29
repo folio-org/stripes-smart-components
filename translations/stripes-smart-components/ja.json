@@ -146,10 +146,10 @@
     "error.addressTypeTaken": "住所の種類は既に使用されています",
     "addressEdit.removeAddress": "住所を削除",
     "addressEdit.label.addressType": "住所の種類",
-    "addressEdit.label.addressLine1": "Address line 1",
-    "addressEdit.label.addressLine2": "Address line 2",
+    "addressEdit.label.addressLine1": "住所1",
+    "addressEdit.label.addressLine2": "住所2",
     "addressEdit.label.stateRegion": "州/県/地域",
-    "addressEdit.label.zipCode": "Zip/Postal Code",
+    "addressEdit.label.zipCode": "郵便番号",
     "addressEdit.label.country": "国",
     "addressEdit.label.city": "市",
     "addresses": "住所",
@@ -279,6 +279,6 @@
     "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
     "cv.termUpdated": "{type} <b> {term} </b>は正常に<b>更新されました</b>",
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
-    "editableList.confirmationModal.cancelLabel": "No, do not delete",
-    "editableList.confirmationModal.confirmLabel": "Yes, delete"
+    "editableList.confirmationModal.cancelLabel": "いいえ、削除しません",
+    "editableList.confirmationModal.confirmLabel": "はい、削除します"
 }

@@ -50,6 +50,7 @@ getReadOnlyFieldsForItem | function | Function that takes a row item as an argum
 formatter | object | Allows custom content/components to be displayed in the grid. see example below. | | no
 columnMapping | object | Allows custom column names to be applied in case they differ from the properties of `contentData`'s objects| | no
 fieldComponents | object | Allows custom components for edit mode to be used. Fields not supplied will use a `<TextField>` by default| | no
+hideCreateButton | boolean | Hides create button | false | no
 columnWidths | object | Allows custom column widths to be set. If you use this, be sure to set a width for an 'actions' column as part of this object. | | no
 id | string | Used as a basic suffix for `id` attributes throughout the component. | |
 editable | boolean | Used as a flag for the component to be editable or not editable (without '+ New' button and column 'actions'). | `true` | no

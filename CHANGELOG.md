@@ -5,6 +5,7 @@
 * Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
 * Do not trigger logic for auto-opening the record's view screen in `<SearchAndSort>` if URL already contains the record ID. Fixes STSMACOM-822.
 * Use `react-quill` compatible with `react` `v18`. Refs STSMACOM-821.
+* Extend `ViewMetadata` component to accept a render function as a prop. Refs STSMACOM-828.
 
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)

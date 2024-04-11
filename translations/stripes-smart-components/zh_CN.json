@@ -279,6 +279,6 @@
     "cv.termCreated": "{type} <b> {term} </b>已成功<b>创建</b>",
     "cv.termUpdated": "{type} <b> {term} </b>已成功<b>更新</b>",
     "customFields.fieldTypes.DATE_PICKER": "日期选择器",
-    "editableList.confirmationModal.cancelLabel": "No, do not delete",
-    "editableList.confirmationModal.confirmLabel": "Yes, delete"
+    "editableList.confirmationModal.cancelLabel": "否，不要删除",
+    "editableList.confirmationModal.confirmLabel": "是，删除"
 }

@@ -22,7 +22,8 @@
     "optionalOkapiInterfaces": {
       "configuration": "2.0",
       "remote-storage-mappings": "1.0 2.0",
-      "settings": "1.0"
+      "settings": "1.0",
+      "users": "16.1"
     }
   },
   "scripts": {

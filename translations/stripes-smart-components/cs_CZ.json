@@ -24,7 +24,7 @@
     "cv.numberOfObjects": "# {objects}",
     "cv.termWillBeDeleted": "{type} <b>{term}</b> bude <b>smazán.</b>",
     "cv.termDeleted": "{type} <b>{term}</b> byl úspěšně <b>smazán</b>",
-    "ll.locationLookup": "Vyhledávání polohy",
+    "ll.locationLookup": "Vyhledat lokaci",
     "ll.selectLocationHeader": "Vybrat {type} lokace",
     "ll.institution": "Instituce",
     "ll.selectInstitution": "Vybrat instituci",

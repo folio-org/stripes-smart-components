@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 9.1.2 IN PROGRESS
+
+* `<SearchAndSort>` - re-position Advanced search button when search panel does not have enough space. Refs STSMACOM-830.
+
 ## [9.1.1](https://github.com/folio-org/stripes-smart-components/tree/v9.1.1) (2024-03-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.0...v9.1.1)
 

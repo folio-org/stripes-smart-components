@@ -6,6 +6,7 @@
 * Do not trigger logic for auto-opening the record's view screen in `<SearchAndSort>` if URL already contains the record ID. Fixes STSMACOM-822.
 * Use `react-quill` compatible with `react` `v18`. Refs STSMACOM-821.
 * `<ControlledVocab>` - pass override headers to PUT method, new prop to hide "New" button. Refs STSMACOM-825.
+* `<SearchAndSort>` - re-position Advanced search button when search panel does not have enough space. Refs STSMACOM-830.
 
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)

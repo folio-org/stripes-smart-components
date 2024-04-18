@@ -12,7 +12,7 @@
 | `metadata`   | `object`        | Object with user ids and dates.                                                                        |
 | `systemId`   | `string`        | Property to determine if user is system. Optional property. If not passed system will not be rendered. |
 | `systemUser` | `object | node` | Optional property. By default renders "System".                                                        |
-| `children`   | `func`          | Optional property. The child function that accepts the render props. By default renders MetaSection component.                                           |
+| `children`   | `func`          | Optional property. The child function is provided an object with `lastUpdatedBy` so that presentation can be customized. If no child function is provided, `<ViewMetaData>` renders a `<MetaSection>` component.                                           |
 
 ## Usage
 

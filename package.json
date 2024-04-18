@@ -22,7 +22,8 @@
     "optionalOkapiInterfaces": {
       "configuration": "2.0",
       "remote-storage-mappings": "1.0 2.0",
-      "settings": "1.0"
+      "settings": "1.0",
+      "users": "16.1"
     }
   },
   "scripts": {
@@ -96,6 +97,7 @@
     "react-query": "^3.9.8",
     "react-quill": "^2.0.0",
     "react-router-prop-types": "^1.0.4",
+    "react-image": "^4.1.0",
     "redux-form": "^8.3.0",
     "uuid": "^9.0.0"
   },

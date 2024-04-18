@@ -77,5 +77,8 @@ export { default as EditCustomFieldsRecord } from './lib/CustomFields/pages/Edit
 export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/ViewCustomFieldsRecord';
 export { default as useCustomFields } from './lib/CustomFields/utils/useCustomFields';
 
+export { default as ProfilePicture } from './lib/ProfilePicture';
+export { default as useProfilePicture } from './lib/ProfilePicture/utils';
+
 export * from './lib/ColumnManager';
 export * from './lib/utils';

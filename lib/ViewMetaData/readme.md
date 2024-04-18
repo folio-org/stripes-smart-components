@@ -39,25 +39,7 @@ render() {
 ```javascript
 import { ViewMetaData } from '@folio/stripes-smart-components';
 
-constructor(props) {
-  // connect component via stripes so it becomes possible to fetch user data
-  this.connectedViewMetaData = props.stripes.connect(ViewMetaData);
-}
-
-lastUpdatedDetails(user) {
-  ...
-}
-
-render() {
-  return (
-    <this.connectedViewMetaData
-      metadata={rra.metadata}
-    >
-      {
-        (updaterDetails) => {
-          return lastUpdatedDetails(updaterDetails?.lastUpdatedBy);
-        }}
-    </this.connectedViewMetaData>
-  );
-}
+  <ViewMetaData metadata={metadata}>
+    { (lastUpdatedBy) => (<><strong>{lastUpdatedBy}</strong>- <span>{metadata.lastUpdatedDate}</span></>)
+  </ViewMetaData>
 ```

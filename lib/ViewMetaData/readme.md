@@ -12,6 +12,7 @@
 | `metadata`   | `object`        | Object with user ids and dates.                                                                        |
 | `systemId`   | `string`        | Property to determine if user is system. Optional property. If not passed system will not be rendered. |
 | `systemUser` | `object | node` | Optional property. By default renders "System".                                                        |
+| `children`   | `func`          | Optional property. The child function is provided an object with `lastUpdatedBy` so that presentation can be customized. If no child function is provided, `<ViewMetaData>` renders a `<MetaSection>` component.                                           |
 
 ## Usage
 
@@ -32,4 +33,13 @@ render() {
     />
   );
 }
+```
+## Custom rendering using the child function
+
+```javascript
+import { ViewMetaData } from '@folio/stripes-smart-components';
+
+  <ViewMetaData metadata={metadata}>
+    { (lastUpdatedBy) => (<><strong>{lastUpdatedBy}</strong>- <span>{metadata.lastUpdatedDate}</span></>)
+  </ViewMetaData>
 ```

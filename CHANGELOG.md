@@ -12,6 +12,10 @@
 * Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
 * Do not trigger logic for auto-opening the record's view screen in `<SearchAndSort>` if URL already contains the record ID. Fixes STSMACOM-822.
 
+## [9.1.1] (IN PROGRESS)
+
+* `<AdvancedSearch>` Improve algorithm of splitting query string into rows. Refs STSMACOM-831.
+
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)
 

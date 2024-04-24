@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 9.0.3 In progress
+## [9.0.3](https://github.com/folio-org/stripes-smart-components/tree/v9.0.3) (2024-04-24)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.2...v9.0.3)
 
 * Safely render user-provided markup in `<NotesView>` and `<NotesList>` components. Fixes STSMACOM-816.
 
@@ -8,7 +9,6 @@
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.0.2)
 
 * Send `X-Okapi-Token` header only when token is present in `stripes`. Refs STSMACOM-714.
-
 
 ## [9.0.1](https://github.com/folio-org/stripes-smart-components/tree/v9.0.1) (2023-10-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.0...v9.0.1)

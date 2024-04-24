@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## In progress
+## 9.0.3 In progress
 
 * Safely render user-provided markup in `<NotesView>` and `<NotesList>` components. Fixes STSMACOM-816.
 

@@ -3,6 +3,12 @@
 ## IN PROGRESS
 
 * Extend NotesAccordion and NotesSmartAccodion components to accept a prop  hideNewButton. Refs STSMACOM-789.
+
+## [9.0.3](https://github.com/folio-org/stripes-smart-components/tree/v9.0.3) (2024-04-24)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.2...v9.0.3)
+
+* Safely render user-provided markup in `<NotesView>` and `<NotesList>` components. Fixes STSMACOM-816.
+
 ## [9.0.2](https://github.com/folio-org/stripes-smart-components/tree/v9.0.2) (2023-11-28)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.0.2)
 

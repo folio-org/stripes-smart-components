@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "9.0.2",
+  "version": "9.0.3",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [
@@ -80,6 +80,7 @@
   "dependencies": {
     "@rehooks/local-storage": "^2.4.4",
     "classnames": "^2.2.6",
+    "dompurify": "^3.0.9",
     "final-form": "^4.18.2",
     "final-form-arrays": "^3.0.2",
     "lodash": "^4.17.4",

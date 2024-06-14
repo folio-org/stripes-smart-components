@@ -9,6 +9,7 @@
 * `<SearchAndSort>` - re-position Advanced search button when search panel does not have enough space. Refs STSMACOM-830.
 * Extend `ViewMetadata` component to accept a child render function for custom rendering. Refs STSMACOM-828.
 * Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
+* Support Optimistic Locking in Tags. Refs STSMACOM-839.
 
 ## [9.1.1] (IN PROGRESS)
 

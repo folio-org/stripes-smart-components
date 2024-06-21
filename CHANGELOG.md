@@ -10,6 +10,7 @@
 * Extend `ViewMetadata` component to accept a child render function for custom rendering. Refs STSMACOM-828.
 * Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
 * Support Optimistic Locking in Tags. Refs STSMACOM-839.
+* Supply boolean value to enabled option of useQuery. STSMACOM-778.
 
 ## [9.1.1] (IN PROGRESS)
 

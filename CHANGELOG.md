@@ -11,6 +11,7 @@
 * Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
 * Support Optimistic Locking in Tags. Refs STSMACOM-839.
 * Supply boolean value to enabled option of useQuery. STSMACOM-778.
+* Add an optional `isCursorAtEnd` property for `SearchField`. Pass `resetSelectedItem` to `onDismissDetail`. STSMACOM-841.
 
 ## [9.1.1] (IN PROGRESS)
 

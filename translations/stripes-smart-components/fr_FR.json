@@ -201,7 +201,7 @@
     "customFields.settings.accordion.hidden": "(Caché)",
     "customFields.recordAccordion.defaultName": "Champs personnalisés",
     "customFields.errorOccurred": "Impossible de mettre à jour en raison d'une erreur de module. Veuillez réessayer. Si le problème persiste, veuillez contacter votre administrateur système.",
-    "cddd.header.effectiveCallNumber": "Chaîne de caractères de la cote",
+    "cddd.header.effectiveCallNumber": "Cote intégrale",
     "cddd.itemDeclaredLost": "Impossible de modifier la date d'échéance: l'article est déclaré perdu",
     "cddd.itemDeclaredLostWarning": "L'objet est déclaré perdu",
     "customFields.required.checked": "Oui",

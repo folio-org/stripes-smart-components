@@ -11,6 +11,7 @@
 * Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
 * Support Optimistic Locking in Tags. Refs STSMACOM-839.
 * Supply boolean value to enabled option of useQuery. STSMACOM-778.
+* Add `requiredFields` prop to `DateRangeFilter` to support open-ended date ranges. STSMACOM-838.
 
 ## [9.1.1] (IN PROGRESS)
 

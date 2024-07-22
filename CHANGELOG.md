@@ -7,10 +7,13 @@
 * Use `react-quill` compatible with `react` `v18`. Refs STSMACOM-821.
 * `<ControlledVocab>` - pass override headers to PUT method, new prop to hide "New" button. Refs STSMACOM-825.
 * `<SearchAndSort>` - re-position Advanced search button when search panel does not have enough space. Refs STSMACOM-830.
+* Implement new `<ProfilePicture>` component. Refs STSMACOM-817.
 * Extend `ViewMetadata` component to accept a child render function for custom rendering. Refs STSMACOM-828.
 * Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
 * Support Optimistic Locking in Tags. Refs STSMACOM-839.
 * Supply boolean value to enabled option of useQuery. STSMACOM-778.
+* Add an optional `isCursorAtEnd` property for `SearchField`. Pass `resetSelectedItem` to `onDismissDetail`. STSMACOM-841.
+* Add check for the error status when error occurs during adding tag. STSMACOM-844.
 * Add `requiredFields` prop to `DateRangeFilter` to support open-ended date ranges. STSMACOM-838.
 
 ## [9.1.1] (IN PROGRESS)

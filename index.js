@@ -52,6 +52,7 @@ export { default as ApolloConnectedSource } from './lib/SearchAndSort/ConnectedS
 export * from './lib/SearchAndSort/nsQueryFunctions';
 export * from './lib/SearchAndSort/parseFilters';
 export { default as buildUrl } from './lib/SearchAndSort/buildUrl';
+export * from './lib/SearchAndSort/requestUrlLimit';
 
 export { default as Settings } from './lib/Settings';
 

@@ -280,5 +280,6 @@
     "cv.termUpdated": "{type} <b> {term} </b>は正常に<b>更新されました</b>",
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
     "editableList.confirmationModal.cancelLabel": "いいえ、削除しません",
-    "editableList.confirmationModal.confirmLabel": "はい、削除します"
+    "editableList.confirmationModal.confirmLabel": "はい、削除します",
+    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections."
 }

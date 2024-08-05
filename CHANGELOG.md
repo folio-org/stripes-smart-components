@@ -15,6 +15,8 @@
 * Wrap `<DateRangeFilter>`'s validation message in `div[role=alert]` for screenreader announcement. Refs STSMACOM-842.
 * Add an optional `isCursorAtEnd` property for `SearchField`. Pass `resetSelectedItem` to `onDismissDetail`. STSMACOM-841.
 * Add check for the error status when error occurs during adding tag. STSMACOM-844.
+* Add optional `isRequestUrlExceededLimit` property to `<SearchAndSort>` to return a specific error message in `StripesConnectedSource`. Refs STSMACOM-846.
+* Add `requiredFields` prop to `DateRangeFilter` to support open-ended date ranges. STSMACOM-838.
 
 ## [9.1.1] (IN PROGRESS)
 

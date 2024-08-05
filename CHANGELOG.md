@@ -12,6 +12,7 @@
 * Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
 * Support Optimistic Locking in Tags. Refs STSMACOM-839.
 * Supply boolean value to enabled option of useQuery. STSMACOM-778.
+* Wrap `<DateRangeFilter>`'s validation message in `div[role=alert]` for screenreader announcement. Refs STSMACOM-842.
 * Add an optional `isCursorAtEnd` property for `SearchField`. Pass `resetSelectedItem` to `onDismissDetail`. STSMACOM-841.
 * Add check for the error status when error occurs during adding tag. STSMACOM-844.
 * Add optional `isRequestUrlExceededLimit` property to `<SearchAndSort>` to return a specific error message in `StripesConnectedSource`. Refs STSMACOM-846.

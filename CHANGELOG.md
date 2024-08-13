@@ -17,7 +17,7 @@
 * Add check for the error status when error occurs during adding tag. STSMACOM-844.
 * Add optional `isRequestUrlExceededLimit` property to `<SearchAndSort>` to return a specific error message in `StripesConnectedSource`. Refs STSMACOM-846.
 * Add `requiredFields` prop to `DateRangeFilter` to support open-ended date ranges. STSMACOM-838.
-
+* Provide `startLabel` and `endLabel` props in `<DateRangeFilter>` to enable unique accessible labeling. STSMACOM-848.
 ## [9.1.1] (IN PROGRESS)
 
 * `<AdvancedSearch>` Improve algorithm of splitting query string into rows. Refs STSMACOM-831.

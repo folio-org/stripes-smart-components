@@ -4,6 +4,7 @@
 
 Component designed to manage a controlled vocabulary list. This list consists of predefined terms or keywords that users can interact with by adding, editing, or removing entries.
 
+<!-- md2toc -l 2 readme.md -->
 ## Props
 
 Name | Type | Default | Description

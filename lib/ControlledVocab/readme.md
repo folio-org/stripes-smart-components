@@ -7,7 +7,7 @@ Component designed to manage a controlled vocabulary list. This list consists of
 ## Props
 
 Name | Type | Default | Description
---- | --- | --- 
+--- | --- | --- | ---
 actionProps | Object | | placeholder
 actionSupressor | Object | `{edit: item: => item.readOnly, delete: item, => item.readOnly}` | placeholder
 actuatorType | String | `'rest'` | placeholder

@@ -2,7 +2,7 @@
 
 ## Description
 
-Component designed to manage a controlled vocabulary list. This list consists of predefined terms or keywords that users can interact with by adding, editing, or removing entries.
+Expanded `EditableList` with more functionality, such as sorting, filtering, and suppression.
 
 ## Props
 
@@ -34,3 +34,5 @@ rowFilterFunction | Function | | Allows for specific filtering of resulting rows
 sortBy | String | `name` | Field of which to sort table
 translations | Object | | Object of strings used to display different messages to the user
 validate | Function | | Allows for custom field validation. The function is called for each record (row) and should return an empty object for no errors, or an object where the keys are the field names and the values are the error message components/strings to display
+
+For a usage example see [`<PatronGroupSettings>`](https://github.com/folio-org/ui-users/blob/master/src/settings/PatronGroupsSettings.js)

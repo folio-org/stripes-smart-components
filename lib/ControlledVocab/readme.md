@@ -2,7 +2,7 @@
 
 ## Description
 
-Expanded [`<EditableList>`](https://github.com/folio-org/stripes-smart-components/edit/master/lib/EditableList/readme.md) with more functionality, such as sorting, filtering, and suppression.
+Expanded [`<EditableList>`](https://github.com/folio-org/stripes-smart-components/blob/master/lib/EditableList/readme.md) with more functionality, such as sorting, filtering, and suppression.
 
 ## Props
 

@@ -81,7 +81,7 @@
     "password.alphabetical.invalid": "Das Passwort muss sowohl Klein- als auch Großbuchstaben enthalten.",
     "password.number.invalid": "Das Passwort muss mindestens eine Ziffer enthalten.",
     "password.specialCharacter.invalid": "Das Passwort muss mindestens ein Sonderzeichen enthalten.",
-    "password.usernameDuplicate.invalid": "Das Passwort darf nicht Ihren Benutzernamen enthalten.",
+    "password.usernameDuplicate.invalid": "Das Passwort darf nicht Ihre Systemkennung enthalten.",
     "password.keyboardSequence.invalid": "Das Passwort darf keine Tastaturzeichenfolge enthalten.",
     "password.repeatingSymbols.invalid": "Das Passwort darf dasselbe Zeichen nicht mehrfach hintereinander enthalten.",
     "password.whiteSpace.invalid": "Das Passwort darf keine Leerzeichen enthalten.",
@@ -280,5 +280,6 @@
     "cv.termUpdated": "Der {type} <b> {term} </b> wurde erfolgreich <b> aktualisiert </b>",
     "customFields.fieldTypes.DATE_PICKER": "Datumsauswahl",
     "editableList.confirmationModal.cancelLabel": "Nein, nicht löschen",
-    "editableList.confirmationModal.confirmLabel": "Ja, löschen"
+    "editableList.confirmationModal.confirmLabel": "Ja, löschen",
+    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections."
 }

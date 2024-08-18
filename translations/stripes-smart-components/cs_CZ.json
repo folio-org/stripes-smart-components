@@ -201,7 +201,7 @@
     "customFields.settings.accordion.hidden": "(Skryté)",
     "customFields.recordAccordion.defaultName": "Vlastní pole",
     "customFields.errorOccurred": "Nelze aktualizovat z důvodu chyby modulu. Zkuste to prosím znovu. Pokud problém přetrvává, obraťte se na správce systému.",
-    "cddd.header.effectiveCallNumber": "Efektivní signatura",
+    "cddd.header.effectiveCallNumber": "Řetězec efektivní signatury",
     "cddd.itemDeclaredLost": "Nepodařilo se změnit termín vrácení: jednotka je prohlášena za ztracenou",
     "cddd.itemDeclaredLostWarning": "Jednotka je prohlášena za ztracenou",
     "customFields.required.checked": "Ano",
@@ -280,5 +280,6 @@
     "cv.termUpdated": "{type} <b>{term}</b> byl úspěšně <b>aktualizován</b>",
     "customFields.fieldTypes.DATE_PICKER": "Výběr data",
     "editableList.confirmationModal.cancelLabel": "Ne, nemazat",
-    "editableList.confirmationModal.confirmLabel": "Ano, smazat"
+    "editableList.confirmationModal.confirmLabel": "Ano, smazat",
+    "error.requestUrlLimit": "Byl překročen limit počtu znaků požadavku URL vyhledávání. Limit počtu znaků je {limit}. Upravte prosím vyhledávání a/nebo výběr fazet."
 }

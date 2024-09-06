@@ -17,7 +17,7 @@
     "cddd.warning.dueDateWhenLibraryClosed": "La nouvelle date d'échéance tombe pendant la fermeture de la bibliothèque.",
     "cddd.warning.dueDateInPast": "La nouvelle date d'échéance ne peut être antérieure",
     "cv.cannotDeleteTermHeader": "Impossible de supprimer {type}",
-    "cv.cannotDeleteTermMessage": "Ce {type} ne peut pas être supprimé car il est utilisé par un ou plusieurs enregistrements.",
+    "cv.cannotDeleteTermMessage": "Ce {type} ne peut pas être supprimé car il est utilisé par une ou plusieurs entrées.",
     "cv.lastUpdated": "Dernière mise à jour",
     "cv.updatedAtAndBy": "{date} par {user}",
     "cv.noExistingTerms": "Il n'y a pas de {terms}",
@@ -262,7 +262,7 @@
     "columnManager.showColumns": "Afficher les colonnes",
     "address.alternate": "Autre",
     "notes.displayAsPopup.label": "Afficher la note sous forme de pop-up",
-    "notes.displayAsPopup.checkout": "App. prêter",
+    "notes.displayAsPopup.checkout": "Application Prêt",
     "notes.displayAsPopup.users": "Application utilisateurs",
     "notes.popupModal.label": "Note pour l'usager",
     "notes.popupModal.delete": "Supprimer la note",
@@ -281,5 +281,6 @@
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
     "editableList.confirmationModal.cancelLabel": "No, do not delete",
     "editableList.confirmationModal.confirmLabel": "Yes, delete",
-    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections."
+    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
 }

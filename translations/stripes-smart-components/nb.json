@@ -281,5 +281,6 @@
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
     "editableList.confirmationModal.cancelLabel": "No, do not delete",
     "editableList.confirmationModal.confirmLabel": "Yes, delete",
-    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections."
+    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
 }

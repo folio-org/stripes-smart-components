@@ -21,7 +21,8 @@
 * Add `showSortIndicator` prop to `SearchAndSort` to display sort indicator next to the column names. STSMACOM-849.
 * Trim value to validate required field in the `ControlledVocab` component. STSMACOM-850.
 * Return a specific 400 error message in `StripesConnectedSource`. STSMACOM-851.
-* Changed translation keys in `LocationLookup` to stripes-components. STSMACOM-852. 
+* Return a specific error message in `StripesConnectedSource`. STSMACOM-851.
+* Changed translation keys in `LocationLookup` to stripes-components. STSMACOM-852.
 
 ## [9.1.1] (IN PROGRESS)
 

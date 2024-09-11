@@ -23,6 +23,7 @@
 * Return a specific 400 error message in `StripesConnectedSource`. STSMACOM-851.
 * Return a specific error message in `StripesConnectedSource`. STSMACOM-851.
 * Changed translation keys in `LocationLookup` to stripes-components. STSMACOM-852.
+* DateRangeFilter - pass `requiredFields` argument to all calls of `validateDateRange`. STSMACOM-853.
 
 ## [9.1.1] (IN PROGRESS)
 

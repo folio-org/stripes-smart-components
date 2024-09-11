@@ -21,7 +21,7 @@
 * Add `showSortIndicator` prop to `SearchAndSort` to display sort indicator next to the column names. STSMACOM-849.
 * Trim value to validate required field in the `ControlledVocab` component. STSMACOM-850.
 * Return a specific error message in `StripesConnectedSource`. STSMACOM-851.
-* DateRangeFilter - update all calls of `validateDateRange`. STSMACOM-853.
+* DateRangeFilter - pass `requiredFields` argument to all calls of `validateDateRange`. STSMACOM-853.
 
 ## [9.1.1] (IN PROGRESS)
 

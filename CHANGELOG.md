@@ -24,6 +24,7 @@
 * Return a specific error message in `StripesConnectedSource`. STSMACOM-851.
 * Changed translation keys in `LocationLookup` to stripes-components. STSMACOM-852.
 * DateRangeFilter - pass `requiredFields` argument to all calls of `validateDateRange`. STSMACOM-853.
+* Bump up `actions/upload-artifact@v2` to `actions/upload-artifact@v4`. Refs STSMACOM-854.
 
 ## [9.1.1] (IN PROGRESS)
 

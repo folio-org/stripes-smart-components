@@ -2,11 +2,8 @@
 
 ## 9.2.0 IN PROGRESS
 
-* Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
-* Do not trigger logic for auto-opening the record's view screen in `<SearchAndSort>` if URL already contains the record ID. Fixes STSMACOM-822.
 * Use `react-quill` compatible with `react` `v18`. Refs STSMACOM-821.
 * `<ControlledVocab>` - pass override headers to PUT method, new prop to hide "New" button. Refs STSMACOM-825.
-* `<SearchAndSort>` - re-position Advanced search button when search panel does not have enough space. Refs STSMACOM-830.
 * Implement new `<ProfilePicture>` component. Refs STSMACOM-817.
 * Extend `ViewMetadata` component to accept a child render function for custom rendering. Refs STSMACOM-828.
 * Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
@@ -26,9 +23,22 @@
 * DateRangeFilter - pass `requiredFields` argument to all calls of `validateDateRange`. STSMACOM-853.
 * Bump up `actions/upload-artifact@v2` to `actions/upload-artifact@v4`. Refs STSMACOM-854.
 
-## [9.1.1] (IN PROGRESS)
+## [9.1.3](https://github.com/folio-org/stripes-smart-components/tree/v9.1.3) (2024-05-06)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.2...v9.1.3)
 
 * `<AdvancedSearch>` Improve algorithm of splitting query string into rows. Refs STSMACOM-831.
+
+## [9.1.2](https://github.com/folio-org/stripes-smart-components/tree/v9.1.2) (2024-05-02)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.1...v9.1.2)
+
+* `<SearchAndSort>` - re-position Advanced search button when search panel does not have enough space. Refs STSMACOM-830.
+
+## [9.1.1](https://github.com/folio-org/stripes-smart-components/tree/v9.1.1) (2024-03-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.0...v9.1.1)
+
+* Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
+* Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
+* Do not trigger logic for auto-opening the record's view screen in `<SearchAndSort>` if URL already contains the record ID. Fixes STSMACOM-822.
 
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)
@@ -58,7 +68,6 @@
 * `<EditableList>` - make `confirmationMessage` prop accept a function. Refs STSMACOM-810.
 * Don't use `form.getState` in `<EditableListForm>` because redux-form doesn't have this API. Initialization will happen automatically when fresh data has been loaded after edit. Fixes STSMACOM-813.
 * `<EditableListForm>` - don't show an error after the user clicks on the edit icon. Fixes STSMACOM-812.
-* Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
 
 ## [9.0.1](https://github.com/folio-org/stripes-smart-components/tree/v9.0.1) (2023-10-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.0...v9.0.1)

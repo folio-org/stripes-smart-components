@@ -35,6 +35,7 @@
   "dateRange.to": "To",
   "dateRange.apply": "Apply",
   "dateRange.invalidDate": "Please enter a valid date",
+  "dateRange.invalidYear": "Please enter a valid year",
   "dateRange.missingStartDate": "Please enter a start date",
   "dateRange.missingEndDate": "Please enter an end date",
   "dateRange.wrongOrder": "Start date is greater than end date",

@@ -25,6 +25,7 @@
 * Changed translation keys in `LocationLookup` to stripes-components. STSMACOM-852.
 * DateRangeFilter - pass `requiredFields` argument to all calls of `validateDateRange`. STSMACOM-853.
 * Bump up `actions/upload-artifact@v2` to `actions/upload-artifact@v4`. Refs STSMACOM-854.
+* `DateRangeFilter` - add the optional `hideCalendarButton` property to hide the calendar icon button; add error message for invalid YYYY format. Refs STSMACOM-855.
 
 ## [9.1.1] (IN PROGRESS)
 

@@ -280,5 +280,7 @@
     "cv.termUpdated": "O {type} <b>{term}</b> foi <b>atualizado</b> com sucesso",
     "customFields.fieldTypes.DATE_PICKER": "Seletor de data",
     "editableList.confirmationModal.cancelLabel": "Não, não excluir",
-    "editableList.confirmationModal.confirmLabel": "Sim, excluir"
+    "editableList.confirmationModal.confirmLabel": "Sim, excluir",
+    "error.requestUrlLimit": "O limite de caracteres da solicitação de URI de pesquisa foi excedido. O limite de caracteres é {limit}. Revise suas seleções de busca e/ou faceta.",
+    "error.badRequest": "A pesquisa não pôde ser processada para {query} . Verifique sua consulta e tente novamente."
 }

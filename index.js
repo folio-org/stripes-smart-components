@@ -41,6 +41,7 @@ export { default as CollapseFilterPaneButton } from './lib/SearchAndSort/compone
 export { default as MultiSelectionFilter } from './lib/SearchAndSort/components/MultiSelectionFilter';
 
 export { default as DateRangeFilter } from './lib/SearchAndSort/components/DateRangeFilter';
+export { default as DATE_TYPES } from './lib/SearchAndSort/components/DateRangeFilter/date-types';
 
 export { default as makeQueryFunction } from './lib/SearchAndSort/makeQueryFunction';
 export { default as advancedSearchQueryToRows } from './lib/SearchAndSort/advancedSearchQueryToRows';
@@ -52,6 +53,7 @@ export { default as ApolloConnectedSource } from './lib/SearchAndSort/ConnectedS
 export * from './lib/SearchAndSort/nsQueryFunctions';
 export * from './lib/SearchAndSort/parseFilters';
 export { default as buildUrl } from './lib/SearchAndSort/buildUrl';
+export * from './lib/SearchAndSort/requestUrlLimit';
 
 export { default as Settings } from './lib/Settings';
 

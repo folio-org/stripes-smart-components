@@ -23,6 +23,9 @@
 * DateRangeFilter - pass `requiredFields` argument to all calls of `validateDateRange`. STSMACOM-853.
 * Bump up `actions/upload-artifact@v2` to `actions/upload-artifact@v4`. Refs STSMACOM-854.
 * `DateRangeFilter` - add the optional `hideCalendarButton` property to hide the calendar icon button; add error message for invalid YYYY format. Refs STSMACOM-855.
+* Display `System` user when there is no `updatedByUserId` field in metadata. Refs STSMACOM-858.
+* Fix `<DateRangeFilter>` only shows an error in one of failed inputs. Fixes STSMACOM-857.
+* Omit (don't disable) "+ New" button in `<EditableList>` when user lacks permission. Refs STSMACOM-836.
 * Avoid deprecated `defaultProps` for functional components. Refs STSMACOM-835.
 
 ## [9.1.3](https://github.com/folio-org/stripes-smart-components/tree/v9.1.3) (2024-05-06)

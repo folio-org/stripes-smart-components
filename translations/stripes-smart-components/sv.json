@@ -262,7 +262,7 @@
     "columnManager.showColumns": "Show columns",
     "address.alternate": "Alternate",
     "notes.displayAsPopup.label": "Display note as a pop-up",
-    "notes.displayAsPopup.checkout": "Check out app",
+    "notes.displayAsPopup.checkout": "Utlåning",
     "notes.displayAsPopup.users": "Users app",
     "notes.popupModal.label": "Note for patron",
     "notes.popupModal.delete": "Delete note",
@@ -280,5 +280,7 @@
     "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
     "editableList.confirmationModal.cancelLabel": "No, do not delete",
-    "editableList.confirmationModal.confirmLabel": "Yes, delete"
+    "editableList.confirmationModal.confirmLabel": "Yes, delete",
+    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
 }

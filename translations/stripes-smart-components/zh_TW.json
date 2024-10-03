@@ -280,5 +280,7 @@
     "cv.termUpdated": "{type} <b> {term} </b>已成功<b>更新</b>",
     "customFields.fieldTypes.DATE_PICKER": "日期選擇器",
     "editableList.confirmationModal.cancelLabel": "否，不要刪除",
-    "editableList.confirmationModal.confirmLabel": "是，刪除"
+    "editableList.confirmationModal.confirmLabel": "是，刪除",
+    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
 }

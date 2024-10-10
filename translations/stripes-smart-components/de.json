@@ -36,8 +36,6 @@
     "ll.selectLocation": "Standort auswählen",
     "ll.temporary": "temporär",
     "ll.permanent": "permanent",
-    "ll.saveAndClose": "Speichern & schließen",
-    "ll.cancel": "Abbrechen",
     "ls.temporaryLocation": "Temporärer Standort",
     "ls.permanentLocation": "Dauerhafter Standort",
     "ls.locationPlaceholder": "Standortnamen oder -code auswählen",
@@ -281,6 +279,7 @@
     "customFields.fieldTypes.DATE_PICKER": "Datumsauswahl",
     "editableList.confirmationModal.cancelLabel": "Nein, nicht löschen",
     "editableList.confirmationModal.confirmLabel": "Ja, löschen",
-    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.requestUrlLimit": "Zeichenlimit für die Such-URI-Anfrage wurde überschritten. Zeichenlimit ist {limit}. Bitte Such- und/oder Facettenauswahl überarbeiten.",
+    "error.badRequest": "Suche für {query} konnte nicht verarbeitet werden. Bitte Anfrage überprüfen und erneut versuchen.",
+    "dateRange.invalidYear": "Please enter a valid year"
 }

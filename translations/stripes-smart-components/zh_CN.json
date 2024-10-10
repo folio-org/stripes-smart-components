@@ -36,8 +36,6 @@
     "ll.selectLocation": "选择馆藏地",
     "ll.temporary": "临时",
     "ll.permanent": "永久",
-    "ll.saveAndClose": "保存并关闭",
-    "ll.cancel": "取消",
     "ls.temporaryLocation": "临时馆藏地",
     "ls.permanentLocation": "永久馆藏地",
     "ls.locationPlaceholder": "选择位置名称或代码",
@@ -224,7 +222,7 @@
     "customFields.option.required": "选项标签必备。",
     "customFields.option.duplicate": "重复选项。请修改。",
     "customFields.characters.limit": "已超过{limit} 。",
-    "customFields.options.left": "可以再添加{count, number}个{count, number} {count, plural, one { 选项 } other { 选项 }} 。",
+    "customFields.options.left": "可以再添加{count, number}个 {count, plural, one { 选项 } other { 选项 }} 。",
     "customFields.options.maxNumberReached": "已添加最大数量的选项。",
     "customFields.options.default": "默认",
     "customFields.fieldTypes.MULTISELECT": "多选",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "否，不要删除",
     "editableList.confirmationModal.confirmLabel": "是，删除",
     "error.requestUrlLimit": "已超出搜索 URI 请求字符数限制。字符数限制为{limit} 。请修改搜索和/或分面选择。",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.badRequest": "无法针对{query}进行搜索。请检查您的查询并重试。",
+    "dateRange.invalidYear": "请输入有效的年份"
 }

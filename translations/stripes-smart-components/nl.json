@@ -36,8 +36,6 @@
     "ll.selectLocation": "Selecteer locatie",
     "ll.temporary": "tijdelijk",
     "ll.permanent": "permanent",
-    "ll.saveAndClose": "Opslaan en sluiten",
-    "ll.cancel": "Annuleren",
     "ls.temporaryLocation": "Tijdelijke locatie",
     "ls.permanentLocation": "Permanente locatie",
     "ls.locationPlaceholder": "Locatienaam of -code selecteren",
@@ -281,6 +279,7 @@
     "customFields.fieldTypes.DATE_PICKER": "Datumselectie",
     "editableList.confirmationModal.cancelLabel": "Nee, niet verwijderen",
     "editableList.confirmationModal.confirmLabel": "Ja, verwijderen",
-    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.requestUrlLimit": "De tekenlimiet voor URI-aanvragen is overschreden. De tekenlimiet is {limit}. Herzie a.u.b. uw zoek- en/of facetselecties.",
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "dateRange.invalidYear": "Please enter a valid year"
 }

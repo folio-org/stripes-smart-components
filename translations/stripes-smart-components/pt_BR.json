@@ -36,8 +36,6 @@
     "ll.selectLocation": "Selecione a localização",
     "ll.temporary": "temporário",
     "ll.permanent": "permanente",
-    "ll.saveAndClose": "Salvar e fechar",
-    "ll.cancel": "Cancelar",
     "ls.temporaryLocation": "Localização temporária",
     "ls.permanentLocation": "Localização permanente",
     "ls.locationPlaceholder": "Selecione o nome ou código da localização",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "Não, não excluir",
     "editableList.confirmationModal.confirmLabel": "Sim, excluir",
     "error.requestUrlLimit": "O limite de caracteres da solicitação de URI de pesquisa foi excedido. O limite de caracteres é {limit}. Revise suas seleções de busca e/ou faceta.",
-    "error.badRequest": "A pesquisa não pôde ser processada para {query} . Verifique sua consulta e tente novamente."
+    "error.badRequest": "A pesquisa não pôde ser processada para {query} . Verifique sua consulta e tente novamente.",
+    "dateRange.invalidYear": "Por favor, insira um ano válido"
 }

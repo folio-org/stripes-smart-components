@@ -36,8 +36,6 @@
     "ll.selectLocation": "Sélectionnez un emplacement",
     "ll.temporary": "Temporaire",
     "ll.permanent": "Permanent",
-    "ll.saveAndClose": "Sauvegarder et fermer",
-    "ll.cancel": "Annuler",
     "ls.temporaryLocation": "Emplacement temporaire",
     "ls.permanentLocation": "Emplacement permanent",
     "ls.locationPlaceholder": "Sélectionnez un nom d'emplacement ou un code",
@@ -59,7 +57,7 @@
     "permissionError": "Erreur d'autorisation",
     "permissionsDoNotAllowAccess": "Désolé, vos autorisations ne vous permettent pas d'accéder à cette page.",
     "searchResults": "Résultats de la recherche {objectName}",
-    "searchReturnedResults": "La recherche a retourné {count, number} {count, plural, one {résultat} other {résultats}}",
+    "searchReturnedResults": "La recherche a renvoyé {count, number} {count, plural, one {résultat} other {résultats}}",
     "resetAll": "Tout réinitialiser",
     "whoAreYouActingAs": "Vous agissez en tant que ?",
     "self": "Auto",
@@ -240,7 +238,7 @@
     "customFields.dragDrop.moved": "Vous avez déplacé le champ {name} de la position {start} à la position {end}",
     "customFields.dragDrop.returned": "Le champ {name} a été renvoyé à sa position de départ de {position}",
     "customFields.fieldTypes.RADIO_BUTTON": "Bouton radio (?)",
-    "cddd.itemClaimedReturned": "Due date change failed: item is Claimed returned",
+    "cddd.itemClaimedReturned": "Impossible de modifier la date d'échéance : l'exemplaire est Déclaré rendu",
     "cddd.itemClaimedReturnedWarning": "L'exemplaire est Déclaré rendu",
     "customFields.settings.accordionTitle": "Titre \"accordéon\"",
     "customFields.select.placeholder": "Sélectionnez un {fieldLabel}",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "No, do not delete",
     "editableList.confirmationModal.confirmLabel": "Yes, delete",
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "dateRange.invalidYear": "Please enter a valid year"
 }

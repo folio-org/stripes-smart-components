@@ -36,8 +36,6 @@
     "ll.selectLocation": "所在の選択",
     "ll.temporary": "一時的",
     "ll.permanent": "通常",
-    "ll.saveAndClose": "保存して閉じる",
-    "ll.cancel": "キャンセル",
     "ls.temporaryLocation": "一時所在",
     "ls.permanentLocation": "通常所在",
     "ls.locationPlaceholder": "所在名称またはコードを選択してください",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "いいえ、削除しません",
     "editableList.confirmationModal.confirmLabel": "はい、削除します",
     "error.requestUrlLimit": "検索 URI リクエストの文字数制限を超えました。文字数制限は{limit}です。検索やファセットの選択を修正してください。",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "dateRange.invalidYear": "有効な年を入力してください"
 }

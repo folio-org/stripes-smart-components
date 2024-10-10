@@ -36,8 +36,6 @@
     "ll.selectLocation": "Wybierz lokalizację",
     "ll.temporary": "tymczasowa",
     "ll.permanent": "stały",
-    "ll.saveAndClose": "Zapisz i zamknij",
-    "ll.cancel": "Anuluj",
     "ls.temporaryLocation": "Lokalizacja tymczasowa",
     "ls.permanentLocation": "Stała lokalizacja",
     "ls.locationPlaceholder": "Wybierz nazwę lub kod lokalizacji",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "No, do not delete",
     "editableList.confirmationModal.confirmLabel": "Yes, delete",
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "dateRange.invalidYear": "Please enter a valid year"
 }

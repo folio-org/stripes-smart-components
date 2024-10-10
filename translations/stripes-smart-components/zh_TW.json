@@ -36,8 +36,6 @@
     "ll.selectLocation": "選擇館藏地",
     "ll.temporary": "臨時",
     "ll.permanent": "永久",
-    "ll.saveAndClose": "儲存並關閉",
-    "ll.cancel": "取消",
     "ls.temporaryLocation": "臨時館藏地",
     "ls.permanentLocation": "永久館藏地",
     "ls.locationPlaceholder": "選擇館藏地名稱或代碼",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "否，不要刪除",
     "editableList.confirmationModal.confirmLabel": "是，刪除",
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "dateRange.invalidYear": "Please enter a valid year"
 }

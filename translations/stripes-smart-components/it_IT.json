@@ -36,8 +36,6 @@
     "ll.selectLocation": "Seleziona sezione",
     "ll.temporary": "temporaneo",
     "ll.permanent": "Permanente",
-    "ll.saveAndClose": "Salva e chiudi",
-    "ll.cancel": "Annulla",
     "ls.temporaryLocation": "Sezione temporanea",
     "ls.permanentLocation": "Sezione permanente",
     "ls.locationPlaceholder": "Seleziona il nome o il codice della sezione",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "No, do not delete",
     "editableList.confirmationModal.confirmLabel": "Yes, delete",
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again."
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "dateRange.invalidYear": "Please enter a valid year"
 }

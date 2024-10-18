@@ -29,6 +29,7 @@
 * Avoid deprecated `defaultProps` for functional components. Refs STSMACOM-835.
 * Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
 * Improve confirmation modal footer for `ControlledVocab` component. Refs STSMACOM-863.
+* Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
 
 ## [9.1.3](https://github.com/folio-org/stripes-smart-components/tree/v9.1.3) (2024-05-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.2...v9.1.3)

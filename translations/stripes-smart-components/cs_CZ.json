@@ -36,8 +36,6 @@
     "ll.selectLocation": "Zvolit lokaci",
     "ll.temporary": "dočasné",
     "ll.permanent": "trvalé",
-    "ll.saveAndClose": "Uložit a zavřít",
-    "ll.cancel": "Zrušit",
     "ls.temporaryLocation": "Dočasná lokace",
     "ls.permanentLocation": "Trvalá lokace",
     "ls.locationPlaceholder": "Vybrat název nebo kód lokace",
@@ -50,11 +48,11 @@
     "editOrDeleteNote": "Upravte nebo smažte tuto poznámku",
     "notes": "Poznámky",
     "cancelEdit": "Zrušit úpravu",
-    "searchAndFilter": "Hledat a filtrovat",
+    "searchAndFilter": "Vyhledat a filtrovat",
     "search": "Vyhledávání",
     "new": "Nový",
-    "hideSearchPane": "Sbalit panel vyhledávání a filtrování",
-    "showSearchPane": "Rozbalte podokno Hledat a filtrovat",
+    "hideSearchPane": "Sbalit panel Vyhledat a filtrovat",
+    "showSearchPane": "Rozbalte podokno Vyhledat a filtrovat",
     "numberOfFilters": "{count, number} {count, plural, one {použitý filtr} other {použité filtry}}",
     "permissionError": "Chyba oprávnění",
     "permissionsDoNotAllowAccess": "Omlouváme se – vaše oprávnění neumožňují přístup na tuto stránku.",
@@ -282,5 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "Ne, nemazat",
     "editableList.confirmationModal.confirmLabel": "Ano, smazat",
     "error.requestUrlLimit": "Byl překročen limit počtu znaků požadavku URL vyhledávání. Limit počtu znaků je {limit}. Upravte prosím vyhledávání a/nebo výběr fazet.",
-    "error.badRequest": "Vyhledávání pro {query} nebylo možné zpracovat. Zkontrolujte prosím svůj dotaz a zkuste to znovu."
+    "error.badRequest": "Vyhledávání pro {query} nebylo možné zpracovat. Zkontrolujte prosím svůj dotaz a zkuste to znovu.",
+    "dateRange.invalidYear": "Zadejte prosím platný rok"
 }

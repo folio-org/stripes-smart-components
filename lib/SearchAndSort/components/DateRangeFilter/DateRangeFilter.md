@@ -14,6 +14,8 @@
 | `requiredFields` | string[] | Set which fields for this filter are requred. See #Validation for more details on the behavior. | true |  `[DATE_TYPES.START, DATE_TYPES.END]`
 | `startLabel` | string | Will be set as the `aria-label` on the range start field. | false |
 | `endLabel` | string | Will be set as the `aria-label` on the range end field. | false |
+| `hideCalendarButton` | bool | Hide calenber icon button. | false |
+| `ignoreDatesOrder` | bool | Ignore order of dates during validation | false |
 
 ## Validation
 

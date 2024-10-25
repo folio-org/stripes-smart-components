@@ -1,6 +1,6 @@
 {
   "name": "@folio/stripes-smart-components",
-  "version": "9.2.0",
+  "version": "9.3.0",
   "description": "Connected Stripes components",
   "repository": "folio-org/stripes-smart-components",
   "sideEffects": [

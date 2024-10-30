@@ -1,8 +1,10 @@
 # Change history for stripes-smart-components
 
-## 9.2.1 IN PROGRESS
+## [9.2.1](https://github.com/folio-org/stripes-smart-components/tree/v9.2.1) (2024-10-30)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v9.2.1)
 
 * Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
+* Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
 
 ## [9.2.0](https://github.com/folio-org/stripes-smart-components/tree/v9.2.0) (2024-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.3...v9.2.0)
@@ -32,7 +34,6 @@
 * Fix `<DateRangeFilter>` only shows an error in one of failed inputs. Fixes STSMACOM-857.
 * Omit (don't disable) "+ New" button in `<EditableList>` when user lacks permission. Refs STSMACOM-836.
 * Avoid deprecated `defaultProps` for functional components. Refs STSMACOM-835.
-* Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
 
 ## [9.1.3](https://github.com/folio-org/stripes-smart-components/tree/v9.1.3) (2024-05-06)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.2...v9.1.3)

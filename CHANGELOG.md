@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 9.2.2
+## [9.2.2](https://github.com/folio-org/stripes-smart-components/tree/v9.2.2) (2024-10-31)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.1...v9.2.2)
 
 * Remove unnecessary `aria-rowindex` in `ItemView` and `ItemEdit` components. Fixes STSMACOM-871.
 

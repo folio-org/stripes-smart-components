@@ -6,6 +6,9 @@
 * Improve confirmation modal footer for `ControlledVocab` component. Refs STSMACOM-863.
 * Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
 * Remove unnecessary `aria-rowindex` in `ItemView` and `ItemEdit` components. Fixes STSMACOM-871.
+
+## [9.2.3] IN PROGRESS
+
 * Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
 
 ## [9.2.0](https://github.com/folio-org/stripes-smart-components/tree/v9.2.0) (2024-10-11)

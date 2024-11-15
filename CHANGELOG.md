@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## [9.2.3] IN PROGRESS
+## [9.2.3](https://github.com/folio-org/stripes-smart-components/tree/v9.2.3) (2024-11-15)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.2...v9.2.3)
 
 * Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
 

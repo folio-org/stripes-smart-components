@@ -6,11 +6,11 @@
 * Improve confirmation modal footer for `ControlledVocab` component. Refs STSMACOM-863.
 * Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
 * Remove unnecessary `aria-rowindex` in `ItemView` and `ItemEdit` components. Fixes STSMACOM-871.
+* `<EditableListForm>` use `lodash.isEmpty` to check for empty `state.status` in re-initialization checks on component update. Fixes STSMACOM-876.
 
 ## [9.2.3] IN PROGRESS
 
 * Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
-* `<EditableListForm>` `state.status` initialize as `null` so it can pass `null` re-initialization checks on component update. Fixes STSMACOM-876.
 
 ## [9.2.0](https://github.com/folio-org/stripes-smart-components/tree/v9.2.0) (2024-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.3...v9.2.0)

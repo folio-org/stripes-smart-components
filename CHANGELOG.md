@@ -6,6 +6,7 @@
 * Improve confirmation modal footer for `ControlledVocab` component. Refs STSMACOM-863.
 * Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
 * Remove unnecessary `aria-rowindex` in `ItemView` and `ItemEdit` components. Fixes STSMACOM-871.
+* Check for `active` status of `<Settings>` navigation links independently from the applied href and query string. Query string should only be applied to active link. Refs STSMACOM-837.
 
 ## [9.2.3] IN PROGRESS
 

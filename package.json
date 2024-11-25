@@ -44,7 +44,7 @@
     "@bigtest/mirage": "^0.0.1",
     "@bigtest/mocha": "^0.5.1",
     "@folio/eslint-config-stripes": "^7.0.0",
-    "@folio/stripes-cli": "^3.0.0",
+    "@folio/stripes-cli": "^3.2.1",
     "@folio/stripes-components": "^12.0.0",
     "@folio/stripes-connect": "^9.0.0",
     "@folio/stripes-core": "^10.2.3",

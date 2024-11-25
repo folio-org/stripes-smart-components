@@ -47,7 +47,7 @@
     "@folio/stripes-cli": "^3.0.0",
     "@folio/stripes-components": "^12.0.0",
     "@folio/stripes-connect": "^9.0.0",
-    "@folio/stripes-core": "^10.0.0",
+    "@folio/stripes-core": "^10.2.3",
     "@folio/stripes-final-form": "^8.0.0",
     "@folio/stripes-form": "^9.0.0",
     "@folio/stripes-logger": "^1.0.0",
@@ -105,7 +105,7 @@
   "peerDependencies": {
     "@folio/stripes-components": "^12.0.0",
     "@folio/stripes-connect": "^9.0.0",
-    "@folio/stripes-core": "^10.0.0",
+    "@folio/stripes-core": "^10.2.3",
     "@folio/stripes-final-form": "^8.0.0",
     "@folio/stripes-form": "^9.0.0",
     "@folio/stripes-logger": "^1.0.0",

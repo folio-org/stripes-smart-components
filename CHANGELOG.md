@@ -12,6 +12,7 @@
 ## [9.2.3] IN PROGRESS
 
 * Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
+* Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
 
 ## [9.2.0](https://github.com/folio-org/stripes-smart-components/tree/v9.2.0) (2024-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.3...v9.2.0)

@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 9.2.4 IN PROGRESS
+## [9.2.4](https://github.com/folio-org/stripes-smart-components/tree/v9.2.4) (2024-12-02)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.3...v9.2.4)
 
 * Check for `active` status of `<Settings>` navigation links independently from the applied href and query string. Query string should only be applied to active link. Refs STSMACOM-837.
 * `<EditableListForm>` use `lodash.isEmpty` to check for empty `state.status` in re-initialization checks on component update. Fixes STSMACOM-876.

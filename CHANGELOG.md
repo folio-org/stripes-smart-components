@@ -15,6 +15,7 @@
 * Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
 * Fetch updaters in `<ViewMetaData>` on `props.metadata` changes. Fixes STSMACOM-878.
 * Use `this.resources` in `StripesConnectedSource` instead of accessing props directly. Fixes STSMACOM-879.
+* `DateRangeFilter` - set the `wrongDatesOrder` to `false` when the field value changes. Fixes STSMACOM-880.
 
 ## [9.2.0](https://github.com/folio-org/stripes-smart-components/tree/v9.2.0) (2024-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.3...v9.2.0)

@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 9.2.5 IN PROGRESS
+## [9.2.5](https://github.com/folio-org/stripes-smart-components/tree/v9.2.5) (2024-12-05)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.4...v9.2.5)
 
 * Fetch updaters in `<ViewMetaData>` on `props.metadata` changes. Fixes STSMACOM-878.
 * Use `this.resources` in `StripesConnectedSource` instead of accessing props directly. Fixes STSMACOM-879.

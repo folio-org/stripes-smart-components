@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## 9.2.6
+
+* Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
+
 ## [9.2.5](https://github.com/folio-org/stripes-smart-components/tree/v9.2.5) (2024-12-05)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.4...v9.2.5)
 

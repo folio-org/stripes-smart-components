@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## 9.2.6
+## [9.2.6](https://github.com/folio-org/stripes-smart-components/tree/v9.2.6) (2024-12-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.5...v9.2.6)
 
 * Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
 * `DateRangeFilter` - set the `wrongDatesOrder` to `false` when the field value changes. Fixes STSMACOM-880.

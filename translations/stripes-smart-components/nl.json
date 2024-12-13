@@ -280,6 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "Nee, niet verwijderen",
     "editableList.confirmationModal.confirmLabel": "Ja, verwijderen",
     "error.requestUrlLimit": "De tekenlimiet voor URI-aanvragen is overschreden. De tekenlimiet is {limit}. Herzie a.u.b. uw zoek- en/of facetselecties.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "error.badRequest": "Zoeken kon niet worden verwerkt voor {query}. Controleer uw zoekopdracht en probeer het opnieuw.",
     "dateRange.invalidYear": "Please enter a valid year"
 }

@@ -40,7 +40,7 @@
     "ls.permanentLocation": "永久館藏地",
     "ls.locationPlaceholder": "選擇館藏地名稱或代碼",
     "pm.proxyExpired": "代理關係已過期",
-    "pm.sponsorExpired": "保證人使用者記錄已過期",
+    "pm.sponsorExpired": "保證人使用者紀錄已過期",
     "pm.cannotRequestFoSponsor": "代理無法要求保證人",
     "pm.continue": "繼續",
     "pm.cancel": "取消",
@@ -62,7 +62,7 @@
     "whoAreYouActingAs": "你的角色是什麼？",
     "self": "自助",
     "isActingAs": "{name} 的角色是：",
-    "actingAsProxyFor": "或作為此人的代理：",
+    "actingAsProxyFor": "或做為此人的代理：",
     "searchCriteria": "輸入搜尋條件開始搜尋",
     "cddd.date": "日期",
     "cddd.time": "時間",
@@ -138,7 +138,7 @@
     "notes.delete.confirm.message": "附註<b> {title} </b>將永久<b>刪除</b> 。此附註附加到<b> {resourcesNumber, number} </b> {resourcesNumber, plural, one { 資源 } other { 資源 }}",
     "notes.editNoteTitle": "編輯： {noteTitle}",
     "notes.noteTypesMissing": "無法儲存附註，請選擇附註類型",
-    "addressEdit.useAddressAsPrimaryAddress": "使用地址{index}作為主要地址",
+    "addressEdit.useAddressAsPrimaryAddress": "使用地址 {index} 做為主要地址",
     "addressEdit.useAsPrimaryAddress": "用作主要地址",
     "error.addressTypeRequired": "地址類型必填",
     "error.addressTypeTaken": "此地址類型已被使用",
@@ -281,5 +281,5 @@
     "editableList.confirmationModal.confirmLabel": "是，刪除",
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
     "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
-    "dateRange.invalidYear": "Please enter a valid year"
+    "dateRange.invalidYear": "請輸入一個有效的年份"
 }

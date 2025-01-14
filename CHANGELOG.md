@@ -9,6 +9,7 @@
 * Check for `active` status of `<Settings>` navigation links independently from the applied href and query string. Query string should only be applied to active link. Refs STSMACOM-837.
 * `<EditableListForm>` use `lodash.isEmpty` to check for empty `state.status` in re-initialization checks on component update. Fixes STSMACOM-876.
 * `<NoteFields>` improve "Display as pop-up" markup and fix label a11y issue. Refs STSMACOM-882.
+* Correctly import from `stripes-*` libraries. Refs STSMACOM-884.
 
 ## [9.2.3] IN PROGRESS
 

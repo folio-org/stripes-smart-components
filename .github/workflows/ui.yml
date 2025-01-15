@@ -10,7 +10,7 @@ jobs:
     if: github.ref_name == github.event.repository.default_branch || github.event_name != 'push' || github.ref_type == 'tag'
     secrets: inherit
     with:
-      jest-enabled: false
+      jest-enabled: true
       bigtest-enabled: true
       bigtest-test-command: xvfb-run --server-args="-screen 0 1024x768x24" yarn test $YARN_TEST_OPTIONS --karma.singleRun --karma.browsers ChromeDocker --karma.reporters mocha junit --coverage
       sonar-sources: ./lib

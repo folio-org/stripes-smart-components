@@ -172,7 +172,7 @@
     "tags.filterError": "Fehler beim Anwenden des Filters: {error}",
     "notes.assigned": "Zugewiesen",
     "searchResultsCountUnknown": "Mehr als 10.000 Datensätze gefunden",
-    "feesfines.policy.lost.duplicate": "Der eingegebene Name der Gebührenrichtlinie für verlorene Exemplare existiert bereits. Bitte anderen Namen eingeben.",
+    "feesfines.policy.lost.duplicate": "Der eingegebene Name der Gebührenrichtlinie für Ersatz existiert bereits. Bitte anderen Namen eingeben.",
     "reset": "Zurücksetzen",
     "notes.assignUnassignAll": "Alle Anmerkungen zuweisen / entfernen",
     "customFields": "Benutzerdefinierte Felder",

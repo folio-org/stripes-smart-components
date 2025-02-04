@@ -1,6 +1,6 @@
 # Change history for stripes-smart-components
 
-## 9.3.0 IN PROGRESS
+## 10.0.0 IN PROGRESS
 
 * Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
 * Improve confirmation modal footer for `ControlledVocab` component. Refs STSMACOM-863.

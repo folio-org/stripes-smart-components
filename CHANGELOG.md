@@ -12,6 +12,7 @@
 * Change the request URL limit for `REQUEST_URL_LIMIT` due to increase to 8192. Refs STSMACOM-887.
 * Correctly import from `stripes-*` libraries. Refs STSMACOM-884.
 * *BREAKING* Upgrade `@folio/stripes-*` dependencies. Refs STSMACOM-891.
+* `<EntryManager>` sort entries by `id` if the requested sort-key is absent. Refs STSMACOM-893.
 
 ## [9.2.3] IN PROGRESS
 

@@ -13,6 +13,7 @@
 * Correctly import from `stripes-*` libraries. Refs STSMACOM-884.
 * *BREAKING* Upgrade `@folio/stripes-*` dependencies. Refs STSMACOM-891.
 * `<EntryManager>` sort entries by `id` if the requested sort-key is absent. Refs STSMACOM-893.
+* *BREAKING* Upgrade `react-intl` to v7. Refs STSMACOM-892.
 
 ## [9.2.3] IN PROGRESS
 

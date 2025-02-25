@@ -1,7 +1,15 @@
 # Change history for stripes-smart-components
 
-## 10.0.0 IN PROGRESS
+## 10.1.0 IN PROGRESS
 
+## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)
+
+* Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
+* Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
+* Fetch updaters in `<ViewMetaData>` on `props.metadata` changes. Fixes STSMACOM-878.
+* Use `this.resources` in `StripesConnectedSource` instead of accessing props directly. Fixes STSMACOM-879.
+* `DateRangeFilter` - set the `wrongDatesOrder` to `false` when the field value changes. Fixes STSMACOM-880.
 * Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
 * Improve confirmation modal footer for `ControlledVocab` component. Refs STSMACOM-863.
 * Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
@@ -15,13 +23,39 @@
 * `<EntryManager>` sort entries by `id` if the requested sort-key is absent. Refs STSMACOM-893.
 * *BREAKING* Upgrade `react-intl` to v7. Refs STSMACOM-892.
 
-## [9.2.3] IN PROGRESS
+## [9.2.6](https://github.com/folio-org/stripes-smart-components/tree/v9.2.6) (2024-12-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.5...v9.2.6)
 
-* Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
 * Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
+* `DateRangeFilter` - set the `wrongDatesOrder` to `false` when the field value changes. Fixes STSMACOM-880.
+
+## [9.2.5](https://github.com/folio-org/stripes-smart-components/tree/v9.2.5) (2024-12-05)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.4...v9.2.5)
+
 * Fetch updaters in `<ViewMetaData>` on `props.metadata` changes. Fixes STSMACOM-878.
 * Use `this.resources` in `StripesConnectedSource` instead of accessing props directly. Fixes STSMACOM-879.
-* `DateRangeFilter` - set the `wrongDatesOrder` to `false` when the field value changes. Fixes STSMACOM-880.
+
+## [9.2.4](https://github.com/folio-org/stripes-smart-components/tree/v9.2.4) (2024-12-02)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.3...v9.2.4)
+
+* Check for `active` status of `<Settings>` navigation links independently from the applied href and query string. Query string should only be applied to active link. Refs STSMACOM-837.
+* `<EditableListForm>` use `lodash.isEmpty` to check for empty `state.status` in re-initialization checks on component update. Fixes STSMACOM-876.
+
+## [9.2.3](https://github.com/folio-org/stripes-smart-components/tree/v9.2.3) (2024-11-15)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.2...v9.2.3)
+
+* Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
+
+## [9.2.2](https://github.com/folio-org/stripes-smart-components/tree/v9.2.2) (2024-10-31)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.1...v9.2.2)
+
+* Remove unnecessary `aria-rowindex` in `ItemView` and `ItemEdit` components. Fixes STSMACOM-871.
+
+## [9.2.1](https://github.com/folio-org/stripes-smart-components/tree/v9.2.1) (2024-10-30)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v9.2.1)
+
+* Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
+* Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
 
 ## [9.2.0](https://github.com/folio-org/stripes-smart-components/tree/v9.2.0) (2024-10-11)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.3...v9.2.0)

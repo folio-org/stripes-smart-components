@@ -1,6 +1,7 @@
 # Change history for stripes-smart-components
 
-## IN PROGRESS
+## [10.0.1](https://github.com/folio-org/stripes-smart-components/tree/v10.0.1) (2025-03-12)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v10.0.0...v10.0.1)
 
 * Apply wrappers with `_.flow()` instead of annotations. Refs STSMACOM-896.
 

@@ -51,7 +51,7 @@
     "searchAndFilter": "Suchen & filtern",
     "search": "Suchen",
     "new": "Neu",
-    "hideSearchPane": "Such- und Filterbereich ausblenden.",
+    "hideSearchPane": "Such- und Filterbereich ausblenden",
     "showSearchPane": "Such- und Filterbereich erweitern.",
     "numberOfFilters": "{count, number} {count, plural, one {Filter angewandt} other {Filter angewandt}}",
     "permissionError": "Berechtigungsfehler",

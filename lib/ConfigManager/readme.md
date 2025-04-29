@@ -26,4 +26,5 @@ onBeforeSave | func | Optional callback used before config has been saved to pro
 onAfterSave | func | Optional callback used after config has been saved successfully.
 formType | string | Optional specification of what form library to use. Default `redux-form`; the other supported value is `final-form`.
 validate | func | Optional validation function for the form library.
+userId | string | Optional user id for retrieving the user's own settings from mod-settings.
 stripes | object | The stripes object: if provided, it is passed down into the child component of the config-form.

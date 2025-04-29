@@ -280,6 +280,6 @@
     "editableList.confirmationModal.cancelLabel": "لا، لا تقم بالحذف",
     "editableList.confirmationModal.confirmLabel": "نعم، احذف",
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
-    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "error.badRequest": "تعذرت معالجة البحث عن {query}. يرجى التحقق من استعلامك والمحاولة مرة أخرى.",
     "dateRange.invalidYear": "يرجى إدخال سنة صالحة"
 }

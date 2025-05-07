@@ -43,8 +43,6 @@
     "@babel/eslint-parser": "^7.17.0",
     "@bigtest/convergence": "^1.0.0",
     "@bigtest/interactor": "^0.7.2",
-    "@bigtest/mirage": "^0.0.1",
-    "@bigtest/mocha": "^0.5.1",
     "@folio/eslint-config-stripes": "^8.0.0",
     "@folio/jest-config-stripes": "^3.0.0",
     "@folio/stripes-cli": "^4.0.0",

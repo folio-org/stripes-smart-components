@@ -3,6 +3,7 @@
 ## 10.1.0 IN PROGRESS
 
 * Apply wrappers with `flow()` instead of annotations. Refs STSMACOM-896.
+* `ConfigManager` - Add `userId` property to retrieve the user's own settings from mod-settings. Refs STSMACOM-902.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

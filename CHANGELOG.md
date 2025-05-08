@@ -4,7 +4,7 @@
 
 * Apply wrappers with `flow()` instead of annotations. Refs STSMACOM-896.
 * `ConfigManager` - Add `userId` property to retrieve the user's own settings from mod-settings. Refs STSMACOM-902.
-* Add `hideEditButton`, `interactive` and `noRowClick` props to `NotesSmartAccordion` components, add a sort icon for the list headers, and remove the padding of the ql-editor container. Refs STSMACOM-904.
+* Add `hideEditButton`, `interactive` and `canClickRow` props to `NotesSmartAccordion` components, add a sort icon for the list headers, and remove the padding of the ql-editor container. Refs STSMACOM-904.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

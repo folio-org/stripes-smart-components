@@ -35,6 +35,6 @@ entityType | string | Record name(e.g. package).
 entityId | string | Record id.
 hideEditButton | bool   | Hides the edit button. Default is false.
 interactive | bool   | Applies a "pointer" cursor when the mouse hovers over a row. Default is true.
-noRowClick | bool   | Prevents clicking on a row. Default is false.
+canClickRow | bool   | If true, the row is clickable. Default is true.
 pathToNoteCreate | string | Path to Note create page.
 pathToNoteDetails | string | Path to Note details page. NotesSmartAccordion will add / with note id during redirecting to details page. 

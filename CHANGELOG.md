@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## IN PROGRESS
+
+* Add `hideEditButton`, `interactive` and `canClickRow` props to `NotesSmartAccordion` components, add a sort icon for the list headers, and remove the padding of the ql-editor container. Refs STSMACOM-904.
+
 ## [10.0.1](https://github.com/folio-org/stripes-smart-components/tree/v10.0.1) (2025-03-12)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v10.0.0...v10.0.1)
 

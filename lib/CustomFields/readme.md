@@ -78,6 +78,7 @@ export default EditCustomFields;
 Name | type | description | required
 --- | --- | --- | ---
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true
+`configNamePrefix` | string | used to extend `configName` to use different storage for the section title when making requests to `mod-configuration` | false
 `entityType` | string | used to filter custom files by particular entity type |true
 `redirectToView` | func | function that redirect to route which renders `<ViewCustomFieldsSettings />` |true
 
@@ -110,6 +111,7 @@ Name | type | description | required | default
 `accordionId` | string | used to set accordion id | true |
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true |
 `columnCount` | number | grid display in the same menner as other accordions in current page | false | 4
+`configNamePrefix` | string | used to extend `configName` to use different storage for the section title when making requests to `mod-configuration` | false
 `customFieldsLabel` | node | default accordion label | false | `<FormattedMessage id="stripes-smart-components.customFields" />`
 `customFieldsValues` | object | values for the custom fields | true |
 `entityType` | string | used to filter custom files by particular entity type | true |
@@ -180,6 +182,7 @@ Name | type | description | required | default
 `accordionId` | string | used to set accordion id | true |
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true
 `columnCount` | number | grid display in the same manner as other accordions in current page | false | 4
+`configNamePrefix` | string | used to extend `configName` to use different storage for the section title when making requests to `mod-configuration` | false
 `customFieldsLabel` | node | default accordion label | false | `<FormattedMessage id="stripes-smart-components.customFields" />`
 `entityType` | string | used to filter custom files by particular entity type |true
 `expanded` | boolean | indicates if the accordion is open | true |

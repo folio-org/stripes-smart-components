@@ -240,7 +240,7 @@
     "customFields.fieldTypes.RADIO_BUTTON": "Jednokrotny wybór",
     "cddd.itemClaimedReturned": "Zmiana terminu zwrotu nie powiodła się: egzemplarz jest Zapewniony że zwrócony",
     "cddd.itemClaimedReturnedWarning": "Egzemplarz jest Zapewniony że zwrócony",
-    "customFields.settings.accordionTitle": "Tytuł harmonijki",
+    "customFields.settings.accordionTitle": "Tytuł sekcji",
     "customFields.select.placeholder": "Wybierz {fieldLabel}",
     "customFields.new": "Nowy",
     "customFields.save&Close": "Zapisz i zamknij",

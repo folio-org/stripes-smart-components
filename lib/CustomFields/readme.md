@@ -24,6 +24,7 @@ class CustomFieldsSettings extends Component {
         backendModuleName="users"
         entityType="user"
         redirectToEdit={this.redirectToEdit}
+        scope="ui-users.custom-fields.manage"
       />
     );
   }
@@ -38,6 +39,7 @@ Name | type | description | required
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true
 `entityType` | string | used to filter custom files by particular entity type |true
 `redirectToEdit` | func | function that redirect to route which renders `<EditCustomFieldsSettings />` |true
+`scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
 
 # EditCustomFieldsSettings
 `EditCustomFieldsSettings` provides the functionality to create, edit and delete custom fields for the provided entity type.
@@ -66,6 +68,7 @@ class EditCustomFields extends Component {
         backendModuleName="users"
         entityType="user"
         redirectToView={this.redirectToView}
+        scope="ui-users.custom-fields.manage"
       />
     );
   }
@@ -81,7 +84,7 @@ Name | type | description | required
 `configNamePrefix` | string | used to extend `configName` to use different storage for the section title when making requests to `mod-configuration` | false
 `entityType` | string | used to filter custom files by particular entity type |true
 `redirectToView` | func | function that redirect to route which renders `<ViewCustomFieldsSettings />` |true
-
+`scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
 
 # ViewCustomFieldsRecord
 `ViewCustomFieldsRecord`'s responsibilities are basically fetching custom fields configuration data for displaying accordions with them.
@@ -102,6 +105,7 @@ import { ViewCustomFieldsRecord } from '@folio/stripes/smart-components';
   entityType="user"
   expanded={this.state.sections.customFields}
   onToggle={this.handleSectionToggle}
+  scope="ui-users.custom-fields.manage"
 />
 ```
 
@@ -117,7 +121,7 @@ Name | type | description | required | default
 `entityType` | string | used to filter custom files by particular entity type | true |
 `expanded` | boolean | accordion open or closed | true |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
-
+`scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
 
 
 # EditCustomFieldsRecord
@@ -143,6 +147,7 @@ import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
   onToggle={this.toggleSection}
   expanded={sections.customFields}
   fieldComponent={Field}
+  scope="ui-users.custom-fields.manage"
 />
 ```
 
@@ -169,6 +174,7 @@ import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
       onToggle={this.toggleSection}
       expanded={sections.customFields}
       fieldComponent={Field}
+      scope="ui-users.custom-fields.manage"
     />
  </Form>
 ```
@@ -189,7 +195,7 @@ Name | type | description | required | default
 `fieldComponent` | func | Field component | true |
 `onComponentLoad` | func | callback function invoked when all form fields have been rendered | false |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
-
+`scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
 
 ### redux-form specific props
 Name | type | description | required | default

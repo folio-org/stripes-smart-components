@@ -312,4 +312,19 @@ export default function config() {
 
     this.create('tag', tagData);
   });
+
+  this.get('/settings/entries', (schema, request) => {
+    if (request.url.includes('custom_fields_label')) {
+      return {
+        items: [{
+          id: 'tested-custom-field-label',
+          key: 'custom_fields_label',
+          scope: 'ui-users.custom-fields.manage',
+          value: 'Custom Fields label',
+        }],
+      };
+    }
+
+    return { items: [] };
+  });
 }

@@ -10,6 +10,7 @@
 * Add `configNamePrefix` prop to custom fields components to be able to store section titles separately for different entityTypes. Fixes STSMACOM-790.
 * Migrate custom fields from mod-configuration to mod-settings. Fixes STSMACOM-910.
 * Migrate tags from mod-configuration to mod-settings. Refs STSMACOM-911.
+* `<ControlledVocab>` - added a new `onCreateFail` prop to allow parent components to specify custom error handling. Refs STSMACOM-913.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

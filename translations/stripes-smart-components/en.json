@@ -226,6 +226,7 @@
   "customFields.fieldValue.whitespace": "Whitespace only character(s) is not allowed.",
   "customFields.helperText": "Help text",
   "customFields.helperText.description": "This will show under an information icon",
+  "customFields.displayInAccordion": "Display in accordion",
   "customFields.required": "Required",
   "customFields.required.checked": "Yes",
   "customFields.required.unchecked": "No",

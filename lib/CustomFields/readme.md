@@ -40,6 +40,8 @@ Name | type | description | required
 `entityType` | string | used to filter custom files by particular entity type |true
 `redirectToEdit` | func | function that redirect to route which renders `<EditCustomFieldsSettings />` |true
 `scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
+`hasDisplayInAccordionField` | boolean | used to display the `Display in accordion` field | false
+`displayInAccordionOptions` | array | a list of options `[{ value, label }]`, `value` is used to find the correct `label` and display it for the `Display in accordion` field | false
 
 # EditCustomFieldsSettings
 `EditCustomFieldsSettings` provides the functionality to create, edit and delete custom fields for the provided entity type.

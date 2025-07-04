@@ -139,6 +139,7 @@ export default function config() {
       'required': true,
       'order': 1,
       'helpText': 'helpful text',
+      displayInAccordion: 'feesFines',
     }, {
       'id': '2',
       'name': 'Textarea 1',

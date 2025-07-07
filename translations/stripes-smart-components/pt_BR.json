@@ -281,5 +281,6 @@
     "editableList.confirmationModal.confirmLabel": "Sim, excluir",
     "error.requestUrlLimit": "O limite de caracteres da requisição de URI de busca foi excedido. O limite de caracteres é {limit}. Revise suas seleções de busca e/ou faceta.",
     "error.badRequest": "A busca não pôde ser processada para {query} . Verifique sua consulta e tente novamente.",
-    "dateRange.invalidYear": "Por favor, insira um ano válido"
+    "dateRange.invalidYear": "Por favor, insira um ano válido",
+    "customFields.displayInAccordion": "Display in accordion"
 }

@@ -281,5 +281,6 @@
     "editableList.confirmationModal.confirmLabel": "はい、削除します",
     "error.requestUrlLimit": "検索 URI リクエストの文字数制限を超えました。文字数制限は{limit}です。検索やファセットの選択を修正してください。",
     "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
-    "dateRange.invalidYear": "有効な年を入力してください"
+    "dateRange.invalidYear": "有効な年を入力してください",
+    "customFields.displayInAccordion": "Display in accordion"
 }

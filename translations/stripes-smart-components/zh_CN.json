@@ -281,5 +281,6 @@
     "editableList.confirmationModal.confirmLabel": "是，删除",
     "error.requestUrlLimit": "已超出搜索 URI 请求字符数限制。字符数限制为{limit} 。请修改搜索和/或分面选择。",
     "error.badRequest": "无法针对{query}进行搜索。请检查您的查询并重试。",
-    "dateRange.invalidYear": "请输入有效的年份"
+    "dateRange.invalidYear": "请输入有效的年份",
+    "customFields.displayInAccordion": "Display in accordion"
 }

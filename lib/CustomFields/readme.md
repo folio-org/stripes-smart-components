@@ -87,6 +87,8 @@ Name | type | description | required
 `entityType` | string | used to filter custom files by particular entity type |true
 `redirectToView` | func | function that redirect to route which renders `<ViewCustomFieldsSettings />` |true
 `scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
+`hasDisplayInAccordionField` | boolean | used to display the `Display in accordion` field | false
+`displayInAccordionOptions` | array | a list of options `[{ value, label }]`, `value` is used to find the correct `label` and display it for the `Display in accordion` field | false
 
 # ViewCustomFieldsRecord
 `ViewCustomFieldsRecord`'s responsibilities are basically fetching custom fields configuration data for displaying accordions with them.

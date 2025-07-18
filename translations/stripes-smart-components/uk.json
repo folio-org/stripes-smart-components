@@ -282,5 +282,5 @@
     "error.requestUrlLimit": "Пошуковий запит URI перевищив ліміт символів. Ліміт символів становить {limit}. Будь ласка, перегляньте ваш пошук та/або вибір фасетів.",
     "error.badRequest": "Неможливо опрацювати пошук для {query}. Перевірте, будь ласка, свій запит та спробуйте знову.",
     "dateRange.invalidYear": "Введіть дійсний рік",
-    "customFields.displayInAccordion": "Display in accordion"
+    "customFields.displayInAccordion": "Відображати у розкладному меню"
 }

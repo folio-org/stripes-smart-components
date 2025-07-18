@@ -172,7 +172,7 @@
     "tags.filterError": "Fehler beim Anwenden des Filters: {error}",
     "notes.assigned": "Zugewiesen",
     "searchResultsCountUnknown": "Mehr als 10.000 Datensätze gefunden",
-    "feesfines.policy.lost.duplicate": "Der eingegebene Name der Richtlinie für Ersatzgebühr existiert bereits. Bitte anderen Namen eingeben.",
+    "feesfines.policy.lost.duplicate": "Der eingegebene Name der Richtlinie Kosten Verlust/Ersatz existiert bereits. Bitte anderen Namen eingeben.",
     "reset": "Zurücksetzen",
     "notes.assignUnassignAll": "Alle Anmerkungen zuweisen / entfernen",
     "customFields": "Benutzerdefinierte Felder",
@@ -282,5 +282,5 @@
     "error.requestUrlLimit": "Zeichenlimit für die Such-URI-Anfrage wurde überschritten. Zeichenlimit ist {limit}. Bitte Such- und/oder Facettenauswahl überarbeiten.",
     "error.badRequest": "Suche für {query} konnte nicht verarbeitet werden. Bitte Anfrage überprüfen und erneut versuchen.",
     "dateRange.invalidYear": "Bitte ein gültiges Jahr eingeben",
-    "customFields.displayInAccordion": "Display in accordion"
+    "customFields.displayInAccordion": "Anzeige im Akkordeon"
 }

@@ -152,6 +152,7 @@ import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
   expanded={sections.customFields}
   fieldComponent={Field}
   scope="ui-users.custom-fields.manage"
+  sectionId="feesFines"
 />
 ```
 
@@ -179,6 +180,7 @@ import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
       expanded={sections.customFields}
       fieldComponent={Field}
       scope="ui-users.custom-fields.manage"
+      sectionId="feesFines"
     />
  </Form>
 ```
@@ -200,6 +202,7 @@ Name | type | description | required | default
 `onComponentLoad` | func | callback function invoked when all form fields have been rendered | false |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
 `scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
+`sectionId` | string | support for accordion-specific field rendering                                  |false
 
 ### redux-form specific props
 Name | type | description | required | default

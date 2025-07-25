@@ -150,6 +150,7 @@ export default function config() {
       'required': false,
       'order': 2,
       'helpText': '',
+      displayInAccordion: 'default',
     }, {
       'id': '3',
       'name': 'Single select',

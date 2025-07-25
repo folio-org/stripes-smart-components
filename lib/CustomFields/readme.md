@@ -110,6 +110,7 @@ import { ViewCustomFieldsRecord } from '@folio/stripes/smart-components';
   expanded={this.state.sections.customFields}
   onToggle={this.handleSectionToggle}
   scope="ui-users.custom-fields.manage"
+  sectionId="feesFines"
 />
 ```
 
@@ -126,6 +127,7 @@ Name | type | description | required | default
 `expanded` | boolean | accordion open or closed | true |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
 `scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
+`sectionId` | string | used to display only fields where `sectionId` matches the value of `displayInAccordion` |false
 
 
 # EditCustomFieldsRecord

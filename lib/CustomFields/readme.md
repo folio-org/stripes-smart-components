@@ -204,7 +204,7 @@ Name | type | description | required | default
 `onComponentLoad` | func | callback function invoked when all form fields have been rendered | false |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
 `scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
-`sectionId` | string | support for accordion-specific field rendering                                  |false
+`sectionId` | string | used to display only fields where `sectionId` matches the value of `displayInAccordion` |false
 
 ### redux-form specific props
 Name | type | description | required | default

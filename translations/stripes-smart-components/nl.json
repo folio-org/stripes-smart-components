@@ -282,5 +282,5 @@
     "error.requestUrlLimit": "De tekenlimiet voor URI-aanvragen is overschreden. De tekenlimiet is {limit}. Herzie a.u.b. uw zoek- en/of facetselecties.",
     "error.badRequest": "Zoeken kon niet worden verwerkt voor {query}. Controleer uw zoekopdracht en probeer het opnieuw.",
     "dateRange.invalidYear": "Voer een geldig jaar in",
-    "customFields.displayInAccordion": "Display in accordion"
+    "customFields.displayInAccordion": "Weergave in Uitklapmenu"
 }

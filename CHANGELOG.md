@@ -15,6 +15,7 @@
 * Settings Custom Fields Edit - include the "Display in accordion", "Hidden" fields, and re-order the fields. Refs STSMACOM-916.
 * ConfigManager - added new `lastMenu` prop and pass it to `<Pane>`. Refs STSMACOM-918.
 * `EditCustomFieldsRecord` - add `sectionId` prop support for accordion-specific field rendering; Add new `useCustomFieldsQuery` and `useSectionTitleQuery` hooks to avoid duplicate requests. Refs STSMACOM-920.
+* `ViewCustomFieldsRecord` - add `sectionId` prop support for accordion-specific field rendering. Refs STSMACOM-921.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

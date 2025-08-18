@@ -175,6 +175,8 @@ import { EditCustomFieldsRecord } from '@folio/stripes/smart-components';
     <EditCustomFieldsRecord
       changeFinalFormField={change}
       finalFormCustomFieldsValues={getState().values.customFields}
+      finalFormInstance={form}
+      isCreateMode={!initialValues.id}
       entityType="user"
       backendModuleName="users"
       accordionId="customFields"
@@ -201,6 +203,7 @@ Name | type | description | required | default
 `entityType` | string | used to filter custom files by particular entity type |true
 `expanded` | boolean | indicates if the accordion is open | true |
 `fieldComponent` | func | Field component | true |
+`isCreateMode` | boolean | indicates if the component is being used in create mode. When true, default values are set as initial values without marking the form dirty. When false, default values mark the form as dirty (edit mode behavior) | false | false
 `onComponentLoad` | func | callback function invoked when all form fields have been rendered | false |
 `onToggle` | func | callback for toggling the accordion open/closed | true |
 `scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
@@ -218,3 +221,4 @@ Name | type | description | required | default
 --- | --- | --- | --- | ---
 `changeFinalFormField` | func | a function used to change `final-form` field value | required when final-form is used |
 `finalFormCustomFieldsValues` | object | custom fields values stored in final-form state. Can be retrieved using `<Form>` render props: `{form.getState().values.customFields}` | required when final-form is used
+`finalFormInstance` | object | the final-form instance object. Used for advanced form operations like `restart()` when `isCreateMode` is true. Can be retrieved using `<Form>` render props: `{form}` | false |

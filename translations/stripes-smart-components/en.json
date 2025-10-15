@@ -272,6 +272,7 @@
   "customFields.options.defaults": "Default(s)",
   "customFields.select.placeholder": "Select a {fieldLabel}",
   "customFields.option.deleteLabel": "Delete",
+  "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing.",
   "settings.common.duplicate": "Duplicate",
   "settings.common.edit": "Edit",
   "settings.common.delete": "Delete",

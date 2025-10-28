@@ -327,6 +327,17 @@ export default function config() {
       };
     }
 
+    if (request.url.includes('tags_enabled')) {
+      return {
+        items: [{
+          id: 'tested-tags-settings-label',
+          key: 'tags_enabled',
+          scope: 'scope-test',
+          value: true,
+        }],
+      };
+    }
+
     return { items: [] };
   });
 }

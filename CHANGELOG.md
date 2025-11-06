@@ -13,6 +13,7 @@
 * `<ControlledVocab>` - added a new `onCreateFail` prop to allow parent components to specify custom error handling. Refs STSMACOM-913.
 * Settings Custom Fields View - include the "Display in accordion", "Hidden" fields, and re-order the fields. Refs STSMACOM-914.
 * Settings Custom Fields Edit - include the "Display in accordion", "Hidden" fields, and re-order the fields. Refs STSMACOM-916.
+* Tags - reset loading state after successfully updated entity. Fixes STSMACOM-932.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

@@ -78,6 +78,7 @@ export { default as EditCustomFieldsSettings } from './lib/CustomFields/pages/Ed
 export { default as EditCustomFieldsRecord } from './lib/CustomFields/pages/EditCustomFieldsRecord';
 export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/ViewCustomFieldsRecord';
 export { default as useCustomFields } from './lib/CustomFields/utils/useCustomFields';
+export { default as useCustomFieldsQuery } from './lib/CustomFields/utils/useCustomFieldsQuery';
 export { CUSTOM_FIELDS_SECTION_ID } from './lib/CustomFields/constants';
 
 export { default as ProfilePicture } from './lib/ProfilePicture';

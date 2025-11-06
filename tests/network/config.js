@@ -150,6 +150,7 @@ export default function config() {
       'required': false,
       'order': 2,
       'helpText': '',
+      displayInAccordion: 'default',
     }, {
       'id': '3',
       'name': 'Single select',
@@ -322,6 +323,17 @@ export default function config() {
           key: 'custom_fields_label',
           scope: 'ui-users.custom-fields.manage',
           value: 'Custom Fields label',
+        }],
+      };
+    }
+
+    if (request.url.includes('tags_enabled')) {
+      return {
+        items: [{
+          id: 'tested-tags-settings-label',
+          key: 'tags_enabled',
+          scope: 'scope-test',
+          value: true,
         }],
       };
     }

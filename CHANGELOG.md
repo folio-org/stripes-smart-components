@@ -17,6 +17,11 @@
 * `EditCustomFieldsRecord` - add `sectionId` prop support for accordion-specific field rendering; Add new `useCustomFieldsQuery` and `useSectionTitleQuery` hooks to avoid duplicate requests. Refs STSMACOM-920.
 * `ViewCustomFieldsRecord` - add `sectionId` prop support for accordion-specific field rendering. Refs STSMACOM-921.
 * `EditCustomFieldsRecord` - Improve custom fields default value handling for create vs edit modes. Refs STSMACOM-922.
+* Add `mutateEntity` prop to `TagsAccordion` component. Refs STSMACOM-923.
+* Validate custom fields by filtering out those with empty refId in useCustomFieldsQuery. Fixes STSMACOM-917.
+* `<SearchAndSortQuery>` - add `addIsInitialParameterToQuery` prop to control whether to add `_isInitial` query parameter to query when searching.
+* `<NotesAssigningModal>` - make "Status" and "# of assignments" columns non-interactive to prevent sorting by those columns. Refs STSMACOM-925.
+* `withTags` - consider tags enabled if the value is a boolean true for `settings/entries`. Refs STSMACOM-928.
 * `ViewMetaData` - add `tenantId` prop support and refactor to use `react-query`. Refs STSMACOM-931.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)

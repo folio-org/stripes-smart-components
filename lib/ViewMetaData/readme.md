@@ -12,6 +12,7 @@
 | `metadata`   | `object`        | Object with user ids and dates.                                                                        |
 | `systemId`   | `string`        | Property to determine if user is system. Optional property. If not passed system will not be rendered. |
 | `systemUser` | `object | node` | Optional property. By default renders "System".                                                        |
+| `tenantId`   | `string`        | Optional property. Specifies the tenant for users data requests. When provided, users information will be fetched from the specified tenant. |
 | `children`   | `func`          | Optional property. The child function is provided an object with `lastUpdatedBy` so that presentation can be customized. If no child function is provided, `<ViewMetaData>` renders a `<MetaSection>` component.                                           |
 
 ## Usage

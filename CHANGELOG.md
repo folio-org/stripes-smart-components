@@ -25,6 +25,7 @@
 * `<Tags>` - reset loading state after an entity has been successfully updated. Fixes STSMACOM-932.
 * `ViewMetaData` - add `tenantId` prop support and refactor to use `react-query`. Refs STSMACOM-931.
 * `EditCustomFieldsSettings` - redirect to the view custom fields settings page when clicking the Cancel button. Fixes STSMACOM-930.
+* `EditCustomFieldsRecord` - fix single select fields resetting to default when cleared. FIXES STSMACOM-933.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

@@ -1,5 +1,10 @@
 # Change history for stripes-smart-components
 
+## IN PROGRESS
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v10.0.2...v10.0.3)
+
+* Silently handle fetch errors in `ViewMetaData` during tenant switching. Fixes STSMACOM-935.
+
 ## [10.0.2](https://github.com/folio-org/stripes-smart-components/tree/v10.0.2) (2025-07-29)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v10.0.1...v10.0.2)
 

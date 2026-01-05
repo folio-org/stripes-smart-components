@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## [10.0.4] IN PROGRESS
+
+* Add optional chaining to `mutator.updaters.GET()` call in `ViewMetaData` to prevent the page from crashing if the component is not connected. Fixes STSMACOM-937.
+
 ## [10.0.3](https://github.com/folio-org/stripes-smart-components/tree/v10.0.3) (2025-12-31)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v10.0.2...v10.0.3)
 

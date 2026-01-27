@@ -27,6 +27,7 @@
 * `EditCustomFieldsSettings` - redirect to the view custom fields settings page when clicking the Cancel button. Fixes STSMACOM-930.
 * `EditCustomFieldsRecord` - fix single select fields resetting to default when cleared. FIXES STSMACOM-933.
 * `EditCustomFieldsSettings` - use `isFetchingCustomFields` instead of `isLoadingCustomFields` in `useCustomFieldsQuery` to prevent `useOptionsStatsFetch` from fetching stale custom fields and auto-opening an accordion. Fixes STSMACOM-934.
+* Provide the ability to hide system custom fields from settings. Refs STSMACOM-938.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

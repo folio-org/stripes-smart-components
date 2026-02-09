@@ -118,6 +118,7 @@ import { ViewCustomFieldsRecord } from '@folio/stripes/smart-components';
 Name | type | description | required | default
 --- | --- | --- | --- | ---
 `accordionId` | string | used to set accordion id | true |
+`allowedRefIds` | arrayOf(string) | used to filter custom fields by refId, if provided only fields with matching refIds will be shown | false |
 `backendModuleName` | string | used to set correct `x-okapi-module-id` header when making requests to `mod-custom-fields`| true |
 `columnCount` | number | grid display in the same menner as other accordions in current page | false | 4
 `configNamePrefix` | string | used to extend `configName` to use different storage for the section title when making requests to `mod-configuration` | false
@@ -125,9 +126,11 @@ Name | type | description | required | default
 `customFieldsValues` | object | values for the custom fields | true |
 `entityType` | string | used to filter custom files by particular entity type | true |
 `expanded` | boolean | accordion open or closed | true |
+`isSectionTitleEnabled` | boolean | enables/disables fetching and displaying the section title | false | true
 `onToggle` | func | callback for toggling the accordion open/closed | true |
 `scope` | string | used to use mod-settings API instead of mod-configuration                                  |false
 `sectionId` | string | used to display only fields where `sectionId` matches the value of `displayInAccordion` |false
+`showAccordion` | boolean | whether to render the custom fields inside an accordion | false | true
 
 
 # EditCustomFieldsRecord

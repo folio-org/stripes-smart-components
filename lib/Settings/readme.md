@@ -40,17 +40,17 @@ The following properties are supported:
   page. For example, if you want your Foo module's Bar settings page to
   be able to see a specific Bar in detail, you might pass `pages`
   including:
-
+```
     {
       route: 'bar',
       id: 'Maintain all Bars',
       component: ListOfBar,
     },
-
+```
   and also `additionalRoutes` including:
-
+```
     <Route
       path={`${match.path}/bar/:id`}
       render={p => <SingleBar {...p} label="Maintain specific Bar" />}
     />
-
+```

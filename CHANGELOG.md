@@ -30,6 +30,9 @@
 * Provide the ability to hide system custom fields from settings. Refs STSMACOM-938.
 * `Settings` - `NavListItem` incorrectly highlighted when routes share a common prefix. FIXES STSMACOM-939.
 * `ViewCustomFieldsRecord` - add `allowedRefIds`, `isSectionTitleEnabled`, and `showAccordion` props. Refs STSMACOM-940.
+* Dependency correction: do not lock `@rehooks/local-storage`. Refs STSMACOM-941.
+* Dependency correction: include `@babel/runtime`, a peer of `react-image`. Refs STSMACOM-941.
+* Dependency correction: remember bumping `react-intl` to v7? Yeah? Actually do that. Refs STSMACOM-941.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

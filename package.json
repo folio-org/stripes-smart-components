@@ -80,7 +80,8 @@
     "stylelint-junit-formatter": "^0.2.2"
   },
   "dependencies": {
-    "@rehooks/local-storage": "2.4.4",
+    "@babel/runtime": "^7.28.6",
+    "@rehooks/local-storage": "^2.4.4",
     "classnames": "^2.2.6",
     "dompurify": "^3.0.9",
     "final-form": "^4.18.2",
@@ -112,7 +113,7 @@
     "@folio/stripes-util": "^7.0.0",
     "moment": "^2.29.0",
     "react": "^18.2.0",
-    "react-intl": "^6.4.4",
+    "react-intl": "^7.1.5",
     "react-redux": "^8.0.5",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"

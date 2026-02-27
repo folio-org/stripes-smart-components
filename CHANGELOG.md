@@ -33,6 +33,7 @@
 * Dependency correction: do not lock `@rehooks/local-storage`. Refs STSMACOM-941.
 * Dependency correction: include `@babel/runtime`, a peer of `react-image`. Refs STSMACOM-941.
 * Dependency correction: remember bumping `react-intl` to v7? Yeah? Actually do that. Refs STSMACOM-941.
+* `<DateRangeFilter>` - set only the start date field as a focus ref. Fixes STSMACOM-944.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

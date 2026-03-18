@@ -35,6 +35,7 @@
 * Dependency correction: remember bumping `react-intl` to v7? Yeah? Actually do that. Refs STSMACOM-941.
 * `<DateRangeFilter>` - set only the start date field as a focus ref. Fixes STSMACOM-944.
 * Add a limit of 100 for tenant rules in the `PasswordValidationField`. Fixes STSMACOM-942.
+* Add a default empty object for `customFieldsValues` so that `ViewCustomFieldsRecord` can render `NoValue` when no values are provided. Refs STSMACOM-946.
 
 ## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)

@@ -123,7 +123,7 @@ Name | type | description | required | default
 `columnCount` | number | grid display in the same menner as other accordions in current page | false | 4
 `configNamePrefix` | string | used to extend `configName` to use different storage for the section title when making requests to `mod-configuration` | false
 `customFieldsLabel` | node | default accordion label | false | `<FormattedMessage id="stripes-smart-components.customFields" />`
-`customFieldsValues` | object | values for the custom fields | true |
+`customFieldsValues` | object | values for the custom fields | false | {}
 `entityType` | string | used to filter custom files by particular entity type | true |
 `expanded` | boolean | accordion open or closed | true |
 `isSectionTitleEnabled` | boolean | enables/disables fetching and displaying the section title | false | true

@@ -4,10 +4,6 @@
   margin-left: 6px;
 }
 
-input[disabled] {
-  margin-left: 5px;
-}
-
 .error {
   margin-top: 1px;
   margin-left: 24px;

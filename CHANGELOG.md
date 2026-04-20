@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## IN PROGRESS
+
+* Supply Personal Data Disclosure form. Refs STSMACOM-909.
+
 ## 10.1.0 IN PROGRESS
 
 * Apply wrappers with `flow()` instead of annotations. Refs STSMACOM-896.

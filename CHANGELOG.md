@@ -3,6 +3,7 @@
 ## IN PROGRESS
 
 * Supply Personal Data Disclosure form. Refs STSMACOM-909.
+* `<ViewCustomFieldsRecord>` - render `DATE_PICKER` values in UTC so the displayed day matches the saved value in non-UTC timezones. Fixes STSMACOM-950.
 
 ## 10.1.0 IN PROGRESS
 

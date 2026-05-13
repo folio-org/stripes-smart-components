@@ -1,5 +1,9 @@
 # Change history for stripes-smart-components
 
+## IN PROGRESS
+
+* `<ViewCustomFieldsRecord>` - render `DATE_PICKER` values in UTC so the displayed day matches the saved value in non-UTC timezones. Fixes STSMACOM-950.
+
 ## [10.1.0](https://github.com/folio-org/stripes-smart-components/tree/v10.1.0) (2026-04-14)
 
 * Apply wrappers with `flow()` instead of annotations. Refs STSMACOM-896.

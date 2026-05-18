@@ -273,14 +273,15 @@
     "error.conflict": "You are editing an old version of this data. To load the latest version click cancel, <b>refresh the page</b> and try again.",
     "editableList.actionsColumnHeader": "Actions",
     "customFields.option.deleteLabel": "Supprimer",
-    "advancedSearch": "Advanced search",
+    "advancedSearch": "Recherche avancée",
     "cv.termCreated": "The {type} <b>{term}</b> was successfully <b>created</b>",
     "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
-    "editableList.confirmationModal.cancelLabel": "No, do not delete",
-    "editableList.confirmationModal.confirmLabel": "Yes, delete",
+    "editableList.confirmationModal.cancelLabel": "Non, ne pas supprimer",
+    "editableList.confirmationModal.confirmLabel": "Oui, supprimer",
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
     "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
     "dateRange.invalidYear": "Please enter a valid year",
-    "customFields.displayInAccordion": "Display in accordion"
+    "customFields.displayInAccordion": "Display in accordion",
+    "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing."
 }

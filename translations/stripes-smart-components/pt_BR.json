@@ -24,7 +24,7 @@
     "cv.numberOfObjects": "Núm. de {objects}",
     "cv.termWillBeDeleted": "O {type} <b>{term}</b> será <b>excluído.</b>",
     "cv.termDeleted": "O {type} <b>{term}</b> foi <b> excluído com sucesso</b>",
-    "ll.locationLookup": "Busca de localização",
+    "ll.locationLookup": "Consultar localização",
     "ll.selectLocationHeader": "Selecione {type} localização",
     "ll.institution": "Instituição",
     "ll.selectInstitution": "Selecione uma instituição",
@@ -40,8 +40,8 @@
     "ls.permanentLocation": "Localização permanente",
     "ls.locationPlaceholder": "Selecione o nome ou código da localização",
     "pm.proxyExpired": "Relação de procuração expirada",
-    "pm.sponsorExpired": "O registro do usuário autorizador expirou",
-    "pm.cannotRequestFoSponsor": "O procurador não pode solicitar para o autorizado",
+    "pm.sponsorExpired": "O registro do usuário patrocinador expirou",
+    "pm.cannotRequestFoSponsor": "O procurador não pode solicitar para o patrocinador",
     "pm.continue": "Continuar",
     "pm.cancel": "Cancelar",
     "closeEntryDialog": "Fechar a caixa de diálogo",
@@ -282,5 +282,6 @@
     "error.requestUrlLimit": "O limite de caracteres da requisição de URI de busca foi excedido. O limite de caracteres é {limit}. Revise suas seleções de busca e/ou faceta.",
     "error.badRequest": "A busca não pôde ser processada para {query} . Verifique sua consulta e tente novamente.",
     "dateRange.invalidYear": "Por favor, insira um ano válido",
-    "customFields.displayInAccordion": "Exibir no acórdão"
+    "customFields.displayInAccordion": "Exibir no acórdão",
+    "customFields.warning.missingAttribute": "Não foi possível exibir o campo {name} porque um atributo obrigatório está faltando."
 }

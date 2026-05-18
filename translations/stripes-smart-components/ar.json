@@ -282,5 +282,6 @@
     "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
     "error.badRequest": "تعذرت معالجة البحث عن {query}. يرجى التحقق من استعلامك والمحاولة مرة أخرى.",
     "dateRange.invalidYear": "يرجى إدخال سنة صالحة",
-    "customFields.displayInAccordion": "Display in accordion"
+    "customFields.displayInAccordion": "Display in accordion",
+    "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing."
 }

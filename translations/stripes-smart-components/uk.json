@@ -5,7 +5,7 @@
     "cddd.changeSucceeded": "Дата та час терміну видачі успішно змінені",
     "cddd.changeSucceededWithCount": "Дата та час терміну видачі <b>успішно</b> змінені для <b>{succeeded, number}</b> {succeeded, plural, one {примірника} other {примірників}}.",
     "cddd.changeFailed": "Не вдалося змінити дату терміну видачі",
-    "cddd.itemHasRequestQueue": "Примірник має чергу замовлень",
+    "cddd.itemHasRequestQueue": "Примірник має чергу замовлень (від користувача)",
     "cddd.itemsHaveWarnings": "<b>{count, number}</b> {count, plural, one {примірник має} other {примірники мають}} <b>застереження.</b>",
     "cddd.header.alertDetails": "Деталі сповіщення",
     "cddd.header.title": "Назва",
@@ -154,7 +154,7 @@
     "address.noAddressesStored": "- Адреси не збережені -",
     "notes.assigned.count": "# кількість призначень",
     "notes.cautionMessage": "Неможливо скасувати призначення примітки, яка має одне призначення",
-    "cddd.header.requests": "Замовлення",
+    "cddd.header.requests": "Замовлення (від користувача)",
     "cddd.itemHasBeenRecalled": "Примірник був відкликаний",
     "notes.type": "Тип примітки",
     "notes.type.general": "Загальна примітка",
@@ -178,7 +178,7 @@
     "customFields": "Користувацькі поля",
     "customFields.edit": "Редагувати",
     "customFields.editCustomFields": "Редагувати користувацькі поля",
-    "customFields.metadata.createdBy": "Створено {userName} {date}",
+    "customFields.metadata.createdBy": "Створено (ким) {userName} {date}",
     "customFields.fieldLabel": "Позначення поля",
     "customFields.fieldFormat": "Формат поля",
     "customFields.helperText": "Текст Допомоги",
@@ -282,5 +282,6 @@
     "error.requestUrlLimit": "Пошуковий запит URI перевищив ліміт символів. Ліміт символів становить {limit}. Будь ласка, перегляньте ваш пошук та/або вибір фасетів.",
     "error.badRequest": "Неможливо опрацювати пошук для {query}. Перевірте, будь ласка, свій запит та спробуйте знову.",
     "dateRange.invalidYear": "Введіть дійсний рік",
-    "customFields.displayInAccordion": "Відображати у розкладному меню"
+    "customFields.displayInAccordion": "Відображати у розкладному меню",
+    "customFields.warning.missingAttribute": "Не вдалося відобразити поле {name} оскільки відсутній обов'язковий атрибут."
 }

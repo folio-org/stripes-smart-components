@@ -98,7 +98,7 @@
     "notes.notFound": "Nebyly nalezeny žádné poznámky",
     "date": "Datum",
     "title": "Název",
-    "updatedBy": "Aktualizoval",
+    "updatedBy": "Aktualizoval/a",
     "dateRange.from": "Od",
     "dateRange.to": "Do",
     "dateRange.apply": "Použít",
@@ -282,5 +282,6 @@
     "error.requestUrlLimit": "Byl překročen limit počtu znaků požadavku URL vyhledávání. Limit počtu znaků je {limit}. Upravte prosím vyhledávání a/nebo výběr fazet.",
     "error.badRequest": "Vyhledávání pro {query} nebylo možné zpracovat. Zkontrolujte prosím svůj dotaz a zkuste to znovu.",
     "dateRange.invalidYear": "Zadejte prosím platný rok",
-    "customFields.displayInAccordion": "Zobrazit v akordeonu"
+    "customFields.displayInAccordion": "Zobrazit v akordeonu",
+    "customFields.warning.missingAttribute": "Nelze zobrazit pole {name}, protože chybí povinný atribut."
 }

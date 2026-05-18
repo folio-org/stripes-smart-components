@@ -164,7 +164,7 @@
     "error.name.duplicate": "{fieldLabel}すでに存在します",
     "error.defaultSaveError": "データの保存中にエラーが発生しました",
     "error.defaultRemoveError": "'データ削除エラー'",
-    "type": "種類",
+    "type": "タイプ",
     "notes.navModal.modalLabel": "ご確認ください。",
     "notes.navModal.dismissLabel": "編集を続ける",
     "notes.navModal.continueLabel": "保存せずに閉じる",
@@ -269,11 +269,11 @@
     "customFields.fieldValue.whitespace": "空白のみの文字は使用できません。",
     "cddd.selectAllLoans": "全ての貸出の選択",
     "cddd.selectLoan": "Select \"{loanName}\" loan",
-    "actions": "Actions",
+    "actions": "アクション",
     "error.conflict": "このデータの古いバージョンを編集しています。最新バージョンを読み込むには、[キャンセル] をクリックし、 <b>ページを更新</b>してもう一度お試しください。",
     "editableList.actionsColumnHeader": "Actions",
     "customFields.option.deleteLabel": "削除",
-    "advancedSearch": "Advanced search",
+    "advancedSearch": "詳細検索",
     "cv.termCreated": "{type} <b> {term} </b>が正常に<b>作成されました</b>",
     "cv.termUpdated": "{type} <b> {term} </b>は正常に<b>更新されました</b>",
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
@@ -282,5 +282,6 @@
     "error.requestUrlLimit": "検索 URI リクエストの文字数制限を超えました。文字数制限は{limit}です。検索やファセットの選択を修正してください。",
     "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
     "dateRange.invalidYear": "有効な年を入力してください",
-    "customFields.displayInAccordion": "Display in accordion"
+    "customFields.displayInAccordion": "Display in accordion",
+    "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing."
 }

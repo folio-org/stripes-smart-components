@@ -40,8 +40,8 @@
     "ls.permanentLocation": "永久馆藏地",
     "ls.locationPlaceholder": "选择馆藏地名称或代码",
     "pm.proxyExpired": "代理关系已过期",
-    "pm.sponsorExpired": "供应商用户记录已过期",
-    "pm.cannotRequestFoSponsor": "不能为厂商请求代理",
+    "pm.sponsorExpired": "赞助者用户记录已过期",
+    "pm.cannotRequestFoSponsor": "不能为赞助者请求代理",
     "pm.continue": "继续",
     "pm.cancel": "取消",
     "closeEntryDialog": "关闭输入对话框",
@@ -282,5 +282,6 @@
     "error.requestUrlLimit": "已超出搜索 URI 请求字符数限制。字符数限制为{limit} 。请修改搜索和/或分面选择。",
     "error.badRequest": "无法针对{query}进行搜索。请检查您的查询并重试。",
     "dateRange.invalidYear": "请输入有效的年份",
-    "customFields.displayInAccordion": "以折叠形式显示"
+    "customFields.displayInAccordion": "以折叠形式显示",
+    "customFields.warning.missingAttribute": "无法显示字段{name} ，因为缺少必需属性。"
 }

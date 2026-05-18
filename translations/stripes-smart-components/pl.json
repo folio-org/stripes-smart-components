@@ -173,7 +173,7 @@
     "notes.assigned": "Przypisanie",
     "searchResultsCountUnknown": "Znaleziono ponad 10 000 rekordów",
     "feesfines.policy.lost.duplicate": "Nazwa polityki opłat za zagubienie egzemplarza już istnieje. Wprowadź inną nazwę.",
-    "reset": "Resetowanie",
+    "reset": "Resetowana",
     "notes.assignUnassignAll": "Przypisz / Usuń przypisanie wszystkich uwag",
     "customFields": "Pola własne",
     "customFields.edit": "Edytuj",
@@ -237,7 +237,7 @@
     "customFields.dragDrop.notOverDroppable": "Obecnie nie znajdujesz się nad obszarem, na którym można upuścić",
     "customFields.dragDrop.moved": "Przeniosłeś pole {name} z pozycji {start} na pozycję {end}",
     "customFields.dragDrop.returned": "Pole {name} zostało przywrócone do pozycji wyjściowej {position}",
-    "customFields.fieldTypes.RADIO_BUTTON": "Jednokrotny wybór",
+    "customFields.fieldTypes.RADIO_BUTTON": "Opcje wyboru",
     "cddd.itemClaimedReturned": "Zmiana terminu zwrotu nie powiodła się: egzemplarz jest Zapewniony że zwrócony",
     "cddd.itemClaimedReturnedWarning": "Egzemplarz jest Zapewniony że zwrócony",
     "customFields.settings.accordionTitle": "Tytuł sekcji",
@@ -282,5 +282,6 @@
     "error.requestUrlLimit": "Przekroczono limit znaków żądania URI wyszukiwania. Limit znaków wynosi {limit}. Proszę poprawić swoje wyszukiwanie i/lub wybór fasety.",
     "error.badRequest": "Nie udało się przetworzyć wyszukiwania {query}. Sprawdź zapytanie i spróbuj ponownie.",
     "dateRange.invalidYear": "Proszę podać prawidłowy rok",
-    "customFields.displayInAccordion": "Wyświetl w sekcji"
+    "customFields.displayInAccordion": "Wyświetl w sekcji",
+    "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing."
 }

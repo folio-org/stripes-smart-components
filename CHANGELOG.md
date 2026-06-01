@@ -1,10 +1,13 @@
 # Change history for stripes-smart-components
 
-## IN PROGRESS
+## [10.1.1](https://github.com/folio-org/stripes-smart-components/tree/v10.1.1) (2026-06-03)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v10.1.0...v10.1.1)
 
+* Include recent translation updates. 
 * `<ViewCustomFieldsRecord>` - render `DATE_PICKER` values in UTC so the displayed day matches the saved value in non-UTC timezones. Fixes STSMACOM-950.
 
 ## [10.1.0](https://github.com/folio-org/stripes-smart-components/tree/v10.1.0) (2026-04-14)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v10.0.0...v10.1.0)
 
 * Apply wrappers with `flow()` instead of annotations. Refs STSMACOM-896.
 * `ConfigManager` - Add `userId` property to retrieve the user's own settings from mod-settings. Refs STSMACOM-902.

@@ -340,4 +340,21 @@ export default function config() {
 
     return { items: [] };
   });
+
+  this.get('/users', {
+    'users': [
+      {
+        'username': 'username',
+        'id': 'SYSTEM_USER',
+        'active': true,
+        'personal': {
+          'lastName': 'ADMINISTRATOR',
+          'firstName': 'DIKU',
+          'email': 'admin@diku.example.org',
+          'addresses': [
+          ]
+        }
+      }
+    ]
+  });
 }

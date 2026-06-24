@@ -4,6 +4,7 @@
 
 * Supply Personal Data Disclosure form. Refs STSMACOM-909.
 * `<ViewCustomFieldsRecord>` - render `DATE_PICKER` values in UTC so the displayed day matches the saved value in non-UTC timezones. Fixes STSMACOM-950.
+* Add the `preventDuplicates` prop to `NotePopupModal` to suppress duplicate popups for the same entity within a page session (tracked via `sessionStorage`). Refs UIU-3600.
 
 ## 10.1.0 IN PROGRESS
 

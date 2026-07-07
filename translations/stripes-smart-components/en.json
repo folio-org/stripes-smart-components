@@ -252,6 +252,8 @@
   "customFields.helpText.lengthExceeded": "100 character limit has been exceeded. Please revise.",
   "customFields.fieldName.lengthLimit": "65 character limit has been exceeded. Please revise.",
   "customFields.errorOccurred": "Unable to update due to a module error. Please try again. If problem persists please contact your system administrator.",
+  "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+  "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator.",
   "customFields.dropdown.label": "Label",
   "customFields.dropdown.code": "Code",
   "customFields.dropdown.default": "Default value",

@@ -283,5 +283,7 @@
     "error.badRequest": "Suche für {query} konnte nicht verarbeitet werden. Bitte Anfrage überprüfen und erneut versuchen.",
     "dateRange.invalidYear": "Bitte ein gültiges Jahr eingeben",
     "customFields.displayInAccordion": "Anzeige im Akkordeon",
-    "customFields.warning.missingAttribute": "Feld {name} konnte nicht angezeigt werden, da ein erforderliches Attribut fehlt."
+    "customFields.warning.missingAttribute": "Feld {name} konnte nicht angezeigt werden, da ein erforderliches Attribut fehlt.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

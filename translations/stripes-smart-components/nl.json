@@ -283,5 +283,7 @@
     "error.badRequest": "Zoeken kon niet worden verwerkt voor {query}. Controleer uw zoekopdracht en probeer het opnieuw.",
     "dateRange.invalidYear": "Voer een geldig jaar in",
     "customFields.displayInAccordion": "Weergave in Uitklapmenu",
-    "customFields.warning.missingAttribute": "Kon veld niet weergeven {name} omdat een Vereist attribuut ontbreekt."
+    "customFields.warning.missingAttribute": "Kon veld niet weergeven {name} omdat een Vereist attribuut ontbreekt.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

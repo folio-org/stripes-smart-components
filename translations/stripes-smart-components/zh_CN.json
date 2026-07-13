@@ -283,5 +283,7 @@
     "error.badRequest": "无法针对{query}进行搜索。请检查您的查询并重试。",
     "dateRange.invalidYear": "请输入有效的年份",
     "customFields.displayInAccordion": "以折叠形式显示",
-    "customFields.warning.missingAttribute": "无法显示字段{name} ，因为缺少必需属性。"
+    "customFields.warning.missingAttribute": "无法显示字段{name} ，因为缺少必需属性。",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

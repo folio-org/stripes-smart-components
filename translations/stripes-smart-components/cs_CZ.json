@@ -283,5 +283,7 @@
     "error.badRequest": "Vyhledávání pro {query} nebylo možné zpracovat. Zkontrolujte prosím svůj dotaz a zkuste to znovu.",
     "dateRange.invalidYear": "Zadejte prosím platný rok",
     "customFields.displayInAccordion": "Zobrazit v akordeonu",
-    "customFields.warning.missingAttribute": "Nelze zobrazit pole {name}, protože chybí povinný atribut."
+    "customFields.warning.missingAttribute": "Nelze zobrazit pole {name}, protože chybí povinný atribut.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

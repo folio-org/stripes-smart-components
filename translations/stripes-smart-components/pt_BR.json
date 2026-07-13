@@ -283,5 +283,7 @@
     "error.badRequest": "A busca não pôde ser processada para {query} . Verifique sua consulta e tente novamente.",
     "dateRange.invalidYear": "Por favor, insira um ano válido",
     "customFields.displayInAccordion": "Exibir no acórdão",
-    "customFields.warning.missingAttribute": "Não foi possível exibir o campo {name} porque um atributo obrigatório está faltando."
+    "customFields.warning.missingAttribute": "Não foi possível exibir o campo {name} porque um atributo obrigatório está faltando.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

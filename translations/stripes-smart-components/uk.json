@@ -283,5 +283,7 @@
     "error.badRequest": "Неможливо опрацювати пошук для {query}. Перевірте, будь ласка, свій запит та спробуйте знову.",
     "dateRange.invalidYear": "Введіть дійсний рік",
     "customFields.displayInAccordion": "Відображати у розкладному меню",
-    "customFields.warning.missingAttribute": "Не вдалося відобразити поле {name} оскільки відсутній обов'язковий атрибут."
+    "customFields.warning.missingAttribute": "Не вдалося відобразити поле {name} оскільки відсутній обов'язковий атрибут.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

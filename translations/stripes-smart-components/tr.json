@@ -283,5 +283,7 @@
     "error.badRequest": "Ara aşağıdakiler için işlenemedi {query}. Lütfen sorgunuzu kontrol edin ve tekrar deneyin.",
     "dateRange.invalidYear": "Lütfen geçerli bir yıl girin",
     "customFields.displayInAccordion": "Akordeon içinde görüntüle",
-    "customFields.warning.missingAttribute": "Alan görüntülenemedi {name} çünkü gerekli bir öznitelik eksik."
+    "customFields.warning.missingAttribute": "Alan görüntülenemedi {name} çünkü gerekli bir öznitelik eksik.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

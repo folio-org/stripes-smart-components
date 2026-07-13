@@ -283,5 +283,7 @@
     "error.badRequest": "تعذرت معالجة البحث عن {query}. يرجى التحقق من استعلامك والمحاولة مرة أخرى.",
     "dateRange.invalidYear": "يرجى إدخال سنة صالحة",
     "customFields.displayInAccordion": "Display in accordion",
-    "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing."
+    "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

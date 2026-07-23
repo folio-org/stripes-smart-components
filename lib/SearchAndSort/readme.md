@@ -104,6 +104,7 @@ onResetAll | func | Callback for when all filters/search is reset/cleared
 resultsOnNeedMore | func | Custom data-fetching function, triggered when getting near the end of the fetched data. Void return, accepts an object with `records`, `source`, `direction`, `index`, `firstIndex`, and `askAmount`
 showSingleResult | boolean | Whether to auto-show the details record when a search returns a single row
 validateSearchOnSubmit | func | Validates the search query (passed as a parameter) before submission. Submission will be prevented if this returns false.
+addIsInitialParameterToQuery | bool | When performing a search - add `_isInitial` parameter to `query` object. `_isInitial` will be `true` upon component mount, so search won't happen with initial values, and when user changes form values `_isInitial` will change to `false`.
 
 See ui-users' top-level component [`<Users.js>`](https://github.com/folio-org/ui-users/blob/master/Users.js) for an example of how to use `<SearchAndSort>`.
 

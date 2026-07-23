@@ -13,3 +13,18 @@
     content: "\00a0\B7\00a0";
   }
 }
+
+.resetAndAdvancedSearchWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5em;
+}
+
+.resetButton {
+  flex: 1 110px;
+}
+
+.advancedSearchButton {
+  flex: 1 140px;
+}

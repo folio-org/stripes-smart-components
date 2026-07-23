@@ -139,6 +139,7 @@ export default function config() {
       'required': true,
       'order': 1,
       'helpText': 'helpful text',
+      displayInAccordion: 'feesFines',
     }, {
       'id': '2',
       'name': 'Textarea 1',
@@ -149,6 +150,7 @@ export default function config() {
       'required': false,
       'order': 2,
       'helpText': '',
+      displayInAccordion: 'default',
     }, {
       'id': '3',
       'name': 'Single select',
@@ -311,5 +313,48 @@ export default function config() {
     const tagData = JSON.parse(requestBody);
 
     this.create('tag', tagData);
+  });
+
+  this.get('/settings/entries', (schema, request) => {
+    if (request.url.includes('custom_fields_label')) {
+      return {
+        items: [{
+          id: 'tested-custom-field-label',
+          key: 'custom_fields_label',
+          scope: 'ui-users.custom-fields.manage',
+          value: 'Custom Fields label',
+        }],
+      };
+    }
+
+    if (request.url.includes('tags_enabled')) {
+      return {
+        items: [{
+          id: 'tested-tags-settings-label',
+          key: 'tags_enabled',
+          scope: 'scope-test',
+          value: true,
+        }],
+      };
+    }
+
+    return { items: [] };
+  });
+
+  this.get('/users', {
+    'users': [
+      {
+        'username': 'username',
+        'id': 'SYSTEM_USER',
+        'active': true,
+        'personal': {
+          'lastName': 'ADMINISTRATOR',
+          'firstName': 'DIKU',
+          'email': 'admin@diku.example.org',
+          'addresses': [
+          ]
+        }
+      }
+    ]
   });
 }

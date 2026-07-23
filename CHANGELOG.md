@@ -1,10 +1,149 @@
 # Change history for stripes-smart-components
 
-## 9.2.0 IN PROGRESS
+## IN PROGRESS
 
-## [9.1.1] (IN PROGRESS)
+* Supply Personal Data Disclosure form. Refs STSMACOM-909.
+* `<ViewCustomFieldsRecord>` - render `DATE_PICKER` values in UTC so the displayed day matches the saved value in non-UTC timezones. Fixes STSMACOM-950.
+* `ViewCustomFieldsRecord` - make `calloutRef` available after the component is mounted to prevent a page crash when the section title fetch fails. Fixes STSMACOM-929.
+
+## 10.1.0 IN PROGRESS
+
+* Apply wrappers with `flow()` instead of annotations. Refs STSMACOM-896.
+* `ConfigManager` - Add `userId` property to retrieve the user's own settings from mod-settings. Refs STSMACOM-902.
+* Pass props for rendering aside content for `<EditCustomFieldsRecord>`'s accordion. Refs STSMACOM-903.
+* Add `hideEditButton`, `interactive` and `canClickRow` props to `NotesSmartAccordion` components, add a sort icon for the list headers, and remove the padding of the ql-editor container. Refs STSMACOM-904.
+* Update button label for creating new notes in NotesAccordion. Refs STSMACOM-906.
+* Add `configNamePrefix` prop to custom fields components to be able to store section titles separately for different entityTypes. Fixes STSMACOM-790.
+* Migrate custom fields from mod-configuration to mod-settings. Fixes STSMACOM-910.
+* Migrate tags from mod-configuration to mod-settings. Refs STSMACOM-911.
+* `<ControlledVocab>` - added a new `onCreateFail` prop to allow parent components to specify custom error handling. Refs STSMACOM-913.
+* Settings Custom Fields View - include the "Display in accordion", "Hidden" fields, and re-order the fields. Refs STSMACOM-914.
+* Settings Custom Fields Edit - include the "Display in accordion", "Hidden" fields, and re-order the fields. Refs STSMACOM-916.
+* ConfigManager - added new `lastMenu` prop and pass it to `<Pane>`. Refs STSMACOM-918.
+* `EditCustomFieldsRecord` - add `sectionId` prop support for accordion-specific field rendering; Add new `useCustomFieldsQuery` and `useSectionTitleQuery` hooks to avoid duplicate requests. Refs STSMACOM-920.
+* `ViewCustomFieldsRecord` - add `sectionId` prop support for accordion-specific field rendering. Refs STSMACOM-921.
+* `EditCustomFieldsRecord` - Improve custom fields default value handling for create vs edit modes. Refs STSMACOM-922.
+* Add `mutateEntity` prop to `TagsAccordion` component. Refs STSMACOM-923.
+* Validate custom fields by filtering out those with empty refId in useCustomFieldsQuery. Fixes STSMACOM-917.
+* `<SearchAndSortQuery>` - add `addIsInitialParameterToQuery` prop to control whether to add `_isInitial` query parameter to query when searching.
+* `<NotesAssigningModal>` - make "Status" and "# of assignments" columns non-interactive to prevent sorting by those columns. Refs STSMACOM-925.
+* `withTags` - consider tags enabled if the value is a boolean true for `settings/entries`. Refs STSMACOM-928.
+* `<Tags>` - reset loading state after an entity has been successfully updated. Fixes STSMACOM-932.
+* `ViewMetaData` - add `tenantId` prop support and refactor to use `react-query`. Refs STSMACOM-931.
+* `EditCustomFieldsSettings` - redirect to the view custom fields settings page when clicking the Cancel button. Fixes STSMACOM-930.
+* `EditCustomFieldsRecord` - fix single select fields resetting to default when cleared. FIXES STSMACOM-933.
+* `EditCustomFieldsSettings` - use `isFetchingCustomFields` instead of `isLoadingCustomFields` in `useCustomFieldsQuery` to prevent `useOptionsStatsFetch` from fetching stale custom fields and auto-opening an accordion. Fixes STSMACOM-934.
+* Provide the ability to hide system custom fields from settings. Refs STSMACOM-938.
+* `Settings` - `NavListItem` incorrectly highlighted when routes share a common prefix. FIXES STSMACOM-939.
+* `ViewCustomFieldsRecord` - add `allowedRefIds`, `isSectionTitleEnabled`, and `showAccordion` props. Refs STSMACOM-940.
+* Dependency correction: do not lock `@rehooks/local-storage`. Refs STSMACOM-941.
+* Dependency correction: include `@babel/runtime`, a peer of `react-image`. Refs STSMACOM-941.
+* Dependency correction: remember bumping `react-intl` to v7? Yeah? Actually do that. Refs STSMACOM-941.
+* `<DateRangeFilter>` - set only the start date field as a focus ref. Fixes STSMACOM-944.
+* Add a limit of 100 for tenant rules in the `PasswordValidationField`. Fixes STSMACOM-942.
+* Add a default empty object for `customFieldsValues` so that `ViewCustomFieldsRecord` can render `NoValue` when no values are provided. Refs STSMACOM-946.
+* Improve ProxyForm layout and validation logic. Refs STSMACOM-948.
+
+## [10.0.0](https://github.com/folio-org/stripes-smart-components/tree/v10.0.0) (2025-02-24)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v10.0.0)
+
+* Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
+* Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
+* Fetch updaters in `<ViewMetaData>` on `props.metadata` changes. Fixes STSMACOM-878.
+* Use `this.resources` in `StripesConnectedSource` instead of accessing props directly. Fixes STSMACOM-879.
+* `DateRangeFilter` - set the `wrongDatesOrder` to `false` when the field value changes. Fixes STSMACOM-880.
+* Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
+* Improve confirmation modal footer for `ControlledVocab` component. Refs STSMACOM-863.
+* Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
+* Remove unnecessary `aria-rowindex` in `ItemView` and `ItemEdit` components. Fixes STSMACOM-871.
+* Check for `active` status of `<Settings>` navigation links independently from the applied href and query string. Query string should only be applied to active link. Refs STSMACOM-837.
+* `<EditableListForm>` use `lodash.isEmpty` to check for empty `state.status` in re-initialization checks on component update. Fixes STSMACOM-876.
+* `<NoteFields>` improve "Display as pop-up" markup and fix label a11y issue. Refs STSMACOM-882.
+* Change the request URL limit for `REQUEST_URL_LIMIT` due to increase to 8192. Refs STSMACOM-887.
+* Correctly import from `stripes-*` libraries. Refs STSMACOM-884.
+* *BREAKING* Upgrade `@folio/stripes-*` dependencies. Refs STSMACOM-891.
+* `<EntryManager>` sort entries by `id` if the requested sort-key is absent. Refs STSMACOM-893.
+* *BREAKING* Upgrade `react-intl` to v7. Refs STSMACOM-892.
+
+## [9.2.6](https://github.com/folio-org/stripes-smart-components/tree/v9.2.6) (2024-12-10)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.5...v9.2.6)
+
+* Use `<IfAnyPermission>` and `stripes.hasAnyPerm` to check for Notes assign/unassign perm. Fixes STSMACOM-875.
+* `DateRangeFilter` - set the `wrongDatesOrder` to `false` when the field value changes. Fixes STSMACOM-880.
+
+## [9.2.5](https://github.com/folio-org/stripes-smart-components/tree/v9.2.5) (2024-12-05)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.4...v9.2.5)
+
+* Fetch updaters in `<ViewMetaData>` on `props.metadata` changes. Fixes STSMACOM-878.
+* Use `this.resources` in `StripesConnectedSource` instead of accessing props directly. Fixes STSMACOM-879.
+
+## [9.2.4](https://github.com/folio-org/stripes-smart-components/tree/v9.2.4) (2024-12-02)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.3...v9.2.4)
+
+* Check for `active` status of `<Settings>` navigation links independently from the applied href and query string. Query string should only be applied to active link. Refs STSMACOM-837.
+* `<EditableListForm>` use `lodash.isEmpty` to check for empty `state.status` in re-initialization checks on component update. Fixes STSMACOM-876.
+
+## [9.2.3](https://github.com/folio-org/stripes-smart-components/tree/v9.2.3) (2024-11-15)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.2...v9.2.3)
+
+* Reset `qindex` once the search field is empty. Fixes STSMACOM-872.
+
+## [9.2.2](https://github.com/folio-org/stripes-smart-components/tree/v9.2.2) (2024-10-31)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.1...v9.2.2)
+
+* Remove unnecessary `aria-rowindex` in `ItemView` and `ItemEdit` components. Fixes STSMACOM-871.
+
+## [9.2.1](https://github.com/folio-org/stripes-smart-components/tree/v9.2.1) (2024-10-30)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.2.0...v9.2.1)
+
+* Add the `endDateInputRef` prop to `DateRangeFilter` to access the end date element. Refs STSMACOM-859.
+* Upgrade `notes` to `v4.0`. Refs STSMACOM-861.
+
+## [9.2.0](https://github.com/folio-org/stripes-smart-components/tree/v9.2.0) (2024-10-11)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.3...v9.2.0)
+
+* Use `react-quill` compatible with `react` `v18`. Refs STSMACOM-821.
+* `<ControlledVocab>` - pass override headers to PUT method, new prop to hide "New" button. Refs STSMACOM-825.
+* Implement new `<ProfilePicture>` component. Refs STSMACOM-817.
+* Extend `ViewMetadata` component to accept a child render function for custom rendering. Refs STSMACOM-828.
+* Improve AdvancedSearch parsing algorithm to keep repeated spaces in queries. Fixes STSMACOM-837.
+* Support Optimistic Locking in Tags. Refs STSMACOM-839.
+* Supply boolean value to enabled option of useQuery. STSMACOM-778.
+* Wrap `<DateRangeFilter>`'s validation message in `div[role=alert]` for screenreader announcement. Refs STSMACOM-842.
+* Add an optional `isCursorAtEnd` property for `SearchField`. Pass `resetSelectedItem` to `onDismissDetail`. STSMACOM-841.
+* Add check for the error status when error occurs during adding tag. STSMACOM-844.
+* Add optional `isRequestUrlExceededLimit` property to `<SearchAndSort>` to return a specific error message in `StripesConnectedSource`. Refs STSMACOM-846.
+* Add `requiredFields` prop to `DateRangeFilter` to support open-ended date ranges. STSMACOM-838.
+* Provide `startLabel` and `endLabel` props in `<DateRangeFilter>` to enable unique accessible labeling. STSMACOM-848.
+* Add `showSortIndicator` prop to `SearchAndSort` to display sort indicator next to the column names. STSMACOM-849.
+* Trim value to validate required field in the `ControlledVocab` component. STSMACOM-850.
+* Return a specific 400 error message in `StripesConnectedSource`. STSMACOM-851.
+* Return a specific error message in `StripesConnectedSource`. STSMACOM-851.
+* Changed translation keys in `LocationLookup` to stripes-components. STSMACOM-852.
+* DateRangeFilter - pass `requiredFields` argument to all calls of `validateDateRange`. STSMACOM-853.
+* Bump up `actions/upload-artifact@v2` to `actions/upload-artifact@v4`. Refs STSMACOM-854.
+* `DateRangeFilter` - add the optional `hideCalendarButton` property to hide the calendar icon button; add error message for invalid YYYY format. Refs STSMACOM-855.
+* Display `System` user when there is no `updatedByUserId` field in metadata. Refs STSMACOM-858.
+* Fix `<DateRangeFilter>` only shows an error in one of failed inputs. Fixes STSMACOM-857.
+* Omit (don't disable) "+ New" button in `<EditableList>` when user lacks permission. Refs STSMACOM-836.
+* Avoid deprecated `defaultProps` for functional components. Refs STSMACOM-835.
+
+## [9.1.3](https://github.com/folio-org/stripes-smart-components/tree/v9.1.3) (2024-05-06)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.2...v9.1.3)
+
+* `<AdvancedSearch>` Improve algorithm of splitting query string into rows. Refs STSMACOM-831.
+
+## [9.1.2](https://github.com/folio-org/stripes-smart-components/tree/v9.1.2) (2024-05-02)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.1...v9.1.2)
+
+* `<SearchAndSort>` - re-position Advanced search button when search panel does not have enough space. Refs STSMACOM-830.
+
+## [9.1.1](https://github.com/folio-org/stripes-smart-components/tree/v9.1.1) (2024-03-25)
+[Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.1.0...v9.1.1)
 
 * Fix incorrect state calculation in `<SearchAndSortQuery>`. Fixes STSMACOM-820.
+* Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
+* Do not trigger logic for auto-opening the record's view screen in `<SearchAndSort>` if URL already contains the record ID. Fixes STSMACOM-822.
 
 ## [9.1.0](https://github.com/folio-org/stripes-smart-components/tree/v9.1.0) (2024-03-13)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.1...v9.1.0)
@@ -34,7 +173,6 @@
 * `<EditableList>` - make `confirmationMessage` prop accept a function. Refs STSMACOM-810.
 * Don't use `form.getState` in `<EditableListForm>` because redux-form doesn't have this API. Initialization will happen automatically when fresh data has been loaded after edit. Fixes STSMACOM-813.
 * `<EditableListForm>` - don't show an error after the user clicks on the edit icon. Fixes STSMACOM-812.
-* Safely render user-provided markup in `<NotesView>` component. Fixes STSMACOM-816.
 
 ## [9.0.1](https://github.com/folio-org/stripes-smart-components/tree/v9.0.1) (2023-10-25)
 [Full Changelog](https://github.com/folio-org/stripes-smart-components/compare/v9.0.0...v9.0.1)

@@ -36,8 +36,6 @@
     "ll.selectLocation": "Seleziona sezione",
     "ll.temporary": "temporaneo",
     "ll.permanent": "Permanente",
-    "ll.saveAndClose": "Salva e chiudi",
-    "ll.cancel": "Annulla",
     "ls.temporaryLocation": "Sezione temporanea",
     "ls.permanentLocation": "Sezione permanente",
     "ls.locationPlaceholder": "Seleziona il nome o il codice della sezione",
@@ -280,5 +278,12 @@
     "cv.termUpdated": "The {type} <b>{term}</b> was successfully <b>updated</b>",
     "customFields.fieldTypes.DATE_PICKER": "Date picker",
     "editableList.confirmationModal.cancelLabel": "No, do not delete",
-    "editableList.confirmationModal.confirmLabel": "Yes, delete"
+    "editableList.confirmationModal.confirmLabel": "Yes, delete",
+    "error.requestUrlLimit": "Search URI request character limit has been exceeded. The character limit is {limit}. Please revise your search and/or facet selections.",
+    "error.badRequest": "Search could not be processed for {query}. Please check your query and try again.",
+    "dateRange.invalidYear": "Please enter a valid year",
+    "customFields.displayInAccordion": "Display in accordion",
+    "customFields.warning.missingAttribute": "Could not display field {name} because a required attribute is missing.",
+    "customFields.error.get": "Unable to retrieve custom field data due to a module error. Please try again. If problem persists please contact your system administrator.",
+    "customFields.sectionTitle.error.get": "Unable to retrieve section title due to a module error. Please try again. If problem persists please contact your system administrator."
 }

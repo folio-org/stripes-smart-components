@@ -10,5 +10,5 @@ requireTest.keys().forEach(requireTest);
 turnOffWarnings();
 
 // require all source files in lib for code coverage
-const componentsContext = require.context('../lib/', true, /^(?!.*(stories|examples)).*\.js$/);
+const componentsContext = require.context('../lib/', true, /^(?!.*(stories|examples|\.test\.)).*\.js$/);
 componentsContext.keys().forEach(componentsContext);

@@ -5,6 +5,7 @@
 * Supply Personal Data Disclosure form. Refs STSMACOM-909.
 * `<ViewCustomFieldsRecord>` - render `DATE_PICKER` values in UTC so the displayed day matches the saved value in non-UTC timezones. Fixes STSMACOM-950.
 * `ViewCustomFieldsRecord` - make `calloutRef` available after the component is mounted to prevent a page crash when the section title fetch fails. Fixes STSMACOM-929.
+* `SearchAndSort` - Add pass through `actionMenuToggleProps` for `Pane`. Refs STSMACOM-959.
 
 ## 10.1.0 IN PROGRESS
 

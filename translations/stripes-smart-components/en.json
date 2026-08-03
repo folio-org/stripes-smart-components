@@ -125,7 +125,7 @@
   "password.consecutiveWhitespaces.invalid": "The password must not contain consecutive white space characters.",
   "address.addAddress": "Add address",
   "address.addressLabel": "Address",
-  "address.noAddressesStored": "- No addresses stored -",
+  "address.noAddressesFound": "No addresses found",
   "address.primary": "Primary",
   "address.alternate": "Alternate",
   "searchFieldLabel": "Search {moduleName}",

@@ -7,6 +7,7 @@
 * `ViewCustomFieldsRecord` - make `calloutRef` available after the component is mounted to prevent a page crash when the section title fetch fails. Fixes STSMACOM-929.
 * `SearchAndSort` - Add pass through `actionMenuToggleProps` for `Pane`. Refs STSMACOM-959.
 * Update user addresses view to support empty state. Refs STSMACOM-960.
+* `EditCustomFieldsRecord` - apply word-breaking styles to all custom field types including RadioButtonGroup labels, Select/MultiSelect options, Checkbox labels, and validation messages. Refs STSMACOM-961.
 
 ## 10.1.0 IN PROGRESS
 

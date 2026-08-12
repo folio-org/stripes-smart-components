@@ -1,11 +1,93 @@
+/**
+ * EditCustomFieldsRecord Styles
+ *
+ * This file handles word-breaking and text wrapping for all custom field types:
+ * - TextField (TEXTBOX_SHORT)
+ * - TextArea (TEXTBOX_LONG)
+ * - Checkbox (SINGLE_CHECKBOX)
+ * - Select (SINGLE_SELECT_DROPDOWN)
+ * - MultiSelect (MULTI_SELECT_DROPDOWN)
+ * - RadioButtonGroup (RADIO_BUTTON)
+ * - DatePicker (DATE_PICKER)
+ */
+
+/* Field label with word-breaking for all custom fields */
 .fieldLabel {
   position: relative;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .fieldLabel legend {
   margin-bottom: 0;
 }
 
+/*
+ * Container for all custom fields to scope styles
+ * Applied to: TextField, TextArea, Checkbox, Select, MultiSelect, DatePicker
+ */
+.customFieldContainer {
+  /* Apply word-breaking to all labels in any field type */
+  & :global(label) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Apply word-breaking to Select and MultiSelect options */
+  & :global([class*="multiSelectOption"]),
+  & :global([class*="option"]),
+  & :global([class*="singleValue"]) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Apply word-breaking to Checkbox labels */
+  & :global([class*="checkbox"]) :global(label) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Apply word-breaking to validation error messages */
+  & :global([class*="feedbackError"]) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+/*
+ * RadioButtonGroup container with word-breaking for all child elements
+ * Applied to: RadioButtonGroup (RADIO_BUTTON) only
+ */
+.radioButtonGroupContainer {
+  /* Apply word-breaking to radio button labels */
+  & :global(label) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Apply word-breaking to legends */
+  & :global(legend) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    margin-bottom: 0;
+  }
+
+  /* Apply word-breaking to RadioButtonGroup-specific validation error messages */
+  & :global([class*="groupError"]) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+/* InfoPopover positioning */
 .infoPopover {
   position: absolute;
   right: -2rem;

@@ -8,6 +8,7 @@
 * `SearchAndSort` - Add pass through `actionMenuToggleProps` for `Pane`. Refs STSMACOM-959.
 * Update user addresses view to support empty state. Refs STSMACOM-960.
 * `EditCustomFieldsRecord` - apply word-breaking styles to all custom field types including RadioButtonGroup labels, Select/MultiSelect options, Checkbox labels, and validation messages. Refs STSMACOM-961.
+* Fixed the issue where the Last updated field erroneously displays Unknown user. Refs STSMACOM-962.
 
 ## 10.1.0 IN PROGRESS
 

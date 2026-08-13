@@ -14,8 +14,8 @@
 /* Field label with word-breaking for all custom fields */
 .fieldLabel {
   position: relative;
-  word-break: break-word;
-  overflow-wrap: break-word;
+  word-break: normal;
+  overflow-wrap: anywhere;
   hyphens: auto;
 }
 
@@ -30,8 +30,8 @@
 .customFieldContainer {
   /* Apply word-breaking to all labels in any field type */
   & :global(label) {
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     hyphens: auto;
   }
 
@@ -39,22 +39,22 @@
   & :global([class*="multiSelectOption"]),
   & :global([class*="option"]),
   & :global([class*="singleValue"]) {
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     hyphens: auto;
   }
 
   /* Apply word-breaking to Checkbox labels */
   & :global([class*="checkbox"]) :global(label) {
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     hyphens: auto;
   }
 
   /* Apply word-breaking to validation error messages */
   & :global([class*="feedbackError"]) {
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     hyphens: auto;
   }
 }
@@ -66,23 +66,23 @@
 .radioButtonGroupContainer {
   /* Apply word-breaking to radio button labels */
   & :global(label) {
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     hyphens: auto;
   }
 
   /* Apply word-breaking to legends */
   & :global(legend) {
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     hyphens: auto;
     margin-bottom: 0;
   }
 
   /* Apply word-breaking to RadioButtonGroup-specific validation error messages */
   & :global([class*="groupError"]) {
-    word-break: break-word;
-    overflow-wrap: break-word;
+    word-break: normal;
+    overflow-wrap: anywhere;
     hyphens: auto;
   }
 }

@@ -11,6 +11,7 @@
 * Fixed the issue where the Last updated field erroneously displays Unknown user. Refs STSMACOM-962.
 * `<ExpandFilterPaneButton>`/`<CollapseFilterPaneButton>` - restore focus to the toggle button after the filter pane is expanded/collapsed instead of losing it. Fixes STSMACOM-958.
 * Fix false Field is required warning on non-required multiselect. Refs STSMACOM-963.
+* Make `<ProfilePicture>` tests more reliable. Refs STSMACOM-968.
 
 ## 10.1.0 IN PROGRESS
 

@@ -13,6 +13,7 @@
 * Fix false Field is required warning on non-required multiselect. Refs STSMACOM-963.
 * Make `<ProfilePicture>` tests more reliable. Refs STSMACOM-968.
 * Only retrieve active password-validation rules. Refs STSMACOM-964.
+* `ControlledVocab` - add a `dismissPane` property to dismiss a full-width component. Refs STSMACOM-966.
 
 ## 10.1.0 IN PROGRESS
 

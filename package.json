@@ -13,6 +13,7 @@
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },
   "license": "Apache-2.0",
+  "type": "module",
   "stripes": {
     "actsAs": [],
     "okapiInterfaces": {
@@ -30,7 +31,7 @@
   "scripts": {
     "lint": "stripes-lint ./lib",
     "test:bigtest": "stripes test karma",
-    "test:jest": "jest --ci --coverage --colors",
+    "test:jest": "stripes-jest .",
     "test": "yarn test:jest && yarn test:bigtest",
     "test-dev": "stripes test karma --watch",
     "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
@@ -41,7 +42,7 @@
     "@bigtest/convergence": "^1.0.0",
     "@bigtest/interactor": "^0.7.2",
     "@folio/eslint-config-stripes": "^10.0.0",
-    "@folio/jest-config-stripes": "^3.0.0",
+    "@folio/jest-config-stripes": "folio-org/jest-config-stripes#jest-30",
     "@folio/stripes-cli": "^5.0.0",
     "@folio/stripes-components": "^13.0.0",
     "@folio/stripes-connect": "^10.0.0",

@@ -13,7 +13,6 @@
     "registry": "https://repository.folio.org/repository/npm-folio/"
   },
   "license": "Apache-2.0",
-  "type": "module",
   "stripes": {
     "actsAs": [],
     "okapiInterfaces": {
@@ -52,6 +51,7 @@
     "@folio/stripes-logger": "^1.0.0",
     "@folio/stripes-testing": "^5.0.0",
     "@folio/stripes-util": "^7.0.0",
+    "@folio/stripes-testing": "folio-org/stripes-testing#UITEST-148",
     "axe-core": "4.4.3",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",

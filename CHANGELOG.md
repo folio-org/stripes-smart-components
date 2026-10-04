@@ -14,6 +14,7 @@
 * Make `<ProfilePicture>` tests more reliable. Refs STSMACOM-968.
 * Only retrieve active password-validation rules. Refs STSMACOM-964.
 * `ControlledVocab` - add a `dismissPane` property to dismiss a full-width component. Refs STSMACOM-966.
+* Add the `LOOKUP` custom field type: pick a target entity in Settings, select a record through the standard finder plugin, and resolve the stored UUID to a link in view mode. The target entity becomes read-only once a record uses the field. The type is offered only when the backend module provides `custom-fields` 3.2 or later. Refs STSMACOM-970.
 
 ## 10.1.0 IN PROGRESS
 

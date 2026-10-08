@@ -19,7 +19,7 @@ const miragePlugin = {
         MIRAGE_SCENARIO: mirageOption || 'default'
       }));
 
-      if (!!mirageOption) {
+      if (mirageOption) {
         console.info('Using Mirage Server'); // eslint-disable-line no-console
 
         return Object.assign({}, config, {

@@ -1,12 +1,10 @@
-import path from 'node:path';
-import jcs from '@folio/jest-config-stripes';
- 
-const { config } = jcs;
+const path = require('path');
+const config = require('@folio/jest-config-stripes');
 
-export default {
+module.exports = {
   ...config,
   setupFiles: [
     ...config.setupFiles,
-    path.join(import.meta.dirname, './tests/jest/setupFiles.js'),
+    path.join(__dirname, './tests/jest/setupFiles.js'),
   ],
 };

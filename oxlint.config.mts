@@ -1,17 +1,17 @@
 import { defineLintConfig, lintConfig } from "@folio/eslint-config-stripes";
 
-export default defineLintConfig({ ...lintConfig });
-
-
-/*
-export default defineLintConfig({
+export default defineLintConfig({ 
   ...lintConfig,
-  overrides: lintConfig.overrides.map(override => ({
-    ...override,
-    rules: {
-      ...override.rules,
-      "jest/expect-expect": ["warn", { assertFunctionNames: ["expect", "screen.getBy*", "screen.findBy*"] }],
+  overrides: [
+    ...(lintConfig.overrides ?? []),
+    {
+      // permit chai-style assertions, e.g. `expect(foo).to.be.true`
+      files: ["**/tests/*-test.js"],
+      rules: { 
+        "no-unused-expressions": "off",
+        "no-autofocus": "off",
+      },
     },
-  })),
+  ],
 });
-*/
+

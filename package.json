@@ -41,7 +41,7 @@
     "@bigtest/convergence": "^1.0.0",
     "@bigtest/interactor": "^0.7.2",
     "@folio/eslint-config-stripes": "^10.0.0",
-    "@folio/jest-config-stripes": "^3.0.0",
+    "@folio/jest-config-stripes": "^4.0.0",
     "@folio/stripes-cli": "^5.0.0",
     "@folio/stripes-components": "^13.0.0",
     "@folio/stripes-connect": "^10.0.0",

@@ -80,6 +80,12 @@ export { default as ViewCustomFieldsRecord } from './lib/CustomFields/pages/View
 export { default as useCustomFields } from './lib/CustomFields/utils/useCustomFields';
 export { default as useCustomFieldsQuery } from './lib/CustomFields/utils/useCustomFieldsQuery';
 export { CUSTOM_FIELDS_SECTION_ID } from './lib/CustomFields/constants';
+export { default as useLookupRecord } from './lib/CustomFields/utils/useLookupRecord';
+export {
+  LOOKUP_REF_ENTITY_TYPES,
+  getLookupAdapter,
+  unwrapSelectedRecord,
+} from './lib/CustomFields/lookup';
 
 export { default as ProfilePicture } from './lib/ProfilePicture';
 export { default as useProfilePicture } from './lib/ProfilePicture/utils';

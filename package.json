@@ -28,7 +28,7 @@
     }
   },
   "scripts": {
-    "lint": "echo 'lint will be back in PR #1652'",
+    "lint": "stripes-lint ./lib",
     "test:bigtest": "stripes test karma",
     "test:jest": "jest --ci --coverage --colors",
     "test": "yarn test:jest && yarn test:bigtest",
@@ -38,8 +38,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.12",
-    "@babel/eslint-parser": "^7.17.0",
     "@bigtest/convergence": "^1.0.0",
+    "@folio/eslint-config-stripes": "^10.0.0",
     "@folio/jest-config-stripes": "^5.0.0",
     "@folio/stripes-cli": "^5.0.0",
     "@folio/stripes-components": "^13.0.0",
@@ -48,13 +48,11 @@
     "@folio/stripes-final-form": "^9.0.0",
     "@folio/stripes-form": "^10.0.0",
     "@folio/stripes-logger": "^1.0.0",
-    "@folio/stripes-testing": "^5.0.0",
+    "@folio/stripes-testing": "^5.1.0",
     "@folio/stripes-util": "^7.0.0",
     "axe-core": "4.4.3",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",
-    "eslint": "^7.5.0",
-    "eslint-plugin-react-hooks": "^4.5.0",
     "faker": "^4.1.0",
     "inflected": "^2.0.4",
     "miragejs": "^0.1.40",
@@ -70,10 +68,7 @@
     "redux-observable": "^1.2.0",
     "regenerator-runtime": "^0.13.5",
     "rxjs": "^6.6.3",
-    "sinon": "^6.3.4",
-    "stylelint": "^16.2.0",
-    "stylelint-config-standard": "^36.0.0",
-    "stylelint-junit-formatter": "^0.2.2"
+    "sinon": "^6.3.4"
   },
   "dependencies": {
     "@babel/runtime": "^7.28.6",

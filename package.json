@@ -29,10 +29,10 @@
   },
   "scripts": {
     "lint": "echo 'lint will be back in PR #1652'",
-    "test:bigtest": "stripes test browser",
+    "test:bigtest": "stripes test karma",
     "test:jest": "jest --ci --coverage --colors",
     "test": "yarn test:jest && yarn test:bigtest",
-    "test-dev": "stripes test browser --watch",
+    "test-dev": "stripes test karma --watch",
     "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
     "formatjs-compile": "stripes translate compile"
   },

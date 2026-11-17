@@ -1,4 +1,4 @@
-import translations from '../../../translations/ui-users/en';
+import translations from '../../translations/ui-users/en';
 
 const translationsProperties = [
   {

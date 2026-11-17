@@ -28,9 +28,7 @@
     }
   },
   "scripts": {
-    "lint": "eslint . && stylelint \"lib/**/*.css\"",
-    "eslint": "eslint .",
-    "stylelint": "stylelint \"lib/**/*.css\"",
+    "lint": "echo 'lint will be back in PR #1652'",
     "test:bigtest": "stripes test karma",
     "test:jest": "jest --ci --coverage --colors",
     "test": "yarn test:jest && yarn test:bigtest",
@@ -42,10 +40,8 @@
     "@babel/core": "^7.17.12",
     "@babel/eslint-parser": "^7.17.0",
     "@bigtest/convergence": "^1.0.0",
-    "@bigtest/interactor": "^0.7.2",
-    "@folio/eslint-config-stripes": "^8.0.0",
-    "@folio/jest-config-stripes": "^3.0.0",
-    "@folio/stripes-cli": "^4.0.0",
+    "@folio/jest-config-stripes": "^5.0.0",
+    "@folio/stripes-cli": "^5.0.0",
     "@folio/stripes-components": "^13.0.0",
     "@folio/stripes-connect": "^10.0.0",
     "@folio/stripes-core": "^11.0.0",

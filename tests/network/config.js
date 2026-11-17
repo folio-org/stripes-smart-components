@@ -260,7 +260,7 @@ export default function config() {
     id: request.params.id,
   }));
 
-  this.get('/custom-fields/:id/options/:opt_id/stats', (_, _request) => ({}));
+  this.get('/custom-fields/:id/options/:opt_id/stats', (_request) => ({}));
 
   this.get('/notes/:id', ({ notes }, { params }) => {
     return notes.find(params.id);

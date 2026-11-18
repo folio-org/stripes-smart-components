@@ -15,6 +15,7 @@
 * Only retrieve active password-validation rules. Refs STSMACOM-964.
 * `ControlledVocab` - add a `dismissPane` property to dismiss a full-width component. Refs STSMACOM-966.
 * Modern Lint. Refs STSMACOM-971.
+* Remove stripes-logger from deps tree. Refs STSMACOM-980.
 
 ## 10.1.0 IN PROGRESS
 
